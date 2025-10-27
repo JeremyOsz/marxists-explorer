@@ -48,9 +48,13 @@ def convert_to_efficient_formats():
     with open('data/thinkers-metadata.json', 'w', encoding='utf-8') as f:
         json.dump(metadata_by_category, f, indent=2, ensure_ascii=False)
     
-    # Write works lookup
+    # Write works lookup to both locations
     print("Writing thinkers-works.json...")
     with open('data/thinkers-works.json', 'w', encoding='utf-8') as f:
+        json.dump(works_lookup, f, indent=2, ensure_ascii=False)
+    
+    # Also write to public directory for client-side loading
+    with open('public/data/thinkers-works.json', 'w', encoding='utf-8') as f:
         json.dump(works_lookup, f, indent=2, ensure_ascii=False)
     
     # Create output directory if it doesn't exist
@@ -102,6 +106,7 @@ def convert_to_efficient_formats():
     print(f"  - Written to:")
     print(f"    - data/thinkers-metadata.json")
     print(f"    - data/thinkers-works.json")
+    print(f"    - public/data/thinkers-works.json")
     print(f"    - public/data/thinkers-by-category/ (31 category files)")
 
 if __name__ == '__main__':

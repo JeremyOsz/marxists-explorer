@@ -14953,22 +14953,70 @@
       "works": [
         {
           "title": "For Marx",
-          "url": "/archive/althusser/"
+          "url": "https://www.marxists.org/reference/archive/althusser/1962/overdetermination.htm#q"
         },
         {
-          "title": "Reading Capital",
-          "url": "/archive/althusser/"
+          "title": "On Marxism",
+          "url": "https://www.marxists.org/reference/archive/althusser/1953/onmarx/on-marxism.htm"
+        },
+        {
+          "title": "Feuerbach&#8217;s &#8216;Philosophical Manifestoes&#8217;",
+          "url": "https://www.marxists.org/reference/archive/althusser/1960/feuerbach.htm"
+        },
+        {
+          "title": "On the Young Marx",
+          "url": "https://www.marxists.org/reference/archive/althusser/1961/young-marx.htm"
+        },
+        {
+          "title": "Contradiction and Overdetermination",
+          "url": "https://www.marxists.org/reference/archive/althusser/1962/overdetermination.htm"
+        },
+        {
+          "title": "Notes on a Materialist Theatre",
+          "url": "https://www.marxists.org/reference/archive/althusser/1962/materialist-theatre.htm"
+        },
+        {
+          "title": "On the Materialist Dialectic",
+          "url": "https://www.marxists.org/reference/archive/althusser/1963/unevenness.htm"
+        },
+        {
+          "title": "Marxism and Humanism",
+          "url": "https://www.marxists.org/reference/archive/althusser/1964/marxism-humanism.htm"
+        },
+        {
+          "title": "Introduction to &#8220;For Marx&#8221;",
+          "url": "https://www.marxists.org/reference/archive/althusser/1965/introduction.htm"
+        },
+        {
+          "title": "Preface to &#8220;For Marx&#8221;",
+          "url": "https://www.marxists.org/reference/archive/althusser/1965/preface.htm"
+        },
+        {
+          "title": "Appendix to &#8220;Lenin and Philosophy&#8221;",
+          "url": "https://www.marxists.org/reference/archive/althusser/1968/appendix.htm"
         },
         {
           "title": "Ideology and Ideological State Apparatuses",
-          "url": "/archive/althusser/"
+          "url": "https://www.marxists.org/reference/archive/althusser/1970/ideology.htm"
         },
         {
-          "title": "On the Reproduction of Capitalism",
-          "url": "/archive/althusser/"
+          "title": "Lenin before Hegel",
+          "url": "https://www.marxists.org/reference/archive/althusser/1969/lenin-before-hegel.htm"
+        },
+        {
+          "title": "Reading &#8220;Capital&#8221;",
+          "url": "https://www.marxists.org/reference/archive/althusser/1968/reading-capital/index.htm"
+        },
+        {
+          "title": "On the Twenty-Second Congress of the French Communist Party",
+          "url": "https://www.marxists.org/reference/archive/althusser/1977/22nd-congress.htm"
+        },
+        {
+          "title": "Letter to Merab Mamardachvili",
+          "url": "https://www.marxists.org/reference/archive/althusser/1978/mamardachvili.htm"
         }
       ],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Louis_Althusser_1970.jpg/800px-Louis_Althusser_1970.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Louis_Althusser_sketch_%288420987781%29.jpg",
       "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Louis_Althusser_sketch_%288420987781%29.jpg/250px-Louis_Althusser_sketch_%288420987781%29.jpg"
     },
     {
@@ -15152,8 +15200,89 @@
       "category": "Guerilla Marxism",
       "description": "Argentine Marxist revolutionary, physician, author, guerrilla leader, diplomat, and military theorist. A major figure of the Cuban Revolution. Icon of leftist revolutionary movements.",
       "bioUrl": "/archive/guevara/index.htm",
-      "works": [],
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Che_Guevara_Gerardo_S%C3%A1nchez_Noguera.jpg/800px-Che_Guevara_Gerardo_S%C3%A1nchez_Noguera.jpg",
+      "works": [
+        {
+          "title": "The Motorcycle Diaries",
+          "url": "https://www.marxists.org/archive/guevara/1952/motorcycle-diaries/index.htm"
+        },
+        {
+          "title": "Our America and Theirs",
+          "url": "https://www.marxists.org/archive/guevara/1961/our-america/index.htm"
+        },
+        {
+          "title": "Reminiscences of the Cuban Revolutionary War",
+          "url": "https://www.marxists.org/archive/guevara/1963/reminiscences/index.htm"
+        },
+        {
+          "title": "The Che Reader",
+          "url": "https://www.marxists.org/archive/guevara/1967/che-reader/index.htm"
+        },
+        {
+          "title": "The Bolivian Diary",
+          "url": "https://www.marxists.org/archive/guevara/1967/bolivian-diary/index.htm"
+        },
+        {
+          "title": "On Revolutionary Medicine",
+          "url": "https://www.marxists.org/archive/guevara/1960/08/19.htm"
+        },
+        {
+          "title": "Notes for the Study of the Ideology of the Cuban Revolution",
+          "url": "https://www.marxists.org/archive/guevara/1960/10/08.htm"
+        },
+        {
+          "title": "Mobilising the Masses for the Invasion",
+          "url": "https://www.marxists.org/archive/guevara/1961/03/28.htm"
+        },
+        {
+          "title": "Cuba: Exceptional Case or Vanguard in the Struggle Against Colonialism?",
+          "url": "https://www.marxists.org/archive/guevara/1961/04/09.htm"
+        },
+        {
+          "title": "On Growth and Imperialism",
+          "url": "https://www.marxists.org/archive/guevara/1961/08/08.htm"
+        },
+        {
+          "title": "The Cadres: Backbone of the Revolution",
+          "url": "https://www.marxists.org/archive/guevara/1962/09/misc/x01.htm"
+        },
+        {
+          "title": "Guerrilla war, a method",
+          "url": "https://www.marxists.org/archive/guevara/1963/09/guerrilla-warfare.htm"
+        },
+        {
+          "title": "On Development",
+          "url": "https://www.marxists.org/archive/guevara/1964/03/25.htm"
+        },
+        {
+          "title": "On the Cuban Party, Brazilian Crisis, etc.",
+          "url": "https://www.marxists.org/archive/guevara/1964/04/18.htm"
+        },
+        {
+          "title": "Colonialism is Doomed",
+          "url": "https://www.marxists.org/archive/guevara/1964/12/11.htm"
+        },
+        {
+          "title": "On Africa and Latin America",
+          "url": "https://www.marxists.org/archive/guevara/1964/12/26.htm"
+        },
+        {
+          "title": "Second Economic Seminar of the Organization of Afro-Asian Solidarity",
+          "url": "https://www.marxists.org/archive/guevara/1965/02/24.htm"
+        },
+        {
+          "title": "Man and Socialism in Cuba",
+          "url": "https://www.marxists.org/archive/guevara/1965/03/man-socialism.htm"
+        },
+        {
+          "title": "Farewell letter from Che to Fidel Castro",
+          "url": "https://www.marxists.org/archive/guevara/1965/04/01.htm"
+        },
+        {
+          "title": "Message to the Tricontinental",
+          "url": "https://www.marxists.org/archive/guevara/1967/04/16.htm"
+        }
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/CheHigh.jpg/800px-CheHigh.jpg",
       "thumbnailUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/CheHigh.jpg/250px-CheHigh.jpg"
     },
     {
@@ -18037,15 +18166,15 @@
       "works": [
         {
           "title": "Selected Works",
-          "url": "/archive/ho/"
+          "url": "/archive/ho/index.htm"
         },
         {
           "title": "Prison Diary",
-          "url": "/archive/ho/"
+          "url": "/archive/ho/index.htm"
         },
         {
           "title": "Path Which Led Me to Leninism",
-          "url": "/archive/ho/"
+          "url": "/archive/ho/index.htm"
         }
       ],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Nguyen_A%C3%AFn_Nu%C3%A4%27C_%28Ho-Chi-Minh%29%2C_d%C3%A9l%C3%A9gu%C3%A9_indochinois%2C_Congr%C3%A8s_communiste_de_Marseille%2C_1921%2C_Meurisse%2C_BNF_Gallica.jpg",
