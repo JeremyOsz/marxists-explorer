@@ -1,9 +1,9 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@/components/ui/command";
+import { useState, useMemo } from "react";
+import { Command, CommandEmpty, CommandInput, CommandGroup, CommandItem, CommandList } from "@/components/ui/command";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Badge } from "@/components/ui/badge";
 import { Thinker } from "@/lib/types";
 
 interface ThinkerSearchProps {
@@ -11,119 +11,159 @@ interface ThinkerSearchProps {
 }
 
 export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
-  const [open, setOpen] = useState(false);
   const [selectedThinker, setSelectedThinker] = useState<Thinker | null>(null);
-  const [searchValue, setSearchValue] = useState("");
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState<string>("all");
 
-  const filteredThinkers = thinkers.filter(thinker =>
-    thinker.name.toLowerCase().includes(searchValue.toLowerCase()) ||
-    thinker.category.toLowerCase().includes(searchValue.toLowerCase()) ||
-    thinker.description.toLowerCase().includes(searchValue.toLowerCase())
-  );
+  // Get unique categories
+  const categories = useMemo(() => {
+    const cats = Array.from(new Set(thinkers.map(t => t.category)));
+    return ['all', ...cats.sort()];
+  }, [thinkers]);
+
+  // Filter thinkers based on search and category
+  const filteredThinkers = useMemo(() => {
+    let filtered = thinkers;
+
+    // Filter by category
+    if (selectedCategory !== "all") {
+      filtered = filtered.filter(thinker => thinker.category === selectedCategory);
+    }
+
+    // Filter by search query
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase();
+      filtered = filtered.filter(thinker =>
+        thinker.name.toLowerCase().includes(query) ||
+        thinker.category.toLowerCase().includes(query) ||
+        thinker.description.toLowerCase().includes(query)
+      );
+    }
+
+    return filtered;
+  }, [thinkers, searchQuery, selectedCategory]);
+
+  // Group filtered thinkers by category
+  const groupedThinkers = useMemo(() => {
+    return filteredThinkers.reduce((acc, thinker) => {
+      if (!acc[thinker.category]) {
+        acc[thinker.category] = [];
+      }
+      acc[thinker.category].push(thinker);
+      return acc;
+    }, {} as Record<string, Thinker[]>);
+  }, [filteredThinkers]);
 
   return (
-    <div className="w-full max-w-2xl mx-auto">
-      <Command className="rounded-lg border shadow-md">
-        <CommandInput
-          placeholder="Search Marxist thinkers..."
-          value={searchValue}
-          onValueChange={setSearchValue}
-          onFocus={() => setOpen(true)}
-        />
-        {open && (
-          <CommandList className="max-h-64">
-            <CommandEmpty>No thinkers found.</CommandEmpty>
-            {Object.entries(
-              filteredThinkers.reduce((acc, thinker) => {
-                if (!acc[thinker.category]) {
-                  acc[thinker.category] = [];
-                }
-                acc[thinker.category].push(thinker);
-                return acc;
-              }, {} as Record<string, Thinker[]>)
-            ).map(([category, categoryThinkers]) => (
-              <CommandGroup key={category} heading={category}>
-                {categoryThinkers.map((thinker) => (
-                  <Accordion key={thinker.name} type="single" collapsible className="w-full">
-                    <AccordionItem value={`${category}-${thinker.name}`} className="border-none">
-                      <div className="flex items-center gap-2 w-full">
-                        {/* Portrait thumbnail */}
-                        {thinker.imageUrl && (
-                          <div className="w-12 h-12 rounded-full overflow-hidden border flex-shrink-0">
-                            <img 
-                              src={thinker.imageUrl}
-                              alt={thinker.name}
-                              className="w-full h-full object-cover"
-                              onError={(e) => {
-                                e.currentTarget.style.display = 'none';
-                              }}
-                            />
-                          </div>
-                        )}
-                        <CommandItem
-                          value={thinker.name}
-                          onSelect={() => {
-                            setSelectedThinker(thinker);
-                            setOpen(false);
-                            setSearchValue(thinker.name);
-                          }}
-                          className="flex-1 cursor-pointer"
-                        >
-                          <div className="flex flex-col">
-                            <span className="font-medium">{thinker.name}</span>
-                            <span className="text-sm text-muted-foreground">{thinker.description}</span>
-                          </div>
-                        </CommandItem>
-                        <AccordionTrigger className="p-2 hover:bg-transparent" onClick={(e) => e.stopPropagation()}>
-                          <span className="text-xs text-muted-foreground">{thinker.works.length} works</span>
-                        </AccordionTrigger>
-                      </div>
-                      <AccordionContent className="pb-2 pt-0">
-                        <div className="pl-6 space-y-1">
-                          {thinker.works.slice(0, 3).map((work, index) => (
-                            <a
-                              key={index}
-                              href={`https://www.marxists.org${work.url}`}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="block text-sm py-1 text-muted-foreground hover:text-primary transition-colors"
-                            >
-                              {work.title}
-                            </a>
-                          ))}
-                          {thinker.works.length > 3 && (
-                            <button
-                              onClick={() => {
-                                setSelectedThinker(thinker);
-                                setOpen(false);
-                                setSearchValue(thinker.name);
-                              }}
-                              className="text-xs text-primary hover:underline"
-                            >
-                              +{thinker.works.length - 3} more works
-                            </button>
-                          )}
-                        </div>
-                      </AccordionContent>
-                    </AccordionItem>
-                  </Accordion>
-                ))}
-              </CommandGroup>
-            ))}
-          </CommandList>
-        )}
-      </Command>
+    <div className="w-full space-y-4">
+      {/* Search and Filter Controls */}
+      <div className="space-y-3">
+        <Command className="rounded-lg border shadow-md">
+          <CommandInput
+            placeholder="Search by name, category, or description..."
+            value={searchQuery}
+            onValueChange={setSearchQuery}
+          />
+        </Command>
 
-      <Dialog open={!!selectedThinker} onOpenChange={() => setSelectedThinker(null)} > 
-        <DialogContent className="max-w-[90vw] max-h-[90vh] overflow-y-auto" style={{ maxWidth: "90vw", maxHeight: "90vh", overflowY: "auto" }}>
+        {/* Category Filter */}
+        <div className="flex flex-wrap gap-2">
+          {categories.map((category) => (
+            <Badge
+              key={category}
+              variant={selectedCategory === category ? "default" : "outline"}
+              className="cursor-pointer px-3 py-1"
+              onClick={() => setSelectedCategory(category)}
+            >
+              {category === "all" ? "All Categories" : category}
+            </Badge>
+          ))}
+        </div>
+
+        {/* Results Count */}
+        <div className="text-sm text-muted-foreground">
+          Showing {filteredThinkers.length} of {thinkers.length} thinkers
+        </div>
+      </div>
+
+      {/* Thinker List */}
+      <div className="space-y-4">
+        {Object.keys(groupedThinkers).length === 0 ? (
+          <div className="text-center py-12 text-muted-foreground">
+            No thinkers found. Try adjusting your search or category filter.
+          </div>
+        ) : (
+          Object.entries(groupedThinkers).map(([category, categoryThinkers]) => (
+            <div key={category} className="border rounded-lg p-4 space-y-3">
+              <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                </svg>
+                {category}
+                <span className="text-sm font-normal text-muted-foreground">
+                  ({categoryThinkers.length})
+                </span>
+              </h3>
+
+              <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
+                {categoryThinkers.map((thinker) => (
+                  <div
+                    key={thinker.name}
+                    onClick={() => setSelectedThinker(thinker)}
+                    className="p-4 border rounded-lg hover:bg-muted/50 cursor-pointer transition-colors group"
+                  >
+                    <div className="flex items-start gap-3">
+                      {/* Portrait */}
+                      {thinker.imageUrl && (
+                        <div className="w-14 h-14 rounded-full overflow-hidden border flex-shrink-0">
+                          <img
+                            src={thinker.imageUrl}
+                            alt={thinker.name}
+                            className="w-full h-full object-cover"
+                            onError={(e) => {
+                              e.currentTarget.style.display = 'none';
+                            }}
+                          />
+                        </div>
+                      )}
+                      {/* Info */}
+                      <div className="flex-1 min-w-0">
+                        <h4 className="font-semibold mb-1 group-hover:text-primary transition-colors">
+                          {thinker.name}
+                        </h4>
+                        <p className="text-sm text-muted-foreground line-clamp-2">
+                          {thinker.description}
+                        </p>
+                        <div className="mt-2 flex items-center gap-2">
+                          <span className="text-xs text-muted-foreground">
+                            {thinker.works.length} works
+                          </span>
+                          <span className="text-muted-foreground">•</span>
+                          <span className="text-xs text-primary hover:underline">
+                            View details →
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))
+        )}
+      </div>
+
+      {/* Detail Dialog */}
+      <Dialog open={!!selectedThinker} onOpenChange={() => setSelectedThinker(null)}>
+        <DialogContent className="max-w-[90vw] max-h-[90vh] overflow-y-auto">
           <DialogHeader className="border-b pb-4 mb-6">
             <DialogTitle className="text-3xl font-bold">{selectedThinker?.name}</DialogTitle>
           </DialogHeader>
-          
+
           {selectedThinker && (
             <div className="space-y-6">
               {/* Two-column layout for bio info */}
-              <div className="grid grid-cols-1  gap-6">
+              <div className="grid grid-cols-1 gap-6">
                 {/* Left section - Thinker Info Card with Image */}
                 <div className="md:col-span-2">
                   <div className="bg-card border rounded-lg p-6">
@@ -138,7 +178,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                       <div className="md:col-span-1">
                         {selectedThinker.imageUrl && (
                           <div className="aspect-square overflow-hidden rounded-lg border">
-                            <img 
+                            <img
                               src={selectedThinker.imageUrl}
                               alt={selectedThinker.name}
                               className="w-full h-full object-cover"
