@@ -197,6 +197,14 @@
     "imageUrl": ""
   },
   {
+    "name": "Álvaro Cunhal",
+    "category": "Comintern",
+    "description": "Marxist thinker and theorist in the tradition of comintern.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
     "name": "Amadeo Bordiga",
     "category": "Left Communism",
     "description": "Marxist thinker and theorist in the tradition of left communism.",
@@ -229,17 +237,17 @@
     "imageUrl": ""
   },
   {
-    "name": "Andreu Nin",
-    "category": "Early Comintern",
-    "description": "Marxist thinker and theorist in the tradition of early comintern.",
+    "name": "André Gorz",
+    "category": "French Left",
+    "description": "Marxist thinker and theorist in the tradition of french left.",
     "bioUrl": "/reference/archive/",
     "works": [],
     "imageUrl": ""
   },
   {
-    "name": "André Gorz",
-    "category": "French Left",
-    "description": "Marxist thinker and theorist in the tradition of french left.",
+    "name": "Andreu Nin",
+    "category": "Early Comintern",
+    "description": "Marxist thinker and theorist in the tradition of early comintern.",
     "bioUrl": "/reference/archive/",
     "works": [],
     "imageUrl": ""
@@ -375,14 +383,6 @@
     "imageUrl": ""
   },
   {
-    "name": "Attila Jzsef",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
-  },
-  {
     "name": "Attila József",
     "category": "Populists",
     "description": "Marxist thinker and theorist in the tradition of populists.",
@@ -391,12 +391,25 @@
     "imageUrl": ""
   },
   {
-    "name": "August Bebel",
-    "category": "First International",
-    "description": "Marxist thinker and theorist in the tradition of first international.",
+    "name": "Attila Jzsef",
+    "category": "Feminists",
+    "description": "Marxist thinker and theorist in the tradition of feminists.",
     "bioUrl": "/reference/archive/",
     "works": [],
     "imageUrl": ""
+  },
+  {
+    "name": "August Bebel",
+    "category": "First International",
+    "description": "Co-founder of the German Social Democracy with Wilhelm Liebknecht in 1869. Part of the Reichstag from 1867. Outstandingly argued for the emancipation of women's rights before capitalism could be overthrown.",
+    "bioUrl": "/reference/archive/bebel/bio/index.htm",
+    "works": [
+      {
+        "title": "Women and Socialism",
+        "url": "/archive/bebel/women-socialism/"
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/August_Bebel.jpg/200px-August_Bebel.jpg"
   },
   {
     "name": "August Palm",
@@ -615,14 +628,6 @@
     "imageUrl": ""
   },
   {
-    "name": "CLR James",
-    "category": "Marxist Humanism",
-    "description": "Marxist thinker and theorist in the tradition of marxist humanism.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
-  },
-  {
     "name": "Cajo Brendel",
     "category": "Left Communism",
     "description": "Marxist thinker and theorist in the tradition of left communism.",
@@ -811,6 +816,14 @@
     "name": "Claudia Jones",
     "category": "Comintern",
     "description": "Marxist thinker and theorist in the tradition of comintern.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "CLR James",
+    "category": "Marxist Humanism",
+    "description": "Marxist thinker and theorist in the tradition of marxist humanism.",
     "bioUrl": "/reference/archive/",
     "works": [],
     "imageUrl": ""
@@ -1144,6 +1157,14 @@
     "imageUrl": ""
   },
   {
+    "name": "Étienne Cabet",
+    "category": "Utopianism",
+    "description": "Marxist thinker and theorist in the tradition of utopianism.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
     "name": "Eugen Samuilovich Varga",
     "category": "Early Comintern",
     "description": "Marxist thinker and theorist in the tradition of early comintern.",
@@ -1178,10 +1199,15 @@
   {
     "name": "Eugene Pottier",
     "category": "First International",
-    "description": "Marxist thinker and theorist in the tradition of first international.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "description": "French Poet, member of the First International, Communard, author of The Internationale.",
+    "bioUrl": "/reference/archive/pottier/bio/index.htm",
+    "works": [
+      {
+        "title": "The Internationale",
+        "url": "/archive/pottier/internationale/"
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Eug%C3%A8ne_Pottier.jpg/200px-Eug%C3%A8ne_Pottier.jpg"
   },
   {
     "name": "Evald Ilyenkov",
@@ -1248,6 +1274,14 @@
     "imageUrl": ""
   },
   {
+    "name": "Félix Pyat",
+    "category": "French Revolution",
+    "description": "Marxist thinker and theorist in the tradition of french revolution.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
     "name": "Felix Raskolnikov",
     "category": "Bolsheviks",
     "description": "Marxist thinker and theorist in the tradition of the bolsheviks.",
@@ -1258,10 +1292,15 @@
   {
     "name": "Ferdinand Lassalle",
     "category": "First International",
-    "description": "Marxist thinker and theorist in the tradition of first international.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "description": "German socialist, contemporary and critic of Marx.",
+    "bioUrl": "/reference/archive/lassalle/bio/index.htm",
+    "works": [
+      {
+        "title": "Workingmen's Program",
+        "url": "/archive/lassalle/workingmens-program/"
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Ferdinand_Lassalle.jpg/200px-Ferdinand_Lassalle.jpg"
   },
   {
     "name": "Fernando Tarrida del Marmol",
@@ -1312,6 +1351,14 @@
     "name": "Francis Franklin",
     "category": "Early Comintern",
     "description": "Marxist thinker and theorist in the tradition of early comintern.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "François Voltaire",
+    "category": "Philosophy",
+    "description": "Marxist thinker and theorist in the tradition of philosophy.",
     "bioUrl": "/reference/archive/",
     "works": [],
     "imageUrl": ""
@@ -1390,14 +1437,6 @@
     "imageUrl": ""
   },
   {
-    "name": "François Voltaire",
-    "category": "Philosophy",
-    "description": "Marxist thinker and theorist in the tradition of philosophy.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
-  },
-  {
     "name": "Fred Hampton",
     "category": "Black Liberation",
     "description": "Marxist thinker and theorist in the tradition of black liberation.",
@@ -1416,8 +1455,8 @@
   {
     "name": "Frederick Lessner",
     "category": "First International",
-    "description": "Marxist thinker and theorist in the tradition of first international.",
-    "bioUrl": "/reference/archive/",
+    "description": "German Revolutionary, comrade of Marx in the Communist League in the 1840s.",
+    "bioUrl": "/reference/archive/lessner/bio/index.htm",
     "works": [],
     "imageUrl": ""
   },
@@ -1448,10 +1487,10 @@
   {
     "name": "Friedrich Adolphe Sorge",
     "category": "First International",
-    "description": "Marxist thinker and theorist in the tradition of first international.",
-    "bioUrl": "/reference/archive/",
+    "description": "After fighting in the 1848 Revolution in Germany, he fled to America; later Secretary of the First International; Marx's closest supporter in the US.",
+    "bioUrl": "/reference/archive/sorge/bio/index.htm",
     "works": [],
-    "imageUrl": ""
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Friedrich_Adolph_Sorge.jpg/200px-Friedrich_Adolph_Sorge.jpg"
   },
   {
     "name": "Friedrich Engels",
@@ -1531,14 +1570,6 @@
     "imageUrl": ""
   },
   {
-    "name": "Félix Pyat",
-    "category": "French Revolution",
-    "description": "Marxist thinker and theorist in the tradition of french revolution.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
-  },
-  {
     "name": "G W F Hegel",
     "category": "Philosophy",
     "description": "Marxist thinker and theorist in the tradition of philosophy.",
@@ -1550,14 +1581,6 @@
     "name": "G. D. H. Cole",
     "category": "Fabians",
     "description": "Marxist thinker and theorist in the tradition of fabians.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
-  },
-  {
-    "name": "GW Cunningham",
-    "category": "Philosophy",
-    "description": "Marxist thinker and theorist in the tradition of philosophy.",
     "bioUrl": "/reference/archive/",
     "works": [],
     "imageUrl": ""
@@ -1852,6 +1875,14 @@
     "name": "Guy Debord",
     "category": "French Left",
     "description": "Marxist thinker and theorist in the tradition of french left.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "GW Cunningham",
+    "category": "Philosophy",
+    "description": "Marxist thinker and theorist in the tradition of philosophy.",
     "bioUrl": "/reference/archive/",
     "works": [],
     "imageUrl": ""
@@ -2279,22 +2310,6 @@
     "imageUrl": ""
   },
   {
-    "name": "JB Baillie",
-    "category": "Philosophy",
-    "description": "Marxist thinker and theorist in the tradition of philosophy.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
-  },
-  {
-    "name": "JBS Haldane",
-    "category": "Western Marxism",
-    "description": "Marxist thinker and theorist in the tradition of western marxism.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
-  },
-  {
     "name": "Jack London",
     "category": "Feminists",
     "description": "Marxist thinker and theorist in the tradition of feminists.",
@@ -2391,9 +2406,33 @@
     "imageUrl": ""
   },
   {
+    "name": "János Kádár",
+    "category": "Comintern",
+    "description": "Marxist thinker and theorist in the tradition of comintern.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
     "name": "Jay Lovestone",
     "category": "Early Comintern",
     "description": "Marxist thinker and theorist in the tradition of early comintern.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "JB Baillie",
+    "category": "Philosophy",
+    "description": "Marxist thinker and theorist in the tradition of philosophy.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "JBS Haldane",
+    "category": "Western Marxism",
+    "description": "Marxist thinker and theorist in the tradition of western marxism.",
     "bioUrl": "/reference/archive/",
     "works": [],
     "imageUrl": ""
@@ -2466,8 +2505,8 @@
   {
     "name": "Jenny Marx Longuet",
     "category": "First International",
-    "description": "Marxist thinker and theorist in the tradition of first international.",
-    "bioUrl": "/reference/archive/",
+    "description": "Fought for Irish independence from England. Detailed the atrocities against Irish political prisoners in England. Braved a narrow escape from France after the massacres of the Paris Commune. Marx's eldest daughter.",
+    "bioUrl": "/reference/archive/marx/bio/family/jenny/index.htm",
     "works": [],
     "imageUrl": ""
   },
@@ -2498,8 +2537,8 @@
   {
     "name": "Johann Georg Eccarius",
     "category": "First International",
-    "description": "Marxist thinker and theorist in the tradition of first international.",
-    "bioUrl": "/reference/archive/",
+    "description": "German communist, supported Marx in the International and in British trade unions.",
+    "bioUrl": "/reference/archive/eccarius/bio/index.htm",
     "works": [],
     "imageUrl": ""
   },
@@ -2616,6 +2655,14 @@
     "imageUrl": ""
   },
   {
+    "name": "José Carlos Mariátegui",
+    "category": "Early Comintern",
+    "description": "Marxist thinker and theorist in the tradition of early comintern.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
     "name": "Jose Maria Sison",
     "category": "Maoists",
     "description": "Marxist thinker and theorist in the tradition of maoists.",
@@ -2634,10 +2681,15 @@
   {
     "name": "Joseph Dietzgen",
     "category": "First International",
-    "description": "Marxist thinker and theorist in the tradition of first international.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "description": "Created dialectical materialism independently of Marx & Engels, but on seeing their writings became their most ardent supporter. His main contributions were using dialectics to elaborate epistemology.",
+    "bioUrl": "/reference/archive/dietzgen/bio/index.htm",
+    "works": [
+      {
+        "title": "The Nature of Human Brain Work",
+        "url": "/archive/dietzgen/nature-brain-work/"
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Joseph_Dietzgen.jpg/200px-Joseph_Dietzgen.jpg"
   },
   {
     "name": "Joseph Hansen",
@@ -2664,33 +2716,9 @@
     "imageUrl": ""
   },
   {
-    "name": "José Carlos Mariátegui",
-    "category": "Early Comintern",
-    "description": "Marxist thinker and theorist in the tradition of early comintern.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
-  },
-  {
     "name": "Juan Gelman",
     "category": "Guerilla Marxism",
     "description": "Marxist thinker and theorist in the tradition of guerilla marxism.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
-  },
-  {
-    "name": "Jules Guesde",
-    "category": "First International",
-    "description": "Marxist thinker and theorist in the tradition of first international.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
-  },
-  {
-    "name": "Jules Valès",
-    "category": "Paris Commune",
-    "description": "Marxist thinker and theorist in the tradition of paris commune.",
     "bioUrl": "/reference/archive/",
     "works": [],
     "imageUrl": ""
@@ -2704,9 +2732,33 @@
     "imageUrl": ""
   },
   {
+    "name": "Jules Guesde",
+    "category": "First International",
+    "description": "French socialist. Leader of the Marxist wing of the French workers' movement.",
+    "bioUrl": "/reference/archive/guesde/bio/index.htm",
+    "works": [],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Jules_Guesde.jpg/200px-Jules_Guesde.jpg"
+  },
+  {
+    "name": "Jules Valès",
+    "category": "Paris Commune",
+    "description": "Marxist thinker and theorist in the tradition of paris commune.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
     "name": "Julian Borchardt",
     "category": "Left Communism",
     "description": "Marxist thinker and theorist in the tradition of left communism.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Julián Gorkin",
+    "category": "Early Comintern",
+    "description": "Marxist thinker and theorist in the tradition of early comintern.",
     "bioUrl": "/reference/archive/",
     "works": [],
     "imageUrl": ""
@@ -2731,22 +2783,6 @@
     "name": "Julius Nyerere",
     "category": "African Liberation",
     "description": "Marxist thinker and theorist in the tradition of african liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
-  },
-  {
-    "name": "Julián Gorkin",
-    "category": "Early Comintern",
-    "description": "Marxist thinker and theorist in the tradition of early comintern.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
-  },
-  {
-    "name": "János Kádár",
-    "category": "Comintern",
-    "description": "Marxist thinker and theorist in the tradition of comintern.",
     "bioUrl": "/reference/archive/",
     "works": [],
     "imageUrl": ""
@@ -2799,28 +2835,84 @@
     "bioUrl": "/reference/archive/marx/bio/index.htm",
     "works": [
       {
-        "title": "Das Kapital",
+        "title": "The Communist Manifesto",
+        "url": "/archive/marx/works/1848/communist-manifesto/"
+      },
+      {
+        "title": "Das Kapital, Volume I",
         "url": "/archive/marx/works/1867-c1/"
       },
       {
-        "title": "Communist Manifesto",
-        "url": "/archive/marx/works/1848/communist-manifesto/"
+        "title": "Das Kapital, Volume II",
+        "url": "/archive/marx/works/1885-c2/"
+      },
+      {
+        "title": "Das Kapital, Volume III",
+        "url": "/archive/marx/works/1894-c3/"
+      },
+      {
+        "title": "A Contribution to the Critique of Political Economy",
+        "url": "/archive/marx/works/1859/contribution/index.htm"
+      },
+      {
+        "title": "Wage Labour and Capital",
+        "url": "/archive/marx/works/1847/wage-labour/"
+      },
+      {
+        "title": "Wages, Price and Profit",
+        "url": "/archive/marx/works/1865/value-price-profit/"
+      },
+      {
+        "title": "Grundrisse",
+        "url": "/archive/marx/works/1857/grundrisse/"
       },
       {
         "title": "The German Ideology",
         "url": "/archive/marx/works/1845/german-ideology/"
       },
       {
-        "title": "The Eighteenth Brumaire of Louis Bonaparte",
-        "url": "/archive/marx/works/1852/18th-brumaire/"
-      },
-      {
         "title": "The Poverty of Philosophy",
         "url": "/archive/marx/works/1847/poverty-philosophy/"
       },
       {
-        "title": "Grundrisse",
-        "url": "/archive/marx/works/1857/grundrisse/"
+        "title": "The Holy Family",
+        "url": "/archive/marx/works/1845/holy-family/"
+      },
+      {
+        "title": "Theses on Feuerbach",
+        "url": "/archive/marx/works/1845/theses/theses.htm"
+      },
+      {
+        "title": "The Eighteenth Brumaire of Louis Bonaparte",
+        "url": "/archive/marx/works/1852/18th-brumaire/"
+      },
+      {
+        "title": "The Class Struggles in France, 1848-1850",
+        "url": "/archive/marx/works/1850/class-struggles-france/"
+      },
+      {
+        "title": "The Civil War in France",
+        "url": "/archive/marx/works/1871/civil-war-france/"
+      },
+      {
+        "title": "Critique of the Gotha Programme",
+        "url": "/archive/marx/works/1875/gotha/"
+      },
+      {
+        "title": "Economic and Philosophic Manuscripts of 1844",
+        "url": "/archive/marx/works/1844/manuscripts/"
+      },
+      {
+        "title": "The Civil War in the United States",
+        "url": "/archive/marx/works/1861-us/"
+      },
+      {
+        "title": "On the Jewish Question",
+        "url": "/archive/marx/works/1844/jewish-question/"
+      },
+      {
+        "title": "Secret Diplomatic History of the Eighteenth Century",
+        "url": "/archive/marx/works/1856/diplomatic/index.htm"
       }
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
@@ -2828,9 +2920,26 @@
   {
     "name": "Karl Marx & Fredrick Engels",
     "category": "First International",
-    "description": "Marxist thinker and theorist in the tradition of first international.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
+    "description": "Co-founders of Marxism and key figures in the First International. Marx drafted the foundational documents of the International Working Men's Association.",
+    "bioUrl": "/reference/archive/marx/bio/index.htm",
+    "works": [
+      {
+        "title": "The Communist Manifesto",
+        "url": "/archive/marx/works/1848/communist-manifesto/"
+      },
+      {
+        "title": "Inaugural Address of the International Working Men's Association",
+        "url": "/archive/marx/works/1864/inaugural-address/"
+      },
+      {
+        "title": "The German Ideology",
+        "url": "/archive/marx/works/1845/german-ideology/"
+      },
+      {
+        "title": "The Holy Family",
+        "url": "/archive/marx/works/1845/holy-family/"
+      }
+    ],
     "imageUrl": ""
   },
   {
@@ -2949,6 +3058,14 @@
     "name": "Leo Lowenthal",
     "category": "Frankfurt School",
     "description": "Marxist thinker and theorist in the tradition of frankfurt school.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Léo Taxil",
+    "category": "Anarchists",
+    "description": "Marxist thinker and theorist in the tradition of anarchists.",
     "bioUrl": "/reference/archive/",
     "works": [],
     "imageUrl": ""
@@ -3166,8 +3283,8 @@
   {
     "name": "Lucien Sanial",
     "category": "First International",
-    "description": "Marxist thinker and theorist in the tradition of first international.",
-    "bioUrl": "/reference/archive/",
+    "description": "French Marxist who moved to the US and joined a forerunner of DeLeon's Socialist Labor Party",
+    "bioUrl": "/reference/archive/sanial/bio/index.htm",
     "works": [],
     "imageUrl": ""
   },
@@ -3223,14 +3340,6 @@
     "name": "Lynn Beaton",
     "category": "Feminists",
     "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
-  },
-  {
-    "name": "Léo Taxil",
-    "category": "Anarchists",
-    "description": "Marxist thinker and theorist in the tradition of anarchists.",
     "bioUrl": "/reference/archive/",
     "works": [],
     "imageUrl": ""
@@ -3385,6 +3494,14 @@
     "name": "Mary Wollstonecraft",
     "category": "Feminists",
     "description": "Marxist thinker and theorist in the tradition of feminists.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Mátyás Rákosi",
+    "category": "Comintern",
+    "description": "Marxist thinker and theorist in the tradition of comintern.",
     "bioUrl": "/reference/archive/",
     "works": [],
     "imageUrl": ""
@@ -3614,14 +3731,6 @@
     "imageUrl": ""
   },
   {
-    "name": "Mátyás Rákosi",
-    "category": "Comintern",
-    "description": "Marxist thinker and theorist in the tradition of comintern.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
-  },
-  {
     "name": "N. A. Semashko",
     "category": "Soviet Science",
     "description": "Marxist thinker and theorist in the tradition of soviet science.",
@@ -3840,10 +3949,19 @@
   {
     "name": "Paul Lafargue",
     "category": "First International",
-    "description": "Marxist thinker and theorist in the tradition of first international.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "description": "A member of the Paris Commune. Staunch advocate of Women's rights, wrote also on the history of religion, morals, literature, language, and comedy. Married to Marx's second daughter, Laura.",
+    "bioUrl": "/reference/archive/lafargue/bio/index.htm",
+    "works": [
+      {
+        "title": "The Right to be Lazy",
+        "url": "/archive/lafargue/right-to-be-lazy/"
+      },
+      {
+        "title": "The Evolution of Property",
+        "url": "/archive/lafargue/evolution-property/"
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Paul_Lafargue.jpg/200px-Paul_Lafargue.jpg"
   },
   {
     "name": "Paul Levi",
@@ -4579,10 +4697,15 @@
   {
     "name": "Victor Considerant",
     "category": "First International",
-    "description": "Marxist thinker and theorist in the tradition of first international.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "description": "French utopian who published a Democratic Manifesto in 1847. Member of First International and Paris Commune",
+    "bioUrl": "/reference/archive/considerant/bio/index.htm",
+    "works": [
+      {
+        "title": "Democratic Manifesto",
+        "url": "/archive/considerant/democratic-manifesto/"
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Victor_Considerant.jpg/200px-Victor_Considerant.jpg"
   },
   {
     "name": "Victor Perlo",
@@ -4682,14 +4805,6 @@
     "imageUrl": ""
   },
   {
-    "name": "Vyacheslav Molotov",
-    "category": "Comintern",
-    "description": "Marxist thinker and theorist in the tradition of comintern.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
-  },
-  {
     "name": "Võ Nguyên Giáp",
     "category": "National Liberation",
     "description": "Marxist thinker and theorist in the tradition of national liberation.",
@@ -4699,6 +4814,14 @@
   },
   {
     "name": "Vŭlko Chervenkov",
+    "category": "Comintern",
+    "description": "Marxist thinker and theorist in the tradition of comintern.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Vyacheslav Molotov",
     "category": "Comintern",
     "description": "Marxist thinker and theorist in the tradition of comintern.",
     "bioUrl": "/reference/archive/",
@@ -4765,10 +4888,15 @@
   {
     "name": "Wilhelm Liebknecht",
     "category": "First International",
-    "description": "Marxist thinker and theorist in the tradition of first international.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "description": "German Revolutionary, comrade of Marx in the Communist League in the 1840s.",
+    "bioUrl": "/reference/archive/liebknecht-w/bio/index.htm",
+    "works": [
+      {
+        "title": "No Compromise",
+        "url": "/archive/liebknecht-w/no-compromise/"
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Wilhelm_Liebknecht.jpg/200px-Wilhelm_Liebknecht.jpg"
   },
   {
     "name": "Wilhelm Pieck",
@@ -4870,22 +4998,6 @@
     "name": "Zhu De",
     "category": "Maoists",
     "description": "Marxist thinker and theorist in the tradition of maoists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
-  },
-  {
-    "name": "Álvaro Cunhal",
-    "category": "Comintern",
-    "description": "Marxist thinker and theorist in the tradition of comintern.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
-  },
-  {
-    "name": "Étienne Cabet",
-    "category": "Utopianism",
-    "description": "Marxist thinker and theorist in the tradition of utopianism.",
     "bioUrl": "/reference/archive/",
     "works": [],
     "imageUrl": ""
