@@ -7,7 +7,9 @@
 - [X] Fill out all works of Mao
 - [X] link to thinker
 - [X] fill in wiki bios
-- [ ] Althusser from https://www.marxists.org/reference/archive/althusser/
+- [X] Althusser from https://www.marxists.org/reference/archive/althusser/
+- [X] Ho from https://www.marxists.org/reference/archive/ho-chi-minh/index.htm
+- [X] Che from https://www.marxists.org/archive/guevara/works.htm
 
 # Checklist of thinkers to cross check
 
