@@ -221,12 +221,14 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                     >
                       <div className="flex items-start gap-3">
                         {/* Portrait */}
-                        {thinker.imageUrl && (
+                        {thinker.imageUrl && !thinker.imageUrl.match(/\.(pdf|djvu)$/i) && (
                           <div className="w-14 h-14 rounded-full overflow-hidden border flex-shrink-0">
                             <img
                               src={thinker.imageUrl}
                               alt={thinker.name}
                               className="w-full h-full object-cover"
+                              loading="lazy"
+                              decoding="async"
                               onError={(e) => {
                                 e.currentTarget.style.display = 'none';
                               }}
@@ -284,12 +286,14 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                           >
                             <div className="flex items-start gap-3">
                               {/* Portrait */}
-                              {thinker.imageUrl && (
+                              {thinker.imageUrl && !thinker.imageUrl.match(/\.(pdf|djvu)$/i) && (
                                 <div className="w-14 h-14 rounded-full overflow-hidden border flex-shrink-0">
                                   <img
                                     src={thinker.imageUrl}
                                     alt={thinker.name}
                                     className="w-full h-full object-cover"
+                                    loading="lazy"
+                                    decoding="async"
                                     onError={(e) => {
                                       e.currentTarget.style.display = 'none';
                                     }}
@@ -350,18 +354,20 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                       {/* Image */}
                       <div className="md:col-span-1">
-                        {selectedThinker.imageUrl && (
-                          <div className="aspect-square overflow-hidden rounded-lg border">
-                            <img
-                              src={selectedThinker.imageUrl}
-                              alt={selectedThinker.name}
-                              className="w-full h-full object-cover"
-                              onError={(e) => {
-                                e.currentTarget.src = `https://via.placeholder.com/300/cccccc/666666?text=${encodeURIComponent(selectedThinker.name)}`;
-                              }}
-                            />
-                          </div>
-                        )}
+                      {selectedThinker.imageUrl && !selectedThinker.imageUrl.match(/\.(pdf|djvu)$/i) && (
+                        <div className="aspect-square overflow-hidden rounded-lg border">
+                          <img
+                            src={selectedThinker.imageUrl}
+                            alt={selectedThinker.name}
+                            className="w-full h-full object-cover"
+                            loading="lazy"
+                            decoding="async"
+                            onError={(e) => {
+                              e.currentTarget.src = `https://via.placeholder.com/300/cccccc/666666?text=${encodeURIComponent(selectedThinker.name)}`;
+                            }}
+                          />
+                        </div>
+                      )}
                       </div>
                       {/* Description */}
                       <div className="md:col-span-2 space-y-4">
