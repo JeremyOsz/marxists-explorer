@@ -1,15 +1,39 @@
 import { Thinker } from '../types/thinker';
 
 /**
- * Server-side data loader for thinkers
+ * Server-side data loader for all thinkers
+ * Loads all category files and combines them
  * Compatible with Vercel serverless functions
- * Uses dynamic imports instead of fs.readFileSync
  */
 export async function loadThinkersData(): Promise<Thinker[]> {
   try {
-    // Dynamic import works in Vercel serverless
-    const thinkersData = await import('@/data/thinkers-expanded.json');
-    return thinkersData.default as Thinker[];
+    // Get available categories
+    const categories = await getAvailableCategories();
+    
+    // Load all categories in parallel
+    const promises = categories.map(category => 
+      loadThinkersByCategory(category)
+    );
+    
+    const categoryResults = await Promise.all(promises);
+    
+    // Flatten and deduplicate results
+    const allThinkers: Thinker[] = [];
+    const seenNames = new Set<string>();
+    
+    categoryResults.forEach(thinkers => {
+      thinkers.forEach(thinker => {
+        if (!seenNames.has(thinker.name)) {
+          seenNames.add(thinker.name);
+          allThinkers.push(thinker);
+        }
+      });
+    });
+    
+    // Sort by name
+    allThinkers.sort((a, b) => a.name.localeCompare(b.name));
+    
+    return allThinkers;
   } catch (error) {
     console.error('Failed to load thinkers data:', error);
     return [];
@@ -23,7 +47,22 @@ export async function loadThinkersData(): Promise<Thinker[]> {
  */
 export async function loadThinkersByCategory(category: string): Promise<Thinker[]> {
   try {
-    const response = await fetch(`${process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000'}/data/thinkers-by-category/${category}.json`);
+    // First get the category index to find the correct filename
+    const indexResponse = await fetch(`${process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000'}/data/thinkers-by-category/index.json`);
+    if (!indexResponse.ok) {
+      throw new Error(`Failed to fetch category index: ${indexResponse.status}`);
+    }
+    const index = await indexResponse.json() as Record<string, string>;
+    
+    // Get the filename for this category
+    const filename = index[category];
+    if (!filename) {
+      console.warn(`Category "${category}" not found in index`);
+      return [];
+    }
+    
+    // Load the category data
+    const response = await fetch(`${process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000'}/data/thinkers-by-category/${filename}`);
     if (!response.ok) {
       throw new Error(`Failed to fetch category data: ${response.status}`);
     }
