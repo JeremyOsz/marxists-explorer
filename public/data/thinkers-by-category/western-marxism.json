@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Georg Lukacs",
+    "category": "Western Marxism",
+    "description": "Hungarian Marxist philosopher, aesthetician, literary historian, and critic. One of the founders of Western Marxism. Best known for his theory of reification and concept of class consciousness.",
+    "bioUrl": "/reference/archive/lukacs/index.htm",
+    "works": [
+      {
+        "title": "History and Class Consciousness",
+        "url": "/archive/lukacs/"
+      },
+      {
+        "title": "The Destruction of Reason",
+        "url": "/archive/lukacs/"
+      },
+      {
+        "title": "The Theory of the Novel",
+        "url": "/archive/lukacs/"
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Gy%C3%B6rgy_Luk%C3%A1cs_1952.jpg/800px-Gy%C3%B6rgy_Luk%C3%A1cs_1952.jpg"
+  },
+  {
+    "name": "Georg Lukács",
+    "category": "Western Marxism",
+    "description": "Marxist thinker and theorist in the tradition of western marxism.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "JBS Haldane",
+    "category": "Western Marxism",
+    "description": "Marxist thinker and theorist in the tradition of western marxism.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Roman Rosdolsky",
+    "category": "Western Marxism",
+    "description": "Marxist thinker and theorist in the tradition of western marxism.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  }
+]

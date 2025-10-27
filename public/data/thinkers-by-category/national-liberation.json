@@ -1,0 +1,213 @@
+[
+  {
+    "name": "Bhagat Singh",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Cheddi Jagan",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Edward Said",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Fidel Castro",
+    "category": "National Liberation",
+    "description": "Cuban revolutionary and politician who served as the Prime Minister of Cuba and President of Cuba. Led the Cuban Revolution and established the first communist state in the Western Hemisphere.",
+    "bioUrl": "/archive/castro/index.htm",
+    "works": [
+      {
+        "title": "History Will Absolve Me",
+        "url": "/archive/castro/"
+      },
+      {
+        "title": "My Life",
+        "url": "/archive/castro/"
+      },
+      {
+        "title": "Selected Speeches and Writings",
+        "url": "/archive/castro/"
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Fidel_Castro_1977.jpg/800px-Fidel_Castro_1977.jpg"
+  },
+  {
+    "name": "Frantz Fanon",
+    "category": "National Liberation",
+    "description": "Martiniquais psychiatrist, philosopher, radical pan-Africanist and humanist. Theorized the psychology of colonialism and the role of violence in decolonization. Influential in post-colonial studies.",
+    "bioUrl": "/reference/archive/fanon/bio/index.htm",
+    "works": [
+      {
+        "title": "The Wretched of the Earth",
+        "url": "/archive/fanon/"
+      },
+      {
+        "title": "Black Skin, White Masks",
+        "url": "/archive/fanon/"
+      },
+      {
+        "title": "A Dying Colonialism",
+        "url": "/archive/fanon/"
+      },
+      {
+        "title": "Toward the African Revolution",
+        "url": "/archive/fanon/"
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Frantz_Fanon_in_1950s.jpg/800px-Frantz_Fanon_in_1950s.jpg"
+  },
+  {
+    "name": "George Padmore",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Ghassan Kanafani",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Harry Haywood",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Ho Chi Minh",
+    "category": "National Liberation",
+    "description": "Vietnamese revolutionary and politician. President of North Vietnam and founder of the Democratic Republic of Vietnam. Led the Vietnamese independence movement against French colonial rule.",
+    "bioUrl": "/archive/ho/index.htm",
+    "works": [
+      {
+        "title": "Selected Works",
+        "url": "/archive/ho/"
+      },
+      {
+        "title": "Prison Diary",
+        "url": "/archive/ho/"
+      },
+      {
+        "title": "Path Which Led Me to Leninism",
+        "url": "/archive/ho/"
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Nguyen_A%C3%AFn_Nu%C3%A4%27C_%28Ho-Chi-Minh%29%2C_d%C3%A9l%C3%A9gu%C3%A9_indochinois%2C_Congr%C3%A8s_communiste_de_Marseille%2C_1921%2C_Meurisse%2C_BNF_Gallica.jpg"
+  },
+  {
+    "name": "Hugo Chavez Frias",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Kim Il Sung",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Le Duan",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Lu Xun",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Marta Harnecker",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Messali Hadj",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Paulo Freire",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Pedro Albizu Campos",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Pham Van Dong",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Ricardo Alarcon",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Truong Chinh",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Võ Nguyên Giáp",
+    "category": "National Liberation",
+    "description": "Marxist thinker and theorist in the tradition of national liberation.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  }
+]

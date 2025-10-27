@@ -1,0 +1,176 @@
+[
+  {
+    "name": "August Bebel",
+    "category": "First International",
+    "description": "Marxist thinker and theorist in the tradition of first international.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Eugene Pottier",
+    "category": "First International",
+    "description": "Marxist thinker and theorist in the tradition of first international.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Ferdinand Lassalle",
+    "category": "First International",
+    "description": "Marxist thinker and theorist in the tradition of first international.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Frederick Lessner",
+    "category": "First International",
+    "description": "Marxist thinker and theorist in the tradition of first international.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Friedrich Adolphe Sorge",
+    "category": "First International",
+    "description": "Marxist thinker and theorist in the tradition of first international.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Friedrich Engels",
+    "category": "First International",
+    "description": "German philosopher, social scientist, journalist, and businessman. Co-founder of Marxism with Karl Marx. Best known for his contributions to revolutionary theory and his support of the working-class movement.",
+    "bioUrl": "/reference/archive/engels/bio/index.htm",
+    "works": [
+      {
+        "title": "Anti-Dühring",
+        "url": "/archive/marx/works/1877/anti-duhring/"
+      },
+      {
+        "title": "The Origin of the Family",
+        "url": "/archive/marx/works/1884/origin-family/"
+      },
+      {
+        "title": "Socialism: Utopian and Scientific",
+        "url": "/archive/marx/works/1880/soc-utop/index.htm"
+      },
+      {
+        "title": "The Condition of the Working Class in England",
+        "url": "/archive/marx/works/1845/condition-working-class/"
+      },
+      {
+        "title": "The Peasant War in Germany",
+        "url": "/archive/marx/works/1850/peasant-war-germany/"
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Friedrich_Engels_portrait_%28cropped%29.jpg"
+  },
+  {
+    "name": "Jenny Marx Longuet",
+    "category": "First International",
+    "description": "Marxist thinker and theorist in the tradition of first international.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Johann Georg Eccarius",
+    "category": "First International",
+    "description": "Marxist thinker and theorist in the tradition of first international.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Joseph Dietzgen",
+    "category": "First International",
+    "description": "Marxist thinker and theorist in the tradition of first international.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Jules Guesde",
+    "category": "First International",
+    "description": "Marxist thinker and theorist in the tradition of first international.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Karl Marx",
+    "category": "First International",
+    "description": "German philosopher, economist, and revolutionary socialist. Co-founder of Marxism and author of Das Kapital and the Communist Manifesto. Developed the theory of historical materialism and critique of political economy.",
+    "bioUrl": "/reference/archive/marx/bio/index.htm",
+    "works": [
+      {
+        "title": "Das Kapital",
+        "url": "/archive/marx/works/1867-c1/"
+      },
+      {
+        "title": "Communist Manifesto",
+        "url": "/archive/marx/works/1848/communist-manifesto/"
+      },
+      {
+        "title": "The German Ideology",
+        "url": "/archive/marx/works/1845/german-ideology/"
+      },
+      {
+        "title": "The Eighteenth Brumaire of Louis Bonaparte",
+        "url": "/archive/marx/works/1852/18th-brumaire/"
+      },
+      {
+        "title": "The Poverty of Philosophy",
+        "url": "/archive/marx/works/1847/poverty-philosophy/"
+      },
+      {
+        "title": "Grundrisse",
+        "url": "/archive/marx/works/1857/grundrisse/"
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
+  },
+  {
+    "name": "Karl Marx & Fredrick Engels",
+    "category": "First International",
+    "description": "Marxist thinker and theorist in the tradition of first international.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Lucien Sanial",
+    "category": "First International",
+    "description": "Marxist thinker and theorist in the tradition of first international.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Paul Lafargue",
+    "category": "First International",
+    "description": "Marxist thinker and theorist in the tradition of first international.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Victor Considerant",
+    "category": "First International",
+    "description": "Marxist thinker and theorist in the tradition of first international.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Wilhelm Liebknecht",
+    "category": "First International",
+    "description": "Marxist thinker and theorist in the tradition of first international.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  }
+]

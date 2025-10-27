@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Erich Fromm",
+    "category": "Frankfurt School",
+    "description": "Marxist thinker and theorist in the tradition of frankfurt school.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Henryk Grossman",
+    "category": "Frankfurt School",
+    "description": "Marxist thinker and theorist in the tradition of frankfurt school.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Herbert Marcuse",
+    "category": "Frankfurt School",
+    "description": "German-American philosopher, sociologist, and political theorist associated with the Frankfurt School. Developed critical theory and was a major influence on the New Left movements of the 1960s.",
+    "bioUrl": "/reference/archive/marcuse/index.htm",
+    "works": [
+      {
+        "title": "One-Dimensional Man",
+        "url": "/reference/archive/marcuse/"
+      },
+      {
+        "title": "Eros and Civilization",
+        "url": "/reference/archive/marcuse/"
+      },
+      {
+        "title": "Reason and Revolution",
+        "url": "/reference/archive/marcuse/"
+      },
+      {
+        "title": "An Essay on Liberation",
+        "url": "/reference/archive/marcuse/"
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Herbert_Marcuse_1965.jpg/800px-Herbert_Marcuse_1965.jpg"
+  },
+  {
+    "name": "Jürgen Habermas",
+    "category": "Frankfurt School",
+    "description": "Marxist thinker and theorist in the tradition of frankfurt school.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Leo Lowenthal",
+    "category": "Frankfurt School",
+    "description": "Marxist thinker and theorist in the tradition of frankfurt school.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Max Horkheimer",
+    "category": "Frankfurt School",
+    "description": "Marxist thinker and theorist in the tradition of frankfurt school.",
+    "bioUrl": "/reference/archive/",
+    "works": [],
+    "imageUrl": ""
+  },
+  {
+    "name": "Theodor Adorno",
+    "category": "Frankfurt School",
+    "description": "German philosopher, sociologist, psychologist, musicologist, and composer. Co-founder of the Frankfurt School. Developed critical theory and wrote extensively on culture, music, and aesthetics.",
+    "bioUrl": "/reference/archive/adorno/bio/index.htm",
+    "works": [
+      {
+        "title": "Dialectic of Enlightenment",
+        "url": "/reference/archive/adorno/"
+      },
+      {
+        "title": "Negative Dialectics",
+        "url": "/reference/archive/adorno/"
+      },
+      {
+        "title": "Minima Moralia",
+        "url": "/reference/archive/adorno/"
+      },
+      {
+        "title": "The Culture Industry",
+        "url": "/reference/archive/adorno/"
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Theodor_W._Adorno_1964_cropped_and_colorized.jpg/800px-Theodor_W._Adorno_1964_cropped_and_colorized.jpg"
+  },
+  {
+    "name": "Walter Benjamin",
+    "category": "Frankfurt School",
+    "description": "German Jewish philosopher, cultural critic and essayist. Associated with the Frankfurt School. Wrote on art, literature, history, and modernity. Influential in aesthetic and Marxist theory.",
+    "bioUrl": "/reference/archive/benjamin/bio/index.htm",
+    "works": [
+      {
+        "title": "The Work of Art in the Age of Mechanical Reproduction",
+        "url": "/reference/archive/benjamin/"
+      },
+      {
+        "title": "Theses on the Philosophy of History",
+        "url": "/reference/archive/benjamin/"
+      },
+      {
+        "title": "Illuminations",
+        "url": "/reference/archive/benjamin/"
+      },
+      {
+        "title": "The Arcades Project",
+        "url": "/reference/archive/benjamin/"
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Walter_Benjamin_vers_1928.jpg"
+  }
+]
