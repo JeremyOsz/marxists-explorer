@@ -30,8 +30,8 @@ export const categories: Category[] = [
     order: 4
   },
   {
-    id: 'the-bolsheviks',
-    name: 'The Bolsheviks',
+    id: 'bolsheviks',
+    name: 'Bolsheviks',
     description: 'Lenin and The Russian Social Democrats who made the October 1917 Revolution',
     order: 5
   },

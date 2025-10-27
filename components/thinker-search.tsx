@@ -3,8 +3,10 @@
 import { useState, useMemo } from "react";
 import { Command, CommandEmpty, CommandInput, CommandGroup, CommandItem, CommandList } from "@/components/ui/command";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import { Badge } from "@/components/ui/badge";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Thinker } from "@/lib/types";
+import { Badge } from "./ui/badge";
+import { categories } from "@/lib/data/categories";
 
 interface ThinkerSearchProps {
   thinkers: Thinker[];
@@ -15,10 +17,11 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
 
-  // Get unique categories
-  const categories = useMemo(() => {
-    const cats = Array.from(new Set(thinkers.map(t => t.category)));
-    return ['all', ...cats.sort()];
+  // Get unique categories sorted alphabetically
+  const categoryList = useMemo(() => {
+    const cats = Array.from(new Set(thinkers.map(t => t.category))) as string[];
+    const sortedCategories = cats.sort((a, b) => a.localeCompare(b));
+    return ['all', ...sortedCategories];
   }, [thinkers]);
 
   // Filter thinkers based on search and category
@@ -43,15 +46,38 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
     return filtered;
   }, [thinkers, searchQuery, selectedCategory]);
 
+  // Helper function to get last name for sorting (ignores parenthetical names)
+  const getLastName = (name: string): string => {
+    // Remove content in parentheses for sorting purposes
+    const cleanName = name.replace(/\([^)]*\)/g, '').trim();
+    const parts = cleanName.split(/\s+/);
+    return parts[parts.length - 1] || name;
+  };
+
   // Group filtered thinkers by category
   const groupedThinkers = useMemo(() => {
-    return filteredThinkers.reduce((acc, thinker) => {
+    const grouped = filteredThinkers.reduce((acc, thinker) => {
       if (!acc[thinker.category]) {
         acc[thinker.category] = [];
       }
       acc[thinker.category].push(thinker);
       return acc;
     }, {} as Record<string, Thinker[]>);
+    
+    // Sort each category by last name
+    Object.keys(grouped).forEach(category => {
+      grouped[category].sort((a, b) => 
+        getLastName(a.name).localeCompare(getLastName(b.name))
+      );
+    });
+    
+    // Sort categories alphabetically
+    const sortedEntries = Object.entries(grouped).sort(([a], [b]) => 
+      a.localeCompare(b)
+    );
+    
+    // Convert back to object
+    return Object.fromEntries(sortedEntries);
   }, [filteredThinkers]);
 
   return (
@@ -68,7 +94,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
 
         {/* Category Filter */}
         <div className="flex flex-wrap gap-2">
-          {categories.map((category) => (
+          {categoryList.map((category) => (
             <Badge
               key={category}
               variant={selectedCategory === category ? "default" : "outline"}
@@ -93,69 +119,74 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
             No thinkers found. Try adjusting your search or category filter.
           </div>
         ) : (
-          Object.entries(groupedThinkers).map(([category, categoryThinkers]) => (
-            <div key={category} className="border rounded-lg p-4 space-y-3">
-              <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
-                </svg>
-                {category}
-                <span className="text-sm font-normal text-muted-foreground">
-                  ({categoryThinkers.length})
-                </span>
-              </h3>
-
-              <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
-                {categoryThinkers.map((thinker) => (
-                  <div
-                    key={thinker.name}
-                    onClick={() => setSelectedThinker(thinker)}
-                    className="p-4 border rounded-lg hover:bg-muted/50 cursor-pointer transition-colors group"
-                  >
-                    <div className="flex items-start gap-3">
-                      {/* Portrait */}
-                      {thinker.imageUrl && (
-                        <div className="w-14 h-14 rounded-full overflow-hidden border flex-shrink-0">
-                          <img
-                            src={thinker.imageUrl}
-                            alt={thinker.name}
-                            className="w-full h-full object-cover"
-                            onError={(e) => {
-                              e.currentTarget.style.display = 'none';
-                            }}
-                          />
-                        </div>
-                      )}
-                      {/* Info */}
-                      <div className="flex-1 min-w-0">
-                        <h4 className="font-semibold mb-1 group-hover:text-primary transition-colors">
-                          {thinker.name}
-                        </h4>
-                        <p className="text-sm text-muted-foreground line-clamp-2">
-                          {thinker.description}
-                        </p>
-                        <div className="mt-2 flex items-center gap-2">
-                          <span className="text-xs text-muted-foreground">
-                            {thinker.works.length} works
-                          </span>
-                          <span className="text-muted-foreground">•</span>
-                          <span className="text-xs text-primary hover:underline">
-                            View details →
-                          </span>
+          <Accordion type="multiple" className="space-y-4" defaultValue={Object.keys(groupedThinkers)}>
+            {Object.entries(groupedThinkers).map(([category, categoryThinkers]) => (
+              <AccordionItem key={category} value={category} className="border rounded-lg px-4">
+                <AccordionTrigger className="hover:no-underline py-4">
+                  <div className="flex items-center gap-2">
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                    </svg>
+                    <span className="text-lg font-semibold">{category}</span>
+                    <span className="text-sm font-normal text-muted-foreground">
+                      ({categoryThinkers.length})
+                    </span>
+                  </div>
+                </AccordionTrigger>
+                <AccordionContent className="pb-4">
+                  <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
+                    {categoryThinkers.map((thinker) => (
+                      <div
+                        key={thinker.name}
+                        onClick={() => setSelectedThinker(thinker)}
+                        className="p-4 border rounded-lg hover:bg-muted/50 cursor-pointer transition-colors group"
+                      >
+                        <div className="flex items-start gap-3">
+                          {/* Portrait */}
+                          {thinker.imageUrl && (
+                            <div className="w-14 h-14 rounded-full overflow-hidden border flex-shrink-0">
+                              <img
+                                src={thinker.imageUrl}
+                                alt={thinker.name}
+                                className="w-full h-full object-cover"
+                                onError={(e) => {
+                                  e.currentTarget.style.display = 'none';
+                                }}
+                              />
+                            </div>
+                          )}
+                          {/* Info */}
+                          <div className="flex-1 min-w-0">
+                            <h4 className="font-semibold mb-1 group-hover:text-primary transition-colors">
+                              {thinker.name}
+                            </h4>
+                            <p className="text-sm text-muted-foreground line-clamp-2">
+                              {thinker.description}
+                            </p>
+                            <div className="mt-2 flex items-center gap-2">
+                              <span className="text-xs text-muted-foreground">
+                                {thinker.works.length} works
+                              </span>
+                              <span className="text-muted-foreground">•</span>
+                              <span className="text-xs text-primary hover:underline">
+                                View details →
+                              </span>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
+                    ))}
                   </div>
-                ))}
-              </div>
-            </div>
-          ))
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
         )}
       </div>
 
       {/* Detail Dialog */}
       <Dialog open={!!selectedThinker} onOpenChange={() => setSelectedThinker(null)}>
-        <DialogContent className="max-w-[90vw] max-h-[90vh] overflow-y-auto">
+        <DialogContent className="max-w-[90vw] max-h-[90vh] overflow-y-auto" style={{ maxWidth: "90vw", maxHeight: "90vh", overflowY: "auto" }}>
           <DialogHeader className="border-b pb-4 mb-6">
             <DialogTitle className="text-3xl font-bold">{selectedThinker?.name}</DialogTitle>
           </DialogHeader>

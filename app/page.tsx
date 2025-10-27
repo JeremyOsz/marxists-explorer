@@ -1,6 +1,6 @@
 import { ThinkerSearch } from "@/components/thinker-search";
 import { Thinker } from "@/lib/types";
-import thinkersData from "@/data/thinkers.json";
+import thinkersData from "@/data/thinkers-expanded.json";
 
 export default function Home() {
   const thinkers: Thinker[] = thinkersData;
