@@ -340,7 +340,7 @@ def main():
     scraper.populate_thinkers_bundle(
         index_file='ref/index',
         bundle_file='data/thinkers-bundle.json',
-        max_authors=50  # Start with 50 authors for testing
+        max_authors=None  # Process all authors
     )
 
 if __name__ == '__main__':
