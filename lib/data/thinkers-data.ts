@@ -1,4 +1,6 @@
 import { Thinker } from '../types/thinker';
+// Bundle size: ~160KB raw, ~40KB gzipped with 564 thinkers
+// Monitor this file if data expands significantly
 import thinkersBundle from '../../data/thinkers-bundle.json';
 
 // Cast the imported JSON to the correct type

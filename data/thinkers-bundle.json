@@ -1145,16 +1145,188 @@
       "bioUrl": "/reference/archive/gramsci/bio/index.htm",
       "works": [
         {
-          "title": "Prison Notebooks",
-          "url": "/archive/gramsci/"
+          "title": "Gramsci’s Arrest",
+          "url": "https://www.marxists.org/archive/gramsci/schucht-letter.htm"
         },
         {
-          "title": "The Southern Question",
-          "url": "/archive/gramsci/"
+          "title": "Newspapers and the Workers",
+          "url": "https://www.marxists.org/archive/gramsci/1916/12/newspapers.htm"
         },
         {
-          "title": "Selections from Political Writings",
-          "url": "/archive/gramsci/"
+          "title": "Men or machines?",
+          "url": "https://www.marxists.org/archive/gramsci/1916/12/men_or_machines.htm"
+        },
+        {
+          "title": "The Revolution Against ’Capital’",
+          "url": "https://www.marxists.org/archive/gramsci/1917/12/revolution-against-capital.htm"
+        },
+        {
+          "title": "alternate translation",
+          "url": "https://www.marxists.org/archive/gramsci/1917/12/revolution-against-capital-alt.htm"
+        },
+        {
+          "title": "Red Ink",
+          "url": "https://www.marxists.org/archive/gramsci/1919/04/red-ink.htm"
+        },
+        {
+          "title": "Workers’ democracy",
+          "url": "https://www.marxists.org/archive/gramsci/1919/06/workers-democracy.htm"
+        },
+        {
+          "title": "The conquest of the state",
+          "url": "https://www.marxists.org/archive/gramsci/1919/07/conquest-state.htm"
+        },
+        {
+          "title": "Workers and peasants",
+          "url": "https://www.marxists.org/archive/gramsci/1919/08/workers-peasants.htm"
+        },
+        {
+          "title": "The development of the revolution",
+          "url": "https://www.marxists.org/archive/gramsci/1919/09/development-revolution.htm"
+        },
+        {
+          "title": "Chronicles of the new order",
+          "url": "https://www.marxists.org/archive/gramsci/1919/09/chronicles.htm"
+        },
+        {
+          "title": "To the section commissars of the FIAT-Brevetti workshops",
+          "url": "https://www.marxists.org/archive/gramsci/1919/09/fiat.htm"
+        },
+        {
+          "title": "Unions and councils",
+          "url": "https://www.marxists.org/archive/gramsci/1919/10/unions-councils.htm"
+        },
+        {
+          "title": "Unions and the dictatorship",
+          "url": "https://www.marxists.org/archive/gramsci/1919/10/unions-dictatorship.htm"
+        },
+        {
+          "title": "Revolutionaries and elections",
+          "url": "https://www.marxists.org/archive/gramsci/1919/11/elections.htm"
+        },
+        {
+          "title": "The problem of power",
+          "url": "https://www.marxists.org/archive/gramsci/1919/11/problem-power.htm"
+        },
+        {
+          "title": "The events of 2–3 December (1919)",
+          "url": "https://www.marxists.org/archive/gramsci/1919/12/events-december.htm"
+        },
+        {
+          "title": "Split or Disorder?",
+          "url": "https://www.marxists.org/archive/gramsci/1920/12/split-disorder.htm"
+        },
+        {
+          "title": "The ape people",
+          "url": "https://www.marxists.org/archive/gramsci/1921/01/ape-people.htm"
+        },
+        {
+          "title": "War is war",
+          "url": "https://www.marxists.org/archive/gramsci/1921/01/war-is-war.htm"
+        },
+        {
+          "title": "The Turin factory council movement",
+          "url": "https://www.marxists.org/archive/gramsci/1921/03/turin_councils.htm"
+        },
+        {
+          "title": "The Communists and the Elections",
+          "url": "https://www.marxists.org/archive/gramsci/1921/04/communists_elections.htm"
+        },
+        {
+          "title": "Men of Flesh and Blood",
+          "url": "https://www.marxists.org/archive/gramsci/1921/05/flesh-blood.htm"
+        },
+        {
+          "title": "The “Arditi del Popolo”",
+          "url": "https://www.marxists.org/archive/gramsci/1921/07/arditi_del_popolo.htm"
+        },
+        {
+          "title": "The Two Fascisms",
+          "url": "https://www.marxists.org/archive/gramsci/1921/08/two_fascisms.htm"
+        },
+        {
+          "title": "The Grimace of Gwynplaine",
+          "url": "https://www.marxists.org/archive/gramsci/1921/08/gwynplaine.htm"
+        },
+        {
+          "title": "The Agrarian Struggle in Italy",
+          "url": "https://www.marxists.org/archive/gramsci/1921/08/agrarian_struggle.htm"
+        },
+        {
+          "title": "The tactic of failure",
+          "url": "https://www.marxists.org/archive/gramsci/1921/09/tactic-failure.htm"
+        },
+        {
+          "title": "Parties and Masses",
+          "url": "https://www.marxists.org/archive/gramsci/1921/09/parties-masses.htm"
+        },
+        {
+          "title": "The Genoa Conference and Italy",
+          "url": "https://www.marxists.org/archive/gramsci/1922/04/genoa.htm"
+        },
+        {
+          "title": "To Comrades Cachin, Monmousseou, Treint, Semard, Jacobet al.",
+          "url": "https://www.marxists.org/archive/trotsky/1923/03/ecci.html"
+        },
+        {
+          "title": "The Vatican",
+          "url": "https://www.marxists.org/archive/gramsci/1924/03/vatican.htm"
+        },
+        {
+          "title": "Against Pessimism",
+          "url": "https://www.marxists.org/archive/gramsci/1924/03/pessimism.htm"
+        },
+        {
+          "title": "part 1",
+          "url": "https://www.marxists.org/history/international/comintern/sections/britain/periodicals/communist_review/1924/v5-n08-dec-1924-communist-review-goog-hathi.pdf#page=19"
+        },
+        {
+          "title": "part 2",
+          "url": "https://www.marxists.org/history/international/comintern/sections/britain/periodicals/communist_review/1925/v5-n09-jan-1925-communist-review-goog-hathi.pdf#page=39"
+        },
+        {
+          "title": "Neither Fascism nor Liberalism: Sovietism!",
+          "url": "https://www.marxists.org/archive/gramsci/1924/10/fascism-liberalism.htm"
+        },
+        {
+          "title": "Speech to the Italian parliament",
+          "url": "https://www.marxists.org/archive/gramsci/1925/05/speech.htm"
+        },
+        {
+          "title": "Maximalism and Extremism",
+          "url": "https://www.marxists.org/archive/gramsci/1925/07/maximalism.htm"
+        },
+        {
+          "title": "Sterile and Negative Criticism",
+          "url": "https://www.marxists.org/archive/gramsci/1925/09/sterile-negative.htm"
+        },
+        {
+          "title": "Letter to Palmiro Togliatti",
+          "url": "https://www.marxists.org/archive/gramsci/1926/10/letter-togliatti.htm"
+        },
+        {
+          "title": "Letter to Tania Schucht",
+          "url": "https://www.marxists.org/archive/gramsci/1928/new-year-letter.htm"
+        },
+        {
+          "title": "Letter from Prison to his Son, Giuliano",
+          "url": "https://www.marxists.org/archive/gramsci/1936/letter-giuliano.htm"
+        },
+        {
+          "title": "Selections from Political Writings (1910-1920)",
+          "url": "https://www.marxists.org/archive/gramsci/political-writings.htm"
+        },
+        {
+          "title": "The Electric Book Company",
+          "url": "http://www.elecbook.com/"
+        },
+        {
+          "title": "Selections from Political Writings (1921-1926)",
+          "url": "https://www.marxists.org/archive/gramsci/spw2-contents.htm"
+        },
+        {
+          "title": "Selections from the Prison Notebooks",
+          "url": "https://www.marxists.org/archive/gramsci/prison_notebooks/selections.htm"
         }
       ],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Antonio_Gramsci_1920.jpg"
@@ -2255,88 +2427,7 @@
       "category": "First International",
       "description": "German philosopher, economist, and revolutionary socialist. Co-founder of Marxism and author of Das Kapital and the Communist Manifesto. Developed the theory of historical materialism and critique of political economy.",
       "bioUrl": "/reference/archive/marx/bio/index.htm",
-      "works": [
-        {
-          "title": "The Communist Manifesto",
-          "url": "/archive/marx/works/1848/communist-manifesto/"
-        },
-        {
-          "title": "Das Kapital, Volume I",
-          "url": "/archive/marx/works/1867-c1/"
-        },
-        {
-          "title": "Das Kapital, Volume II",
-          "url": "/archive/marx/works/1885-c2/"
-        },
-        {
-          "title": "Das Kapital, Volume III",
-          "url": "/archive/marx/works/1894-c3/"
-        },
-        {
-          "title": "A Contribution to the Critique of Political Economy",
-          "url": "/archive/marx/works/1859/contribution/index.htm"
-        },
-        {
-          "title": "Wage Labour and Capital",
-          "url": "/archive/marx/works/1847/wage-labour/"
-        },
-        {
-          "title": "Wages, Price and Profit",
-          "url": "/archive/marx/works/1865/value-price-profit/"
-        },
-        {
-          "title": "Grundrisse",
-          "url": "/archive/marx/works/1857/grundrisse/"
-        },
-        {
-          "title": "The German Ideology",
-          "url": "/archive/marx/works/1845/german-ideology/"
-        },
-        {
-          "title": "The Poverty of Philosophy",
-          "url": "/archive/marx/works/1847/poverty-philosophy/"
-        },
-        {
-          "title": "The Holy Family",
-          "url": "/archive/marx/works/1845/holy-family/"
-        },
-        {
-          "title": "Theses on Feuerbach",
-          "url": "/archive/marx/works/1845/theses/theses.htm"
-        },
-        {
-          "title": "The Eighteenth Brumaire of Louis Bonaparte",
-          "url": "/archive/marx/works/1852/18th-brumaire/"
-        },
-        {
-          "title": "The Class Struggles in France, 1848-1850",
-          "url": "/archive/marx/works/1850/class-struggles-france/"
-        },
-        {
-          "title": "The Civil War in France",
-          "url": "/archive/marx/works/1871/civil-war-france/"
-        },
-        {
-          "title": "Critique of the Gotha Programme",
-          "url": "/archive/marx/works/1875/gotha/"
-        },
-        {
-          "title": "Economic and Philosophic Manuscripts of 1844",
-          "url": "/archive/marx/works/1844/manuscripts/"
-        },
-        {
-          "title": "The Civil War in the United States",
-          "url": "/archive/marx/works/1861-us/"
-        },
-        {
-          "title": "On the Jewish Question",
-          "url": "/archive/marx/works/1844/jewish-question/"
-        },
-        {
-          "title": "Secret Diplomatic History of the Eighteenth Century",
-          "url": "/archive/marx/works/1856/diplomatic/index.htm"
-        }
-      ],
+      "works": [],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
     },
     {
@@ -2771,20 +2862,12 @@
       "bioUrl": "/archive/guevara/index.htm",
       "works": [
         {
-          "title": "Guerrilla Warfare",
-          "url": "/archive/guevara/"
+          "title": "Brian Baggins",
+          "url": "https://www.marxists.org/admin/volunteers/biographies/bbaggins.htm"
         },
         {
-          "title": "Socialism and Man in Cuba",
-          "url": "/archive/guevara/"
-        },
-        {
-          "title": "The Motorcycle Diaries",
-          "url": "/archive/guevara/"
-        },
-        {
-          "title": "Man and Socialism in Cuba",
-          "url": "/archive/guevara/"
+          "title": "MIA Steering Committee",
+          "url": "https://www.marxists.org/admin/volunteers/steering.htm"
         }
       ],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Che_Guevara_Gerardo_S%C3%A1nchez_Noguera.jpg/800px-Che_Guevara_Gerardo_S%C3%A1nchez_Noguera.jpg"
@@ -4190,7 +4273,276 @@
       "category": "Social Democracy",
       "description": "Marxist thinker and theorist in the tradition of social democracy.",
       "bioUrl": "/reference/archive/",
-      "works": [],
+      "works": [
+        {
+          "title": "Early American Marxism",
+          "url": "https://www.marxists.org/history/usa/eam/index.html"
+        },
+        {
+          "title": "Proclamation to American Railway Union",
+          "url": "https://www.marxists.org/archive/debs/works/1895/aru.htm"
+        },
+        {
+          "title": "Labor Omnia Vincits",
+          "url": "https://www.marxists.org/archive/debs/works/1895/laboromnia.htm"
+        },
+        {
+          "title": "The American Movement",
+          "url": "https://www.marxists.org/archive/debs/works/1898/america.htm"
+        },
+        {
+          "title": "Labor’s Martyred Heroes",
+          "url": "https://www.marxists.org/archive/debs/works/1898/martyred.htm"
+        },
+        {
+          "title": "Prison Labor",
+          "url": "https://www.marxists.org/archive/debs/works/1899/prison.htm"
+        },
+        {
+          "title": "Martin Irons, Martyr",
+          "url": "https://www.marxists.org/archive/debs/works/1900/martinirons.htm"
+        },
+        {
+          "title": "Outlook for Socialism in the United States",
+          "url": "https://www.marxists.org/archive/debs/works/1900/outlook.htm"
+        },
+        {
+          "title": "Stopped the Blacklist",
+          "url": "https://www.marxists.org/archive/debs/works/1902/blacklist.htm"
+        },
+        {
+          "title": "The Western Labor Movement",
+          "url": "https://www.marxists.org/archive/debs/works/1902/west.htm"
+        },
+        {
+          "title": "What’s the Matter with Chicago?",
+          "url": "https://www.marxists.org/archive/debs/works/1902/chicago.htm"
+        },
+        {
+          "title": "The Negro In The Class Struggle",
+          "url": "https://www.marxists.org/archive/debs/works/1903/negro.htm"
+        },
+        {
+          "title": "Labor Day Greeting",
+          "url": "https://www.marxists.org/archive/debs/works/1904/laborday.htm"
+        },
+        {
+          "title": "Unionism and Socialism",
+          "url": "https://www.marxists.org/archive/debs/works/1904/unionsandsocial.htm"
+        },
+        {
+          "title": "The Coming Union",
+          "url": "https://www.marxists.org/archive/debs/works/1905/comunion.htm"
+        },
+        {
+          "title": "Revolutionary Unionism",
+          "url": "https://www.marxists.org/archive/debs/works/1905/revunion.htm"
+        },
+        {
+          "title": "Class Unionism",
+          "url": "https://www.marxists.org/archive/debs/works/1905/classunionism.htm"
+        },
+        {
+          "title": "Industrial Unionism",
+          "url": "https://www.marxists.org/archive/debs/works/1905/industrial.htm"
+        },
+        {
+          "title": "Speech to the IWW Founding Convention",
+          "url": "https://www.marxists.org/archive/debs/works/1905/iwwfound.htm"
+        },
+        {
+          "title": "Growth of the Injunction",
+          "url": "https://www.marxists.org/archive/debs/works/1905/injunction.htm"
+        },
+        {
+          "title": "The Industrial Convention",
+          "url": "https://www.marxists.org/archive/debs/works/1905/convention.htm"
+        },
+        {
+          "title": "Arouse, ye slaves!",
+          "url": "https://www.marxists.org/archive/debs/works/1906/arouse.htm"
+        },
+        {
+          "title": "Open Letter to President Roosevelt",
+          "url": "https://www.marxists.org/archive/debs/works/1906/roosevelt.htm"
+        },
+        {
+          "title": "You Railway Men",
+          "url": "https://www.marxists.org/archive/debs/works/1906/rail.htm"
+        },
+        {
+          "title": "John Brown: Americ’s Greatest Hero",
+          "url": "https://www.marxists.org/archive/debs/works/1907/johnbrown.htm"
+        },
+        {
+          "title": "Mother Jones",
+          "url": "https://www.marxists.org/archive/debs/works/1907/motherjones.htm"
+        },
+        {
+          "title": "Roosevelt’s Labor Letters",
+          "url": "https://www.marxists.org/archive/debs/works/1907/roosletter.htm"
+        },
+        {
+          "title": "Roosevelt and His Regime",
+          "url": "https://www.marxists.org/archive/debs/works/1907/1907-roosevelt.htm"
+        },
+        {
+          "title": "December 2, 1859",
+          "url": "https://www.marxists.org/archive/debs/works/1907/december2.htm"
+        },
+        {
+          "title": "Thomas McGrady",
+          "url": "https://www.marxists.org/archive/debs/works/1907/mcgrady.htm"
+        },
+        {
+          "title": "Railroad Employees and Socialism",
+          "url": "https://www.marxists.org/archive/debs/works/1908/rail.htm"
+        },
+        {
+          "title": "Unity and Victory",
+          "url": "https://www.marxists.org/archive/debs/works/1908/1908-unity.htm"
+        },
+        {
+          "title": "The Issue",
+          "url": "https://www.marxists.org/archive/debs/works/1908/issue.htm"
+        },
+        {
+          "title": "Susan B. Anthony: A Reminiscence",
+          "url": "https://www.marxists.org/archive/debs/works/1909/1909-anthony.htm"
+        },
+        {
+          "title": "Industrial Unionism: A Letter to Tom Mann",
+          "url": "https://www.marxists.org/archive/debs/works/1910/letter.htm"
+        },
+        {
+          "title": "A Letter from Debs on Immigration",
+          "url": "https://www.marxists.org/archive/debs/works/1910/immigration.htm"
+        },
+        {
+          "title": "The Little Lords of Love",
+          "url": "https://www.marxists.org/archive/debs/works/1910/1910-little.htm"
+        },
+        {
+          "title": "Help! Help!! Help!!!",
+          "url": "https://www.marxists.org/archive/debs/works/1911/help.htm"
+        },
+        {
+          "title": "Danger Ahead",
+          "url": "https://www.marxists.org/archive/debs/works/1911/danger.htm"
+        },
+        {
+          "title": "Labor’s Struggle For Supremacy",
+          "url": "https://www.marxists.org/archive/debs/works/1911/labor.htm"
+        },
+        {
+          "title": "The Eight Hour Work Day",
+          "url": "https://www.marxists.org/archive/debs/works/1911/8hrday.htm"
+        },
+        {
+          "title": "The Crime Of Craft Unionism",
+          "url": "https://www.marxists.org/archive/debs/works/1911/craft.htm"
+        },
+        {
+          "title": "This is Our Year: But Two Parties And But One Issue",
+          "url": "https://www.marxists.org/archive/debs/works/1912/twoparties.htm"
+        },
+        {
+          "title": "Political Appeal to American Workers",
+          "url": "https://www.marxists.org/archive/debs/works/1912/1912-appeal.htm"
+        },
+        {
+          "title": "Capitalism and Socialism",
+          "url": "https://www.marxists.org/archive/debs/works/1912/1912-capsoc.htm"
+        },
+        {
+          "title": "A Message to the Children",
+          "url": "https://www.marxists.org/archive/debs/works/1912/1912-children.htm"
+        },
+        {
+          "title": "The Fight for Freedom",
+          "url": "https://www.marxists.org/archive/debs/works/1912/1912-freedom.htm"
+        },
+        {
+          "title": "Pioneer Women in America",
+          "url": "https://www.marxists.org/archive/debs/works/1912/1912-women.htm"
+        },
+        {
+          "title": "The Old Umbrella Mender",
+          "url": "https://www.marxists.org/archive/debs/works/1913/1913-umbrella.htm"
+        },
+        {
+          "title": "The Coppock Brothers: Heroes of Harper’s Ferry",
+          "url": "https://www.marxists.org/archive/debs/works/1914/1914-coppock.htm"
+        },
+        {
+          "title": "alternate source",
+          "url": "https://www.marxists.org/archive/debs/works/1914/deleon.htm"
+        },
+        {
+          "title": "Carnegie, Man of Peace",
+          "url": "https://www.marxists.org/history/usa/pubs/newreview/1914/v2n09-sep-1914.pdf#page=13"
+        },
+        {
+          "title": "Never Be A Soldier",
+          "url": "https://www.marxists.org/history/etol/newspape/atc/858.html"
+        },
+        {
+          "title": "Editorial in The National Ripsaw",
+          "url": "https://www.marxists.org/archive/debs/works/1915/nationalripsaw/may.htm"
+        },
+        {
+          "title": "Industrial and Social Democracy",
+          "url": "https://www.marxists.org/archive/debs/works/1915/1915-indsocdem.htm"
+        },
+        {
+          "title": "Louis Tikas: Ludlow’s Hero and Martyr",
+          "url": "https://www.marxists.org/archive/debs/works/1915/1915-tikas.htm"
+        },
+        {
+          "title": "Social Reform",
+          "url": "https://www.marxists.org/archive/debs/works/1916/1916-socreform.htm"
+        },
+        {
+          "title": "James Connolly’s Foul Murder",
+          "url": "https://www.marxists.org/archive/debs/works/1916/connolly.htm"
+        },
+        {
+          "title": "Fantine in Our Day",
+          "url": "https://www.marxists.org/history/usa/pubs/newreview/1916/v4n06-jun-1916.pdf#page=22"
+        },
+        {
+          "title": "The Majority Report",
+          "url": "https://www.marxists.org/archive/debs/works/1917/majority.htm"
+        },
+        {
+          "title": "The Canton, Ohio Anti-War Speech",
+          "url": "https://www.marxists.org/archive/debs/works/1918/canton.htm"
+        },
+        {
+          "title": "Statement to the Court Upon Being Convicted of Violating the Sedition Act",
+          "url": "https://www.marxists.org/archive/debs/works/1918/court.htm"
+        },
+        {
+          "title": "The Day of the People",
+          "url": "https://www.marxists.org/archive/debs/works/1919/daypeople.htm"
+        },
+        {
+          "title": "DOC format",
+          "url": "https://www.marxists.org/archive/debs/works/1920/socialist.doc"
+        },
+        {
+          "title": "Flea and Donkey",
+          "url": "https://www.marxists.org/archive/debs/works/xx/flea.htm"
+        },
+        {
+          "title": "Eye to Eye",
+          "url": "https://www.marxists.org/archive/debs/works/xx/eye.htm"
+        },
+        {
+          "title": "Prince and Proletaire",
+          "url": "https://www.marxists.org/archive/debs/works/xx/prince.htm"
+        }
+      ],
       "imageUrl": ""
     },
     {
@@ -4322,24 +4674,284 @@
       "bioUrl": "/reference/archive/luxemburg/index.htm",
       "works": [
         {
-          "title": "Reform or Revolution",
-          "url": "/archive/luxemburg/1900/reform-revolution/"
+          "title": "What Are the Origins of May Day?",
+          "url": "https://www.marxists.org/archive/luxemburg/1894/02/may-day.htm"
         },
         {
-          "title": "The Accumulation of Capital",
-          "url": "/archive/luxemburg/1913/accumulation-capital/"
+          "title": "The Polish Question at the International Congress in London",
+          "url": "https://www.marxists.org/archive/luxemburg/1896/07/polish-question.htm"
         },
         {
-          "title": "The Mass Strike",
-          "url": "/archive/luxemburg/1906/mass-strike/"
+          "title": "Social Democracy and the National Struggles in Turkey",
+          "url": "https://www.marxists.org/archive/luxemburg/1896/10/10.htm"
         },
         {
-          "title": "The Russian Revolution",
-          "url": "/archive/luxemburg/1918/russian-revolution/"
+          "title": "Opportunism and the art of the possible",
+          "url": "https://www.marxists.org/archive/luxemburg/1898/09/30.htm"
         },
         {
-          "title": "The Junius Pamphlet",
-          "url": "/archive/luxemburg/1915/junius/"
+          "title": "Speeches to Stuttgart Congress",
+          "url": "https://www.marxists.org/archive/luxemburg/1898/10/04.htm"
+        },
+        {
+          "title": "A question of tactics",
+          "url": "https://www.marxists.org/archive/luxemburg/1899/07/tactics.html"
+        },
+        {
+          "title": "Speech to the Hanover Congress",
+          "url": "https://www.marxists.org/archive/luxemburg/1899/10/11.htm"
+        },
+        {
+          "title": "The Dreyfus Affair and the Millerand Case",
+          "url": "https://www.marxists.org/archive/luxemburg/1899/11/dreyfus-affair.htm"
+        },
+        {
+          "title": "Militia and Militarism",
+          "url": "https://www.marxists.org/archive/luxemburg/1899/02/26.htm"
+        },
+        {
+          "title": "In Defense of Nationality",
+          "url": "https://www.marxists.org/archive/luxemburg/1900/nationality/index.html"
+        },
+        {
+          "title": "An anti-clerical policy of Socialism",
+          "url": "https://www.marxists.org/archive/luxemburg/1903/01/01.htm"
+        },
+        {
+          "title": "Stagnation and Progress of Marxism",
+          "url": "https://www.marxists.org/archive/luxemburg/1903/misc/stagnation.htm"
+        },
+        {
+          "title": "Lassalle and the Revolution",
+          "url": "https://www.marxists.org/archive/luxemburg/1904/03/lassalle.html"
+        },
+        {
+          "title": "In the Storm",
+          "url": "https://www.marxists.org/archive/luxemburg/1904/05/01.htm"
+        },
+        {
+          "title": "Social Democracy and Parliamentarism",
+          "url": "https://www.marxists.org/archive/luxemburg/1904/06/05.htm"
+        },
+        {
+          "title": "The Revolution in Russia",
+          "url": "https://www.marxists.org/archive/luxemburg/1905/02/08.htm"
+        },
+        {
+          "title": "Socialism and the Churches",
+          "url": "https://www.marxists.org/archive/luxemburg/1905/misc/socialism-churches.htm"
+        },
+        {
+          "title": "Riot and Revolution",
+          "url": "https://www.marxists.org/archive/luxemburg/1906/misc/riot-revolution.htm"
+        },
+        {
+          "title": "Blanquism and Social Democracy",
+          "url": "https://www.marxists.org/archive/luxemburg/1906/06/blanquism.html"
+        },
+        {
+          "title": "Two Methods of Trade-Union Policy",
+          "url": "https://www.marxists.org/archive/luxemburg/1907/10/24.htm"
+        },
+        {
+          "title": "25th anniversary of Marx’s death",
+          "url": "https://www.marxists.org/archive/luxemburg/1908/03/15.htm"
+        },
+        {
+          "title": "The First May as a Day of Working-Class Struggle",
+          "url": "https://www.marxists.org/archive/luxemburg/1908/09/mayday.htm"
+        },
+        {
+          "title": "On the Question of Budget Approval",
+          "url": "https://www.marxists.org/archive/luxemburg/1908/09/budget.html"
+        },
+        {
+          "title": "Revolutionary Hangover",
+          "url": "https://www.marxists.org/archive/luxemburg/1909/04/hangover.htm"
+        },
+        {
+          "title": "Attrition or Struggle?",
+          "url": "https://www.marxists.org/history/etol/newspape/workers-action-uk/Workers Action no143 June 1979.pdf#page=11"
+        },
+        {
+          "title": "Part 2",
+          "url": "https://www.marxists.org/history/etol/newspape/workers-action-uk/Workers Action no144 June 1979.pdf#page=8"
+        },
+        {
+          "title": "Part 3",
+          "url": "https://www.marxists.org/history/etol/newspape/workers-action-uk/Workers Action no145 June 1979.pdf#page=8"
+        },
+        {
+          "title": "concluding remarks: alternate translation",
+          "url": "https://www.marxists.org/archive/luxemburg/1910/theory-practice/postscript.htm"
+        },
+        {
+          "title": "Concerning Morocco",
+          "url": "https://www.marxists.org/archive/luxemburg/1911/07/24.htm"
+        },
+        {
+          "title": "Peace Utopias",
+          "url": "https://www.marxists.org/archive/luxemburg/1911/05/11.htm"
+        },
+        {
+          "title": "Mass Action",
+          "url": "https://www.marxists.org/archive/luxemburg/1911/08/29.htm"
+        },
+        {
+          "title": "An Amusing Misunderstanding",
+          "url": "https://www.marxists.org/archive/luxemburg/1911/09/09.htm"
+        },
+        {
+          "title": "Women’s Suffrage and Class Struggle",
+          "url": "https://www.marxists.org/archive/luxemburg/1912/05/12.htm"
+        },
+        {
+          "title": "The Fallen Women of Liberalism",
+          "url": "https://www.marxists.org/archive/luxemburg/1912/misc/fallen-women-liberalism.htm"
+        },
+        {
+          "title": "What Now?",
+          "url": "https://www.marxists.org/archive/luxemburg/1912/02/05.htm"
+        },
+        {
+          "title": "The Idea of May Day on the March",
+          "url": "https://www.marxists.org/archive/luxemburg/1913/04/30.htm"
+        },
+        {
+          "title": "Down With Reformist Illusions—Hail the Revolutionary Class Struggle!",
+          "url": "https://www.marxists.org/archive/luxemburg/1913/04/30a.htm"
+        },
+        {
+          "title": "The Political Mass Strike",
+          "url": "https://www.marxists.org/archive/luxemburg/1913/07/22.htm"
+        },
+        {
+          "title": "Lassalle’s Legacy",
+          "url": "https://www.marxists.org/archive/luxemburg/1913/xx/lassalle.html"
+        },
+        {
+          "title": "German SDP and the War",
+          "url": "https://www.marxists.org/history/international/social-democracy/sdp-and-war.htm"
+        },
+        {
+          "title": "Rebuilding the International",
+          "url": "https://www.marxists.org/archive/luxemburg/1915/xx/rebuild-int.htm"
+        },
+        {
+          "title": "Theses on the Tasks of International Social-Democracy",
+          "url": "https://www.marxists.org/archive/luxemburg/1915/xx/theses.htm"
+        },
+        {
+          "title": "Dog Politics",
+          "url": "https://www.marxists.org/archive/luxemburg/1916/05/dogpolitics.html"
+        },
+        {
+          "title": "The Old Mole",
+          "url": "https://www.marxists.org/archive/luxemburg/1917/04/oldmole.htm"
+        },
+        {
+          "title": "The Russian tragedy",
+          "url": "https://www.marxists.org/archive/luxemburg/1918/09/11.htm"
+        },
+        {
+          "title": "Oh! How – German is this Revolution!",
+          "url": "https://www.marxists.org/archive/luxemburg/1918/11/18.htm"
+        },
+        {
+          "title": "The Beginning",
+          "url": "https://www.marxists.org/archive/luxemburg/1918/11/18b.htm"
+        },
+        {
+          "title": "A Duty of Honor",
+          "url": "https://www.marxists.org/archive/luxemburg/1918/11/18c.htm"
+        },
+        {
+          "title": "Against Capital Punishment",
+          "url": "https://www.marxists.org/archive/luxemburg/1918/11/18c-alt.htm"
+        },
+        {
+          "title": "The National Assembly",
+          "url": "https://www.marxists.org/archive/luxemburg/1918/11/20.htm"
+        },
+        {
+          "title": "A Call to the Workers of the World",
+          "url": "https://www.marxists.org/archive/luxemburg/1918/11/25.htm"
+        },
+        {
+          "title": "Manifesto of the German Spartacists",
+          "url": "https://www.marxists.org/history/international/social-democracy/call/1919/30.htm"
+        },
+        {
+          "title": "The Acheron in Motion",
+          "url": "https://www.marxists.org/archive/luxemburg/1918/11/27.htm"
+        },
+        {
+          "title": "Five Letters from Prison",
+          "url": "https://www.marxists.org/archive/luxemburg/1918/letters.htm"
+        },
+        {
+          "title": "Letters from Prison to Sophie Liebknecht",
+          "url": "https://www.marxists.org/archive/luxemburg/1918/letters-sophie.htm"
+        },
+        {
+          "title": "The Socialisation of Society",
+          "url": "https://www.marxists.org/archive/luxemburg/1918/12/20.htm"
+        },
+        {
+          "title": "What is Bolshevism?",
+          "url": "https://www.marxists.org/archive/luxemburg/1918/12/20-alt.htm"
+        },
+        {
+          "title": "What does the Spartacus League Want?",
+          "url": "https://www.marxists.org/archive/luxemburg/1918/12/14.htm"
+        },
+        {
+          "title": "The Elections to the National Assembly",
+          "url": "https://www.marxists.org/archive/luxemburg/1918/12/23.htm"
+        },
+        {
+          "title": "Our Program and the Political Situation",
+          "url": "https://www.marxists.org/archive/luxemburg/1918/12/31.htm"
+        },
+        {
+          "title": "On the Spartacus Programme",
+          "url": "https://www.marxists.org/archive/luxemburg/1918/12/30.htm"
+        },
+        {
+          "title": "What are the Leaders Doing?",
+          "url": "https://www.marxists.org/archive/luxemburg/1919/01/07.htm"
+        },
+        {
+          "title": "House of Cards",
+          "url": "https://www.marxists.org/archive/luxemburg/1919/01/13.htm"
+        },
+        {
+          "title": "Order Prevails in Berlin",
+          "url": "https://www.marxists.org/archive/luxemburg/1919/01/14.htm"
+        },
+        {
+          "title": "Postscript and Appendix",
+          "url": "https://www.marxists.org/subject/women/authors/kautsky-luise/works/postscript.htm"
+        },
+        {
+          "title": "Critiques of Luxemburg",
+          "url": "https://www.marxists.org/archive/luxemburg/subject/critiques.htm"
+        },
+        {
+          "title": "On Luxemburg",
+          "url": "https://www.marxists.org/archive/luxemburg/subject/on-luxemburg.htm"
+        },
+        {
+          "title": "Random House",
+          "url": "http://www.randomhouse.co.uk/home.htm"
+        },
+        {
+          "title": "Monthly Review Press",
+          "url": "http://www.monthlyreview.org/mrpress.htm"
+        },
+        {
+          "title": "News and Letters",
+          "url": "https://newsandletters.org/"
         }
       ],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Rosa_Luxemburg.jpg"
