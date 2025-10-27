@@ -8,6 +8,7 @@ import { Thinker, Work } from "@/lib/types";
 import { Badge } from "./ui/badge";
 import { categories } from "@/lib/data/categories";
 import { loadThinkerWorks } from "@/lib/data/thinkers-data";
+import marxWorksBySubject from "@/data/marx-works-by-subject.json";
 
 interface ThinkerSearchProps {
   thinkers: Thinker[];
@@ -16,6 +17,9 @@ interface ThinkerSearchProps {
 export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
   const [selectedThinker, setSelectedThinker] = useState<Thinker | null>(null);
   const [selectedThinkerWorks, setSelectedThinkerWorks] = useState<Work[]>([]);
+  const [majorWorksSearchQuery, setMajorWorksSearchQuery] = useState("");
+  const [marxWorksBySubjectData, setMarxWorksBySubjectData] = useState<Record<string, Work[]>>({});
+  const [worksBySectionSearchQuery, setWorksBySectionSearchQuery] = useState("");
   const [loadingWorks, setLoadingWorks] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
@@ -28,6 +32,22 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
         setSelectedThinkerWorks(works);
         setLoadingWorks(false);
       });
+
+      // Load works by subject specifically for Karl Marx
+      if (selectedThinker.name === "Karl Marx") {
+        const groupedWorks: Record<string, Work[]> = {};
+        marxWorksBySubject.forEach(work => {
+          if (work.subject) {
+            if (!groupedWorks[work.subject]) {
+              groupedWorks[work.subject] = [];
+            }
+            groupedWorks[work.subject].push(work);
+          }
+        });
+        setMarxWorksBySubjectData(groupedWorks);
+      } else {
+        setMarxWorksBySubjectData({}); // Clear for other thinkers
+      }
     }
   }, [selectedThinker]);
 
@@ -340,57 +360,65 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
 
           {selectedThinker && (
             <div className="space-y-6">
-              {/* Two-column layout for bio info */}
-              <div className="grid grid-cols-1 gap-6">
-                {/* Left section - Thinker Info Card with Image */}
-                <div className="md:col-span-2">
-                  <div className="bg-card border rounded-lg p-6">
-                    <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
-                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                      </svg>
-                      About the Thinker
-                    </h3>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                      {/* Image */}
-                      <div className="md:col-span-1">
-                      {selectedThinker.imageUrl && !selectedThinker.imageUrl.match(/\.(pdf|djvu)$/i) && (
-                        <div className="aspect-square overflow-hidden rounded-lg border">
-                          <img
-                            src={selectedThinker.imageUrl}
-                            alt={selectedThinker.name}
-                            className="w-full h-full object-cover"
-                            loading="lazy"
-                            decoding="async"
-                            onError={(e) => {
-                              e.currentTarget.src = `https://via.placeholder.com/300/cccccc/666666?text=${encodeURIComponent(selectedThinker.name)}`;
-                            }}
-                          />
-                        </div>
-                      )}
-                      </div>
-                      {/* Description */}
-                      <div className="md:col-span-2 space-y-4">
+              {/* About the Thinker section (always full width) */}
+              <div className="bg-card border rounded-lg p-6">
+                <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  About the Thinker
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  {/* Image */}
+                  <div className="md:col-span-1">
+                  {selectedThinker.imageUrl && !selectedThinker.imageUrl.match(/\.(pdf|djvu)$/i) && (
+                    <div className="aspect-square overflow-hidden rounded-lg border">
+                      <img
+                        src={selectedThinker.imageUrl}
+                        alt={selectedThinker.name}
+                        className="w-full h-full object-cover"
+                        loading="lazy"
+                        decoding="async"
+                        onError={(e) => {
+                          e.currentTarget.src = `https://via.placeholder.com/300/cccccc/666666?text=${encodeURIComponent(selectedThinker.name)}`;
+                        }}
+                      />
+                    </div>
+                  )}
+                  </div>
+                  {/* Description */}
+                  <div className="md:col-span-2 space-y-4">
+                    <div>
+                      <p className="text-muted-foreground leading-relaxed">{selectedThinker.description}</p>
+                    </div>
+                    <div className="pt-4 border-t">
+                      <div className="flex items-start gap-3 text-sm">
+                        <svg className="w-5 h-5 text-muted-foreground mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                        </svg>
                         <div>
-                          <p className="text-muted-foreground leading-relaxed">{selectedThinker.description}</p>
+                          <span className="text-muted-foreground">Category: </span>
+                          <span className="font-medium">{selectedThinker.category}</span>
                         </div>
-                        <div className="pt-4 border-t">
-                          <div className="flex items-start gap-3 text-sm">
-                            <svg className="w-5 h-5 text-muted-foreground mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
-                            </svg>
-                            <div>
-                              <span className="text-muted-foreground">Category: </span>
-                              <span className="font-medium">{selectedThinker.category}</span>
-                            </div>
-                          </div>
-                        </div>
+                      </div>
+                      <div className="mt-4 pt-4 border-t">
+                        <a
+                          href={`https://www.marxists.org${selectedThinker.bioUrl}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm text-primary hover:underline flex items-center gap-2"
+                        >
+                          View full biography →
+                        </a>
                       </div>
                     </div>
                   </div>
                 </div>
+              </div>
 
-                {/* Right section - Works Card */}
+              {/* Works sections (two-column layout on md screens) */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {/* Major Works Card */}
                 <div className="bg-card border rounded-lg p-6">
                   <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -398,6 +426,18 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                     </svg>
                     Major Works
                   </h3>
+                  <div className="relative mb-4">
+                    <svg className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                    <input
+                      type="text"
+                      placeholder="Filter major works..."
+                      value={majorWorksSearchQuery}
+                      onChange={(e) => setMajorWorksSearchQuery(e.target.value)}
+                      className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 pl-10 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                    />
+                  </div>
                   <div className="space-y-3">
                     {loadingWorks ? (
                       <div className="flex items-center justify-center py-8">
@@ -406,47 +446,109 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                           <p className="text-sm text-muted-foreground">Loading works...</p>
                         </div>
                       </div>
-                    ) : selectedThinkerWorks.length > 0 ? (
-                      selectedThinkerWorks.map((work, index) => (
-                        <a
-                          key={index}
-                          href={`https://www.marxists.org${work.url}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="block p-3 rounded-lg border hover:bg-muted/50 transition-colors group"
-                        >
-                          <div className="space-y-1">
-                            <div className="flex items-center justify-between">
-                              <span className="text-sm font-medium group-hover:text-primary transition-colors">
-                                {work.title}
-                              </span>
-                              <svg className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                              </svg>
-                            </div>
-                            {work.description && (
-                              <p className="text-xs text-muted-foreground line-clamp-2">
-                                {work.description}
-                              </p>
-                            )}
-                          </div>
-                        </a>
-                      ))
                     ) : (
-                      <p className="text-sm text-muted-foreground py-4 text-center">No works available</p>
+                      (() => {
+                        const filteredMajorWorks = selectedThinkerWorks.filter(work =>
+                          work.title.toLowerCase().includes(majorWorksSearchQuery.toLowerCase())
+                        );
+                        return filteredMajorWorks.length > 0 ? (
+                          filteredMajorWorks.map((work, index) => (
+                            <a
+                              key={index}
+                              href={`https://www.marxists.org${work.url}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="block p-3 rounded-lg border hover:bg-muted/50 transition-colors group"
+                            >
+                              <div className="space-y-1">
+                                <div className="flex items-center justify-between">
+                                  <span className="text-sm font-medium group-hover:text-primary transition-colors">
+                                    {work.title}
+                                  </span>
+                                  <svg className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                  </svg>
+                                </div>
+                                {work.description && (
+                                  <p className="text-xs text-muted-foreground line-clamp-2">
+                                    {work.description}
+                                  </p>
+                                )}
+                              </div>
+                            </a>
+                          ))
+                        ) : (
+                          <p className="text-sm text-muted-foreground py-4 text-center">No major works found matching your filter.</p>
+                        );
+                      })()
                     )}
                   </div>
-                  <div className="mt-4 pt-4 border-t">
-                    <a
-                      href={`https://www.marxists.org${selectedThinker.bioUrl}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm text-primary hover:underline flex items-center gap-2"
-                    >
-                      View full biography →
-                    </a>
-                  </div>
+                  
                 </div>
+
+                {/* Works by Section for Karl Marx */}
+                {selectedThinker.name === "Karl Marx" && Object.keys(marxWorksBySubjectData).length > 0 && (
+                  <div className="bg-card border rounded-lg p-6">
+                    <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                      </svg>
+                      Works by Section
+                    </h3>
+                    <div className="relative mb-4">
+                      <svg className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                      </svg>
+                      <input
+                        type="text"
+                        placeholder="Filter works by section..."
+                        value={worksBySectionSearchQuery}
+                        onChange={(e) => setWorksBySectionSearchQuery(e.target.value)}
+                        className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 pl-10 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                      />
+                    </div>
+                    <Accordion type="multiple" className="w-full" defaultValue={Object.keys(marxWorksBySubjectData).slice(0, 3)} collabsible>
+                      {Object.entries(marxWorksBySubjectData).map(([subject, works]) => {
+                        const filteredSubjectWorks = works.filter(work => 
+                          work.title.toLowerCase().includes(worksBySectionSearchQuery.toLowerCase())
+                        );  
+                        if (filteredSubjectWorks.length === 0) return null; // Don't render empty subjects
+
+                        return (
+                          <AccordionItem value={subject} key={subject}>
+                            <AccordionTrigger className="text-base">
+                              {subject} ({filteredSubjectWorks.length})
+                            </AccordionTrigger>
+                            <AccordionContent className="space-y-2">
+                              {filteredSubjectWorks.length > 0 ? (
+                                filteredSubjectWorks.map((work, index) => (
+                                  <a
+                                    key={index}
+                                    href={work.full_url || work.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="block p-2 rounded-lg border hover:bg-muted/50 transition-colors group text-sm"
+                                  >
+                                    <div className="flex items-center justify-between">
+                                      <span className="font-medium group-hover:text-primary transition-colors">
+                                        {work.title}
+                                      </span>
+                                      <svg className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                      </svg>
+                                    </div>
+                                  </a>
+                                ))
+                              ) : (
+                                <p className="text-sm text-muted-foreground py-4 text-center">No works found in this section matching your filter.</p>
+                              )}
+                            </AccordionContent>
+                          </AccordionItem>
+                        );
+                      })}
+                    </Accordion>
+                  </div>
+                )}
               </div>
             </div>
           )}

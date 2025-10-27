@@ -14,6 +14,7 @@ export interface Work {
   url: string;
   year?: string;
   description?: string;
+  subject?: string;
 }
 
 export interface ThinkerCategory {
