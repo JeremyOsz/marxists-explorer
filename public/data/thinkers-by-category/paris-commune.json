@@ -1,26 +1,29 @@
 [
   {
-    "name": "Henri Rochefort",
-    "category": "Paris Commune",
-    "description": "Marxist thinker and theorist in the tradition of paris commune.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Henri Rochefort",
+    "c": "Paris Commune",
+    "d": "Marxist thinker and theorist in the tradition of paris commune.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/6/68/%C3%89douard_Manet_-_Portrait_Henri_Rochefort2.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/%C3%89douard_Manet_-_Portrait_Henri_Rochefort2.jpg/250px-%C3%89douard_Manet_-_Portrait_Henri_Rochefort2.jpg",
+    "w": 0
   },
   {
-    "name": "Jules Valès",
-    "category": "Paris Commune",
-    "description": "Marxist thinker and theorist in the tradition of paris commune.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Jules Valès",
+    "c": "Paris Commune",
+    "d": "Marxist thinker and theorist in the tradition of paris commune.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Louis-Jules-Bouchot-photo-1848.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Louis-Jules-Bouchot-photo-1848.jpg/250px-Louis-Jules-Bouchot-photo-1848.jpg",
+    "w": 0
   },
   {
-    "name": "Louise Michel",
-    "category": "Paris Commune",
-    "description": "Marxist thinker and theorist in the tradition of paris commune.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Louise Michel",
+    "c": "Paris Commune",
+    "d": "Marxist thinker and theorist in the tradition of paris commune.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/d/db/%28Narbonne%29_Louise_Th%C3%A9r%C3%A8se_d%27Orl%C3%A9ans%2C_Duchesse_de_Bourbon_-_Louis-Michel_van_Loo_-_Mus%C3%A9e_des_Beaux-Arts_de_Narbonne.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/%28Narbonne%29_Louise_Th%C3%A9r%C3%A8se_d%27Orl%C3%A9ans%2C_Duchesse_de_Bourbon_-_Louis-Michel_van_Loo_-_Mus%C3%A9e_des_Beaux-Arts_de_Narbonne.jpg/250px-%28Narbonne%29_Louise_Th%C3%A9r%C3%A8se_d%27Orl%C3%A9ans%2C_Duchesse_de_Bourbon_-_Louis-Michel_van_Loo_-_Mus%C3%A9e_des_Beaux-Arts_de_Narbonne.jpg",
+    "w": 0
   }
 ]

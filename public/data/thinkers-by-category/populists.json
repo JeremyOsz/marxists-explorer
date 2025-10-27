@@ -1,10 +1,11 @@
 [
   {
-    "name": "Attila József",
-    "category": "Populists",
-    "description": "Marxist thinker and theorist in the tradition of populists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Attila József",
+    "c": "Populists",
+    "d": "Marxist thinker and theorist in the tradition of populists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/9/94/J%C3%B3zsef_Attila_1927.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/J%C3%B3zsef_Attila_1927.jpg/250px-J%C3%B3zsef_Attila_1927.jpg",
+    "w": 0
   }
 ]

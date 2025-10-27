@@ -34,6 +34,7 @@ function expandMetadata(metadata: ThinkerMetadata, works: Work[] = []): Thinker 
     description: metadata.d,
     bioUrl: metadata.b,
     imageUrl: metadata.i,
+    thumbnailUrl: metadata.t,
     works: works,
     workCount: metadata.w,
   };

@@ -221,10 +221,10 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                     >
                       <div className="flex items-start gap-3">
                         {/* Portrait */}
-                        {thinker.imageUrl && !thinker.imageUrl.match(/\.(pdf|djvu)$/i) && (
+                        {(thinker.thumbnailUrl || thinker.imageUrl) && !(thinker.thumbnailUrl || thinker.imageUrl)?.match(/\.(pdf|djvu)$/i) && (
                           <div className="w-14 h-14 rounded-full overflow-hidden border flex-shrink-0">
                             <img
-                              src={thinker.imageUrl}
+                              src={thinker.thumbnailUrl || thinker.imageUrl}
                               alt={thinker.name}
                               className="w-full h-full object-cover"
                               loading="lazy"
@@ -286,10 +286,10 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                           >
                             <div className="flex items-start gap-3">
                               {/* Portrait */}
-                              {thinker.imageUrl && !thinker.imageUrl.match(/\.(pdf|djvu)$/i) && (
+                              {(thinker.thumbnailUrl || thinker.imageUrl) && !(thinker.thumbnailUrl || thinker.imageUrl)?.match(/\.(pdf|djvu)$/i) && (
                                 <div className="w-14 h-14 rounded-full overflow-hidden border flex-shrink-0">
                                   <img
-                                    src={thinker.imageUrl}
+                                    src={thinker.thumbnailUrl || thinker.imageUrl}
                                     alt={thinker.name}
                                     className="w-full h-full object-cover"
                                     loading="lazy"

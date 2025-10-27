@@ -14,6 +14,7 @@ export interface Thinker {
   bioUrl: string;
   works: Work[];
   imageUrl: string;
+  thumbnailUrl?: string;
   workCount?: number; // For metadata-only thinkers
 }
 
@@ -24,6 +25,7 @@ export interface ThinkerMetadata {
   d: string; // description
   b: string; // bioUrl
   i: string; // imageUrl
+  t?: string; // thumbnailUrl
   w: number; // workCount
 }
 

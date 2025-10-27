@@ -1,72 +1,56 @@
 [
   {
-    "name": "Angela Davis",
-    "category": "Black Liberation",
-    "description": "American political activist, philosopher, academic, and author. Member of the Communist Party USA. Works on feminism, class, gender, and the abolition of prisons. Icon of the black power movement.",
-    "bioUrl": "/archive/davis-angela/index.htm",
-    "works": [
-      {
-        "title": "Women, Race and Class",
-        "url": "/archive/davis-angela/"
-      },
-      {
-        "title": "Are Prisons Obsolete?",
-        "url": "/archive/davis-angela/"
-      },
-      {
-        "title": "The Angela Davis Reader",
-        "url": "/archive/davis-angela/"
-      }
-    ],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Angela_Davis_2010.jpg/800px-Angela_Davis_2010.jpg"
+    "n": "Angela Davis",
+    "c": "Black Liberation",
+    "d": "American political activist, philosopher, academic, and author. Member of the Communist Party USA. Works on feminism, class, gender, and the abolition of prisons. Icon of the black power movement.",
+    "b": "/archive/davis-angela/index.htm",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Angela_Davis_2010.jpg/800px-Angela_Davis_2010.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Angela_Davis_in_a_half-length_portrait_by_Bernard_Gotfryd_-_crop.jpg/250px-Angela_Davis_in_a_half-length_portrait_by_Bernard_Gotfryd_-_crop.jpg",
+    "w": 24
   },
   {
-    "name": "Fred Hampton",
-    "category": "Black Liberation",
-    "description": "Marxist thinker and theorist in the tradition of black liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Fred Hampton",
+    "c": "Black Liberation",
+    "d": "Marxist thinker and theorist in the tradition of black liberation.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/0/0a/The_Massachusetts_building%2C_Hampton_Roads%2C_Virginia_%28IA_massachusettsbui00mass%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/The_Massachusetts_building%2C_Hampton_Roads%2C_Virginia_%28IA_massachusettsbui00mass%29.pdf/page1-200px-The_Massachusetts_building%2C_Hampton_Roads%2C_Virginia_%28IA_massachusettsbui00mass%29.pdf.jpg",
+    "w": 5
   },
   {
-    "name": "Huey P. Newton",
-    "category": "Black Liberation",
-    "description": "Marxist thinker and theorist in the tradition of black liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Huey P. Newton",
+    "c": "Black Liberation",
+    "d": "Marxist thinker and theorist in the tradition of black liberation.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/d/da/%22Revolutionary_Suicide%22%2C_by_Huey_P._Newton_%28cropped%29.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/%22Revolutionary_Suicide%22%2C_by_Huey_P._Newton_%28cropped%29.jpg/250px-%22Revolutionary_Suicide%22%2C_by_Huey_P._Newton_%28cropped%29.jpg",
+    "w": 9
   },
   {
-    "name": "John Brown",
-    "category": "Black Liberation",
-    "description": "Marxist thinker and theorist in the tradition of black liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "John Brown",
+    "c": "Black Liberation",
+    "d": "Marxist thinker and theorist in the tradition of black liberation.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/7/73/Portrait_of_Rev._M._O._Jones_%28Menai_Bridge%29_%284670346%29.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Portrait_of_Rev._M._O._Jones_%28Menai_Bridge%29_%284670346%29.jpg/250px-Portrait_of_Rev._M._O._Jones_%28Menai_Bridge%29_%284670346%29.jpg",
+    "w": 15
   },
   {
-    "name": "Malcolm X",
-    "category": "Black Liberation",
-    "description": "African American civil rights leader, minister, and human rights activist. Prominent figure in the Nation of Islam and later Sunni Islam. Advocated black empowerment and Pan-Africanism.",
-    "bioUrl": "/archive/malcolm-x/index.htm",
-    "works": [
-      {
-        "title": "The Autobiography of Malcolm X",
-        "url": "/archive/malcolm-x/"
-      },
-      {
-        "title": "Malcolm X Speaks",
-        "url": "/archive/malcolm-x/"
-      }
-    ],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Malcolm_X_NYWTS_2a.jpg/800px-Malcolm_X_NYWTS_2a.jpg"
+    "n": "Malcolm X",
+    "c": "Black Liberation",
+    "d": "African American civil rights leader, minister, and human rights activist. Prominent figure in the Nation of Islam and later Sunni Islam. Advocated black empowerment and Pan-Africanism.",
+    "b": "/archive/malcolm-x/index.htm",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Malcolm_X_NYWTS_2a.jpg/800px-Malcolm_X_NYWTS_2a.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Malcolm_X_1964_press_photo.jpg/250px-Malcolm_X_1964_press_photo.jpg",
+    "w": 2
   },
   {
-    "name": "Toussaint Louverture",
-    "category": "Black Liberation",
-    "description": "Marxist thinker and theorist in the tradition of black liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Toussaint Louverture",
+    "c": "Black Liberation",
+    "d": "Marxist thinker and theorist in the tradition of black liberation.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Toussaint_Louverture._Kupfer%2C_1806.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Toussaint_Louverture._Kupfer%2C_1806.jpg/250px-Toussaint_Louverture._Kupfer%2C_1806.jpg",
+    "w": 0
   }
 ]

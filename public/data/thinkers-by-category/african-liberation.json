@@ -1,106 +1,119 @@
 [
   {
-    "name": "Amilcar Cabral",
-    "category": "African Liberation",
-    "description": "Marxist thinker and theorist in the tradition of african liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Amilcar Cabral",
+    "c": "African Liberation",
+    "d": "Marxist thinker and theorist in the tradition of african liberation.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Amilcar_Cabral_FOCR.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Amilcar_Cabral_FOCR.jpg/250px-Amilcar_Cabral_FOCR.jpg",
+    "w": 45
   },
   {
-    "name": "Baruch Hirson",
-    "category": "African Liberation",
-    "description": "Marxist thinker and theorist in the tradition of african liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Baruch Hirson",
+    "c": "African Liberation",
+    "d": "Marxist thinker and theorist in the tradition of african liberation.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/0/01/Journal_officiel_de_la_R%C3%A9publique_fran%C3%A7aise%2C_31_d%C3%A9cembre_1875.djvu",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Journal_officiel_de_la_R%C3%A9publique_fran%C3%A7aise%2C_31_d%C3%A9cembre_1875.djvu/page1-200px-Journal_officiel_de_la_R%C3%A9publique_fran%C3%A7aise%2C_31_d%C3%A9cembre_1875.djvu.jpg",
+    "w": 0
   },
   {
-    "name": "Brian Bunting",
-    "category": "African Liberation",
-    "description": "Marxist thinker and theorist in the tradition of african liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Brian Bunting",
+    "c": "African Liberation",
+    "d": "Marxist thinker and theorist in the tradition of african liberation.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/6/62/Books_from_the_Library_of_Congress_%28IA_historicalhandbo00moor%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Books_from_the_Library_of_Congress_%28IA_historicalhandbo00moor%29.pdf/page1-200px-Books_from_the_Library_of_Congress_%28IA_historicalhandbo00moor%29.pdf.jpg",
+    "w": 122
   },
   {
-    "name": "Govan Mbeki",
-    "category": "African Liberation",
-    "description": "Marxist thinker and theorist in the tradition of african liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Govan Mbeki",
+    "c": "African Liberation",
+    "d": "Marxist thinker and theorist in the tradition of african liberation.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Eredoctoraat_sociale_wetenschappen_voor_Govan_Mbeki_%281978%29.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Eredoctoraat_sociale_wetenschappen_voor_Govan_Mbeki_%281978%29.jpg/250px-Eredoctoraat_sociale_wetenschappen_voor_Govan_Mbeki_%281978%29.jpg",
+    "w": 0
   },
   {
-    "name": "Joe Slovo",
-    "category": "African Liberation",
-    "description": "Marxist thinker and theorist in the tradition of african liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Joe Slovo",
+    "c": "African Liberation",
+    "d": "Marxist thinker and theorist in the tradition of african liberation.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Woman_in_Joe_Slovo_Park%2C_Cape_Town%2C_South_Africa-3713.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Woman_in_Joe_Slovo_Park%2C_Cape_Town%2C_South_Africa-3713.jpg/250px-Woman_in_Joe_Slovo_Park%2C_Cape_Town%2C_South_Africa-3713.jpg",
+    "w": 2
   },
   {
-    "name": "Julius Nyerere",
-    "category": "African Liberation",
-    "description": "Marxist thinker and theorist in the tradition of african liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Julius Nyerere",
+    "c": "African Liberation",
+    "d": "Marxist thinker and theorist in the tradition of african liberation.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/3/30/Julius_Nyerere_cropped.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Julius_Nyerere_cropped.jpg/250px-Julius_Nyerere_cropped.jpg",
+    "w": 1
   },
   {
-    "name": "Kwame Nkrumah",
-    "category": "African Liberation",
-    "description": "Marxist thinker and theorist in the tradition of african liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Kwame Nkrumah",
+    "c": "African Liberation",
+    "d": "Marxist thinker and theorist in the tradition of african liberation.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Kwame_Nkrumah_illustration.png",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Kwame_Nkrumah_illustration.png/250px-Kwame_Nkrumah_illustration.png",
+    "w": 0
   },
   {
-    "name": "Mehdi Ben Barka",
-    "category": "African Liberation",
-    "description": "Marxist thinker and theorist in the tradition of african liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Mehdi Ben Barka",
+    "c": "African Liberation",
+    "d": "Marxist thinker and theorist in the tradition of african liberation.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Mehdi_Ben_Barka_Anefo.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Mehdi_Ben_Barka_Anefo.jpg/250px-Mehdi_Ben_Barka_Anefo.jpg",
+    "w": 11
   },
   {
-    "name": "Mohamed Siad Barre",
-    "category": "African Liberation",
-    "description": "Marxist thinker and theorist in the tradition of african liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Mohamed Siad Barre",
+    "c": "African Liberation",
+    "d": "Marxist thinker and theorist in the tradition of african liberation.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Mohamed_Siad_Barre_1970_portrait.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Mohamed_Siad_Barre_1970_portrait.jpg/250px-Mohamed_Siad_Barre_1970_portrait.jpg",
+    "w": 0
   },
   {
-    "name": "Neville Alexander",
-    "category": "African Liberation",
-    "description": "Marxist thinker and theorist in the tradition of african liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Neville Alexander",
+    "c": "African Liberation",
+    "d": "Marxist thinker and theorist in the tradition of african liberation.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/8/85/Alexander_Farnese.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Alexander_Farnese.jpg/250px-Alexander_Farnese.jpg",
+    "w": 5
   },
   {
-    "name": "Patrice Lumumba",
-    "category": "African Liberation",
-    "description": "Marxist thinker and theorist in the tradition of african liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Patrice Lumumba",
+    "c": "African Liberation",
+    "d": "Marxist thinker and theorist in the tradition of african liberation.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Patrice_Lumumba_official_portrait.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Patrice_Lumumba_official_portrait.jpg/250px-Patrice_Lumumba_official_portrait.jpg",
+    "w": 0
   },
   {
-    "name": "Samora Machel",
-    "category": "African Liberation",
-    "description": "Marxist thinker and theorist in the tradition of african liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Samora Machel",
+    "c": "African Liberation",
+    "d": "Marxist thinker and theorist in the tradition of african liberation.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Samora_machel_portrait.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Samora_machel_portrait.jpg/250px-Samora_machel_portrait.jpg",
+    "w": 0
   },
   {
-    "name": "Thomas Sankara",
-    "category": "African Liberation",
-    "description": "Marxist thinker and theorist in the tradition of african liberation.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Thomas Sankara",
+    "c": "African Liberation",
+    "d": "Marxist thinker and theorist in the tradition of african liberation.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Thomas_Sankara_drawing_by_Bob_Allen.png",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Thomas_Sankara_drawing_by_Bob_Allen.png/250px-Thomas_Sankara_drawing_by_Bob_Allen.png",
+    "w": 0
   }
 ]

@@ -1,452 +1,479 @@
 [
   {
-    "name": "Albert Einstein",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Albert Einstein",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/4/41/Portrait_of_Albert_Einstein_and_Others_%281879-1955%29%2C_Physicist_-_Restoration1.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Portrait_of_Albert_Einstein_and_Others_%281879-1955%29%2C_Physicist_-_Restoration1.jpg/250px-Portrait_of_Albert_Einstein_and_Others_%281879-1955%29%2C_Physicist_-_Restoration1.jpg",
+    "w": 172
   },
   {
-    "name": "Alexandra Kollontai",
-    "category": "Feminists",
-    "description": "Russian revolutionary, diplomat, and Bolshevik government official. The most prominent woman in the Soviet administration. Developed Marxist feminism and argued for sexual and reproductive freedom.",
-    "bioUrl": "/archive/kollontai/index.htm",
-    "works": [
-      {
-        "title": "The Autobiography of a Sexually Emancipated Communist Woman",
-        "url": "/archive/kollontai/"
-      },
-      {
-        "title": "Selected Articles and Speeches",
-        "url": "/archive/kollontai/"
-      },
-      {
-        "title": "Communism and the Family",
-        "url": "/archive/kollontai/"
-      }
-    ],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Alexandra_Kollontai.jpg/800px-Alexandra_Kollontai.jpg"
+    "n": "Alexandra Kollontai",
+    "c": "Feminists",
+    "d": "Russian revolutionary, diplomat, and Bolshevik government official. The most prominent woman in the Soviet administration. Developed Marxist feminism and argued for sexual and reproductive freedom.",
+    "b": "/archive/kollontai/index.htm",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Alexandra_Kollontai.jpg/800px-Alexandra_Kollontai.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Alexandra-Kollontai-1923.jpg/250px-Alexandra-Kollontai-1923.jpg",
+    "w": 41
   },
   {
-    "name": "Alice Field",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Alice Field",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Alice_Roosevelt_by_Frances_Benjamin_Johnston.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Alice_Roosevelt_by_Frances_Benjamin_Johnston.jpg/250px-Alice_Roosevelt_by_Frances_Benjamin_Johnston.jpg",
+    "w": 0
   },
   {
-    "name": "Anna Louise Strong",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Anna Louise Strong",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/1/12/Anna_Louise_Strong_%28PORTRAITS_86%29.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Anna_Louise_Strong_%28PORTRAITS_86%29.jpg/250px-Anna_Louise_Strong_%28PORTRAITS_86%29.jpg",
+    "w": 0
   },
   {
-    "name": "Anuradha Gandhy",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Anuradha Gandhy",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "",
+    "t": "",
+    "w": 2
   },
   {
-    "name": "Arthur Rosenberg",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Arthur Rosenberg",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/9/95/Arthur_Rosenberg.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Arthur_Rosenberg.jpg/250px-Arthur_Rosenberg.jpg",
+    "w": 0
   },
   {
-    "name": "Athur Ransome",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Athur Ransome",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "",
+    "t": "",
+    "w": 0
   },
   {
-    "name": "Attila Jzsef",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Attila Jzsef",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "",
+    "t": "",
+    "w": 0
   },
   {
-    "name": "Barbara Ehrenreich",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Barbara Ehrenreich",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Zeitschrift_f%C3%BCr_Ethnologie._Jg._032%2C_1900_%28IA_zeitschriftfre32berl%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Zeitschrift_f%C3%BCr_Ethnologie._Jg._032%2C_1900_%28IA_zeitschriftfre32berl%29.pdf/page1-200px-Zeitschrift_f%C3%BCr_Ethnologie._Jg._032%2C_1900_%28IA_zeitschriftfre32berl%29.pdf.jpg",
+    "w": 0
   },
   {
-    "name": "Begum Roquia",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Begum Roquia",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/7/76/Begum_Rokeya.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Begum_Rokeya.jpg/250px-Begum_Rokeya.jpg",
+    "w": 1
   },
   {
-    "name": "Charles Darwin",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Charles Darwin",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/3/33/Charles_Darwin_by_Julia_Margaret_Cameron%2C_c._1868.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Charles_Darwin_by_Julia_Margaret_Cameron%2C_c._1868.jpg/250px-Charles_Darwin_by_Julia_Margaret_Cameron%2C_c._1868.jpg",
+    "w": 0
   },
   {
-    "name": "Dale Spender",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Dale Spender",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/8/81/Dei_capriccj_teatrali_%28IA_deicapriccjteatr03grep%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Dei_capriccj_teatrali_%28IA_deicapriccjteatr03grep%29.pdf/page1-200px-Dei_capriccj_teatrali_%28IA_deicapriccjteatr03grep%29.pdf.jpg",
+    "w": 0
   },
   {
-    "name": "Drucilla Cornell",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Drucilla Cornell",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/1/12/Drucilla_Cornell_on_Rosa-Luxemburg-Stiftung.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Drucilla_Cornell_on_Rosa-Luxemburg-Stiftung.jpg/250px-Drucilla_Cornell_on_Rosa-Luxemburg-Stiftung.jpg",
+    "w": 0
   },
   {
-    "name": "Elizabeth Gurley Flynn",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Elizabeth Gurley Flynn",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/0/03/Elizabeth_Gurley_Flynn_We_Follow_The_Path_Less_Traveled_The_City_at_The_Crossroads_of_History.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Elizabeth_Gurley_Flynn_We_Follow_The_Path_Less_Traveled_The_City_at_The_Crossroads_of_History.jpg/250px-Elizabeth_Gurley_Flynn_We_Follow_The_Path_Less_Traveled_The_City_at_The_Crossroads_of_History.jpg",
+    "w": 0
   },
   {
-    "name": "Evelyn Reed",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Evelyn Reed",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/d/da/The_diary_of_John_Evelyn_%28IA_diaryofjohnevely03evel%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_diary_of_John_Evelyn_%28IA_diaryofjohnevely03evel%29.pdf/page1-200px-The_diary_of_John_Evelyn_%28IA_diaryofjohnevely03evel%29.pdf.jpg",
+    "w": 0
   },
   {
-    "name": "Franois Voltaire",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Franois Voltaire",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/2/2b/On_the_portraits_of_English_authors_on_gardening_%28IA_onportraitsofeng00feltrich%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/On_the_portraits_of_English_authors_on_gardening_%28IA_onportraitsofeng00feltrich%29.pdf/page1-200px-On_the_portraits_of_English_authors_on_gardening_%28IA_onportraitsofeng00feltrich%29.pdf.jpg",
+    "w": 0
   },
   {
-    "name": "Full Biography",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Full Biography",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Bill_Thompson_%28Tasmanian_convict%29_grey.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Bill_Thompson_%28Tasmanian_convict%29_grey.jpg/250px-Bill_Thompson_%28Tasmanian_convict%29_grey.jpg",
+    "w": 0
   },
   {
-    "name": "George Orwell",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "George Orwell",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/7/7e/George_Orwell_press_photo.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/250px-George_Orwell_press_photo.jpg",
+    "w": 0
   },
   {
-    "name": "Germaine Greer",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Germaine Greer",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Germaine_Greer_SLNSW_FL4580206.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Germaine_Greer_SLNSW_FL4580206.jpg/250px-Germaine_Greer_SLNSW_FL4580206.jpg",
+    "w": 0
   },
   {
-    "name": "Harold Isaacs",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Harold Isaacs",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/5/57/New_England_aviators_1914-1918%3B_their_portraits_and_their_records_%281919%29_%2814595357100%29.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/New_England_aviators_1914-1918%3B_their_portraits_and_their_records_%281919%29_%2814595357100%29.jpg/250px-New_England_aviators_1914-1918%3B_their_portraits_and_their_records_%281919%29_%2814595357100%29.jpg",
+    "w": 0
   },
   {
-    "name": "Harriet Taylor",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Harriet Taylor",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/b/be/Harriet_Taylor_Upton_1921.png",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/b/be/Harriet_Taylor_Upton_1921.png",
+    "w": 0
   },
   {
-    "name": "Helen Keller",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Helen Keller",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Helen_Keller_circa_1920_-_restored.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Helen_Keller_circa_1920_-_restored.jpg/250px-Helen_Keller_circa_1920_-_restored.jpg",
+    "w": 0
   },
   {
-    "name": "Henry Noel Brailsford",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Henry Noel Brailsford",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/a/af/The_broom_of_the_war-god_-_a_novel_%28IA_broomofwargodnov00brairich%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/The_broom_of_the_war-god_-_a_novel_%28IA_broomofwargodnov00brairich%29.pdf/page1-200px-The_broom_of_the_war-god_-_a_novel_%28IA_broomofwargodnov00brairich%29.pdf.jpg",
+    "w": 0
   },
   {
-    "name": "Howard Zinn",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Howard Zinn",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/6/67/A_biographical_cyclopedia_and_portrait_gallery_of_distinguished_men_-_with_an_historical_sketch%2C_of_the_state_of_Ohio_%28IA_cu31924032193561%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/A_biographical_cyclopedia_and_portrait_gallery_of_distinguished_men_-_with_an_historical_sketch%2C_of_the_state_of_Ohio_%28IA_cu31924032193561%29.pdf/page1-200px-A_biographical_cyclopedia_and_portrait_gallery_of_distinguished_men_-_with_an_historical_sketch%2C_of_the_state_of_Ohio_%28IA_cu31924032193561%29.pdf.jpg",
+    "w": 5
   },
   {
-    "name": "Isaac Deutscher",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Isaac Deutscher",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/0/06/A.L.A._portrait_index%3B_index_to_portraits_contained_in_printed_books_and_periodicals_%28IA_alaportraitindex01lane%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/A.L.A._portrait_index%3B_index_to_portraits_contained_in_printed_books_and_periodicals_%28IA_alaportraitindex01lane%29.pdf/page1-200px-A.L.A._portrait_index%3B_index_to_portraits_contained_in_printed_books_and_periodicals_%28IA_alaportraitindex01lane%29.pdf.jpg",
+    "w": 134
   },
   {
-    "name": "Jack London",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Jack London",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/d/de/Portrait_photograph_of_Jack_London.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Portrait_photograph_of_Jack_London.jpg/250px-Portrait_photograph_of_Jack_London.jpg",
+    "w": 12
   },
   {
-    "name": "James T. Farrell",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "James T. Farrell",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/5/5a/The_Big_T_1988.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Big_T_1988.pdf/page1-200px-The_Big_T_1988.pdf.jpg",
+    "w": 0
   },
   {
-    "name": "John Pilger",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "John Pilger",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/9/9a/A_chronology_and_practical_bibliography_of_modern_German_literature_%28IA_chronologypracti00noll%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/A_chronology_and_practical_bibliography_of_modern_German_literature_%28IA_chronologypracti00noll%29.pdf/page1-200px-A_chronology_and_practical_bibliography_of_modern_German_literature_%28IA_chronologypracti00noll%29.pdf.jpg",
+    "w": 0
   },
   {
-    "name": "Juliet Mitchell",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Juliet Mitchell",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/0/02/MARION_JULIET_MITCHELL_A_woman_of_the_century_%28page_520_crop%29.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/MARION_JULIET_MITCHELL_A_woman_of_the_century_%28page_520_crop%29.jpg/250px-MARION_JULIET_MITCHELL_A_woman_of_the_century_%28page_520_crop%29.jpg",
+    "w": 0
   },
   {
-    "name": "Kate Millett",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Kate Millett",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Theatre_%28IA_theatre29unse%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Theatre_%28IA_theatre29unse%29.pdf/page1-200px-Theatre_%28IA_theatre29unse%29.pdf.jpg",
+    "w": 0
   },
   {
-    "name": "Lena MorrowLewis",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Lena MorrowLewis",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/0/08/Lena_Morrow_Lewis.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Lena_Morrow_Lewis.jpg/250px-Lena_Morrow_Lewis.jpg",
+    "w": 0
   },
   {
-    "name": "Lewis Henry Morgan",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Lewis Henry Morgan",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/7/71/Morgan_Lewis_%28portrait_by_Henry_Inman%29.png",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Morgan_Lewis_%28portrait_by_Henry_Inman%29.png/250px-Morgan_Lewis_%28portrait_by_Henry_Inman%29.png",
+    "w": 0
   },
   {
-    "name": "Linda Nicholson",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Linda Nicholson",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/7/76/A_woman_of_the_century%3B_fourteen_hundred-seventy_biographical_sketches_accompanied_by_portraits_of_leading_American_women_in_all_walks_of_life_%28IA_womanofcenturyfo00willan%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/A_woman_of_the_century%3B_fourteen_hundred-seventy_biographical_sketches_accompanied_by_portraits_of_leading_American_women_in_all_walks_of_life_%28IA_womanofcenturyfo00willan%29.pdf/page1-200px-thumbnail.pdf.jpg",
+    "w": 0
   },
   {
-    "name": "Louis-Ren Villerm",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Louis-Ren Villerm",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "",
+    "t": "",
+    "w": 0
   },
   {
-    "name": "Lynn Beaton",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Lynn Beaton",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/d/db/%22Nebraskans%2C%22_1854-1904_%28IA_nebraskans18541900omah%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/%22Nebraskans%2C%22_1854-1904_%28IA_nebraskans18541900omah%29.pdf/page1-200px-%22Nebraskans%2C%22_1854-1904_%28IA_nebraskans18541900omah%29.pdf.jpg",
+    "w": 0
   },
   {
-    "name": "Mark Starr",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Mark Starr",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Louisa_Starr-Canziani_-_portrait_of_John_Turtle_Wood.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Louisa_Starr-Canziani_-_portrait_of_John_Turtle_Wood.jpg/250px-Louisa_Starr-Canziani_-_portrait_of_John_Turtle_Wood.jpg",
+    "w": 3
   },
   {
-    "name": "Marlene Dixon",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Marlene Dixon",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/5/5d/The_Rhododendron_%28serial%29_%28IA_rhododendronseri1968appa%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/The_Rhododendron_%28serial%29_%28IA_rhododendronseri1968appa%29.pdf/page1-200px-The_Rhododendron_%28serial%29_%28IA_rhododendronseri1968appa%29.pdf.jpg",
+    "w": 0
   },
   {
-    "name": "Mary Beard",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Mary Beard",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/4/43/Mary_Ritter_Beard_%28148004v%29.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Mary_Ritter_Beard_%28148004v%29.jpg/250px-Mary_Ritter_Beard_%28148004v%29.jpg",
+    "w": 0
   },
   {
-    "name": "Mary Heaton Vorse",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Mary Heaton Vorse",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/f/f1/McClure%27s_Magazine%2C_1908-02.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/McClure%27s_Magazine%2C_1908-02.pdf/page1-200px-McClure%27s_Magazine%2C_1908-02.pdf.jpg",
+    "w": 0
   },
   {
-    "name": "Mary Wollstonecraft",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Mary Wollstonecraft",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/3/36/Mary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Mary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg/250px-Mary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg",
+    "w": 0
   },
   {
-    "name": "Morgan Philips Price",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Morgan Philips Price",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/a/a9/The_American_portrait_gallery%3B_%28IA_americanportrait00jone%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/The_American_portrait_gallery%3B_%28IA_americanportrait00jone%29.pdf/page1-200px-The_American_portrait_gallery%3B_%28IA_americanportrait00jone%29.pdf.jpg",
+    "w": 11
   },
   {
-    "name": "Nicholas Chernyshevsky",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Nicholas Chernyshevsky",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/2/28/A_guide_to_Russian_literature_%281820-1917%29_%28IA_guidetorussianli00olgirich%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/A_guide_to_Russian_literature_%281820-1917%29_%28IA_guidetorussianli00olgirich%29.pdf/page1-200px-A_guide_to_Russian_literature_%281820-1917%29_%28IA_guidetorussianli00olgirich%29.pdf.jpg",
+    "w": 0
   },
   {
-    "name": "Olive Schreiner",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Olive Schreiner",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/7/77/Olive_Schreiner02.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Olive_Schreiner02.jpg/250px-Olive_Schreiner02.jpg",
+    "w": 0
   },
   {
-    "name": "Paul Robeson",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Paul Robeson",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Paul_Robeson_by_Ronald_Moody_01.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Paul_Robeson_by_Ronald_Moody_01.jpg/250px-Paul_Robeson_by_Ronald_Moody_01.jpg",
+    "w": 0
   },
   {
-    "name": "Peter Fryer",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Peter Fryer",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/e/e3/The_founders%3B_portraits_of_persons_born_abroad_who_came_to_the_colonies_in_North_America_before_the_year_1701_%281919%29.djvu",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/The_founders%3B_portraits_of_persons_born_abroad_who_came_to_the_colonies_in_North_America_before_the_year_1701.djvu/page1-200px-The_founders%3B_portraits_of_persons_born_abroad_who_came_to_the_colonies_in_North_America_before_the_year_1701.djvu.jpg",
+    "w": 85
   },
   {
-    "name": "Sheila Rowbotham",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Sheila Rowbotham",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Women%2C_Resistance_and_Revolution_Sheila_Rowbotham.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Women%2C_Resistance_and_Revolution_Sheila_Rowbotham.jpg/250px-Women%2C_Resistance_and_Revolution_Sheila_Rowbotham.jpg",
+    "w": 0
   },
   {
-    "name": "Shulamith Firestone",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Shulamith Firestone",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/8/86/Barrens_near_Shulie%2C_NS_%2848123737853%29.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Barrens_near_Shulie%2C_NS_%2848123737853%29.jpg/250px-Barrens_near_Shulie%2C_NS_%2848123737853%29.jpg",
+    "w": 0
   },
   {
-    "name": "Sigmund Freud",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Sigmund Freud",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sigmund_Freud_LIFE.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sigmund_Freud_LIFE.jpg/250px-Sigmund_Freud_LIFE.jpg",
+    "w": 5
   },
   {
-    "name": "Simone de Beauvoir",
-    "category": "Feminists",
-    "description": "French existentialist philosopher, writer, social theorist, and feminist activist. Wrote on existentialism, ethics, and feminism. Author of The Second Sex, a foundational text of feminist philosophy.",
-    "bioUrl": "/reference/archive/debeauvoir/bio/index.htm",
-    "works": [
-      {
-        "title": "The Second Sex",
-        "url": "/reference/archive/debeauvoir/"
-      },
-      {
-        "title": "The Ethics of Ambiguity",
-        "url": "/reference/archive/debeauvoir/"
-      },
-      {
-        "title": "The Mandarins",
-        "url": "/reference/archive/debeauvoir/"
-      }
-    ],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Simone_de_Beauvoir_1967.jpg/800px-Simone_de_Beauvoir_1967.jpg"
+    "n": "Simone de Beauvoir",
+    "c": "Feminists",
+    "d": "French existentialist philosopher, writer, social theorist, and feminist activist. Wrote on existentialism, ethics, and feminism. Author of The Second Sex, a foundational text of feminist philosophy.",
+    "b": "/reference/archive/debeauvoir/bio/index.htm",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Simone_de_Beauvoir_1967.jpg/800px-Simone_de_Beauvoir_1967.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Simone_de_Beauvoir_.jpg/250px-Simone_de_Beauvoir_.jpg",
+    "w": 3
   },
   {
-    "name": "Teresa Ebert",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Teresa Ebert",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Zimmermann%2C_Sabine-1329.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Zimmermann%2C_Sabine-1329.jpg/250px-Zimmermann%2C_Sabine-1329.jpg",
+    "w": 0
   },
   {
-    "name": "Upton Sinclair",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Upton Sinclair",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Upton_Sinclair_Portrait_1933.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Upton_Sinclair_Portrait_1933.jpg/250px-Upton_Sinclair_Portrait_1933.jpg",
+    "w": 0
   },
   {
-    "name": "Vida Goldstein",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Vida Goldstein",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Vida_Goldstein_portrait.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Vida_Goldstein_portrait.jpg/250px-Vida_Goldstein_portrait.jpg",
+    "w": 0
   },
   {
-    "name": "William Chamberlin",
-    "category": "Feminists",
-    "description": "Marxist thinker and theorist in the tradition of feminists.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "William Chamberlin",
+    "c": "Feminists",
+    "d": "Marxist thinker and theorist in the tradition of feminists.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/9/9d/William-Henry-Chamberlin_portrait.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/William-Henry-Chamberlin_portrait.jpg/250px-William-Henry-Chamberlin_portrait.jpg",
+    "w": 0
   }
 ]

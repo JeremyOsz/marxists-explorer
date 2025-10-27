@@ -1,66 +1,74 @@
 [
   {
-    "name": "Adam Smith",
-    "category": "Political Economy",
-    "description": "Marxist thinker and theorist in the tradition of political economy.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Adam Smith",
+    "c": "Political Economy",
+    "d": "Marxist thinker and theorist in the tradition of political economy.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Adam_Smith%2C_1723_-_1790._Political_economist_-_Google_Art_Project.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Adam_Smith%2C_1723_-_1790._Political_economist_-_Google_Art_Project.jpg/250px-Adam_Smith%2C_1723_-_1790._Political_economist_-_Google_Art_Project.jpg",
+    "w": 0
   },
   {
-    "name": "Bernice Shoul",
-    "category": "Political Economy",
-    "description": "Marxist thinker and theorist in the tradition of political economy.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Bernice Shoul",
+    "c": "Political Economy",
+    "d": "Marxist thinker and theorist in the tradition of political economy.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Catalog_of_Copyright_Entries%2C_1912_Engravings_Prints_Etc._Fine_Arts_For_the_Year_1912_New_Series_Vol_7_Part_4_%28IA_catalogofcopyrig74libr%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Catalog_of_Copyright_Entries%2C_1912_Engravings_Prints_Etc._Fine_Arts_For_the_Year_1912_New_Series_Vol_7_Part_4_%28IA_catalogofcopyrig74libr%29.pdf/page1-200px-Catalog_of_Copyright_Entries%2C_1912_Engravings_Prints_Etc._Fine_Arts_For_the_Year_1912_New_Series_Vol_7_Part_4_%28IA_catalogofcopyrig74libr%29.pdf.jpg",
+    "w": 0
   },
   {
-    "name": "David Yaffe",
-    "category": "Political Economy",
-    "description": "Marxist thinker and theorist in the tradition of political economy.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "David Yaffe",
+    "c": "Political Economy",
+    "d": "Marxist thinker and theorist in the tradition of political economy.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/6/64/Ellery_Queen_NYWTS.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Ellery_Queen_NYWTS.jpg/250px-Ellery_Queen_NYWTS.jpg",
+    "w": 0
   },
   {
-    "name": "Frederick Taylor",
-    "category": "Political Economy",
-    "description": "Marxist thinker and theorist in the tradition of political economy.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Frederick Taylor",
+    "c": "Political Economy",
+    "d": "Marxist thinker and theorist in the tradition of political economy.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Frederick_Taylor_Pusey_%281872%E2%80%931936%29.png",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Frederick_Taylor_Pusey_%281872%E2%80%931936%29.png/250px-Frederick_Taylor_Pusey_%281872%E2%80%931936%29.png",
+    "w": 0
   },
   {
-    "name": "J. M. Keynes",
-    "category": "Political Economy",
-    "description": "Marxist thinker and theorist in the tradition of political economy.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "J. M. Keynes",
+    "c": "Political Economy",
+    "d": "Marxist thinker and theorist in the tradition of political economy.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Macro_history_economists.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Macro_history_economists.jpg/250px-Macro_history_economists.jpg",
+    "w": 0
   },
   {
-    "name": "John Hobson",
-    "category": "Political Economy",
-    "description": "Marxist thinker and theorist in the tradition of political economy.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "John Hobson",
+    "c": "Political Economy",
+    "d": "Marxist thinker and theorist in the tradition of political economy.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/2/29/John_Hobson%2C_portrait%2C_as_a_young_man_Wellcome_L0020335.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/John_Hobson%2C_portrait%2C_as_a_young_man_Wellcome_L0020335.jpg/250px-John_Hobson%2C_portrait%2C_as_a_young_man_Wellcome_L0020335.jpg",
+    "w": 0
   },
   {
-    "name": "John Stuart Mill",
-    "category": "Political Economy",
-    "description": "Marxist thinker and theorist in the tradition of political economy.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "John Stuart Mill",
+    "c": "Political Economy",
+    "d": "Marxist thinker and theorist in the tradition of political economy.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/4/43/John_Stuart_Mill_by_John_Watkins%2C_1865.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/John_Stuart_Mill_by_John_Watkins%2C_1865.jpg/200px-John_Stuart_Mill_by_John_Watkins%2C_1865.jpg",
+    "w": 0
   },
   {
-    "name": "Thomas Malthus",
-    "category": "Political Economy",
-    "description": "Marxist thinker and theorist in the tradition of political economy.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Thomas Malthus",
+    "c": "Political Economy",
+    "d": "Marxist thinker and theorist in the tradition of political economy.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Thomas_Robert_Malthus_Wellcome_L0069037_-crop.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Thomas_Robert_Malthus_Wellcome_L0069037_-crop.jpg/250px-Thomas_Robert_Malthus_Wellcome_L0069037_-crop.jpg",
+    "w": 0
   }
 ]

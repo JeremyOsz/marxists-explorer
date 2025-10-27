@@ -1,59 +1,47 @@
 [
   {
-    "name": "Carlos Marighella",
-    "category": "Guerilla Marxism",
-    "description": "Marxist thinker and theorist in the tradition of guerilla marxism.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Carlos Marighella",
+    "c": "Guerilla Marxism",
+    "d": "Marxist thinker and theorist in the tradition of guerilla marxism.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/8/84/Marighella_Assassinado.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Marighella_Assassinado.jpg/250px-Marighella_Assassinado.jpg",
+    "w": 0
   },
   {
-    "name": "Che Guevara",
-    "category": "Guerilla Marxism",
-    "description": "Argentine Marxist revolutionary, physician, author, guerrilla leader, diplomat, and military theorist. A major figure of the Cuban Revolution. Icon of leftist revolutionary movements.",
-    "bioUrl": "/archive/guevara/index.htm",
-    "works": [
-      {
-        "title": "Guerrilla Warfare",
-        "url": "/archive/guevara/"
-      },
-      {
-        "title": "Socialism and Man in Cuba",
-        "url": "/archive/guevara/"
-      },
-      {
-        "title": "The Motorcycle Diaries",
-        "url": "/archive/guevara/"
-      },
-      {
-        "title": "Man and Socialism in Cuba",
-        "url": "/archive/guevara/"
-      }
-    ],
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Che_Guevara_Gerardo_S%C3%A1nchez_Noguera.jpg/800px-Che_Guevara_Gerardo_S%C3%A1nchez_Noguera.jpg"
+    "n": "Che Guevara",
+    "c": "Guerilla Marxism",
+    "d": "Argentine Marxist revolutionary, physician, author, guerrilla leader, diplomat, and military theorist. A major figure of the Cuban Revolution. Icon of leftist revolutionary movements.",
+    "b": "/archive/guevara/index.htm",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Che_Guevara_Gerardo_S%C3%A1nchez_Noguera.jpg/800px-Che_Guevara_Gerardo_S%C3%A1nchez_Noguera.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/CheHigh.jpg/250px-CheHigh.jpg",
+    "w": 0
   },
   {
-    "name": "Hamid Ashraf",
-    "category": "Guerilla Marxism",
-    "description": "Marxist thinker and theorist in the tradition of guerilla marxism.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Hamid Ashraf",
+    "c": "Guerilla Marxism",
+    "d": "Marxist thinker and theorist in the tradition of guerilla marxism.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Portrait_of_Hamid_Ashraf_printed_in_Ettela%27at.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Portrait_of_Hamid_Ashraf_printed_in_Ettela%27at.jpg/250px-Portrait_of_Hamid_Ashraf_printed_in_Ettela%27at.jpg",
+    "w": 1
   },
   {
-    "name": "Juan Gelman",
-    "category": "Guerilla Marxism",
-    "description": "Marxist thinker and theorist in the tradition of guerilla marxism.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Juan Gelman",
+    "c": "Guerilla Marxism",
+    "d": "Marxist thinker and theorist in the tradition of guerilla marxism.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Juan_Gelman_-presidenciagovar-_31JUL07.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Juan_Gelman_-presidenciagovar-_31JUL07.jpg/250px-Juan_Gelman_-presidenciagovar-_31JUL07.jpg",
+    "w": 0
   },
   {
-    "name": "Mahir Çayan",
-    "category": "Guerilla Marxism",
-    "description": "Marxist thinker and theorist in the tradition of guerilla marxism.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Mahir Çayan",
+    "c": "Guerilla Marxism",
+    "d": "Marxist thinker and theorist in the tradition of guerilla marxism.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Deniz_Gezmi%C5%9F%2C_Mahir_%C3%87ayan%2C_%C4%B0brahim_Kaypakkaya.png",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Deniz_Gezmi%C5%9F%2C_Mahir_%C3%87ayan%2C_%C4%B0brahim_Kaypakkaya.png/250px-Deniz_Gezmi%C5%9F%2C_Mahir_%C3%87ayan%2C_%C4%B0brahim_Kaypakkaya.png",
+    "w": 1
   }
 ]

@@ -5,6 +5,7 @@ export interface Thinker {
   works: Work[];
   bioUrl: string;
   imageUrl?: string;
+  thumbnailUrl?: string;
   workCount?: number; // For metadata-only thinkers
 }
 

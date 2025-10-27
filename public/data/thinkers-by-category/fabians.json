@@ -1,58 +1,65 @@
 [
   {
-    "name": "G. D. H. Cole",
-    "category": "Fabians",
-    "description": "Marxist thinker and theorist in the tradition of fabians.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "G. D. H. Cole",
+    "c": "Fabians",
+    "d": "Marxist thinker and theorist in the tradition of fabians.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/9/95/G_D_H_Cole_by_Stella_Bowen.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/G_D_H_Cole_by_Stella_Bowen.jpg/250px-G_D_H_Cole_by_Stella_Bowen.jpg",
+    "w": 8
   },
   {
-    "name": "George Bernard Shaw",
-    "category": "Fabians",
-    "description": "Marxist thinker and theorist in the tradition of fabians.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "George Bernard Shaw",
+    "c": "Fabians",
+    "d": "Marxist thinker and theorist in the tradition of fabians.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Portrait_of_George_Bernard_Shaw_.PNG",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Portrait_of_George_Bernard_Shaw_.PNG/200px-Portrait_of_George_Bernard_Shaw_.PNG",
+    "w": 9
   },
   {
-    "name": "H.G. Wells",
-    "category": "Fabians",
-    "description": "Marxist thinker and theorist in the tradition of fabians.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "H.G. Wells",
+    "c": "Fabians",
+    "d": "Marxist thinker and theorist in the tradition of fabians.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/4/4b/H.G._Wells_by_Beresford.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/H.G._Wells_by_Beresford.jpg/250px-H.G._Wells_by_Beresford.jpg",
+    "w": 0
   },
   {
-    "name": "J. Bruce Glasier",
-    "category": "Fabians",
-    "description": "Marxist thinker and theorist in the tradition of fabians.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "J. Bruce Glasier",
+    "c": "Fabians",
+    "d": "Marxist thinker and theorist in the tradition of fabians.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Socialism_and_strikes_-_a_reprint_with_new_introduction_%28IA_socialismstrikes00glasiala%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Socialism_and_strikes_-_a_reprint_with_new_introduction_%28IA_socialismstrikes00glasiala%29.pdf/page1-200px-Socialism_and_strikes_-_a_reprint_with_new_introduction_%28IA_socialismstrikes00glasiala%29.pdf.jpg",
+    "w": 15
   },
   {
-    "name": "Keir Hardie",
-    "category": "Fabians",
-    "description": "Marxist thinker and theorist in the tradition of fabians.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Keir Hardie",
+    "c": "Fabians",
+    "d": "Marxist thinker and theorist in the tradition of fabians.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Keir_Hardie_by_George_Grantham_Bain.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Keir_Hardie_by_George_Grantham_Bain.jpg/250px-Keir_Hardie_by_George_Grantham_Bain.jpg",
+    "w": 8
   },
   {
-    "name": "Michael Davitt",
-    "category": "Fabians",
-    "description": "Marxist thinker and theorist in the tradition of fabians.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Michael Davitt",
+    "c": "Fabians",
+    "d": "Marxist thinker and theorist in the tradition of fabians.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Michael_Davitt_by_William_Orpen.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Michael_Davitt_by_William_Orpen.jpg/250px-Michael_Davitt_by_William_Orpen.jpg",
+    "w": 100
   },
   {
-    "name": "Oscar Wilde",
-    "category": "Fabians",
-    "description": "Marxist thinker and theorist in the tradition of fabians.",
-    "bioUrl": "/reference/archive/",
-    "works": [],
-    "imageUrl": ""
+    "n": "Oscar Wilde",
+    "c": "Fabians",
+    "d": "Marxist thinker and theorist in the tradition of fabians.",
+    "b": "/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/4/44/Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph%2C_seated.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph%2C_seated.jpg/250px-Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph%2C_seated.jpg",
+    "w": 0
   }
 ]

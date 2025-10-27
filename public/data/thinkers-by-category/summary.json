@@ -3,157 +3,157 @@
   "total_categories": 31,
   "categories": [
     {
-      "category": "African Liberation",
+      "category": "african-liberation",
       "count": 13,
       "filename": "african-liberation.json"
     },
     {
-      "category": "Anarchists",
+      "category": "anarchists",
       "count": 22,
       "filename": "anarchists.json"
     },
     {
-      "category": "Black Liberation",
+      "category": "black-liberation",
       "count": 6,
       "filename": "black-liberation.json"
     },
     {
-      "category": "Bolsheviks",
+      "category": "bolsheviks",
       "count": 30,
       "filename": "bolsheviks.json"
     },
     {
-      "category": "Comintern",
+      "category": "comintern",
       "count": 56,
       "filename": "comintern.json"
     },
     {
-      "category": "Early Comintern",
+      "category": "early-comintern",
       "count": 59,
       "filename": "early-comintern.json"
     },
     {
-      "category": "Ethics",
+      "category": "ethics",
       "count": 4,
       "filename": "ethics.json"
     },
     {
-      "category": "Fabians",
+      "category": "fabians",
       "count": 7,
       "filename": "fabians.json"
     },
     {
-      "category": "Feminists",
+      "category": "feminists",
       "count": 53,
       "filename": "feminists.json"
     },
     {
-      "category": "First International",
+      "category": "first-international",
       "count": 16,
       "filename": "first-international.json"
     },
     {
-      "category": "Frankfurt School",
+      "category": "frankfurt-school",
       "count": 8,
       "filename": "frankfurt-school.json"
     },
     {
-      "category": "French Left",
+      "category": "french-left",
       "count": 12,
       "filename": "french-left.json"
     },
     {
-      "category": "French Revolution",
+      "category": "french-revolution",
       "count": 11,
       "filename": "french-revolution.json"
     },
     {
-      "category": "Guerilla Marxism",
+      "category": "guerilla-marxism",
       "count": 5,
       "filename": "guerilla-marxism.json"
     },
     {
-      "category": "Left Communism",
+      "category": "left-communism",
       "count": 22,
       "filename": "left-communism.json"
     },
     {
-      "category": "Maoists",
+      "category": "maoists",
       "count": 21,
       "filename": "maoists.json"
     },
     {
-      "category": "Market Socialists",
+      "category": "market-socialists",
       "count": 6,
       "filename": "market-socialists.json"
     },
     {
-      "category": "Marxist Humanism",
+      "category": "marxist-humanism",
       "count": 21,
       "filename": "marxist-humanism.json"
     },
     {
-      "category": "National Liberation",
+      "category": "national-liberation",
       "count": 21,
       "filename": "national-liberation.json"
     },
     {
-      "category": "Paris Commune",
+      "category": "paris-commune",
       "count": 3,
       "filename": "paris-commune.json"
     },
     {
-      "category": "Philosophy",
+      "category": "philosophy",
       "count": 26,
       "filename": "philosophy.json"
     },
     {
-      "category": "Political Economy",
+      "category": "political-economy",
       "count": 8,
       "filename": "political-economy.json"
     },
     {
-      "category": "Political Science",
+      "category": "political-science",
       "count": 12,
       "filename": "political-science.json"
     },
     {
-      "category": "Populists",
+      "category": "populists",
       "count": 1,
       "filename": "populists.json"
     },
     {
-      "category": "Reformists",
+      "category": "reformists",
       "count": 9,
       "filename": "reformists.json"
     },
     {
-      "category": "Social Democracy",
+      "category": "social-democracy",
       "count": 30,
       "filename": "social-democracy.json"
     },
     {
-      "category": "Soviet Marxism",
+      "category": "soviet-marxism",
       "count": 10,
       "filename": "soviet-marxism.json"
     },
     {
-      "category": "Soviet Science",
+      "category": "soviet-science",
       "count": 7,
       "filename": "soviet-science.json"
     },
     {
-      "category": "Trotskyists",
+      "category": "trotskyists",
       "count": 53,
       "filename": "trotskyists.json"
     },
     {
-      "category": "Utopianism",
+      "category": "utopianism",
       "count": 8,
       "filename": "utopianism.json"
     },
     {
-      "category": "Western Marxism",
+      "category": "western-marxism",
       "count": 4,
       "filename": "western-marxism.json"
     }
