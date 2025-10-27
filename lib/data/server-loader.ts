@@ -34,25 +34,33 @@ export async function loadThinkersData(): Promise<Thinker[]> {
  */
 export async function loadThinkersByCategory(category: string): Promise<Thinker[]> {
   try {
-    const baseUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000';
+    // Use absolute URL based on environment
+    const protocol = process.env.NODE_ENV === 'production' ? 'https:' : 'http:';
+    const host = process.env.VERCEL_URL || 'localhost:3000';
+    const baseUrl = `${protocol}//${host}`;
     
     // First get the index to find the correct filename
     const indexResponse = await fetch(`${baseUrl}/data/thinkers-by-category/index.json`);
     if (!indexResponse.ok) {
-      throw new Error(`Failed to fetch index: ${indexResponse.status}`);
+      console.error(`Failed to fetch index: ${indexResponse.status} from ${baseUrl}`);
+      return [];
     }
     const index = await indexResponse.json() as Record<string, string>;
     const filename = index[category];
     
     if (!filename) {
+      console.warn(`No filename for category: ${category}`);
       return [];
     }
     
     const response = await fetch(`${baseUrl}/data/thinkers-by-category/${filename}`);
     if (!response.ok) {
-      throw new Error(`Failed to fetch category data: ${response.status}`);
+      console.error(`Failed to fetch category: ${response.status} from ${baseUrl}`);
+      return [];
     }
-    return await response.json() as Thinker[];
+    const data = await response.json() as Thinker[];
+    console.log(`Loaded ${data.length} thinkers from category: ${category}`);
+    return data;
   } catch (error) {
     console.error(`Failed to load thinkers for category "${category}":`, error);
     return [];
@@ -65,13 +73,19 @@ export async function loadThinkersByCategory(category: string): Promise<Thinker[
  */
 export async function getAvailableCategories(): Promise<string[]> {
   try {
-    const baseUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000';
+    const protocol = process.env.NODE_ENV === 'production' ? 'https:' : 'http:';
+    const host = process.env.VERCEL_URL || 'localhost:3000';
+    const baseUrl = `${protocol}//${host}`;
+    
     const response = await fetch(`${baseUrl}/data/thinkers-by-category/index.json`);
     if (!response.ok) {
-      throw new Error(`Failed to fetch category index: ${response.status}`);
+      console.error(`Failed to fetch index: ${response.status} from ${baseUrl}`);
+      return [];
     }
     const index = await response.json() as Record<string, string>;
-    return Object.keys(index).sort();
+    const categories = Object.keys(index).sort();
+    console.log(`Found ${categories.length} categories`);
+    return categories;
   } catch (error) {
     console.error('Failed to get available categories:', error);
     return [];
