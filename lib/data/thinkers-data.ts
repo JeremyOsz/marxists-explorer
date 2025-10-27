@@ -1,6 +1,7 @@
 import { Thinker, ThinkerMetadata, Work } from '../types/thinker';
 // Lighter metadata-only bundle (~150KB vs ~400KB full data)
 import thinkersMetadata from '../../data/thinkers-metadata.json';
+import marxWorksBySubject from '../../data/marx-works-by-subject.json';
 
 // Type for the metadata bundle
 const typedMetadata: Record<string, ThinkerMetadata[]> = thinkersMetadata as any;
@@ -36,7 +37,7 @@ function expandMetadata(metadata: ThinkerMetadata, works: Work[] = []): Thinker 
     imageUrl: metadata.i,
     thumbnailUrl: metadata.t,
     works: works,
-    workCount: metadata.w,
+    workCount: metadata.n === "Karl Marx" ? metadata.w + marxWorksBySubject.length : metadata.w,
   };
 }
 

@@ -330,7 +330,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                                 </p>
                                 <div className="mt-2 flex items-center gap-2">
                                   <span className="text-xs text-muted-foreground">
-                                    {thinker.workCount ?? thinker.works.length} works
+                                    {thinker.workCount} works
                                   </span>
                                   <span className="text-muted-foreground">•</span>
                                   <span className="text-xs text-primary hover:underline">
@@ -403,7 +403,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                       </div>
                       <div className="mt-4 pt-4 border-t">
                         <a
-                          href={`https://www.marxists.org${selectedThinker.bioUrl}`}
+                          href={selectedThinker.bioUrl}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-sm text-primary hover:underline flex items-center gap-2"
@@ -507,7 +507,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                         className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 pl-10 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                       />
                     </div>
-                    <Accordion type="multiple" className="w-full" defaultValue={Object.keys(marxWorksBySubjectData).slice(0, 3)} collabsible>
+                    <Accordion type="multiple" className="w-full" defaultValue={Object.keys(marxWorksBySubjectData).slice(0, 3)}>
                       {Object.entries(marxWorksBySubjectData).map(([subject, works]) => {
                         const filteredSubjectWorks = works.filter(work => 
                           work.title.toLowerCase().includes(worksBySectionSearchQuery.toLowerCase())

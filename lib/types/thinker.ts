@@ -21,7 +21,7 @@ export interface Thinker {
 
 // Lightweight metadata for initial bundle (works loaded separately)
 export interface ThinkerMetadata {
-  n: string; // name
+  n: string
   c: string; // category
   d: string; // description
   b: string; // bioUrl

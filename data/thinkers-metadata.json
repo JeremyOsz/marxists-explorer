@@ -380,8 +380,8 @@
       "c": "Bolsheviks",
       "d": "Marxist thinker and theorist in the tradition of the bolsheviks.",
       "b": "/reference/archive/",
-      "i": "https://upload.wikimedia.org/wikipedia/commons/1/18/G%C3%AAnes%2C_conf%C3%A9rence%2C_les_d%C3%A9l%C3%A9gu%C3%A9s_russes_%28de_g._%C3%A0_d.%2C_assis%29_Litvinoff%2C_Yorovski_%28i.e._Vorovski%29%2C_Joffe%2C_Vachovsky%2C_Novicky_%28et%2C_debout%29_Slivkin_%28i.e._Rudzutak%29%2C_Central_News_-_%28photographie_de_presse%29_-..._-_btv1b53077084w.jpg",
-      "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/G%C3%AAnes%2C_conf%C3%A9rence%2C_les_d%C3%A9l%C3%A9gu%C3%A9s_russes_%28de_g._%C3%A0_d.%2C_assis%29_Litvinoff%2C_Yorovski_%28i.e._Vorovski%29%2C_Joffe%2C_Vachovsky%2C_Novicky_%28et%2C_debout%29_Slivkin_%28i.e._Rudzutak%29%2C_Central_News_-_%28photographie_de_presse%29_-..._-_btv1b53077084w.jpg/250px-thumbnail.jpg",
+      "i": "https://upload.wikimedia.org/wikipedia/commons/1/18/G%C3%AEnes%2C_conf%C3%A9rence%2C_les_d%C3%A9l%C3%A9gu%C3%A9s_russes_%28de_g._%C3%A0_d.%2C_assis%29_Litvinoff%2C_Yorovski_%28i.e._Vorovski%29%2C_Joffe%2C_Vachovsky%2C_Novicky_%28et%2C_debout%29_Slivkin_%28i.e._Rudzutak%29%2C_Central_News_-_%28photographie_de_presse%29_-..._-_btv1b53077084w.jpg",
+      "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/G%C3%AEnes%2C_conf%C3%A9rence%2C_les_d%C3%A9l%C3%A9gu%C3%A9s_russes_%28de_g._%C3%A0_d.%2C_assis%29_Litvinoff%2C_Yorovski_%28i.e._Vorovski%29%2C_Joffe%2C_Vachovsky%2C_Novicky_%28et%2C_debout%29_Slivkin_%28i.e._Rudzutak%29%2C_Central_News_-_%28photographie_de_presse%29_-..._-_btv1b53077084w.jpg/250px-thumbnail.jpg",
       "w": 15
     },
     {
@@ -972,7 +972,7 @@
       "w": 0
     },
     {
-      "n": "Nicolae Ceasescu",
+      "n": "Nicolae Ceausescu",
       "c": "Comintern",
       "d": "Marxist thinker and theorist in the tradition of comintern.",
       "b": "/reference/archive/",
@@ -1368,15 +1368,6 @@
       "i": "https://upload.wikimedia.org/wikipedia/commons/9/9b/SneevlietMerkelbach.jpg",
       "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/SneevlietMerkelbach.jpg/250px-SneevlietMerkelbach.jpg",
       "w": 3
-    },
-    {
-      "n": "Henri Barbusse",
-      "c": "Early Comintern",
-      "d": "Marxist thinker and theorist in the tradition of early comintern.",
-      "b": "/reference/archive/",
-      "i": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Barbusse_-_L%E2%80%99Enfer.djvu",
-      "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Barbusse_-_L%E2%80%99Enfer.djvu/page1-200px-Barbusse_-_L%E2%80%99Enfer.djvu.jpg",
-      "w": 7
     },
     {
       "n": "Henri Wallon",
@@ -2274,8 +2265,8 @@
       "d": "Co-founder of the German Social Democracy with Wilhelm Liebknecht in 1869. Part of the Reichstag from 1867. Outstandingly argued for the emancipation of women's rights before capitalism could be overthrown.",
       "b": "/reference/archive/bebel/bio/index.htm",
       "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/August_Bebel.jpg/200px-August_Bebel.jpg",
-      "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/August_Bebel_a_sheet_with_four_images.3.png/250px-August_Bebel_a_sheet_with_four_images.3.png",
-      "w": 1
+      "t": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Eug%C3%A8ne_Pottier_recadr%C3%A9.jpg",
+      "w": 3
     },
     {
       "n": "Eugene Pottier",
@@ -2362,7 +2353,7 @@
       "n": "Karl Marx",
       "c": "First International",
       "d": "German philosopher, economist, and revolutionary socialist. Co-founder of Marxism and author of Das Kapital and the Communist Manifesto. Developed the theory of historical materialism and critique of political economy.",
-      "b": "/reference/archive/marx/bio/index.htm",
+      "b": "https://en.wikipedia.org/wiki/Karl_Marx",
       "i": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png",
       "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/250px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png",
       "w": 20
@@ -4977,15 +4968,6 @@
       "b": "/reference/archive/",
       "i": "https://upload.wikimedia.org/wikipedia/commons/2/27/Babar.djvu",
       "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Babar.djvu/page1-200px-Babar.djvu.jpg",
-      "w": 0
-    },
-    {
-      "n": "Russell Blackwell",
-      "c": "Trotskyists",
-      "d": "Marxist thinker and theorist in the tradition of trotskyists.",
-      "b": "/reference/archive/",
-      "i": "https://upload.wikimedia.org/wikipedia/commons/9/98/A_series_of_wonderful_sermons_%28IA_seriesofwonderfu00conw%29.pdf",
-      "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/A_series_of_wonderful_sermons_%28IA_seriesofwonderfu00conw%29.pdf/page1-200px-A_series_of_wonderful_sermons_%28IA_seriesofwonderfu00conw%29.pdf.jpg",
       "w": 0
     },
     {

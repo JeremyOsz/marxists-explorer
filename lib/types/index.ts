@@ -6,7 +6,7 @@ export interface Thinker {
   bioUrl: string;
   imageUrl?: string;
   thumbnailUrl?: string;
-  workCount?: number; // For metadata-only thinkers
+  workCount?: number;
 }
 
 export interface Work {
