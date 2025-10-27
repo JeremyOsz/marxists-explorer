@@ -1,9 +1,9 @@
 import { ThinkerSearch } from "@/components/thinker-search";
 import { Thinker } from "@/lib/types";
-import { loadThinkersData } from "@/lib/data/server-loader";
+import { loadThinkersData } from "@/lib/data/thinkers-data";
 
-export default async function Home() {
-  const thinkers: Thinker[] = await loadThinkersData();
+export default function Home() {
+  const thinkers: Thinker[] = loadThinkersData();
 
   return (
     <div className="min-h-screen bg-background">
