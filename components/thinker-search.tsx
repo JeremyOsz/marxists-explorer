@@ -1,12 +1,12 @@
 "use client";
 
 import { useState, useMemo, useEffect } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Command, CommandEmpty, CommandInput, CommandGroup, CommandItem, CommandList } from "@/components/ui/command";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Thinker, Work } from "@/lib/types";
 import { Badge } from "./ui/badge";
-import { categories } from "@/lib/data/categories";
 import { loadThinkerWorks } from "@/lib/data/thinkers-data";
 import marxWorksBySubject from "@/data/marx-works-by-subject.json";
 
@@ -23,6 +23,14 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
   const [loadingWorks, setLoadingWorks] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
+  const [mounted, setMounted] = useState(false);
+
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Load works when a thinker is selected
   useEffect(() => {
@@ -50,6 +58,28 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
       }
     }
   }, [selectedThinker]);
+
+  // Handle initial load from URL parameter
+  useEffect(() => {
+    if (mounted) { // Only run this effect on the client after mounting
+      const thinkerNameFromUrl = searchParams.get("thinker");
+      if (thinkerNameFromUrl && !selectedThinker) {
+        const thinkerFromUrl = thinkers.find(t => t.name === thinkerNameFromUrl);
+        if (thinkerFromUrl) {
+          setSelectedThinker(thinkerFromUrl);
+        }
+      }
+    }
+  }, [searchParams, thinkers, selectedThinker, mounted]);
+
+  const handleSelectThinker = (thinker: Thinker | null) => {
+    setSelectedThinker(thinker);
+    if (thinker) {
+      router.push(`?thinker=${encodeURIComponent(thinker.name)}`);
+    } else {
+      router.push("/");
+    }
+  };
 
   // Get unique categories sorted alphabetically
   const categoryList = useMemo(() => {
@@ -236,7 +266,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                   {exactMatches.map((thinker) => (
                     <div
                       key={thinker.name}
-                      onClick={() => setSelectedThinker(thinker)}
+                      onClick={() => handleSelectThinker(thinker)}
                       className="p-4 border rounded-lg hover:bg-muted/50 cursor-pointer transition-colors group bg-primary/5 border-primary/20"
                     >
                       <div className="flex items-start gap-3">
@@ -301,7 +331,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                         {categoryThinkers.map((thinker) => (
                           <div
                             key={thinker.name}
-                            onClick={() => setSelectedThinker(thinker)}
+                            onClick={() => handleSelectThinker(thinker)}
                             className="p-4 border rounded-lg hover:bg-muted/50 cursor-pointer transition-colors group"
                           >
                             <div className="flex items-start gap-3">
@@ -352,7 +382,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
       </div>
 
       {/* Detail Dialog */}
-      <Dialog open={!!selectedThinker} onOpenChange={() => setSelectedThinker(null)}>
+      <Dialog open={!!selectedThinker} onOpenChange={() => handleSelectThinker(null)}>
         <DialogContent className="max-w-[90vw] max-h-[90vh] overflow-y-auto" style={{ maxWidth: "90vw", maxHeight: "90vh", overflowY: "auto" }}>
           <DialogHeader className="border-b pb-4 mb-6">
             <DialogTitle className="text-3xl font-bold">{selectedThinker?.name}</DialogTitle>
@@ -416,10 +446,10 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                 </div>
               </div>
 
-              {/* Works sections (two-column layout on md screens) */}
+              {/* Works sections (two-column layout on md screens when both sections exist) */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/* Major Works Card */}
-                <div className="bg-card border rounded-lg p-6">
+                <div className={`bg-card border rounded-lg p-6 ${!(selectedThinker.name === "Karl Marx" && Object.keys(marxWorksBySubjectData).length > 0) ? "md:col-span-2" : ""}`}>
                   <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
@@ -524,7 +554,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                                 filteredSubjectWorks.map((work, index) => (
                                   <a
                                     key={index}
-                                    href={work.full_url || work.url}
+                                    href={work.url}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="block p-2 rounded-lg border hover:bg-muted/50 transition-colors group text-sm"

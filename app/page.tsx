@@ -1,6 +1,7 @@
 import { ThinkerSearch } from "@/components/thinker-search";
 import { Thinker } from "@/lib/types";
 import { loadThinkersMetadata } from "@/lib/data/thinkers-data";
+import { Suspense } from "react";
 
 export default function Home() {
   // Load metadata without works for faster initial page load
@@ -19,7 +20,9 @@ export default function Home() {
           </p>
         </div>
         
-        <ThinkerSearch thinkers={thinkers} />
+        <Suspense fallback={<div>Loading search...</div>}>
+          <ThinkerSearch thinkers={thinkers} />
+        </Suspense>
         
         <div className="mt-16 text-center">
           <p className="text-sm text-muted-foreground">
