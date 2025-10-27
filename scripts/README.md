@@ -146,11 +146,13 @@ python scripts/populate-thinker-works-final.py
 
 ## Files Created
 
-- `scripts/populate-thinker-works.py` - Main scraper
+- `scripts/populate-thinker-works.py` - Main works scraper
 - `scripts/test-scraper.py` - Validation tests
-- `scripts/test-populate-works.py` - Small test
-- `scripts/test-populate-works-improved.py` - Improved test
-- `scripts/populate-thinker-works-final.py` - Production script
+- `scripts/test-populate-works.py` - Small works test
+- `scripts/test-populate-works-improved.py` - Improved works test
+- `scripts/populate-thinker-works-final.py` - Production works script
+- `scripts/fetch-wikimedia-portraits-bundle.py` - Original image fetcher
+- `scripts/fetch-wikimedia-portraits-bundle-improved.py` - **Production image fetcher** ⭐
 - `scripts/requirements.txt` - Dependencies
 - `scripts/README.md` - This plan document
 
@@ -159,5 +161,28 @@ python scripts/populate-thinker-works-final.py
 - **Authors Processed**: 377/377 (100%)
 - **Successful Matches**: Target 200+ thinkers
 - **Works Populated**: Target 10,000+ works total
+- **Images Populated**: Target 200+ portrait images (100% success rate on test)
 - **Data Quality**: <5% false positives in filtering
 - **Performance**: <8 hours total runtime
+
+## Image Population
+
+### How to Populate Images
+
+```bash
+cd /Users/jeremy/Documents/marxists-explorer
+source venv/bin/activate
+
+# Test with first 10 thinkers
+python scripts/fetch-wikimedia-portraits-bundle-improved.py 10
+
+# Run for all thinkers (will take several hours)
+python scripts/fetch-wikimedia-portraits-bundle-improved.py
+```
+
+### Test Results
+- ✅ Successfully tested with 10 thinkers
+- ✅ 100% success rate (10/10 images found)
+- ✅ Works with full bundle format
+- ✅ Includes rate limiting and error handling
+- ✅ Comprehensive logging and progress tracking

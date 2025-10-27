@@ -10,6 +10,12 @@ import time
 
 WIKIMEDIA_API_BASE = "https://commons.wikimedia.org/w/api.php"
 
+# Create a session with proper headers
+session = requests.Session()
+session.headers.update({
+    'User-Agent': 'Marxists Explorer Bot 1.0 (https://github.com/user/marxists-explorer)'
+})
+
 def get_wikimedia_image(search_term):
     """Search for an image on Wikimedia Commons and return the first result URL."""
     try:
@@ -23,7 +29,7 @@ def get_wikimedia_image(search_term):
             'srlimit': 1
         }
         
-        response = requests.get(WIKIMEDIA_API_BASE, params=search_params, timeout=10)
+        response = session.get(WIKIMEDIA_API_BASE, params=search_params, timeout=10)
         response.raise_for_status()
         data = response.json()
         
@@ -39,7 +45,7 @@ def get_wikimedia_image(search_term):
                 'iiprop': 'url'
             }
             
-            response2 = requests.get(WIKIMEDIA_API_BASE, params=image_params, timeout=10)
+            response2 = session.get(WIKIMEDIA_API_BASE, params=image_params, timeout=10)
             response2.raise_for_status()
             data2 = response2.json()
             
