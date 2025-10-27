@@ -5,6 +5,7 @@
 export interface Work {
   title: string;
   url: string;
+  description?: string;
 }
 
 export interface Thinker {

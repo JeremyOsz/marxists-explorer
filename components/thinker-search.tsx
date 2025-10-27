@@ -415,13 +415,20 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                           rel="noopener noreferrer"
                           className="block p-3 rounded-lg border hover:bg-muted/50 transition-colors group"
                         >
-                          <div className="flex items-center justify-between">
-                            <span className="text-sm font-medium group-hover:text-primary transition-colors">
-                              {work.title}
-                            </span>
-                            <svg className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                            </svg>
+                          <div className="space-y-1">
+                            <div className="flex items-center justify-between">
+                              <span className="text-sm font-medium group-hover:text-primary transition-colors">
+                                {work.title}
+                              </span>
+                              <svg className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                              </svg>
+                            </div>
+                            {work.description && (
+                              <p className="text-xs text-muted-foreground line-clamp-2">
+                                {work.description}
+                              </p>
+                            )}
                           </div>
                         </a>
                       ))

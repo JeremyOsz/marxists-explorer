@@ -13,6 +13,7 @@ export interface Work {
   title: string;
   url: string;
   year?: string;
+  description?: string;
 }
 
 export interface ThinkerCategory {
