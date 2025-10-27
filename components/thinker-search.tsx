@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@/components/ui/command";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Thinker } from "@/lib/types";
 
 interface ThinkerSearchProps {
@@ -43,21 +44,69 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
             ).map(([category, categoryThinkers]) => (
               <CommandGroup key={category} heading={category}>
                 {categoryThinkers.map((thinker) => (
-                  <CommandItem
-                    key={thinker.name}
-                    value={thinker.name}
-                    onSelect={() => {
-                      setSelectedThinker(thinker);
-                      setOpen(false);
-                      setSearchValue(thinker.name);
-                    }}
-                    className="cursor-pointer"
-                  >
-                    <div className="flex flex-col">
-                      <span className="font-medium">{thinker.name}</span>
-                      <span className="text-sm text-muted-foreground">{thinker.description}</span>
-                    </div>
-                  </CommandItem>
+                  <Accordion key={thinker.name} type="single" collapsible className="w-full">
+                    <AccordionItem value={`${category}-${thinker.name}`} className="border-none">
+                      <div className="flex items-center gap-2 w-full">
+                        {/* Portrait thumbnail */}
+                        {thinker.imageUrl && (
+                          <div className="w-12 h-12 rounded-full overflow-hidden border flex-shrink-0">
+                            <img 
+                              src={thinker.imageUrl}
+                              alt={thinker.name}
+                              className="w-full h-full object-cover"
+                              onError={(e) => {
+                                e.currentTarget.style.display = 'none';
+                              }}
+                            />
+                          </div>
+                        )}
+                        <CommandItem
+                          value={thinker.name}
+                          onSelect={() => {
+                            setSelectedThinker(thinker);
+                            setOpen(false);
+                            setSearchValue(thinker.name);
+                          }}
+                          className="flex-1 cursor-pointer"
+                        >
+                          <div className="flex flex-col">
+                            <span className="font-medium">{thinker.name}</span>
+                            <span className="text-sm text-muted-foreground">{thinker.description}</span>
+                          </div>
+                        </CommandItem>
+                        <AccordionTrigger className="p-2 hover:bg-transparent" onClick={(e) => e.stopPropagation()}>
+                          <span className="text-xs text-muted-foreground">{thinker.works.length} works</span>
+                        </AccordionTrigger>
+                      </div>
+                      <AccordionContent className="pb-2 pt-0">
+                        <div className="pl-6 space-y-1">
+                          {thinker.works.slice(0, 3).map((work, index) => (
+                            <a
+                              key={index}
+                              href={`https://www.marxists.org${work.url}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="block text-sm py-1 text-muted-foreground hover:text-primary transition-colors"
+                            >
+                              {work.title}
+                            </a>
+                          ))}
+                          {thinker.works.length > 3 && (
+                            <button
+                              onClick={() => {
+                                setSelectedThinker(thinker);
+                                setOpen(false);
+                                setSearchValue(thinker.name);
+                              }}
+                              className="text-xs text-primary hover:underline"
+                            >
+                              +{thinker.works.length - 3} more works
+                            </button>
+                          )}
+                        </div>
+                      </AccordionContent>
+                    </AccordionItem>
+                  </Accordion>
                 ))}
               </CommandGroup>
             ))}
@@ -90,7 +139,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                         {selectedThinker.imageUrl && (
                           <div className="aspect-square overflow-hidden rounded-lg border">
                             <img 
-                              src={`https://www.marxists.org${selectedThinker.imageUrl}`}
+                              src={selectedThinker.imageUrl}
                               alt={selectedThinker.name}
                               className="w-full h-full object-cover"
                               onError={(e) => {
