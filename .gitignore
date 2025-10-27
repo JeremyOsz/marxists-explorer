@@ -50,3 +50,7 @@ ref/
 # IDE
 .vscode/
 .idea/
+
+# Test coverage
+coverage/
+.nyc_output/
