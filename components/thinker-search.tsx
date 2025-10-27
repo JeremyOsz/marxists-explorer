@@ -1,12 +1,13 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { Command, CommandEmpty, CommandInput, CommandGroup, CommandItem, CommandList } from "@/components/ui/command";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { Thinker } from "@/lib/types";
+import { Thinker, Work } from "@/lib/types";
 import { Badge } from "./ui/badge";
 import { categories } from "@/lib/data/categories";
+import { loadThinkerWorks } from "@/lib/data/thinkers-data";
 
 interface ThinkerSearchProps {
   thinkers: Thinker[];
@@ -14,8 +15,21 @@ interface ThinkerSearchProps {
 
 export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
   const [selectedThinker, setSelectedThinker] = useState<Thinker | null>(null);
+  const [selectedThinkerWorks, setSelectedThinkerWorks] = useState<Work[]>([]);
+  const [loadingWorks, setLoadingWorks] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
+
+  // Load works when a thinker is selected
+  useEffect(() => {
+    if (selectedThinker) {
+      setLoadingWorks(true);
+      loadThinkerWorks(selectedThinker.name).then(works => {
+        setSelectedThinkerWorks(works);
+        setLoadingWorks(false);
+      });
+    }
+  }, [selectedThinker]);
 
   // Get unique categories sorted alphabetically
   const categoryList = useMemo(() => {
@@ -229,7 +243,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                           </p>
                           <div className="mt-2 flex items-center gap-2">
                             <span className="text-xs text-muted-foreground">
-                              {thinker.works.length} works
+                              {thinker.workCount ?? thinker.works.length} works
                             </span>
                             <span className="text-muted-foreground">•</span>
                             <span className="text-xs text-primary hover:underline">
@@ -292,7 +306,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                                 </p>
                                 <div className="mt-2 flex items-center gap-2">
                                   <span className="text-xs text-muted-foreground">
-                                    {thinker.works.length} works
+                                    {thinker.workCount ?? thinker.works.length} works
                                   </span>
                                   <span className="text-muted-foreground">•</span>
                                   <span className="text-xs text-primary hover:underline">
@@ -379,24 +393,35 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                     Major Works
                   </h3>
                   <div className="space-y-3">
-                    {selectedThinker.works.map((work, index) => (
-                      <a
-                        key={index}
-                        href={`https://www.marxists.org${work.url}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="block p-3 rounded-lg border hover:bg-muted/50 transition-colors group"
-                      >
-                        <div className="flex items-center justify-between">
-                          <span className="text-sm font-medium group-hover:text-primary transition-colors">
-                            {work.title}
-                          </span>
-                          <svg className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                          </svg>
+                    {loadingWorks ? (
+                      <div className="flex items-center justify-center py-8">
+                        <div className="text-center">
+                          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto mb-2"></div>
+                          <p className="text-sm text-muted-foreground">Loading works...</p>
                         </div>
-                      </a>
-                    ))}
+                      </div>
+                    ) : selectedThinkerWorks.length > 0 ? (
+                      selectedThinkerWorks.map((work, index) => (
+                        <a
+                          key={index}
+                          href={`https://www.marxists.org${work.url}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block p-3 rounded-lg border hover:bg-muted/50 transition-colors group"
+                        >
+                          <div className="flex items-center justify-between">
+                            <span className="text-sm font-medium group-hover:text-primary transition-colors">
+                              {work.title}
+                            </span>
+                            <svg className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
+                          </div>
+                        </a>
+                      ))
+                    ) : (
+                      <p className="text-sm text-muted-foreground py-4 text-center">No works available</p>
+                    )}
                   </div>
                   <div className="mt-4 pt-4 border-t">
                     <a

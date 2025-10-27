@@ -1,9 +1,10 @@
 import { ThinkerSearch } from "@/components/thinker-search";
 import { Thinker } from "@/lib/types";
-import { loadThinkersData } from "@/lib/data/thinkers-data";
+import { loadThinkersMetadata } from "@/lib/data/thinkers-data";
 
 export default function Home() {
-  const thinkers: Thinker[] = loadThinkersData();
+  // Load metadata without works for faster initial page load
+  const thinkers: Thinker[] = loadThinkersMetadata();
 
   return (
     <div className="min-h-screen bg-background">

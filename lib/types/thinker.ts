@@ -14,6 +14,17 @@ export interface Thinker {
   bioUrl: string;
   works: Work[];
   imageUrl: string;
+  workCount?: number; // For metadata-only thinkers
+}
+
+// Lightweight metadata for initial bundle (works loaded separately)
+export interface ThinkerMetadata {
+  n: string; // name
+  c: string; // category
+  d: string; // description
+  b: string; // bioUrl
+  i: string; // imageUrl
+  w: number; // workCount
 }
 
 export interface ThinkerLookup {
