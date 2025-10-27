@@ -9,6 +9,7 @@ import { Thinker, Work } from "@/lib/types";
 import { Badge } from "./ui/badge";
 import { loadThinkerWorks } from "@/lib/data/thinkers-data";
 import marxWorksBySubject from "@/data/marx-works-by-subject.json";
+import leninWorksBySubject from "@/data/lenin-works-by-subject.json";
 
 interface ThinkerSearchProps {
   thinkers: Thinker[];
@@ -19,6 +20,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
   const [selectedThinkerWorks, setSelectedThinkerWorks] = useState<Work[]>([]);
   const [majorWorksSearchQuery, setMajorWorksSearchQuery] = useState("");
   const [marxWorksBySubjectData, setMarxWorksBySubjectData] = useState<Record<string, Work[]>>({});
+  const [leninWorksBySubjectData, setLeninWorksBySubjectData] = useState<Record<string, Work[]>>({});
   const [worksBySectionSearchQuery, setWorksBySectionSearchQuery] = useState("");
   const [loadingWorks, setLoadingWorks] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
@@ -41,7 +43,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
         setLoadingWorks(false);
       });
 
-      // Load works by subject specifically for Karl Marx
+      // Load works for specific thinkers
       if (selectedThinker.name === "Karl Marx") {
         const groupedWorks: Record<string, Work[]> = {};
         marxWorksBySubject.forEach(work => {
@@ -53,8 +55,27 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
           }
         });
         setMarxWorksBySubjectData(groupedWorks);
+        setLeninWorksBySubjectData({});
+      } else if (selectedThinker.name === "Vladimir Ilyich Lenin") {
+        // Set Lenin's major works separately
+        setSelectedThinkerWorks(leninWorksBySubject.major_works);
+
+        // Load works by subject for Lenin
+        const groupedWorks: Record<string, Work[]> = {};
+        Object.entries(leninWorksBySubject.works_by_subject).forEach(([subject, works]) => {
+          works.forEach((work: Work) => {
+            // const subject = work.subject || "Uncategorized"; // subject is already available from Object.entries
+            if (!groupedWorks[subject]) {
+              groupedWorks[subject] = [];
+            }
+            groupedWorks[subject].push(work);
+          });
+        });
+        setLeninWorksBySubjectData(groupedWorks);
+        setMarxWorksBySubjectData({});
       } else {
-        setMarxWorksBySubjectData({}); // Clear for other thinkers
+        setMarxWorksBySubjectData({});
+        setLeninWorksBySubjectData({});
       }
     }
   }, [selectedThinker]);
@@ -449,7 +470,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
               {/* Works sections (two-column layout on md screens when both sections exist) */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/* Major Works Card */}
-                <div className={`bg-card border rounded-lg p-6 ${!(selectedThinker.name === "Karl Marx" && Object.keys(marxWorksBySubjectData).length > 0) ? "md:col-span-2" : ""}`}>
+                <div className={`bg-card border rounded-lg p-6 ${!(selectedThinker.name === "Karl Marx" && Object.keys(marxWorksBySubjectData).length > 0) && !(selectedThinker.name === "Vladimir Ilyich Lenin" && Object.keys(leninWorksBySubjectData).length > 0) ? "md:col-span-2" : ""}`}>
                   <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
@@ -516,14 +537,14 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                   
                 </div>
 
-                {/* Works by Section for Karl Marx */}
-                {selectedThinker.name === "Karl Marx" && Object.keys(marxWorksBySubjectData).length > 0 && (
+                {/* Works by Subject for Thinkers */}
+                {(selectedThinker.name === "Karl Marx" && Object.keys(marxWorksBySubjectData).length > 0) || (selectedThinker.name === "Vladimir Ilyich Lenin" && Object.keys(leninWorksBySubjectData).length > 0) ? (
                   <div className="bg-card border rounded-lg p-6">
                     <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
                       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
                       </svg>
-                      Works by Section
+                      Works by Subject
                     </h3>
                     <div className="relative mb-4">
                       <svg className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -531,14 +552,15 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                       </svg>
                       <input
                         type="text"
-                        placeholder="Filter works by section..."
+                        placeholder="Filter works by subject..."
                         value={worksBySectionSearchQuery}
                         onChange={(e) => setWorksBySectionSearchQuery(e.target.value)}
                         className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 pl-10 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                       />
                     </div>
-                    <Accordion type="multiple" className="w-full" defaultValue={Object.keys(marxWorksBySubjectData).slice(0, 3)}>
-                      {Object.entries(marxWorksBySubjectData).map(([subject, works]) => {
+                    <Accordion type="multiple" className="w-full"
+                      defaultValue={selectedThinker.name === "Karl Marx" ? Object.keys(marxWorksBySubjectData).slice(0, 3) : Object.keys(leninWorksBySubjectData).slice(0, 3)}>
+                      {(selectedThinker.name === "Karl Marx" ? Object.entries(marxWorksBySubjectData) : Object.entries(leninWorksBySubjectData)).map(([subject, works]) => {
                         const filteredSubjectWorks = works.filter(work => 
                           work.title.toLowerCase().includes(worksBySectionSearchQuery.toLowerCase())
                         );  
@@ -570,7 +592,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                                   </a>
                                 ))
                               ) : (
-                                <p className="text-sm text-muted-foreground py-4 text-center">No works found in this section matching your filter.</p>
+                                <p className="text-sm text-muted-foreground py-4 text-center">No works found in this subject matching your filter.</p>
                               )}
                             </AccordionContent>
                           </AccordionItem>
@@ -578,7 +600,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                       })}
                     </Accordion>
                   </div>
-                )}
+                ) : null}
               </div>
             </div>
           )}

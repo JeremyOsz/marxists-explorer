@@ -10,6 +10,9 @@
 - [X] Althusser from https://www.marxists.org/reference/archive/althusser/
 - [X] Ho from https://www.marxists.org/reference/archive/ho-chi-minh/index.htm
 - [X] Che from https://www.marxists.org/archive/guevara/works.htm
+- [ ] Fix Lenin
+- [ ] Fix Mao
+- [ ] Fix Stalin
 
 # Checklist of thinkers to cross check
 
