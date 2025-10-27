@@ -5725,7 +5725,88 @@
       "category": "First International",
       "description": "German philosopher, economist, and revolutionary socialist. Co-founder of Marxism and author of Das Kapital and the Communist Manifesto. Developed the theory of historical materialism and critique of political economy.",
       "bioUrl": "/reference/archive/marx/bio/index.htm",
-      "works": [],
+      "works": [
+        {
+          "title": "The Communist Manifesto",
+          "url": "/archive/marx/works/1848/communist-manifesto/"
+        },
+        {
+          "title": "Das Kapital, Volume I",
+          "url": "/archive/marx/works/1867-c1/"
+        },
+        {
+          "title": "Das Kapital, Volume II",
+          "url": "/archive/marx/works/1885-c2/"
+        },
+        {
+          "title": "Das Kapital, Volume III",
+          "url": "/archive/marx/works/1894-c3/"
+        },
+        {
+          "title": "A Contribution to the Critique of Political Economy",
+          "url": "/archive/marx/works/1859/contribution/index.htm"
+        },
+        {
+          "title": "Wage Labour and Capital",
+          "url": "/archive/marx/works/1847/wage-labour/"
+        },
+        {
+          "title": "Wages, Price and Profit",
+          "url": "/archive/marx/works/1865/value-price-profit/"
+        },
+        {
+          "title": "Grundrisse",
+          "url": "/archive/marx/works/1857/grundrisse/"
+        },
+        {
+          "title": "The German Ideology",
+          "url": "/archive/marx/works/1845/german-ideology/"
+        },
+        {
+          "title": "The Poverty of Philosophy",
+          "url": "/archive/marx/works/1847/poverty-philosophy/"
+        },
+        {
+          "title": "The Holy Family",
+          "url": "/archive/marx/works/1845/holy-family/"
+        },
+        {
+          "title": "Theses on Feuerbach",
+          "url": "/archive/marx/works/1845/theses/theses.htm"
+        },
+        {
+          "title": "The Eighteenth Brumaire of Louis Bonaparte",
+          "url": "/archive/marx/works/1852/18th-brumaire/"
+        },
+        {
+          "title": "The Class Struggles in France, 1848-1850",
+          "url": "/archive/marx/works/1850/class-struggles-france/"
+        },
+        {
+          "title": "The Civil War in France",
+          "url": "/archive/marx/works/1871/civil-war-france/"
+        },
+        {
+          "title": "Critique of the Gotha Programme",
+          "url": "/archive/marx/works/1875/gotha/"
+        },
+        {
+          "title": "Economic and Philosophic Manuscripts of 1844",
+          "url": "/archive/marx/works/1844/manuscripts/"
+        },
+        {
+          "title": "The Civil War in the United States",
+          "url": "/archive/marx/works/1861-us/"
+        },
+        {
+          "title": "On the Jewish Question",
+          "url": "/archive/marx/works/1844/jewish-question/"
+        },
+        {
+          "title": "Secret Diplomatic History of the Eighteenth Century",
+          "url": "/archive/marx/works/1856/diplomatic/index.htm"
+        }
+      ],
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
     },
     {
