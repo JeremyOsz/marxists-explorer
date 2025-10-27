@@ -37,6 +37,7 @@ function expandMetadata(metadata: ThinkerMetadata, works: Work[] = []): Thinker 
     imageUrl: metadata.i,
     thumbnailUrl: metadata.t,
     works: works,
+    // TODO create list of exceptions not just marx
     workCount: metadata.n === "Karl Marx" ? metadata.w + marxWorksBySubject.length : metadata.w,
   };
 }

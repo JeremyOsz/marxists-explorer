@@ -5,7 +5,9 @@
 - [X] Fill out all works of Lenin
 - [X] Fill out all works of Stalin
 - [X] Fill out all works of Mao
-
+- [X] link to thinker
+- [X] fill in wiki bios
+- [ ] Althusser from https://www.marxists.org/reference/archive/althusser/
 
 # Checklist of thinkers to cross check
 
