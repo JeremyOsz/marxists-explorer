@@ -485,7 +485,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
                           filteredMajorWorks.map((work, index) => (
                             <a
                               key={index}
-                              href={`https://www.marxists.org${work.url}`}
+                              href={work.url}
                               target="_blank"
                               rel="noopener noreferrer"
                               className="block p-3 rounded-lg border hover:bg-muted/50 transition-colors group"

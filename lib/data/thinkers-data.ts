@@ -19,9 +19,8 @@ async function loadWorksLookup(): Promise<WorksLookup> {
     return worksLookup;
   }
 
-  // Dynamic import to avoid bundling the large works file
-  const worksModule = await import('../../data/thinkers-works.json');
-  worksLookup = worksModule.default as WorksLookup;
+  const response = await fetch('/data/thinkers-works.json');
+  worksLookup = await response.json() as WorksLookup;
   return worksLookup;
 }
 
