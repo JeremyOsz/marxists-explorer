@@ -2,7 +2,7 @@
 
 import { useState, useMemo, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { Thinker, Work } from "@/lib/types";
+import { Thinker, Work } from "@/lib/types/thinker";
 import { loadThinkerWorks } from "@/lib/data/folder-loader";
 import { ThinkerSearchBar } from "./thinker-search-ui/ThinkerSearchBar";
 import { ThinkerList } from "./thinker-search-ui/ThinkerList";

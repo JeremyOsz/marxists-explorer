@@ -1,4 +1,4 @@
-import { Thinker } from "@/lib/types";
+import { Thinker } from "@/lib/types/thinker";
 
 interface ThinkerCardProps {
   thinker: Thinker;

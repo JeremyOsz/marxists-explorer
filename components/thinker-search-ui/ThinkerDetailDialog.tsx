@@ -1,7 +1,7 @@
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import { Thinker } from "@/lib/types";
+import { Thinker } from "@/lib/types/thinker";
 import { ThinkerWorksList } from "./ThinkerWorksList";
-import { MarxWorksBySection } from "./MarxWorksBySection";
+import { ThinkerWorksBySection } from "./ThinkerWorksBySection";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "../ui/dialog";
 
 interface ThinkerDetailDialogProps {
   selectedThinker: Thinker | null;
@@ -97,25 +97,39 @@ export function ThinkerDetailDialog({
               </div>
             </div>
 
-            {/* Works sections (two-column layout on md screens when both sections exist) */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div
-                className={`${
-                  selectedThinker.name !== "Karl Marx" 
-                    ? "md:col-span-2"
-                    : ""
-                }`}
-              >
-                <ThinkerWorksList
-                  works={selectedThinkerWorks}
-                  loading={loadingWorks}
-                />
+            {selectedThinker.majorWorks && selectedThinker.majorWorks.length > 0 && (
+              <div className="bg-card border rounded-lg p-6">
+                <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+                  </svg>
+                  Major Works
+                </h3>
+                <div className="space-y-2">
+                  {selectedThinker.majorWorks.map((work, index) => (
+                    <a
+                      key={index}
+                      href={work.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block p-2 rounded-lg border hover:bg-muted/50 transition-colors group text-sm"
+                    >
+                      <div className="flex items-center justify-between">
+                        <span className="font-medium group-hover:text-primary transition-colors">
+                          {work.title}
+                        </span>
+                        <svg className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
+                      </div>
+                    </a>
+                  ))}
+                </div>
               </div>
+            )}
 
-              {selectedThinker.name === "Karl Marx" && (
-                <MarxWorksBySection thinkerName={selectedThinker.name} />
-              )}
-            </div>
+            {/* Works by Section (default view from data-v2) */}
+            <ThinkerWorksBySection thinker={selectedThinker} />
           </div>
         )}
       </DialogContent>

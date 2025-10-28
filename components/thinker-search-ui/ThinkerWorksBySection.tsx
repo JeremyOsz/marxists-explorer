@@ -1,37 +1,61 @@
-import { useState } from "react";
-import { Work } from "@/lib/types";
+import { useState, useEffect } from "react";
+import { Thinker, Work } from "@/lib/types/thinker";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import marxWorksBySubject from "@/data/marx-works-by-subject.json";
+import { loadThinkerWorksBySubject } from "@/lib/data/thinker-lookups";
 
-interface MarxWorksBySectionProps {
-  thinkerName: string;
+interface ThinkerWorksBySectionProps {
+  thinker: Thinker;
 }
 
-export function MarxWorksBySection({ thinkerName }: MarxWorksBySectionProps) {
+export function ThinkerWorksBySection({ thinker }: ThinkerWorksBySectionProps) {
   const [worksBySectionSearchQuery, setWorksBySectionSearchQuery] = useState("");
-  const [marxWorksBySubjectData, setMarxWorksBySubjectData] = useState<Record<string, Work[]>>({});
+  const [thinkerWorksBySubjectData, setThinkerWorksBySubjectData] = useState<Record<string, Work[]>>({});
+  const [loading, setLoading] = useState(false);
 
-  // This useEffect will load and process the Marx works data once
-  // when the component mounts or if thinkerName changes to "Karl Marx"
-  useState(() => {
-    if (thinkerName === "Karl Marx") {
-      const groupedWorks: Record<string, Work[]> = {};
-      marxWorksBySubject.forEach(work => {
-        if (work.subject) {
-          if (!groupedWorks[work.subject]) {
-            groupedWorks[work.subject] = [];
-          }
-          groupedWorks[work.subject].push(work);
-        }
-      });
-      setMarxWorksBySubjectData(groupedWorks);
-    } else {
-      setMarxWorksBySubjectData({}); // Clear for other thinkers
-    }
-  }, [thinkerName]);
+  useEffect(() => {
+    const fetchWorks = async () => {
+      if (thinker && thinker.name && thinker.category) {
+        setLoading(true);
+        const groupedWorks = await loadThinkerWorksBySubject(thinker.name, thinker.category);
+        setThinkerWorksBySubjectData(groupedWorks);
+        setLoading(false);
+      } else {
+        setThinkerWorksBySubjectData({});
+      }
+    };
+    fetchWorks();
+  }, [thinker]);
 
-  if (thinkerName !== "Karl Marx" || Object.keys(marxWorksBySubjectData).length === 0) {
-    return null;
+  if (loading) {
+    return (
+      <div className="bg-card border rounded-lg p-6">
+        <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+          </svg>
+          Works by Section
+        </h3>
+        <div className="flex items-center justify-center py-8">
+          <div className="text-muted-foreground">Loading works...</div>
+        </div>
+      </div>
+    );
+  }
+
+  if (Object.keys(thinkerWorksBySubjectData).length === 0) {
+    return (
+      <div className="bg-card border rounded-lg p-6">
+        <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+          </svg>
+          Works by Section
+        </h3>
+        <div className="text-center py-8 text-muted-foreground">
+          No works organized by section available for this thinker.
+        </div>
+      </div>
+    );
   }
 
   return (
@@ -54,8 +78,8 @@ export function MarxWorksBySection({ thinkerName }: MarxWorksBySectionProps) {
           className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 pl-10 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
         />
       </div>
-      <Accordion type="multiple" className="w-full" defaultValue={Object.keys(marxWorksBySubjectData).slice(0, 3)}>
-        {Object.entries(marxWorksBySubjectData).map(([subject, works]) => {
+      <Accordion type="multiple" className="w-full" defaultValue={Object.keys(thinkerWorksBySubjectData).slice(0, 3)}>
+        {Object.entries(thinkerWorksBySubjectData).map(([subject, works]) => {
           const filteredSubjectWorks = works.filter(work => 
             work.title.toLowerCase().includes(worksBySectionSearchQuery.toLowerCase())
           );  

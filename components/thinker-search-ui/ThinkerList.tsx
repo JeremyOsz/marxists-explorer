@@ -1,4 +1,4 @@
-import { Thinker } from "@/lib/types";
+import { Thinker } from "@/lib/types/thinker";
 import { ThinkerCard } from "./ThinkerCard";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 

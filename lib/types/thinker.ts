@@ -14,6 +14,7 @@ export interface Thinker {
   description: string;
   bioUrl: string;
   works: Work[];
+  majorWorks?: Work[];
   imageUrl: string;
   thumbnailUrl?: string;
   workCount?: number; // For metadata-only thinkers
@@ -28,6 +29,7 @@ export interface ThinkerMetadata {
   i: string; // imageUrl
   t?: string; // thumbnailUrl
   w: number; // workCount
+  j?: Work[]; // majorWorks
 }
 
 export interface ThinkerLookup {

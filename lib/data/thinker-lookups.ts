@@ -1,4 +1,56 @@
 import { ThinkerLookup } from '../types/thinker';
+import { Work } from "@/lib/types/thinker";
+
+/**
+ * Load works organized by subject from data-v2 folder structure
+ * Each thinker's works are in /data-v2/{category}/{thinker-name}/{subject}.json
+ */
+export async function loadThinkerWorksBySubject(thinkerName: string, category: string): Promise<Record<string, Work[]>> {
+  try {
+    // Normalize the category path (convert spaces to hyphens, lowercase)
+    const categoryPath = category.toLowerCase().replace(/\s+/g, '-');
+    
+    // Encode the thinker name for URL
+    const encodedThinkerName = encodeURIComponent(thinkerName);
+    
+    // First, try to get the metadata to see what subjects are available
+    const metadataResponse = await fetch(`/data-v2/${categoryPath}/metadata.json`);
+    if (!metadataResponse.ok) {
+      console.error(`Failed to fetch metadata for category ${category}: ${metadataResponse.status}`);
+      return {};
+    }
+    
+    const metadata = await metadataResponse.json();
+    const thinkerMetadata = metadata.find((t: any) => t.n === thinkerName);
+    
+    if (!thinkerMetadata || !thinkerMetadata.subjects || thinkerMetadata.subjects.length === 0) {
+      return {};
+    }
+    
+    // Load works for each subject
+    const groupedWorks: Record<string, Work[]> = {};
+    
+    for (const subject of thinkerMetadata.subjects) {
+      const subjectName = subject.name;
+      try {
+        const worksResponse = await fetch(`/data-v2/${categoryPath}/${encodedThinkerName}/${encodeURIComponent(subjectName)}.json`);
+        if (worksResponse.ok) {
+          const works = await worksResponse.json() as Work[];
+          if (works.length > 0) {
+            groupedWorks[subjectName] = works;
+          }
+        }
+      } catch (error) {
+        console.warn(`Could not load ${subjectName} for ${thinkerName}:`, error);
+      }
+    }
+    
+    return groupedWorks;
+  } catch (error) {
+    console.error(`Error loading works for ${thinkerName}:`, error);
+    return {};
+  }
+}
 
 /**
  * Auto-generated lookup library from category JSON files
