@@ -20,25 +20,19 @@ let globalIndexCache: GlobalIndex | null = null;
 const categoryPathCache = new Map<string, string>(); // Maps display name to folder path
 
 /**
- * Get the base URL for fetching data
- * On server-side during runtime, we need an absolute URL
+ * Get the base URL for data fetching
+ * On Vercel, we need to use the public production URL or relative paths
  */
-function getBaseUrl(): string {
-  // Client-side: relative URL works fine
-  if (typeof window !== 'undefined') {
-    return '';
+function getDataUrl(path: string): string {
+  // On server-side, use the production URL or localhost
+  if (typeof window === 'undefined') {
+    // Use NEXT_PUBLIC_SITE_URL if available (set in Vercel env vars)
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
+    return `${baseUrl}${DATA_BASE}${path}`;
   }
   
-  // Server-side: Use Vercel URL or configured site URL
-  if (process.env.VERCEL_URL) {
-    return `https://${process.env.VERCEL_URL}`;
-  }
-  if (process.env.NEXT_PUBLIC_SITE_URL) {
-    return process.env.NEXT_PUBLIC_SITE_URL;
-  }
-  
-  // Fallback for local development (but page should be dynamic)
-  return 'http://localhost:3000';
+  // Client-side: relative path works fine
+  return `${DATA_BASE}${path}`;
 }
 
 // Type definitions
@@ -134,19 +128,25 @@ export async function loadCategoryMetadata(category: string): Promise<CategoryMe
     return metadataCache.get(categoryPath)!;
   }
 
-  const baseUrl = getBaseUrl();
-  const response = await fetch(`${baseUrl}${DATA_BASE}/${categoryPath}/metadata.json`);
-  if (!response.ok) {
-    console.warn(`Failed to load metadata for category "${category}": ${response.status}`);
+  try {
+    const url = getDataUrl(`/${categoryPath}/metadata.json`);
+    const response = await fetch(url);
+    
+    if (!response.ok) {
+      console.warn(`Failed to load metadata for category "${category}": ${response.status}`);
+      return [];
+    }
+
+    const metadata = await response.json() as CategoryMetadata[];
+    
+    // Cache it
+    metadataCache.set(categoryPath, metadata);
+    
+    return metadata;
+  } catch (error) {
+    console.error(`Failed to load metadata for category "${category}":`, error);
     return [];
   }
-
-  const metadata = await response.json() as CategoryMetadata[];
-  
-  // Cache it
-  metadataCache.set(categoryPath, metadata);
-  
-  return metadata;
 }
 
 /**
@@ -187,10 +187,8 @@ export async function loadThinkerWorksBySubject(
     const sanitizedThinker = sanitizePath(thinkerName);
     const sanitizedSubject = sanitizePath(subject);
 
-    const baseUrl = getBaseUrl();
-    const response = await fetch(
-      `${baseUrl}${DATA_BASE}/${sanitizedCategory}/${sanitizedThinker}/${sanitizedSubject}.json`
-    );
+    const url = getDataUrl(`/${sanitizedCategory}/${sanitizedThinker}/${sanitizedSubject}.json`);
+    const response = await fetch(url);
 
     if (!response.ok) {
       if (response.status === 404) {
