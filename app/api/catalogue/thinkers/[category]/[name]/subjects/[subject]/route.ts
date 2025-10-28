@@ -7,12 +7,13 @@ import { loadThinkerWorksBySubject } from '@/lib/data/folder-loader';
  */
 export async function GET(
   request: Request,
-  { params }: { params: { category: string; name: string; subject: string } }
+  { params }: { params: Promise<{ category: string; name: string; subject: string }> }
 ) {
   try {
-    const category = decodeURIComponent(params.category);
-    const name = decodeURIComponent(params.name);
-    const subject = decodeURIComponent(params.subject);
+    const { category: categoryParam, name: nameParam, subject: subjectParam } = await params;
+    const category = decodeURIComponent(categoryParam);
+    const name = decodeURIComponent(nameParam);
+    const subject = decodeURIComponent(subjectParam);
     
     const works = await loadThinkerWorksBySubject(category, name, subject);
     
@@ -27,11 +28,12 @@ export async function GET(
       },
     });
   } catch (error) {
-    console.error(`Error loading works for ${params.name}/${params.subject}:`, error);
+    const { name: nameParam, subject: subjectParam } = await params;
+    console.error(`Error loading works for ${nameParam}/${subjectParam}:`, error);
     return NextResponse.json(
       {
         success: false,
-        error: `Failed to load works for subject: ${params.subject}`,
+        error: `Failed to load works for subject: ${subjectParam}`,
       },
       { status: 500 }
     );

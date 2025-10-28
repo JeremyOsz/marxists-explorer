@@ -7,10 +7,11 @@ import { loadCategoryThinkersMetadata } from '@/lib/data/folder-loader';
  */
 export async function GET(
   request: Request,
-  { params }: { params: { category: string } }
+  { params }: { params: Promise<{ category: string }> }
 ) {
   try {
-    const category = decodeURIComponent(params.category);
+    const { category: categoryParam } = await params;
+    const category = decodeURIComponent(categoryParam);
     const thinkers = await loadCategoryThinkersMetadata(category);
     
     return NextResponse.json({
@@ -22,11 +23,12 @@ export async function GET(
       },
     });
   } catch (error) {
-    console.error(`Error loading category ${params.category}:`, error);
+    const { category: categoryParam } = await params;
+    console.error(`Error loading category ${categoryParam}:`, error);
     return NextResponse.json(
       {
         success: false,
-        error: `Failed to load category: ${params.category}`,
+        error: `Failed to load category: ${categoryParam}`,
       },
       { status: 500 }
     );

@@ -10,11 +10,12 @@ import { loadThinker, getThinkerSubjects } from '@/lib/data/folder-loader';
  */
 export async function GET(
   request: Request,
-  { params }: { params: { category: string; name: string } }
+  { params }: { params: Promise<{ category: string; name: string }> }
 ) {
   try {
-    const category = decodeURIComponent(params.category);
-    const name = decodeURIComponent(params.name);
+    const { category: categoryParam, name: nameParam } = await params;
+    const category = decodeURIComponent(categoryParam);
+    const name = decodeURIComponent(nameParam);
     
     // Check if metadata_only query param is set
     const { searchParams } = new URL(request.url);
@@ -52,11 +53,12 @@ export async function GET(
       data: thinker,
     });
   } catch (error) {
-    console.error(`Error loading thinker ${params.category}/${params.name}:`, error);
+    const { category: categoryParam, name: nameParam } = await params;
+    console.error(`Error loading thinker ${categoryParam}/${nameParam}:`, error);
     return NextResponse.json(
       {
         success: false,
-        error: `Failed to load thinker: ${params.name}`,
+        error: `Failed to load thinker: ${nameParam}`,
       },
       { status: 500 }
     );
