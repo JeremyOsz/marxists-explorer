@@ -57,41 +57,73 @@ if [ -d "public/data" ]; then
     echo ""
 fi
 
-# Check if data/ directory exists (source data)
+# Check if data/ directory exists (old data files)
 if [ -d "data" ]; then
     echo "${YELLOW}Directory: data/${NC}"
     
-    # Check categories directory
+    # Old data files that can be deleted
+    if [ -f "data/thinkers-metadata.json" ]; then
+        size=$(du -h data/thinkers-metadata.json | cut -f1)
+        echo "  ❌ data/thinkers-metadata.json ($size)"
+        echo "      ${RED}Migrated to data-v2 structure${NC}"
+        file_count=$((file_count + 1))
+    fi
+    
+    if [ -f "data/thinkers-works.json" ]; then
+        size=$(du -h data/thinkers-works.json | cut -f1)
+        echo "  ❌ data/thinkers-works.json ($size)"
+        echo "      ${RED}Migrated to data-v2 structure${NC}"
+        file_count=$((file_count + 1))
+    fi
+    
+    if [ -f "data/thinkers-bundle.json" ]; then
+        size=$(du -h data/thinkers-bundle.json | cut -f1)
+        echo "  ❌ data/thinkers-bundle.json ($size)"
+        echo "      ${RED}No longer used${NC}"
+        file_count=$((file_count + 1))
+    fi
+    
+    if [ -f "data/marx-works-by-subject.json" ]; then
+        size=$(du -h data/marx-works-by-subject.json | cut -f1)
+        echo "  ❌ data/marx-works-by-subject.json ($size)"
+        echo "      ${RED}Migrated to data-v2/first-international/Karl Marx/${NC}"
+        file_count=$((file_count + 1))
+    fi
+    
+    if [ -f "data/lenin-works-by-subject.json" ]; then
+        size=$(du -h data/lenin-works-by-subject.json | cut -f1)
+        echo "  ❌ data/lenin-works-by-subject.json ($size)"
+        echo "      ${RED}Migrated to data-v2/bolsheviks/Vladimir Lenin/${NC}"
+        file_count=$((file_count + 1))
+    fi
+    
+    if [ -f "data/marx-subjects.json" ]; then
+        size=$(du -h data/marx-subjects.json | cut -f1)
+        echo "  ❌ data/marx-subjects.json ($size)"
+        echo "      ${RED}No longer used${NC}"
+        file_count=$((file_count + 1))
+    fi
+    
+    # Check categories directory - can be kept for reference
     if [ -d "data/categories" ]; then
         echo "  📁 data/categories/"
         echo "    ${GREEN}KEEP: Source data - useful for reference${NC}"
         
         # Show size
-        if [ -d "data/categories" ]; then
-            dir_size=$(du -sh data/categories 2>/dev/null | cut -f1)
-            echo "    Total: $dir_size"
-        fi
+        dir_size=$(du -sh data/categories 2>/dev/null | cut -f1)
+        echo "    Total: $dir_size"
     fi
     
-    # Check other data files
-    if [ -f "data/thinkers-metadata.json" ]; then
-        size=$(du -h data/thinkers-metadata.json | cut -f1)
-        echo "  ⚠️  data/thinkers-metadata.json ($size)"
-        echo "      ${YELLOW}Source data - consider keeping for reference${NC}"
-    fi
-    
-    if [ -f "data/thinkers-works.json" ]; then
-        size=$(du -h data/thinkers-works.json | cut -f1)
-        echo "  ⚠️  data/thinkers-works.json ($size)"
-        echo "      ${YELLOW}Source data - consider keeping for reference${NC}"
-    fi
-    
-    if [ -f "data/thinkers-bundle.json" ]; then
-        size=$(du -h data/thinkers-bundle.json | cut -f1)
-        echo "  ⚠️  data/thinkers-bundle.json ($size)"
-        echo "      ${YELLOW}Source data - consider keeping for reference${NC}"
-    fi
-    
+    echo ""
+fi
+
+# Check for old loader file
+if [ -f "lib/data/thinkers-data.ts" ]; then
+    size=$(du -h lib/data/thinkers-data.ts | cut -f1)
+    echo "${YELLOW}Old Loader File:${NC}"
+    echo "  ❌ lib/data/thinkers-data.ts ($size)"
+    echo "      ${RED}Replaced by folder-loader.ts${NC}"
+    file_count=$((file_count + 1))
     echo ""
 fi
 
@@ -109,6 +141,13 @@ echo "  • lib/data/folder-loader.ts  (new loader)"
 echo ""
 echo "${RED}❌ DELETE (after testing):${NC}"
 echo "  • public/data/  (old structure)"
+echo "  • data/thinkers-metadata.json"
+echo "  • data/thinkers-works.json"
+echo "  • data/thinkers-bundle.json"
+echo "  • data/marx-works-by-subject.json"
+echo "  • data/lenin-works-by-subject.json"
+echo "  • data/marx-subjects.json"
+echo "  • lib/data/thinkers-data.ts"
 
 # Calculate space that would be freed
 if [ -d "public/data" ]; then
@@ -131,11 +170,13 @@ echo "   ${GREEN}npm run dev${NC}"
 echo ""
 echo "2. Verify all thinkers load correctly"
 echo ""
-echo "3. When ready to clean up, run:"
-echo "   ${RED}rm -rf public/data${NC}"
+echo "3. When ready to clean up, run the delete script:"
+echo "   ${RED}./scripts/shell/delete-old-data.sh${NC}"
 echo ""
-echo "4. Optional: Archive old data:"
-echo "   ${YELLOW}mkdir -p archive && mv public/data archive/${NC}"
+echo "4. Or manually delete files:"
+echo "   ${RED}rm -rf public/data${NC}"
+echo "   ${RED}rm data/thinkers-*.json data/marx-*.json data/lenin-*.json${NC}"
+echo "   ${RED}rm lib/data/thinkers-data.ts${NC}"
 echo ""
 echo "============================"
 

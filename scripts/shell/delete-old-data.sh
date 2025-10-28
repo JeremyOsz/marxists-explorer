@@ -28,24 +28,49 @@ fi
 echo "Files to be deleted:"
 echo ""
 
+# Count total files
+total_files=0
+
 if [ -d "public/data" ]; then
     echo "  ${YELLOW}public/data/${NC}"
     
     # Show size
     old_size=$(du -sh public/data 2>/dev/null | cut -f1)
-    echo "  Size: $old_size"
-    echo ""
-    
-    # List contents
-    echo "  Contents:"
-    ls -lh public/data/ 2>/dev/null | tail -n +2 | awk '{print "    " $9 " (" $5 ")"}' || true
+    echo "    Size: $old_size"
     
     # Count files
     file_count=$(find public/data -type f | wc -l | tr -d ' ')
+    echo "    Files: $file_count"
+    total_files=$((total_files + file_count))
     echo ""
-    echo "  Total files: $file_count"
-else
-    echo "${GREEN}✓ public/data/ not found (already cleaned up)${NC}"
+fi
+
+# List individual old files
+old_files=(
+    "data/thinkers-metadata.json"
+    "data/thinkers-works.json"
+    "data/thinkers-bundle.json"
+    "data/marx-works-by-subject.json"
+    "data/lenin-works-by-subject.json"
+    "data/marx-subjects.json"
+    "lib/data/thinkers-data.ts"
+)
+
+echo "  ${YELLOW}Old data files:${NC}"
+for file in "${old_files[@]}"; do
+    if [ -f "$file" ]; then
+        size=$(du -h "$file" | cut -f1)
+        echo "    • $file ($size)"
+        total_files=$((total_files + 1))
+    fi
+done
+
+echo ""
+echo "  Total files to delete: ${RED}$total_files${NC}"
+
+if [ $total_files -eq 0 ]; then
+    echo ""
+    echo "${GREEN}✓ No old files found (already cleaned up)${NC}"
     exit 0
 fi
 
@@ -70,6 +95,24 @@ if [ -d "public/data" ]; then
     rm -rf public/data
     echo "${GREEN}✅ Deleted: public/data/${NC}"
 fi
+
+# Delete old data files
+old_files=(
+    "data/thinkers-metadata.json"
+    "data/thinkers-works.json"
+    "data/thinkers-bundle.json"
+    "data/marx-works-by-subject.json"
+    "data/lenin-works-by-subject.json"
+    "data/marx-subjects.json"
+    "lib/data/thinkers-data.ts"
+)
+
+for file in "${old_files[@]}"; do
+    if [ -f "$file" ]; then
+        rm "$file"
+        echo "${GREEN}✅ Deleted: $file${NC}"
+    fi
+done
 
 # Show what remains
 echo ""
