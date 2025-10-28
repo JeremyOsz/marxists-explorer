@@ -1,188 +1,191 @@
-# Plan: Populate Thinkers Bundle with Works Data
+# Scripts Directory
 
-## Overview
-This plan outlines a comprehensive pipeline to populate the `thinkers-bundle.json` file with works data from the Marxists Internet Archive (MIA).
+This directory contains all maintenance and data population scripts for the Marxists Explorer project, organized by type.
 
-## Phase 1: Analysis and Setup ✅ COMPLETED
+## 📁 Directory Structure
 
-### 1.1 Structure Analysis
-- **Source**: `ref/index` - HTML index of MIA authors
-- **Target**: `data/thinkers-bundle.json` - Our thinkers data structure
-- **Found**: 377 author links in MIA index
-- **Categories**: 32 MIA categories mapped to our categories
-
-### 1.2 Category Mapping
-```python
-MIA_CATEGORY_MAPPING = {
-    "iwma": "first-international",
-    "social-democracy": "social-democracy", 
-    "reformism": "reformists",
-    "fabianism": "fabians",
-    "bolsheviks": "the-bolsheviks",
-    "early-comintern": "early-comintern",
-    "comintern": "comintern",
-    "soviet-writers": "soviet-science",
-    "soviet-marxism": "soviet-marxism",
-    "western-marxism": "western-marxism",
-    "french-left": "french-left",
-    "frankfurt-school": "frankfurt-school",
-    "trotskyism": "trotskyists",
-    "left-communism": "left-communism",
-    "marxist-humanism": "marxist-humanism",
-    "market-socialism": "market-socialists",
-    "guerilla-marxism": "guerilla-marxism",
-    "maoism": "maoists",
-    "national-liberation": "national-liberation",
-    "african-liberation": "african-liberation",
-    "black-liberation": "black-liberation",
-    "french-revolution": "french-revolution",
-    "paris-commune": "paris-commune",
-    "utopianism": "utopianism",
-    "anarchism": "anarchists",
-    "feminism": "feminists",
-    "populists": "populists",
-    "political-science": "political-science",
-    "philosophy": "philosophy",
-    "ethics": "ethics",
-    "political-economy": "political-economy",
-    "natural-science": "natural-science"
-}
+```
+scripts/
+├── python/          # Python data scraping and population scripts
+├── shell/           # Shell utility scripts
+├── typescript/      # TypeScript metadata and migration scripts
+├── docs/            # Documentation for specific scripts
+├── requirements.txt # Python dependencies
+└── venv_subpaths/   # Python virtual environment
 ```
 
-## Phase 2: Pipeline Development ✅ COMPLETED
+## 🐍 Python Scripts
 
-### 2.1 Scripts Created
-1. **`scripts/populate-thinker-works.py`** - Initial comprehensive scraper
-2. **`scripts/test-scraper.py`** - Test script for validation
-3. **`scripts/test-populate-works.py`** - Small test with real data
-4. **`scripts/test-populate-works-improved.py`** - Improved filtering
-5. **`scripts/populate-thinker-works-final.py`** - Final production script
+Located in `python/` - Data scraping, population, and conversion tools.
 
-### 2.2 Key Features
-- **Smart URL Construction**: Automatically adds `archive/` prefix
-- **Intelligent Filtering**: Removes navigation links and metadata
-- **Fuzzy Name Matching**: Matches MIA authors to our thinkers
-- **Rate Limiting**: Respectful delays between requests
-- **Error Handling**: Robust error handling and logging
-- **Duplicate Removal**: Prevents duplicate works
+### Web Scrapers (`python/scrapers/`)
+Scripts that crawl the web for content:
 
-### 2.3 Test Results
-- ✅ Successfully extracted 377 author links
-- ✅ Category mapping working correctly
-- ✅ Name matching working (8/8 test cases passed)
-- ✅ Works scraping working (Eugene Debs: 67 works, Rosa Luxemburg: 70 works, Antonio Gramsci: 46 works)
+- **`populate-thinker-works-final-parallel.py`** - Main script to populate thinker works data from MIA
+- **`fetch-wikimedia-portraits-bundle-improved.py`** - Fetch portrait images from Wikimedia
 
-## Phase 3: Production Pipeline 🚀 READY
+### Data Processing (`python/`)
+Local data processing and conversion:
 
-### 3.1 Execution Plan
+- **`convert-bundle-to-efficient-formats.py`** - Convert data to efficient folder structure
+- **`update_wiki_bios.py`** - Update Wikipedia bios for thinkers
+
+### Setup
 ```bash
-# 1. Install dependencies
-cd /Users/jeremy/Documents/marxists-explorer
+cd scripts
 python3 -m venv venv
-source venv/bin/activate
-pip install beautifulsoup4 requests lxml
-
-# 2. Run comprehensive population
-python scripts/populate-thinker-works-final.py
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
-### 3.2 Expected Results
-- **Target**: Populate all 377 MIA authors with works
-- **Estimated Time**: ~6-8 hours (1 second delay per author)
-- **Expected Matches**: ~200-300 thinkers successfully matched
-- **Works Per Thinker**: 10-100+ works depending on author
+## 🔧 Shell Scripts
 
-### 3.3 Monitoring
-- **Logging**: Comprehensive logging of progress
-- **Success Rate**: Track successful matches vs. total authors
-- **Error Handling**: Graceful handling of 404s and timeouts
-- **Progress**: Real-time progress updates
+Located in `shell/` - Quick utility scripts for cleanup and maintenance.
 
-## Phase 4: Data Validation and Cleanup 📋 PENDING
+- **`cleanup-old-data.sh`** - Remove old data files after migration
+- **`delete-old-data.sh`** - Delete deprecated data structures
 
-### 4.1 Validation Steps
-1. **Check Data Integrity**: Ensure JSON is valid
-2. **Verify Works URLs**: Test sample URLs for accessibility
-3. **Review Filtering**: Check for false positives/negatives
-4. **Category Accuracy**: Verify category assignments
-
-### 4.2 Cleanup Tasks
-1. **Remove Empty Works**: Clean up thinkers with no works
-2. **Deduplicate**: Remove duplicate works within thinkers
-3. **Standardize URLs**: Ensure consistent URL formatting
-4. **Update Descriptions**: Enhance thinker descriptions with works count
-
-## Phase 5: Integration and Testing 🧪 PENDING
-
-### 5.1 Frontend Integration
-1. **Update Components**: Ensure UI can handle works data
-2. **Search Enhancement**: Add works to search functionality
-3. **Display Logic**: Show works in thinker profiles
-4. **Performance**: Optimize for large datasets
-
-### 5.2 Testing
-1. **Unit Tests**: Test individual functions
-2. **Integration Tests**: Test full pipeline
-3. **Performance Tests**: Test with full dataset
-4. **User Testing**: Validate user experience
-
-## Implementation Status
-
-| Phase | Status | Progress |
-|-------|--------|----------|
-| 1. Analysis and Setup | ✅ Complete | 100% |
-| 2. Pipeline Development | ✅ Complete | 100% |
-| 3. Production Pipeline | 🚀 Ready | 100% |
-| 4. Data Validation | 📋 Pending | 0% |
-| 5. Integration and Testing | 📋 Pending | 0% |
-
-## Next Steps
-
-1. **Run Production Pipeline**: Execute `populate-thinker-works-final.py`
-2. **Monitor Progress**: Watch logs for successful matches
-3. **Validate Results**: Check populated data quality
-4. **Integrate Frontend**: Update UI components
-5. **Test and Deploy**: Final testing and deployment
-
-## Files Created
-
-- `scripts/populate-thinker-works.py` - Main works scraper
-- `scripts/test-scraper.py` - Validation tests
-- `scripts/test-populate-works.py` - Small works test
-- `scripts/test-populate-works-improved.py` - Improved works test
-- `scripts/populate-thinker-works-final.py` - Production works script
-- `scripts/fetch-wikimedia-portraits-bundle.py` - Original image fetcher
-- `scripts/fetch-wikimedia-portraits-bundle-improved.py` - **Production image fetcher** ⭐
-- `scripts/requirements.txt` - Dependencies
-- `scripts/README.md` - This plan document
-
-## Success Metrics
-
-- **Authors Processed**: 377/377 (100%)
-- **Successful Matches**: Target 200+ thinkers
-- **Works Populated**: Target 10,000+ works total
-- **Images Populated**: Target 200+ portrait images (100% success rate on test)
-- **Data Quality**: <5% false positives in filtering
-- **Performance**: <8 hours total runtime
-
-## Image Population
-
-### How to Populate Images
-
+### Usage
 ```bash
-cd /Users/jeremy/Documents/marxists-explorer
-source venv/bin/activate
-
-# Test with first 10 thinkers
-python scripts/fetch-wikimedia-portraits-bundle-improved.py 10
-
-# Run for all thinkers (will take several hours)
-python scripts/fetch-wikimedia-portraits-bundle-improved.py
+./shell/cleanup-old-data.sh
+./shell/delete-old-data.sh
 ```
 
-### Test Results
-- ✅ Successfully tested with 10 thinkers
-- ✅ 100% success rate (10/10 images found)
-- ✅ Works with full bundle format
-- ✅ Includes rate limiting and error handling
-- ✅ Comprehensive logging and progress tracking
+## 📘 TypeScript Scripts
+
+Located in `typescript/` - Metadata and schema migration tools.
+
+- **`populate-category-metadata.ts`** - Fetch and update category metadata from marxists.org
+- **`migrate-to-folder-schema.ts`** - Migrate data to folder-based schema
+
+### Usage
+```bash
+npx tsx typescript/populate-category-metadata.ts
+npx tsx typescript/migrate-to-folder-schema.ts
+```
+
+## 📚 Documentation
+
+Located in `docs/` - Additional documentation for specific scripts.
+
+- **`README_CLEANUP.md`** - Documentation for cleanup scripts
+- **`README_METADATA.md`** - Documentation for metadata population scripts
+
+## Common Tasks
+
+### Populate Category Metadata
+```bash
+npx tsx typescript/populate-category-metadata.ts
+```
+Updates category descriptions from marxists.org archive index.
+
+### Populate Thinker Works
+```bash
+source venv/bin/activate
+python python/scrapers/populate-thinker-works-final-parallel.py
+```
+Fetches works data from MIA for all thinkers.
+
+### Fetch Portrait Images
+```bash
+source venv/bin/activate
+python python/scrapers/fetch-wikimedia-portraits-bundle-improved.py
+```
+Downloads portrait images from Wikimedia Commons.
+
+### Clean Up Old Data
+```bash
+./shell/cleanup-old-data.sh
+```
+Removes deprecated data files after migration.
+
+## Script Categories
+
+### Data Population
+- Populating thinker data from MIA
+- Fetching images from Wikimedia
+- Updating bios from Wikipedia
+
+### Data Migration
+- Converting to folder-based schema
+- Migrating to efficient formats
+- Updating data structures
+
+### Maintenance
+- Cleaning up old data
+- Updating metadata
+- Managing dependencies
+
+## Dependencies
+
+### Python
+- `beautifulsoup4` - HTML parsing
+- `requests` - HTTP requests
+- `lxml` - XML/HTML processing
+
+Install with:
+```bash
+pip install -r requirements.txt
+```
+
+### Node.js/TypeScript
+- `tsx` - TypeScript execution
+- Already configured in project dependencies
+
+## File Paths
+
+All scripts reference paths relative to the project root:
+- Python: `../data/`, `../public/data/`
+- TypeScript: `../lib/`, `../public/data-v2/`
+- Shell: Project root directories
+
+## Best Practices
+
+1. **Always review changes** before committing
+   ```bash
+   git diff
+   ```
+
+2. **Test scripts** with small samples first
+   ```bash
+   python python/fetch-wikimedia-portraits-bundle-improved.py 10
+   ```
+
+3. **Check logs** for errors and progress
+   - Python scripts log to console
+   - TypeScript scripts show detailed output
+
+4. **Backup data** before major operations
+   ```bash
+   cp -r public/data public/data.backup
+   ```
+
+5. **Run from project root** for correct paths
+   ```bash
+   cd /path/to/marxists-explorer
+   npx tsx scripts/typescript/populate-category-metadata.ts
+   ```
+
+## Troubleshooting
+
+### Python Path Issues
+If imports fail, ensure you're in the virtual environment:
+```bash
+source venv/bin/activate
+```
+
+### TypeScript Execution
+Use `npx tsx` for execution, not `ts-node`:
+```bash
+npx tsx scripts/typescript/populate-category-metadata.ts
+```
+
+### Permission Errors (Shell Scripts)
+Make scripts executable:
+```bash
+chmod +x shell/*.sh
+```
+
+## History
+
+This directory was reorganized to group scripts by type for better maintainability. Original scripts are preserved in their respective subdirectories.

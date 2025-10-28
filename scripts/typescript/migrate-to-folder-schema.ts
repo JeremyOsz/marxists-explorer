@@ -100,9 +100,9 @@ function getCategoryFolder(categoryName: string): string {
 async function migrateToFolderSchema() {
   console.log('🚀 Starting migration to folder-based schema...\n');
 
-  const outputBaseDir = path.join(__dirname, '../public/data-v2');
-  const inputCategoriesDir = path.join(__dirname, '../public/data/thinkers-by-category');
-  const worksFile = path.join(__dirname, '../public/data/thinkers-works.json');
+  const outputBaseDir = path.join(__dirname, '../../public/data-v2');
+  const inputCategoriesDir = path.join(__dirname, '../../public/data/thinkers-by-category');
+  const worksFile = path.join(__dirname, '../../public/data/thinkers-works.json');
 
   // Ensure output directory exists
   if (!fs.existsSync(outputBaseDir)) {
