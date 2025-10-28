@@ -628,7 +628,41 @@
     "b": "https://www.marxists.org/reference/archive/lenin/bio/index.htm",
     "i": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg/250px-Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg",
-    "w": 6,
+    "w": 15,
+    "j": [
+      {
+        "title": "What Is To Be Done?",
+        "url": "https://www.marxists.org/archive/lenin/works/1901/witbd/"
+      },
+      {
+        "title": "State and Revolution",
+        "url": "https://www.marxists.org/archive/lenin/works/1917/staterev/"
+      },
+      {
+        "title": "Imperialism, the Highest Stage of Capitalism",
+        "url": "https://www.marxists.org/archive/lenin/works/1916/imp-hsc/"
+      },
+      {
+        "title": "The Development of Capitalism in Russia",
+        "url": "https://www.marxists.org/archive/lenin/works/1899/devel/"
+      },
+      {
+        "title": "Left-Wing Communism: An Infantile Disorder",
+        "url": "https://www.marxists.org/archive/lenin/works/1920/lwc/"
+      },
+      {
+        "title": "Materialism and Empirio-criticism",
+        "url": "https://www.marxists.org/archive/lenin/works/1908/mec/"
+      },
+      {
+        "title": "Two Tactics of Social Democracy in the Democratic Revolution",
+        "url": "https://www.marxists.org/archive/lenin/works/1905/tactics/"
+      },
+      {
+        "title": "The Proletarian Revolution and the Renegade Kautsky",
+        "url": "https://www.marxists.org/archive/lenin/works/1918/prrk/"
+      }
+    ],
     "subjects": [
       {
         "name": "Letters",
@@ -636,19 +670,19 @@
       },
       {
         "name": "Economics",
-        "count": 1
+        "count": 3
       },
       {
         "name": "Political Theory",
-        "count": 2
+        "count": 7
       },
       {
         "name": "General",
-        "count": 1
+        "count": 2
       },
       {
         "name": "Philosophy",
-        "count": 1
+        "count": 3
       }
     ]
   },
