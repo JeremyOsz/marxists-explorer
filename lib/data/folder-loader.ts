@@ -14,7 +14,30 @@ const DATA_BASE = '/data-v2';
 
 // Cache for loaded metadata
 const metadataCache = new Map<string, CategoryMetadata[]>();
-const globalIndexCache: GlobalIndex | null = null;
+let globalIndexCache: GlobalIndex | null = null;
+const categoryPathCache = new Map<string, string>(); // Maps display name to folder path
+
+/**
+ * Get the base URL for fetching data
+ * Handles both server-side and client-side environments
+ */
+function getBaseUrl(): string {
+  // Server-side: need absolute URL
+  if (typeof window === 'undefined') {
+    // Check if we have a custom host configured
+    if (process.env.NEXT_PUBLIC_SITE_URL) {
+      return process.env.NEXT_PUBLIC_SITE_URL;
+    }
+    // For Vercel deployments
+    if (process.env.VERCEL_URL) {
+      return `https://${process.env.VERCEL_URL}`;
+    }
+    // For local development
+    return 'http://localhost:3000';
+  }
+  // Client-side: relative URL works fine
+  return '';
+}
 
 // Type definitions
 interface CategoryMetadata {
@@ -52,12 +75,45 @@ export async function loadCategoryIndex(): Promise<GlobalIndex> {
     return globalIndexCache;
   }
 
-  const response = await fetch(`${DATA_BASE}/index.json`);
+  const baseUrl = getBaseUrl();
+  const response = await fetch(`${baseUrl}${DATA_BASE}/index.json`);
   if (!response.ok) {
     throw new Error(`Failed to load category index: ${response.status}`);
   }
 
-  return await response.json() as GlobalIndex;
+  const index = await response.json() as GlobalIndex;
+  
+  // Build mapping from category name to path
+  if (index.categories) {
+    for (const cat of index.categories) {
+      categoryPathCache.set(cat.name, cat.path);
+    }
+  }
+
+  globalIndexCache = index;
+  return index;
+}
+
+/**
+ * Get folder path for a category (handles case differences)
+ */
+async function getCategoryPath(categoryName: string): Promise<string> {
+  // Load index to build cache if needed
+  await loadCategoryIndex();
+  
+  // Try exact match first
+  const exactMatch = categoryPathCache.get(categoryName);
+  if (exactMatch) {
+    return exactMatch;
+  }
+  
+  // Try case-insensitive match
+  const index = await loadCategoryIndex();
+  const found = index.categories.find(
+    cat => cat.name.toLowerCase() === categoryName.toLowerCase()
+  );
+  
+  return found?.path || categoryName.toLowerCase();
 }
 
 /**
@@ -72,12 +128,16 @@ export async function getAvailableCategories(): Promise<string[]> {
  * Load metadata for a specific category
  */
 export async function loadCategoryMetadata(category: string): Promise<CategoryMetadata[]> {
+  // Get the folder path for the category
+  const categoryPath = await getCategoryPath(category);
+  
   // Check cache
-  if (metadataCache.has(category)) {
-    return metadataCache.get(category)!;
+  if (metadataCache.has(categoryPath)) {
+    return metadataCache.get(categoryPath)!;
   }
 
-  const response = await fetch(`${DATA_BASE}/${category}/metadata.json`);
+  const baseUrl = getBaseUrl();
+  const response = await fetch(`${baseUrl}${DATA_BASE}/${categoryPath}/metadata.json`);
   if (!response.ok) {
     console.warn(`Failed to load metadata for category "${category}": ${response.status}`);
     return [];
@@ -86,7 +146,7 @@ export async function loadCategoryMetadata(category: string): Promise<CategoryMe
   const metadata = await response.json() as CategoryMetadata[];
   
   // Cache it
-  metadataCache.set(category, metadata);
+  metadataCache.set(categoryPath, metadata);
   
   return metadata;
 }
@@ -128,8 +188,9 @@ export async function loadThinkerWorksBySubject(
     const sanitizedThinker = sanitizePath(thinkerName);
     const sanitizedSubject = sanitizePath(subject);
 
+    const baseUrl = getBaseUrl();
     const response = await fetch(
-      `${DATA_BASE}/${sanitizedCategory}/${sanitizedThinker}/${sanitizedSubject}.json`
+      `${baseUrl}${DATA_BASE}/${sanitizedCategory}/${sanitizedThinker}/${sanitizedSubject}.json`
     );
 
     if (!response.ok) {
@@ -151,6 +212,9 @@ export async function loadThinkerWorksBySubject(
  * Load all works for a specific thinker across all subjects
  */
 export async function loadThinkerWorks(category: string, thinkerName: string): Promise<Work[]> {
+  // Get the folder path for the category
+  const categoryPath = await getCategoryPath(category);
+  
   // Get metadata to find subjects
   const metadata = await loadCategoryMetadata(category);
   const thinkerData = metadata.find(t => t.n === thinkerName);
@@ -161,7 +225,7 @@ export async function loadThinkerWorks(category: string, thinkerName: string): P
 
   // Load works from all subjects in parallel
   const workPromises = thinkerData.subjects.map(subject =>
-    loadThinkerWorksBySubject(category, thinkerName, subject.name)
+    loadThinkerWorksBySubject(categoryPath, thinkerName, subject.name)
   );
 
   const worksArrays = await Promise.all(workPromises);
