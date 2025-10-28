@@ -19,24 +19,24 @@ const categoryPathCache = new Map<string, string>(); // Maps display name to fol
 
 /**
  * Get the base URL for fetching data
- * Handles both server-side and client-side environments
+ * On server-side during runtime, we need an absolute URL
  */
 function getBaseUrl(): string {
-  // Server-side: need absolute URL
-  if (typeof window === 'undefined') {
-    // Check if we have a custom host configured
-    if (process.env.NEXT_PUBLIC_SITE_URL) {
-      return process.env.NEXT_PUBLIC_SITE_URL;
-    }
-    // For Vercel deployments
-    if (process.env.VERCEL_URL) {
-      return `https://${process.env.VERCEL_URL}`;
-    }
-    // For local development
-    return 'http://localhost:3000';
-  }
   // Client-side: relative URL works fine
-  return '';
+  if (typeof window !== 'undefined') {
+    return '';
+  }
+  
+  // Server-side: Use Vercel URL or configured site URL
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`;
+  }
+  if (process.env.NEXT_PUBLIC_SITE_URL) {
+    return process.env.NEXT_PUBLIC_SITE_URL;
+  }
+  
+  // Fallback for local development (but page should be dynamic)
+  return 'http://localhost:3000';
 }
 
 // Type definitions

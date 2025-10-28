@@ -3,6 +3,9 @@ import { Thinker } from "@/lib/types/thinker";
 import { loadAllThinkersMetadata } from "@/lib/data/folder-loader";
 import { Suspense } from "react";
 
+// Force dynamic rendering to avoid build-time prerendering
+export const dynamic = 'force-dynamic';
+
 export default async function Home() {
   // Load metadata without works for faster initial page load
   const thinkers: Thinker[] = await loadAllThinkersMetadata();
