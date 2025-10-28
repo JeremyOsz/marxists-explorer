@@ -226,7 +226,7 @@
     "b": "https://www.marxists.org/reference/archive/marx/bio/index.htm",
     "i": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/250px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png",
-    "w": 20,
+    "w": 1509,
     "j": [
       {
         "title": "The Communist Manifesto",
@@ -271,32 +271,120 @@
     ],
     "subjects": [
       {
-        "name": "Letters",
-        "count": 1
+        "name": "Anarchism",
+        "count": 41
       },
       {
-        "name": "General",
-        "count": 6
+        "name": "Art and Literature",
+        "count": 301
       },
       {
-        "name": "Political Theory",
-        "count": 2
+        "name": "Britain",
+        "count": 17
       },
       {
         "name": "Economics",
-        "count": 3
+        "count": 34
+      },
+      {
+        "name": "Education",
+        "count": 8
+      },
+      {
+        "name": "Environment",
+        "count": 14
+      },
+      {
+        "name": "Ethics",
+        "count": 57
+      },
+      {
+        "name": "France",
+        "count": 44
+      },
+      {
+        "name": "Free Trade",
+        "count": 15
+      },
+      {
+        "name": "Historical Materialism",
+        "count": 18
+      },
+      {
+        "name": "India",
+        "count": 60
+      },
+      {
+        "name": "Interviews",
+        "count": 13
+      },
+      {
+        "name": "Ireland",
+        "count": 136
+      },
+      {
+        "name": "Letters to the Editor",
+        "count": 63
+      },
+      {
+        "name": "Literature",
+        "count": 49
+      },
+      {
+        "name": "Love and Marriage",
+        "count": 22
+      },
+      {
+        "name": "Marx Quotes",
+        "count": 190
+      },
+      {
+        "name": "Newspapers",
+        "count": 34
+      },
+      {
+        "name": "Organisation",
+        "count": 10
       },
       {
         "name": "Philosophy",
-        "count": 2
+        "count": 76
       },
       {
-        "name": "Criticism",
-        "count": 3
+        "name": "Poland",
+        "count": 21
       },
       {
-        "name": "History",
-        "count": 3
+        "name": "Pre-Capitalist Societies",
+        "count": 22
+      },
+      {
+        "name": "Religion",
+        "count": 43
+      },
+      {
+        "name": "Russia",
+        "count": 44
+      },
+      {
+        "name": "Science and Mathematics",
+        "count": 14
+      },
+      {
+        "name": "Speeches",
+        "count": 15
+      },
+      {
+        "name": "Trade Unions",
+        "count": 111
+      },
+      {
+        "name": "War",
+        "count": 17
+      },
+      {
+        "name": "Women",
+        "count": 20
       }
     ]
   },
