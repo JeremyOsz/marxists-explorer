@@ -1,0 +1,89 @@
+[
+  {
+    "n": "Carlos Marighella",
+    "c": "Guerilla Marxism",
+    "d": "Marxist thinker and theorist in the tradition of guerilla marxism.",
+    "b": "https://www.marxists.org/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/8/84/Marighella_Assassinado.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Marighella_Assassinado.jpg/250px-Marighella_Assassinado.jpg",
+    "w": 0
+  },
+  {
+    "n": "Che Guevara",
+    "c": "Guerilla Marxism",
+    "d": "Argentine Marxist revolutionary, physician, author, guerrilla leader, diplomat, and military theorist. A major figure of the Cuban Revolution. Icon of leftist revolutionary movements.",
+    "b": "https://www.marxists.org/archive/guevara/index.htm",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/CheHigh.jpg/800px-CheHigh.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/CheHigh.jpg/250px-CheHigh.jpg",
+    "w": 20,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 3
+      },
+      {
+        "name": "Political Theory",
+        "count": 6
+      },
+      {
+        "name": "Biography",
+        "count": 1
+      },
+      {
+        "name": "Criticism",
+        "count": 3
+      },
+      {
+        "name": "History",
+        "count": 4
+      },
+      {
+        "name": "Economics",
+        "count": 1
+      },
+      {
+        "name": "Letters",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "n": "Hamid Ashraf",
+    "c": "Guerilla Marxism",
+    "d": "Marxist thinker and theorist in the tradition of guerilla marxism.",
+    "b": "https://www.marxists.org/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Portrait_of_Hamid_Ashraf_printed_in_Ettela%27at.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Portrait_of_Hamid_Ashraf_printed_in_Ettela%27at.jpg/250px-Portrait_of_Hamid_Ashraf_printed_in_Ettela%27at.jpg",
+    "w": 1,
+    "subjects": [
+      {
+        "name": "History",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "n": "Juan Gelman",
+    "c": "Guerilla Marxism",
+    "d": "Marxist thinker and theorist in the tradition of guerilla marxism.",
+    "b": "https://www.marxists.org/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Juan_Gelman_-presidenciagovar-_31JUL07.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Juan_Gelman_-presidenciagovar-_31JUL07.jpg/250px-Juan_Gelman_-presidenciagovar-_31JUL07.jpg",
+    "w": 0
+  },
+  {
+    "n": "Mahir Çayan",
+    "c": "Guerilla Marxism",
+    "d": "Marxist thinker and theorist in the tradition of guerilla marxism.",
+    "b": "https://www.marxists.org/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Deniz_Gezmi%C5%9F%2C_Mahir_%C3%87ayan%2C_%C4%B0brahim_Kaypakkaya.png",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Deniz_Gezmi%C5%9F%2C_Mahir_%C3%87ayan%2C_%C4%B0brahim_Kaypakkaya.png/250px-Deniz_Gezmi%C5%9F%2C_Mahir_%C3%87ayan%2C_%C4%B0brahim_Kaypakkaya.png",
+    "w": 1,
+    "subjects": [
+      {
+        "name": "Political Theory",
+        "count": 1
+      }
+    ]
+  }
+]

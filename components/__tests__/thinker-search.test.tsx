@@ -2,11 +2,11 @@ import { render, screen, waitFor } from '@testing-library/react';
 import { ThinkerSearch } from '../thinker-search';
 
 // Mock the data loading functions
-jest.mock('@/lib/data/thinkers-data', () => ({
+jest.mock('@/lib/data/folder-loader', () => ({
   loadThinkerWorks: jest.fn(),
 }));
 
-import { loadThinkerWorks } from '@/lib/data/thinkers-data';
+import { loadThinkerWorks } from '@/lib/data/folder-loader';
 
 const mockThinkers = [
   {

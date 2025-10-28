@@ -1,11 +1,11 @@
 import { ThinkerSearch } from "@/components/thinker-search";
 import { Thinker } from "@/lib/types";
-import { loadThinkersMetadata } from "@/lib/data/thinkers-data";
+import { loadAllThinkersMetadata } from "@/lib/data/folder-loader";
 import { Suspense } from "react";
 
-export default function Home() {
+export default async function Home() {
   // Load metadata without works for faster initial page load
-  const thinkers: Thinker[] = loadThinkersMetadata();
+  const thinkers: Thinker[] = await loadAllThinkersMetadata();
 
   return (
     <div className="min-h-screen bg-background">

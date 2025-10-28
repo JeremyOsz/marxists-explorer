@@ -11,8 +11,11 @@
 - [X] Ho from https://www.marxists.org/reference/archive/ho-chi-minh/index.htm
 - [X] Che from https://www.marxists.org/archive/guevara/works.htm
 
-# Checklist of thinkers to cross check
+- [ ] Fix stalin
+- [ ] fix lenin
 
+# Checklist of thinkers to cross check
+ 
 ## Classical Marxists
 - [ ] Karl Marx  
 - [ ] Friedrich Engels  

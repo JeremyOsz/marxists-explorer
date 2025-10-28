@@ -7,7 +7,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/u
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Thinker, Work } from "@/lib/types";
 import { Badge } from "./ui/badge";
-import { loadThinkerWorks } from "@/lib/data/thinkers-data";
+import { loadThinkerWorks } from "@/lib/data/folder-loader";
 import marxWorksBySubject from "@/data/marx-works-by-subject.json";
 
 interface ThinkerSearchProps {
@@ -36,7 +36,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
   useEffect(() => {
     if (selectedThinker) {
       setLoadingWorks(true);
-      loadThinkerWorks(selectedThinker.name).then(works => {
+      loadThinkerWorks(selectedThinker.category, selectedThinker.name).then(works => {
         setSelectedThinkerWorks(works);
         setLoadingWorks(false);
       });

@@ -1,0 +1,150 @@
+[
+  {
+    "n": "Alexis de Tocqueville",
+    "c": "Political Science",
+    "d": "Marxist thinker and theorist in the tradition of political science.",
+    "b": "https://www.marxists.org/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Alexis_de_tocqueville.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Alexis_de_tocqueville.jpg/250px-Alexis_de_tocqueville.jpg",
+    "w": 0
+  },
+  {
+    "n": "Childe",
+    "c": "Political Science",
+    "d": "Marxist thinker and theorist in the tradition of political science.",
+    "b": "https://www.marxists.org/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/8/86/Easter_Morning_%28Portrait_at_a_New_York_Window%29_by_Frederick_Childe_Hassam.JPG",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Easter_Morning_%28Portrait_at_a_New_York_Window%29_by_Frederick_Childe_Hassam.JPG/250px-Easter_Morning_%28Portrait_at_a_New_York_Window%29_by_Frederick_Childe_Hassam.JPG",
+    "w": 3,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 2
+      },
+      {
+        "name": "Literature",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "n": "Edgar Morin",
+    "c": "Political Science",
+    "d": "Marxist thinker and theorist in the tradition of political science.",
+    "b": "https://www.marxists.org/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Edgar_Morin%2C_1972_%28cropped%29.tif",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Edgar_Morin%2C_1972_%28cropped%29.tif/lossless-page1-200px-Edgar_Morin%2C_1972_%28cropped%29.tif.png",
+    "w": 282,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 123
+      },
+      {
+        "name": "Criticism",
+        "count": 36
+      },
+      {
+        "name": "Political Theory",
+        "count": 36
+      },
+      {
+        "name": "Economics",
+        "count": 49
+      },
+      {
+        "name": "Letters",
+        "count": 12
+      },
+      {
+        "name": "History",
+        "count": 25
+      },
+      {
+        "name": "Philosophy",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "n": "General Carl von Clausewitz",
+    "c": "Political Science",
+    "d": "Marxist thinker and theorist in the tradition of political science.",
+    "b": "https://www.marxists.org/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/8/89/With_the_102d_Infantry_Division_through_Germany_%28IA_with102dinfantry00unit%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/With_the_102d_Infantry_Division_through_Germany_%28IA_with102dinfantry00unit%29.pdf/page1-200px-With_the_102d_Infantry_Division_through_Germany_%28IA_with102dinfantry00unit%29.pdf.jpg",
+    "w": 0
+  },
+  {
+    "n": "George Washington Plunkett",
+    "c": "Political Science",
+    "d": "Marxist thinker and theorist in the tradition of political science.",
+    "b": "https://www.marxists.org/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/3/3c/George_Washington_Plunkitt_4525453219_2ff5c45597_o.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/George_Washington_Plunkitt_4525453219_2ff5c45597_o.jpg/250px-George_Washington_Plunkitt_4525453219_2ff5c45597_o.jpg",
+    "w": 0
+  },
+  {
+    "n": "Gerrard Winstanley",
+    "c": "Political Science",
+    "d": "Marxist thinker and theorist in the tradition of political science.",
+    "b": "https://www.marxists.org/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Land_and_real_tariff_reform%3B_being_The_land_reformers%27_handbook_for_1909%3B_%28IA_landrealtariffre00edwaiala%29.pdf",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Land_and_real_tariff_reform%3B_being_The_land_reformers%27_handbook_for_1909%3B_%28IA_landrealtariffre00edwaiala%29.pdf/page1-200px-Land_and_real_tariff_reform%3B_being_The_land_reformers%27_handbook_for_1909%3B_%28IA_landrealtariffre00edwaiala%29.pdf.jpg",
+    "w": 0
+  },
+  {
+    "n": "John Locke",
+    "c": "Political Science",
+    "d": "Marxist thinker and theorist in the tradition of political science.",
+    "b": "https://www.marxists.org/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/0/0f/John_Locke_by_John_Greenhill.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/John_Locke_by_John_Greenhill.jpg/250px-John_Locke_by_John_Greenhill.jpg",
+    "w": 0
+  },
+  {
+    "n": "Louis-René Villermé",
+    "c": "Political Science",
+    "d": "Marxist thinker and theorist in the tradition of political science.",
+    "b": "https://www.marxists.org/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Louis-Ren%C3%A9_Villerm%C3%A9.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Louis-Ren%C3%A9_Villerm%C3%A9.jpg/250px-Louis-Ren%C3%A9_Villerm%C3%A9.jpg",
+    "w": 0
+  },
+  {
+    "n": "Nicolo Machiavelli",
+    "c": "Political Science",
+    "d": "Marxist thinker and theorist in the tradition of political science.",
+    "b": "https://www.marxists.org/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Ritratto_di_Nicol%C3%B2_Machiavelli%2C_fine_XVIII_sec._-_Accademia_delle_Scienze_di_Torino_-_Ritratti_0058.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ritratto_di_Nicol%C3%B2_Machiavelli%2C_fine_XVIII_sec._-_Accademia_delle_Scienze_di_Torino_-_Ritratti_0058.jpg/250px-Ritratto_di_Nicol%C3%B2_Machiavelli%2C_fine_XVIII_sec._-_Accademia_delle_Scienze_di_Torino_-_Ritratti_0058.jpg",
+    "w": 0
+  },
+  {
+    "n": "Sun-Tzu",
+    "c": "Political Science",
+    "d": "Marxist thinker and theorist in the tradition of political science.",
+    "b": "https://www.marxists.org/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/c/cf/%E5%90%B4%E5%8F%B8%E9%A9%AC%E5%AD%99%E6%AD%A6.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/%E5%90%B4%E5%8F%B8%E9%A9%AC%E5%AD%99%E6%AD%A6.jpg/250px-%E5%90%B4%E5%8F%B8%E9%A9%AC%E5%AD%99%E6%AD%A6.jpg",
+    "w": 0
+  },
+  {
+    "n": "Thomas Hobbes",
+    "c": "Political Science",
+    "d": "Marxist thinker and theorist in the tradition of political science.",
+    "b": "https://www.marxists.org/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Samuel_Cooper_-_Portrait_of_Thomas_Hobbes_-_1949.548_-_Cleveland_Museum_of_Art.tif",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Samuel_Cooper_-_Portrait_of_Thomas_Hobbes_-_1949.548_-_Cleveland_Museum_of_Art.tif/lossy-page1-200px-Samuel_Cooper_-_Portrait_of_Thomas_Hobbes_-_1949.548_-_Cleveland_Museum_of_Art.tif.jpg",
+    "w": 0
+  },
+  {
+    "n": "Thomas Paine",
+    "c": "Political Science",
+    "d": "Marxist thinker and theorist in the tradition of political science.",
+    "b": "https://www.marxists.org/reference/archive/",
+    "i": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Laurent_Dabos_%E2%80%93_Thomas_Paine_%E2%80%93_Google_Art_Project.jpg",
+    "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Laurent_Dabos_%E2%80%93_Thomas_Paine_%E2%80%93_Google_Art_Project.jpg/250px-Laurent_Dabos_%E2%80%93_Thomas_Paine_%E2%80%93_Google_Art_Project.jpg",
+    "w": 0
+  }
+]

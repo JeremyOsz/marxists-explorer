@@ -1,0 +1,190 @@
+{
+  "categories": [
+    {
+      "id": "african-liberation",
+      "name": "african-liberation",
+      "path": "african-liberation",
+      "count": 13
+    },
+    {
+      "id": "anarchists",
+      "name": "anarchists",
+      "path": "anarchists",
+      "count": 22
+    },
+    {
+      "id": "black-liberation",
+      "name": "black-liberation",
+      "path": "black-liberation",
+      "count": 6
+    },
+    {
+      "id": "bolsheviks",
+      "name": "bolsheviks",
+      "path": "bolsheviks",
+      "count": 30
+    },
+    {
+      "id": "comintern",
+      "name": "comintern",
+      "path": "comintern",
+      "count": 56
+    },
+    {
+      "id": "early-comintern",
+      "name": "early-comintern",
+      "path": "early-comintern",
+      "count": 59
+    },
+    {
+      "id": "ethics",
+      "name": "ethics",
+      "path": "ethics",
+      "count": 4
+    },
+    {
+      "id": "fabians",
+      "name": "fabians",
+      "path": "fabians",
+      "count": 7
+    },
+    {
+      "id": "feminists",
+      "name": "feminists",
+      "path": "feminists",
+      "count": 53
+    },
+    {
+      "id": "first-international",
+      "name": "first-international",
+      "path": "first-international",
+      "count": 16
+    },
+    {
+      "id": "frankfurt-school",
+      "name": "frankfurt-school",
+      "path": "frankfurt-school",
+      "count": 8
+    },
+    {
+      "id": "french-left",
+      "name": "french-left",
+      "path": "french-left",
+      "count": 12
+    },
+    {
+      "id": "french-revolution",
+      "name": "french-revolution",
+      "path": "french-revolution",
+      "count": 11
+    },
+    {
+      "id": "guerilla-marxism",
+      "name": "guerilla-marxism",
+      "path": "guerilla-marxism",
+      "count": 5
+    },
+    {
+      "id": "left-communism",
+      "name": "left-communism",
+      "path": "left-communism",
+      "count": 22
+    },
+    {
+      "id": "maoists",
+      "name": "maoists",
+      "path": "maoists",
+      "count": 21
+    },
+    {
+      "id": "market-socialists",
+      "name": "market-socialists",
+      "path": "market-socialists",
+      "count": 6
+    },
+    {
+      "id": "marxist-humanism",
+      "name": "marxist-humanism",
+      "path": "marxist-humanism",
+      "count": 21
+    },
+    {
+      "id": "national-liberation",
+      "name": "national-liberation",
+      "path": "national-liberation",
+      "count": 21
+    },
+    {
+      "id": "paris-commune",
+      "name": "paris-commune",
+      "path": "paris-commune",
+      "count": 3
+    },
+    {
+      "id": "philosophy",
+      "name": "philosophy",
+      "path": "philosophy",
+      "count": 26
+    },
+    {
+      "id": "political-economy",
+      "name": "political-economy",
+      "path": "political-economy",
+      "count": 8
+    },
+    {
+      "id": "political-science",
+      "name": "political-science",
+      "path": "political-science",
+      "count": 12
+    },
+    {
+      "id": "populists",
+      "name": "populists",
+      "path": "populists",
+      "count": 1
+    },
+    {
+      "id": "reformists",
+      "name": "reformists",
+      "path": "reformists",
+      "count": 9
+    },
+    {
+      "id": "social-democracy",
+      "name": "social-democracy",
+      "path": "social-democracy",
+      "count": 30
+    },
+    {
+      "id": "soviet-marxism",
+      "name": "soviet-marxism",
+      "path": "soviet-marxism",
+      "count": 10
+    },
+    {
+      "id": "soviet-science",
+      "name": "soviet-science",
+      "path": "soviet-science",
+      "count": 7
+    },
+    {
+      "id": "trotskyists",
+      "name": "trotskyists",
+      "path": "trotskyists",
+      "count": 53
+    },
+    {
+      "id": "utopianism",
+      "name": "utopianism",
+      "path": "utopianism",
+      "count": 8
+    },
+    {
+      "id": "western-marxism",
+      "name": "western-marxism",
+      "path": "western-marxism",
+      "count": 4
+    }
+  ]
+}
