@@ -1,18 +1,21 @@
 # TODO
 
-- [ ] Shortlist ML reading list
-- [X] Fill out all works of Marx
-- [X] Fill out all works of Lenin
-- [X] Fill out all works of Stalin
-- [X] Fill out all works of Mao
-- [X] link to thinker
-- [X] fill in wiki bios
-- [X] Althusser from https://www.marxists.org/reference/archive/althusser/
-- [X] Ho from https://www.marxists.org/reference/archive/ho-chi-minh/index.htm
-- [X] Che from https://www.marxists.org/archive/guevara/works.htm
+## Current Tasks
 
-- [ ] Fix stalin
-- [ ] fix lenin
+- [ ] Shortlist ML reading list
+- [X] Migrate to folder-based data structure (data-v2)
+- [X] Add major works highlighting feature
+- [X] Fill in major works for Marx
+- [X] Fill in major works for Lenin
+- [X] Organize works by subject for all thinkers
+- [ ] Clean up old data files (run `./scripts/shell/delete-old-data.sh`)
+
+## Data Quality
+
+- [ ] Review and verify thinker biographies
+- [ ] Add major works for key thinkers (Trotsky, Luxemburg, Gramsci, etc.)
+- [ ] Standardize subject categories across thinkers
+- [ ] Add work descriptions where available
 
 # Checklist of thinkers to cross check
  
