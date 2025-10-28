@@ -30,7 +30,30 @@ async function testAPI(endpoint, description) {
     console.log('✅ Success!');
     
     // Pretty print result based on endpoint type
-    if (endpoint.includes('/search')) {
+    if (endpoint.includes('/stats')) {
+      console.log(`Total Thinkers: ${result.data.totalThinkers}`);
+      console.log(`Total Works: ${result.data.totalWorks}`);
+      console.log(`Total Categories: ${result.data.totalCategories}`);
+      console.log(`\nTop Categories:`);
+      result.data.topCategories?.slice(0, 3).forEach(c => {
+        console.log(`  - ${c.name}: ${c.thinkers} thinkers, ${c.works} works`);
+      });
+      console.log(`\nMost Prolific:`);
+      result.data.mostProlificThinkers?.slice(0, 3).forEach(t => {
+        console.log(`  - ${t.name}: ${t.works} works`);
+      });
+    } else if (endpoint.includes('/compare')) {
+      console.log(`Comparing ${result.data.comparison.length} thinkers:`);
+      result.data.comparison.forEach(t => {
+        console.log(`  - ${t.name}: ${t.works} works, ${t.subjects} subjects`);
+      });
+      if (result.data.sharedSubjects?.length > 0) {
+        console.log(`\nShared Subjects: ${result.data.sharedSubjects.join(', ')}`);
+      }
+    } else if (endpoint.includes('/random')) {
+      console.log(`Random: ${result.data.name} (${result.data.category})`);
+      console.log(`Works: ${result.data.workCount || 0}`);
+    } else if (endpoint.includes('/search')) {
       console.log(`Found ${result.data.count} results`);
       result.data.results.slice(0, 3).forEach(t => {
         console.log(`  - ${t.name} (${t.category})`);
@@ -137,6 +160,30 @@ async function main() {
   await testAPI(
     '/api/catalogue/search?q=lenin&category=bolsheviks',
     'Search for "lenin" in Bolsheviks'
+  );
+  
+  // Test 10: Statistics
+  await testAPI(
+    '/api/catalogue/stats',
+    'Get Catalogue Statistics'
+  );
+  
+  // Test 11: Random thinker
+  await testAPI(
+    '/api/catalogue/random/thinker',
+    'Get Random Thinker'
+  );
+  
+  // Test 12: Random thinker from category
+  await testAPI(
+    '/api/catalogue/random/thinker?category=bolsheviks',
+    'Get Random Thinker (Bolsheviks only)'
+  );
+  
+  // Test 13: Compare thinkers
+  await testAPI(
+    '/api/catalogue/thinkers/compare?thinkers=Karl%20Marx,Vladimir%20Lenin',
+    'Compare Karl Marx and Vladimir Lenin'
   );
   
   console.log('\n' + '='.repeat(60));
