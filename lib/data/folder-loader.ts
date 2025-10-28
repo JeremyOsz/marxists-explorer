@@ -1,4 +1,6 @@
 import { Thinker, ThinkerMetadata, Work } from '../types/thinker';
+// Statically import the index to avoid fetching during build
+import categoryIndexData from '../../public/data-v2/index.json';
 
 /**
  * Folder-based data loader for hierarchical data structure
@@ -76,13 +78,8 @@ export async function loadCategoryIndex(): Promise<GlobalIndex> {
     return globalIndexCache;
   }
 
-  const baseUrl = getBaseUrl();
-  const response = await fetch(`${baseUrl}${DATA_BASE}/index.json`);
-  if (!response.ok) {
-    throw new Error(`Failed to load category index: ${response.status}`);
-  }
-
-  const index = await response.json() as GlobalIndex;
+  // Use statically imported data to avoid fetching during build
+  const index = categoryIndexData as GlobalIndex;
   
   // Build mapping from category name to path
   if (index.categories) {
