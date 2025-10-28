@@ -628,61 +628,89 @@
     "b": "https://www.marxists.org/reference/archive/lenin/bio/index.htm",
     "i": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg/250px-Vladimir_Lenin_in_July_1920_by_Pavel_Zhukov.jpg",
-    "w": 15,
+    "w": 115,
     "j": [
       {
-        "title": "What Is To Be Done?",
-        "url": "https://www.marxists.org/archive/lenin/works/1901/witbd/"
+        "title": "Karl Marx: A Brief Biographical Sketch With an Exposition of Marxism",
+        "url": "https://www.marxists.org/archive/lenin/works/1914/granat/index.htm"
       },
       {
-        "title": "State and Revolution",
-        "url": "https://www.marxists.org/archive/lenin/works/1917/staterev/"
+        "title": "The Three Sources and Three Component Parts of Marxism",
+        "url": "https://www.marxists.org/archive/lenin/works/1913/mar/x01.htm"
+      },
+      {
+        "title": "What Is To Be Done? Burning Questions of our Movement",
+        "url": "https://www.marxists.org/archive/lenin/works/1901/witbd/index.htm"
+      },
+      {
+        "title": "One Step Forward, Two Steps Back (The Crisis in Our Party)",
+        "url": "https://www.marxists.org/archive/lenin/works/1904/onestep/index.htm"
+      },
+      {
+        "title": "Two Tactics of Social-Democracy in the Democratic Revolution",
+        "url": "https://www.marxists.org/archive/lenin/works/1905/tactics/index.htm"
       },
       {
         "title": "Imperialism, the Highest Stage of Capitalism",
-        "url": "https://www.marxists.org/archive/lenin/works/1916/imp-hsc/"
+        "url": "https://www.marxists.org/archive/lenin/works/1916/imp-hsc/index.htm"
       },
       {
-        "title": "The Development of Capitalism in Russia",
-        "url": "https://www.marxists.org/archive/lenin/works/1899/devel/"
+        "title": "The State and Revolution",
+        "url": "https://www.marxists.org/archive/lenin/works/1917/staterev/index.htm"
       },
       {
-        "title": "Left-Wing Communism: An Infantile Disorder",
-        "url": "https://www.marxists.org/archive/lenin/works/1920/lwc/"
-      },
-      {
-        "title": "Materialism and Empirio-criticism",
-        "url": "https://www.marxists.org/archive/lenin/works/1908/mec/"
-      },
-      {
-        "title": "Two Tactics of Social Democracy in the Democratic Revolution",
-        "url": "https://www.marxists.org/archive/lenin/works/1905/tactics/"
+        "title": "The April Theses",
+        "url": "https://www.marxists.org/archive/lenin/works/1917/aprtheses/index.htm"
       },
       {
         "title": "The Proletarian Revolution and the Renegade Kautsky",
-        "url": "https://www.marxists.org/archive/lenin/works/1918/prrk/"
+        "url": "https://www.marxists.org/archive/lenin/works/1918/prrk/index.htm"
+      },
+      {
+        "title": "Left-Wing Communism: an Infantile Disorder",
+        "url": "https://www.marxists.org/archive/lenin/works/1920/lwc/index.htm"
+      },
+      {
+        "title": "The Tax in Kind",
+        "url": "https://www.marxists.org/archive/lenin/works/1921/apr/21.htm"
+      },
+      {
+        "title": "Better Fewer, But Better",
+        "url": "https://www.marxists.org/archive/lenin/works/1923/mar/02.htm"
       }
     ],
     "subjects": [
       {
-        "name": "Letters",
-        "count": 1
+        "name": "Against Revisionism, in Defence of Marxism",
+        "count": 4
       },
       {
-        "name": "Economics",
-        "count": 3
+        "name": "Lenin's Last Works",
+        "count": 5
       },
       {
-        "name": "Political Theory",
-        "count": 7
+        "name": "On Democracy and Dictatorship",
+        "count": 4
       },
       {
-        "name": "General",
+        "name": "On Literature and Art",
+        "count": 5
+      },
+      {
+        "name": "On Philosophy",
         "count": 2
       },
       {
-        "name": "Philosophy",
-        "count": 3
+        "name": "On Youth",
+        "count": 4
+      },
+      {
+        "name": "On the Emancipation of Women",
+        "count": 20
+      },
+      {
+        "name": "On the National Question",
+        "count": 71
       }
     ]
   },
