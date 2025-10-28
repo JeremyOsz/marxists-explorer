@@ -48,6 +48,7 @@ interface CategoryMetadata {
   i: string;
   t?: string;
   w: number;
+  j?: Array<{ title: string; url: string }>; // major works
   subjects?: Array<{ name: string; count: number }>;
 }
 
@@ -163,6 +164,7 @@ function expandMetadata(metadata: CategoryMetadata): Thinker {
     imageUrl: metadata.i,
     thumbnailUrl: metadata.t,
     workCount: metadata.w,
+    majorWorks: metadata.j,
     works: [], // Works loaded separately
   };
 }
@@ -258,6 +260,7 @@ export async function loadThinker(category: string, thinkerName: string): Promis
     imageUrl: thinkerData.i,
     thumbnailUrl: thinkerData.t,
     works: works,
+    majorWorks: thinkerData.j,
     workCount: thinkerData.w,
   };
 }
@@ -283,6 +286,7 @@ export async function loadThinkersByCategory(category: string): Promise<Thinker[
       imageUrl: thinkerData.i,
       thumbnailUrl: thinkerData.t,
       works: works,
+      majorWorks: thinkerData.j,
       workCount: thinkerData.w,
     });
   }

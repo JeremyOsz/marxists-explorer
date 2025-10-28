@@ -227,6 +227,48 @@
     "i": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png/250px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png",
     "w": 20,
+    "j": [
+      {
+        "title": "The Communist Manifesto",
+        "url": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/"
+      },
+      {
+        "title": "Das Kapital, Volume I",
+        "url": "https://www.marxists.org/archive/marx/works/1867-c1/"
+      },
+      {
+        "title": "Das Kapital, Volume II",
+        "url": "https://www.marxists.org/archive/marx/works/1885-c2/"
+      },
+      {
+        "title": "Das Kapital, Volume III",
+        "url": "https://www.marxists.org/archive/marx/works/1894-c3/"
+      },
+      {
+        "title": "Grundrisse",
+        "url": "https://www.marxists.org/archive/marx/works/1857/grundrisse/"
+      },
+      {
+        "title": "The German Ideology",
+        "url": "https://www.marxists.org/archive/marx/works/1845/german-ideology/"
+      },
+      {
+        "title": "Economic and Philosophic Manuscripts of 1844",
+        "url": "https://www.marxists.org/archive/marx/works/1844/manuscripts/preface.htm"
+      },
+      {
+        "title": "The Eighteenth Brumaire of Louis Bonaparte",
+        "url": "https://www.marxists.org/archive/marx/works/1852/18th-brumaire/"
+      },
+      {
+        "title": "The Civil War in France",
+        "url": "https://www.marxists.org/archive/marx/works/1871/civil-war-france/"
+      },
+      {
+        "title": "Critique of the Gotha Programme",
+        "url": "https://www.marxists.org/archive/marx/works/1875/gotha/"
+      }
+    ],
     "subjects": [
       {
         "name": "Letters",

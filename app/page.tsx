@@ -1,5 +1,5 @@
 import { ThinkerSearch } from "@/components/thinker-search";
-import { Thinker } from "@/lib/types";
+import { Thinker } from "@/lib/types/thinker";
 import { loadAllThinkersMetadata } from "@/lib/data/folder-loader";
 import { Suspense } from "react";
 
