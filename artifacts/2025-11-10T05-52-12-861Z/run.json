@@ -1,0 +1,73 @@
+{
+  "runId": "2025-11-10T05-52-12-861Z",
+  "startedAt": "2025-11-10T05:52:12.861Z",
+  "finishedAt": "2025-11-10T05:52:16.549Z",
+  "durationsMs": {
+    "total": 3688
+  },
+  "resources": {
+    "authors": {
+      "url": "https://www.marxists.org/admin/js/data/authors.json",
+      "status": 200,
+      "fetchedAt": "2025-11-10T05:52:15.479Z",
+      "durationMs": 2613.504334,
+      "headers": {
+        "etag": "\"2c016-642ef04b1e634\"",
+        "lastModified": "Thu, 06 Nov 2025 15:50:03 GMT",
+        "cacheControl": "max-age=3600"
+      },
+      "sha256": "6cc125e288babe9c4952a272cd5204f7eaa79f1915403b9090a70cd386cd3c91",
+      "bytes": 180246
+    },
+    "sections": {
+      "url": "https://www.marxists.org/admin/js/data/sections.json",
+      "status": 200,
+      "fetchedAt": "2025-11-10T05:52:15.827Z",
+      "durationMs": 336.20825000000013,
+      "headers": {
+        "etag": "\"2c48-61394fae18e01\"",
+        "lastModified": "Thu, 14 Mar 2024 01:40:45 GMT",
+        "cacheControl": "max-age=3600"
+      },
+      "sha256": "9c53d743151cf072966836372a9e02fd81696719071377a3e848f8bdfd5330a7",
+      "bytes": 11336
+    },
+    "periodicals": {
+      "url": "https://www.marxists.org/admin/js/data/periodicals.json",
+      "status": 200,
+      "fetchedAt": "2025-11-10T05:52:16.169Z",
+      "durationMs": 341.0227500000001,
+      "headers": {
+        "etag": "\"18b1d-64008b4582bfa\"",
+        "lastModified": "Tue, 30 Sep 2025 18:13:09 GMT",
+        "cacheControl": "max-age=3600"
+      },
+      "sha256": "14d7d4e7f4cdddb2f961391ad8637d0dd3b1e07e10c10d99978caa07e53b26c6",
+      "bytes": 101149
+    },
+    "subjectHtml": [
+      {
+        "url": "https://www.marxists.org/subject/",
+        "status": 200,
+        "fetchedAt": "2025-11-10T05:52:16.518Z",
+        "durationMs": 346.79008299999987,
+        "headers": {
+          "etag": "\"7408-636176da0347e-gzip\"",
+          "lastModified": "Tue, 27 May 2025 05:35:11 GMT",
+          "cacheControl": "max-age=604800"
+        },
+        "sha256": "647458db223b983453ea9591e928a7349091ba5ed23c816a812205ec5360c267",
+        "bytes": 29704
+      }
+    ]
+  },
+  "summary": {
+    "authorsAdded": 1080,
+    "authorsRemoved": 0,
+    "sectionsAdded": 0,
+    "sectionsRemoved": 0,
+    "periodicalsAdded": 0,
+    "periodicalsRemoved": 0
+  },
+  "anomalyCount": 602
+}

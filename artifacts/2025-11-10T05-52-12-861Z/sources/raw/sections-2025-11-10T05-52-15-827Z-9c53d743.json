@@ -1,0 +1,569 @@
+[
+  {
+    "id": "63",
+    "index": "63",
+    "type": "1",
+    "href": "afrikaans/index.htm",
+    "name": "Afrikaans"
+  },
+  {
+    "id": "1",
+    "index": "1",
+    "type": "1",
+    "href": "shqip/index.htm",
+    "name": "Albanian"
+  },
+  {
+    "id": "81",
+    "index": "80",
+    "type": "1",
+    "href": "amharic/index.htm",
+    "name": "Amharic"
+  },
+  {
+    "id": "2",
+    "index": "2",
+    "type": "1",
+    "href": "arabic/index.htm",
+    "name": "Arabic"
+  },
+  {
+    "id": "3",
+    "index": "3",
+    "type": "1",
+    "href": "hayeren/index.htm",
+    "name": "Armenian"
+  },
+  {
+    "id": "75",
+    "index": "74",
+    "type": "1",
+    "href": "asamiya/index.htm",
+    "name": "Assamese"
+  },
+  {
+    "id": "80",
+    "index": "79",
+    "type": "1",
+    "href": "azerbaycan/index.htm",
+    "name": "Azerbaijani"
+  },
+  {
+    "id": "4",
+    "index": "4",
+    "type": "1",
+    "href": "bangla/index.htm",
+    "name": "Bengali"
+  },
+  {
+    "id": "79",
+    "index": "78",
+    "type": "1",
+    "href": "bulgarsky/index.htm",
+    "name": "Bulgarsky"
+  },
+  {
+    "id": "5",
+    "index": "5",
+    "type": "1",
+    "href": "burmese/index.htm",
+    "name": "Burmese"
+  },
+  {
+    "id": "6",
+    "index": "6",
+    "type": "1",
+    "href": "catala/index.htm",
+    "name": "Catalan"
+  },
+  {
+    "id": "7",
+    "index": "7",
+    "type": "1",
+    "href": "chinese/index.html",
+    "name": "Chinese"
+  },
+  {
+    "id": "8",
+    "index": "8",
+    "type": "1",
+    "href": "kernowek/index.htm",
+    "name": "Cornish"
+  },
+  {
+    "id": "9",
+    "index": "9",
+    "type": "1",
+    "href": "cestina/index.htm",
+    "name": "Czech"
+  },
+  {
+    "id": "10",
+    "index": "10",
+    "type": "1",
+    "href": "dansk/index.htm",
+    "name": "Dansk"
+  },
+  {
+    "id": "11",
+    "index": "11",
+    "type": "1",
+    "href": "deutsch/index.htm",
+    "name": "Deutsch"
+  },
+  {
+    "id": "12",
+    "index": "12",
+    "type": "1",
+    "href": "eesti/index.htm",
+    "name": "Eesti"
+  },
+  {
+    "id": "13",
+    "index": "13",
+    "type": "1",
+    "href": "espanol/index.htm",
+    "name": "Espanol"
+  },
+  {
+    "id": "14",
+    "index": "14",
+    "type": "1",
+    "href": "esperanto/index.htm",
+    "name": "Esperanto"
+  },
+  {
+    "id": "15",
+    "index": "15",
+    "type": "1",
+    "href": "euskara/index.htm",
+    "name": "Euskara"
+  },
+  {
+    "id": "16",
+    "index": "16",
+    "type": "1",
+    "href": "farsi/index.htm",
+    "name": "Farsi"
+  },
+  {
+    "id": "17",
+    "index": "17",
+    "type": "1",
+    "href": "suomi/index.htm",
+    "name": "Finnish"
+  },
+  {
+    "id": "18",
+    "index": "18",
+    "type": "1",
+    "href": "francais/index.htm",
+    "name": "Francais"
+  },
+  {
+    "id": "64",
+    "index": "64",
+    "type": "1",
+    "href": "georgian/index.htm",
+    "name": "Georgian"
+  },
+  {
+    "id": "20",
+    "index": "20",
+    "type": "1",
+    "href": "ellinika/index.htm",
+    "name": "Greek"
+  },
+  {
+    "id": "65",
+    "index": "65",
+    "type": "1",
+    "href": "gujarati/index.htm",
+    "name": "Gujarati"
+  },
+  {
+    "id": "66",
+    "index": "66",
+    "type": "1",
+    "href": "hausa/index.htm",
+    "name": "Hausa"
+  },
+  {
+    "id": "21",
+    "index": "21",
+    "type": "1",
+    "href": "hebrew/index.htm",
+    "name": "Hebrew"
+  },
+  {
+    "id": "22",
+    "index": "22",
+    "type": "1",
+    "href": "hindi/index.htm",
+    "name": "Hindi"
+  },
+  {
+    "id": "23",
+    "index": "23",
+    "type": "1",
+    "href": "magyar/index.htm",
+    "name": "Hungarian"
+  },
+  {
+    "id": "24",
+    "index": "24",
+    "type": "1",
+    "href": "indonesia/index.htm",
+    "name": "Indonesia"
+  },
+  {
+    "id": "67",
+    "index": "67",
+    "type": "1",
+    "href": "isizulu/index.htm",
+    "name": "isiZulu"
+  },
+  {
+    "id": "25",
+    "index": "25",
+    "type": "1",
+    "href": "islenska/index.htm",
+    "name": "Islenska"
+  },
+  {
+    "id": "26",
+    "index": "26",
+    "type": "1",
+    "href": "italiano/index.htm",
+    "name": "Italiano"
+  },
+  {
+    "id": "27",
+    "index": "27",
+    "type": "1",
+    "href": "nihon/index.htm",
+    "name": "Japanese"
+  },
+  {
+    "id": "77",
+    "index": "76",
+    "type": "1",
+    "href": "kannada/index.htm",
+    "name": "Kannada"
+  },
+  {
+    "id": "28",
+    "index": "28",
+    "type": "1",
+    "href": "kazak/index.htm",
+    "name": "Kazak"
+  },
+  {
+    "id": "29",
+    "index": "29",
+    "type": "1",
+    "href": "korean/index.htm",
+    "name": "Korean"
+  },
+  {
+    "id": "30",
+    "index": "30",
+    "type": "1",
+    "href": "kurdi/index.htm",
+    "name": "Kurdish"
+  },
+  {
+    "id": "71",
+    "index": "71",
+    "type": "1",
+    "href": "kyrgyzcha/index.htm",
+    "name": "Kyrgyz"
+  },
+  {
+    "id": "31",
+    "index": "31",
+    "type": "1",
+    "href": "lietuviu/index.htm",
+    "name": "Lietuviu"
+  },
+  {
+    "id": "32",
+    "index": "32",
+    "type": "1",
+    "href": "makedonski/index.htm",
+    "name": "Macedonian"
+  },
+  {
+    "id": "78",
+    "index": "77",
+    "type": "1",
+    "href": "malagasy/index.htm",
+    "name": "Malagasy"
+  },
+  {
+    "id": "33",
+    "index": "33",
+    "type": "1",
+    "href": "malayalam/index.htm",
+    "name": "Malayalam"
+  },
+  {
+    "id": "72",
+    "index": "72",
+    "type": "1",
+    "href": "marathi/index.htm",
+    "name": "Marathi"
+  },
+  {
+    "id": "34",
+    "index": "34",
+    "type": "1",
+    "href": "mongolian/index.htm",
+    "name": "Mongolian"
+  },
+  {
+    "id": "35",
+    "index": "35",
+    "type": "1",
+    "href": "nederlands/index.htm",
+    "name": "Nederlands"
+  },
+  {
+    "id": "36",
+    "index": "36",
+    "type": "1",
+    "href": "nepali/index.htm",
+    "name": "Nepali"
+  },
+  {
+    "id": "37",
+    "index": "37",
+    "type": "1",
+    "href": "norsk/index.htm",
+    "name": "Norsk"
+  },
+  {
+    "id": "19",
+    "index": "19",
+    "type": "1",
+    "href": "occitan/index.htm",
+    "name": "Occitan (and Gascon)"
+  },
+  {
+    "id": "38",
+    "index": "38",
+    "type": "1",
+    "href": "odia/index.htm",
+    "name": "Oriya"
+  },
+  {
+    "id": "39",
+    "index": "39",
+    "type": "1",
+    "href": "pashto/index.htm",
+    "name": "Pashto"
+  },
+  {
+    "id": "40",
+    "index": "40",
+    "type": "1",
+    "href": "polski/index.htm",
+    "name": "Polski"
+  },
+  {
+    "id": "41",
+    "index": "41",
+    "type": "1",
+    "href": "portugues/index.htm",
+    "name": "Portuguese"
+  },
+  {
+    "id": "42",
+    "index": "42",
+    "type": "1",
+    "href": "punjabi/index.htm",
+    "name": "Punjabi"
+  },
+  {
+    "id": "43",
+    "index": "43",
+    "type": "1",
+    "href": "quechua/index.htm",
+    "name": "Quechua"
+  },
+  {
+    "id": "44",
+    "index": "44",
+    "type": "1",
+    "href": "romana/index.htm",
+    "name": "Romanian"
+  },
+  {
+    "id": "45",
+    "index": "45",
+    "type": "1",
+    "href": "russkij/index.htm",
+    "name": "Russian"
+  },
+  {
+    "id": "76",
+    "index": "75",
+    "type": "1",
+    "href": "sakha/index.htm",
+    "name": "Sakha"
+  },
+  {
+    "id": "46",
+    "index": "46",
+    "type": "1",
+    "href": "sardu/index.htm",
+    "name": "Sardu"
+  },
+  {
+    "id": "47",
+    "index": "47",
+    "type": "1",
+    "href": "srpshrva/index.htm",
+    "name": "Serbo-Croat"
+  },
+  {
+    "id": "48",
+    "index": "48",
+    "type": "1",
+    "href": "sindhi/index.htm",
+    "name": "Sindhi"
+  },
+  {
+    "id": "49",
+    "index": "49",
+    "type": "1",
+    "href": "sinhala/index.htm",
+    "name": "Sinhala"
+  },
+  {
+    "id": "50",
+    "index": "50",
+    "type": "1",
+    "href": "slovak/index.htm",
+    "name": "Slovakian"
+  },
+  {
+    "id": "51",
+    "index": "51",
+    "type": "1",
+    "href": "slovenian/index.htm",
+    "name": "Slovenian"
+  },
+  {
+    "id": "52",
+    "index": "52",
+    "type": "1",
+    "href": "svenska/index.htm",
+    "name": "Svenska"
+  },
+  {
+    "id": "68",
+    "index": "68",
+    "type": "1",
+    "href": "kiswahili/index.htm",
+    "name": "Swahili"
+  },
+  {
+    "id": "53",
+    "index": "53",
+    "type": "1",
+    "href": "tagalog/index.htm",
+    "name": "Tagalog"
+  },
+  {
+    "id": "54",
+    "index": "54",
+    "type": "1",
+    "href": "tojiki/index.htm",
+    "name": "Tajik"
+  },
+  {
+    "id": "55",
+    "index": "55",
+    "type": "1",
+    "href": "tamil/index.htm",
+    "name": "Tamil"
+  },
+  {
+    "id": "74",
+    "index": "74",
+    "type": "1",
+    "href": "telugu/index.htm",
+    "name": "Telugu"
+  },
+  {
+    "id": "56",
+    "index": "56",
+    "type": "1",
+    "href": "thai/index.htm",
+    "name": "Thai"
+  },
+  {
+    "id": "69",
+    "index": "69",
+    "type": "1",
+    "href": "tibetan/index.htm",
+    "name": "Tibetan"
+  },
+  {
+    "id": "57",
+    "index": "57",
+    "type": "1",
+    "href": "turkce/index.htm",
+    "name": "Turkce"
+  },
+  {
+    "id": "58",
+    "index": "58",
+    "type": "1",
+    "href": "ukrainian/index.htm",
+    "name": "Ukrainian"
+  },
+  {
+    "id": "59",
+    "index": "59",
+    "type": "1",
+    "href": "urdu/index.htm",
+    "name": "Urdu"
+  },
+  {
+    "id": "82",
+    "index": "81",
+    "type": "1",
+    "href": "uyghur/index.htm",
+    "name": "Uyghur"
+  },
+  {
+    "id": "60",
+    "index": "60",
+    "type": "1",
+    "href": "ozbekcha/index.htm",
+    "name": "Uzbek"
+  },
+  {
+    "id": "61",
+    "index": "61",
+    "type": "1",
+    "href": "vietnamese/index.htm",
+    "name": "Vietnamese"
+  },
+  {
+    "id": "62",
+    "index": "63",
+    "type": "1",
+    "href": "xlang/index.htm",
+    "name": "X-Language"
+  },
+  {
+    "id": "70",
+    "index": "70",
+    "type": "1",
+    "href": "yiddish/index.htm",
+    "name": "Yiddish"
+  }
+]
