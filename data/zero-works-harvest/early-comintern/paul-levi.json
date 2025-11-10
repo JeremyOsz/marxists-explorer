@@ -1,0 +1,22 @@
+{
+  "collection": "early-comintern",
+  "thinker": "Paul Levi",
+  "slug": "paul-levi",
+  "source_url": "https://www.marxists.org/archive/levi-paul/index.htm",
+  "status": "success",
+  "message": "Collected 2 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Introduction to Trotsky’sLessons of October",
+      "url": "https://www.marxists.org/archive/levi-paul/1924/lessons-october.htm"
+    },
+    {
+      "title": "Our Path: Against Putschism",
+      "url": "https://www.marxists.org/archive/levi-paul/1921/against-putschism.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/levi-paul/index.htm"
+  ]
+}

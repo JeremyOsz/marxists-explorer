@@ -1,0 +1,58 @@
+{
+  "collection": "frankfurt-school",
+  "thinker": "Erich Fromm",
+  "slug": "erich-fromm",
+  "source_url": "https://www.marxists.org/archive/fromm/index.htm",
+  "status": "success",
+  "message": "Collected 11 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Character and Social Process,",
+      "url": "https://www.marxists.org/archive/fromm/works/1942/character.htm"
+    },
+    {
+      "title": "Human Nature and Social Theory",
+      "url": "https://www.marxists.org/archive/fromm/works/1969/human.htm"
+    },
+    {
+      "title": "Individual and Social Origins of Neurosis",
+      "url": "https://www.marxists.org/archive/fromm/works/1944/neurosis.htm"
+    },
+    {
+      "title": "Introduction to Socialist Humanism: An International Symposium",
+      "url": "https://www.marxists.org/archive/fromm/works/1965/introduction.htm"
+    },
+    {
+      "title": "Marx's Concept of Man",
+      "url": "https://www.marxists.org/archive/fromm/works/1961/man/index.htm"
+    },
+    {
+      "title": "Marx's Contribution to the Knowledge of Man",
+      "url": "https://www.marxists.org/archive/fromm/works/1968/marx.htm"
+    },
+    {
+      "title": "Marxism, Psychoanalysis and Reality",
+      "url": "https://www.marxists.org/archive/fromm/works/1966/psychoanalysis.htm"
+    },
+    {
+      "title": "Summerhill - A Radical Approach to Child Rearing,",
+      "url": "https://www.marxists.org/archive/fromm/works/1960/summerhill.htm"
+    },
+    {
+      "title": "The Authoritarian Personality",
+      "url": "https://www.marxists.org/archive/fromm/works/1957/authoritarian.htm"
+    },
+    {
+      "title": "The Influence of Social Factors in Child Development",
+      "url": "https://www.marxists.org/archive/fromm/works/1958/social.htm"
+    },
+    {
+      "title": "Trotzky's Diary in Exile",
+      "url": "https://www.marxists.org/archive/fromm/works/1935/trotsky.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/fromm/index.htm"
+  ]
+}

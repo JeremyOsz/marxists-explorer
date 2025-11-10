@@ -89,7 +89,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/2/2e/NLRB_Members_2012-01.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/NLRB_Members_2012-01.jpg/250px-NLRB_Members_2012-01.jpg",
-    "w": 0
+    "w": 134,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 134
+      }
+    ]
   },
   {
     "n": "Carl Cowl",
@@ -175,7 +181,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/8/82/DanielBensa%C3%AFd_abr08_copia.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/DanielBensa%C3%AFd_abr08_copia.jpg/250px-DanielBensa%C3%AFd_abr08_copia.jpg",
-    "w": 0
+    "w": 29,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 29
+      }
+    ]
   },
   {
     "n": "Daniel Norman",
@@ -193,7 +205,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/7/78/David_Korner_%28Barta%29.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/David_Korner_%28Barta%29.jpg/250px-David_Korner_%28Barta%29.jpg",
-    "w": 0
+    "w": 8,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 8
+      }
+    ]
   },
   {
     "n": "Denzil Dean Harber",
@@ -246,7 +264,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Felix_Holt%2C_the_radical_%28IA_felixholtradical01eliorich%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Felix_Holt%2C_the_radical_%28IA_felixholtradical01eliorich%29.pdf/page1-200px-Felix_Holt%2C_the_radical_%28IA_felixholtradical01eliorich%29.pdf.jpg",
-    "w": 0
+    "w": 142,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 142
+      }
+    ]
   },
   {
     "n": "Frank Glass",
@@ -255,7 +279,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Frank_Wheaton%2C_three-quarter_length_portrait%2C_seated%2C_facing_left%2C_in_uniform_LCCN96509141.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Frank_Wheaton%2C_three-quarter_length_portrait%2C_seated%2C_facing_left%2C_in_uniform_LCCN96509141.jpg/250px-Frank_Wheaton%2C_three-quarter_length_portrait%2C_seated%2C_facing_left%2C_in_uniform_LCCN96509141.jpg",
-    "w": 0
+    "w": 74,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 74
+      }
+    ]
   },
   {
     "n": "Geoff Pilling",
@@ -279,7 +309,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Screenland_1926-03.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Screenland_1926-03.pdf/page1-200px-Screenland_1926-03.pdf.jpg",
-    "w": 0
+    "w": 115,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 115
+      }
+    ]
   },
   {
     "n": "George Rawick",
@@ -288,7 +324,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Federal_Register_1959-05-_Vol_24_Index_%28IA_sim_federal-register-find_1959-05_24_index%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Federal_Register_1959-05-_Vol_24_Index_%28IA_sim_federal-register-find_1959-05_24_index%29.pdf/page1-200px-Federal_Register_1959-05-_Vol_24_Index_%28IA_sim_federal-register-find_1959-05_24_index%29.pdf.jpg",
-    "w": 0
+    "w": 17,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 17
+      }
+    ]
   },
   {
     "n": "Gerry Healy",
@@ -337,7 +379,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Memoirs_of_the_International_congress_of_anthropology_%28IA_memoirsofinterna00inte%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Memoirs_of_the_International_congress_of_anthropology_%28IA_memoirsofinterna00inte%29.pdf/page1-200px-Memoirs_of_the_International_congress_of_anthropology_%28IA_memoirsofinterna00inte%29.pdf.jpg",
-    "w": 0
+    "w": 28,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 28
+      }
+    ]
   },
   {
     "n": "Hugo Dewar",
@@ -346,7 +394,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Nature_%28IA_nature221880lock%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Nature_%28IA_nature221880lock%29.pdf/page1-200px-Nature_%28IA_nature221880lock%29.pdf.jpg",
-    "w": 0
+    "w": 4,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 4
+      }
+    ]
   },
   {
     "n": "Hugo Oehler",
@@ -400,7 +454,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ole_Peter_Hansen_Balling_-_Grant_and_His_Generals_-_S-NPG.76.8_-_National_Portrait_Gallery.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ole_Peter_Hansen_Balling_-_Grant_and_His_Generals_-_S-NPG.76.8_-_National_Portrait_Gallery.jpg/250px-Ole_Peter_Hansen_Balling_-_Grant_and_His_Generals_-_S-NPG.76.8_-_National_Portrait_Gallery.jpg",
-    "w": 0
+    "w": 178,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 178
+      }
+    ]
   },
   {
     "n": "Ken Tarbuck",
@@ -473,7 +533,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Trotzki_1.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Trotzki_1.jpg/250px-Trotzki_1.jpg",
-    "w": 0
+    "w": 459,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 459
+      }
+    ]
   },
   {
     "n": "Michel Pablo",
@@ -482,7 +548,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Stamp_of_Albania_-_2000_-_Colnect_186686_-_Self_Portrait_1906_by_Pablo_Picasso.jpeg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Stamp_of_Albania_-_2000_-_Colnect_186686_-_Self_Portrait_1906_by_Pablo_Picasso.jpeg/250px-Stamp_of_Albania_-_2000_-_Colnect_186686_-_Self_Portrait_1906_by_Pablo_Picasso.jpeg",
-    "w": 0
+    "w": 43,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 43
+      }
+    ]
   },
   {
     "n": "Nahuel Moreno",
@@ -515,7 +587,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Pantelis_Pouliopoulos.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Pantelis_Pouliopoulos.jpg/250px-Pantelis_Pouliopoulos.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "Peter Camejo",
@@ -524,7 +602,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/8/84/Motion_Picture_Herald_%28IA_motionpictureher164unse%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Motion_Picture_Herald_%28IA_motionpictureher164unse%29.pdf/page1-200px-Motion_Picture_Herald_%28IA_motionpictureher164unse%29.pdf.jpg",
-    "w": 0
+    "w": 9,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 9
+      }
+    ]
   },
   {
     "n": "Peter Hadden",
@@ -644,6 +728,12 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/b/b5/WalterGropius-1919.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/WalterGropius-1919.jpg/250px-WalterGropius-1919.jpg",
-    "w": 0
+    "w": 15,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 15
+      }
+    ]
   }
 ]

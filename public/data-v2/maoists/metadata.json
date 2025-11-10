@@ -6,7 +6,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Essays_and_discourses_%28IA_essaysanddiscour00raypiala%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Essays_and_discourses_%28IA_essaysanddiscour00raypiala%29.pdf/page1-200px-Essays_and_discourses_%28IA_essaysanddiscour00raypiala%29.pdf.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "Charu Mazumdar",
@@ -378,7 +384,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/1/15/Wilcox%2C_Charles_S.%2C_1892-1904_%28President%2C_The_Automobile_Supply_Co.%2C_Chicago%2C_Illinois%29_%28ANS_Chapman_brothers_business_correspondence%29_%28IA_wilcoxcharless1800wilc%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Wilcox%2C_Charles_S.%2C_1892-1904_%28President%2C_The_Automobile_Supply_Co.%2C_Chicago%2C_Illinois%29_%28ANS_Chapman_brothers_business_correspondence%29_%28IA_wilcoxcharless1800wilc%29.pdf/page1-200px-thumbnail.pdf.jpg",
-    "w": 0
+    "w": 2,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 2
+      }
+    ]
   },
   {
     "n": "Vinod Mishra",

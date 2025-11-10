@@ -1,0 +1,514 @@
+{
+  "collection": "early-comintern",
+  "thinker": "Herbert Zam",
+  "slug": "herbert-zam",
+  "source_url": "https://www.marxists.org/archive/zam/index.htm",
+  "status": "success",
+  "message": "Collected 125 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "A 'Realistic' War Program,",
+      "url": "https://www.marxists.org/archive/zam/1935/sep-14-1935-call.pdf"
+    },
+    {
+      "title": "A New 'Labor Party' for Britain,",
+      "url": "https://www.marxists.org/archive/zam/1936/aug-08-1936-call.pdf"
+    },
+    {
+      "title": "A People's Front in England?,",
+      "url": "https://www.marxists.org/archive/zam/1936/jun-06-1936-call.pdf"
+    },
+    {
+      "title": "After the French Elections,",
+      "url": "https://www.marxists.org/archive/zam/1936/may-16-1936-call.pdf"
+    },
+    {
+      "title": "After Two Years: Balance Sheet of the New Line,",
+      "url": "https://www.marxists.org/archive/zam/1931/may-30-1931-RA.pdf"
+    },
+    {
+      "title": "Again a \"New Turn\" in the Comintern,",
+      "url": "https://www.marxists.org/archive/zam/1930/feb-15-1930-RA.pdf"
+    },
+    {
+      "title": "Against a \"New Party\" and a \"Fourth\" Int'l,",
+      "url": "https://www.marxists.org/archive/zam/1933/dec-01-1933-WA-2.pdf"
+    },
+    {
+      "title": "Amnesty in the Soviet Union,",
+      "url": "https://www.marxists.org/archive/zam/1936/feb-15-1936-call.pdf"
+    },
+    {
+      "title": "Anti-Fascist or Anti-Capitalist,",
+      "url": "https://www.marxists.org/archive/zam/1935/aug-10-1935-call.pdf"
+    },
+    {
+      "title": "British Labor at the Polls,",
+      "url": "https://www.marxists.org/archive/zam/1935/nov-09-1935-call.pdf"
+    },
+    {
+      "title": "Build the League. A Task for Every Member,",
+      "url": "https://www.marxists.org/archive/zam/1928/jun-01-1928-YW.pdf"
+    },
+    {
+      "title": "C.E. Ruthenberg",
+      "url": "https://www.marxists.org/archive/zam/1927/mar-15-1927-YW.pdf"
+    },
+    {
+      "title": "C.E. Ruthenberg - Communist,",
+      "url": "https://www.marxists.org/archive/zam/1927/apr-15-1927-YW.pdf"
+    },
+    {
+      "title": "Change the World!,",
+      "url": "https://www.marxists.org/archive/zam/1935/dec-09-1935-DW.pdf"
+    },
+    {
+      "title": "Communism and Social Democracy. Some Lessons from Germany,",
+      "url": "https://www.marxists.org/archive/zam/1931/nov-21-1931-RA.pdf"
+    },
+    {
+      "title": "Communist Frankness on War,",
+      "url": "https://www.marxists.org/archive/zam/1935/dec-21-1935-call.pdf"
+    },
+    {
+      "title": "Communist Youth Advances,",
+      "url": "https://www.marxists.org/archive/zam/1929/jan-23-1929-DW.pdf"
+    },
+    {
+      "title": "Communists and War,",
+      "url": "https://www.marxists.org/archive/zam/1936/feb-01-1936-call.pdf"
+    },
+    {
+      "title": "Communo-Chauvinism,",
+      "url": "https://www.marxists.org/archive/zam/1935/jul-13-1935-call.pdf"
+    },
+    {
+      "title": "Crisis in People's Front,",
+      "url": "https://www.marxists.org/archive/zam/1936/apr-11-1936-call.pdf"
+    },
+    {
+      "title": "Crisis in the Proletarian Party,",
+      "url": "https://www.marxists.org/archive/zam/1933/nov-01-1933-WA.pdf"
+    },
+    {
+      "title": "Decisions of the International,",
+      "url": "https://www.marxists.org/archive/zam/1936/jun-13-1936-call.pdf"
+    },
+    {
+      "title": "Democracy as a Weapon,",
+      "url": "https://www.marxists.org/archive/zam/1936/jan-18-1936-call.pdf"
+    },
+    {
+      "title": "Election Results in Belgium,",
+      "url": "https://www.marxists.org/archive/zam/1936/jun-20-1936-call.pdf"
+    },
+    {
+      "title": "Ethiopia - And After,",
+      "url": "https://www.marxists.org/archive/zam/1936/may-09-1936-call.pdf"
+    },
+    {
+      "title": "Facing the War Gods,",
+      "url": "https://www.marxists.org/archive/zam/1936/may-02-1936-call.pdf"
+    },
+    {
+      "title": "For A New Perspective for Our Group,",
+      "url": "https://www.marxists.org/archive/zam/1933/nov-01-1933-sup-WA.pdf"
+    },
+    {
+      "title": "For Unity and Mass Work,",
+      "url": "https://www.marxists.org/archive/zam/1925/oct-31-1925-yw.pdf"
+    },
+    {
+      "title": "Franco-Soviet Alliance and International Labor,",
+      "url": "https://www.marxists.org/archive/zam/1935/may-25-1935-call.pdf"
+    },
+    {
+      "title": "French and Swiss Elections,",
+      "url": "https://www.marxists.org/archive/zam/1935/jun-08-1935-call.pdf"
+    },
+    {
+      "title": "French Socialist Conference,",
+      "url": "https://www.marxists.org/archive/zam/1936/mar-21-1936-call.pdf"
+    },
+    {
+      "title": "French Socialist Congress,",
+      "url": "https://www.marxists.org/archive/zam/1935/jul-06-1935-call.pdf"
+    },
+    {
+      "title": "Hail First District Convention of New York Young Pioneers,",
+      "url": "https://www.marxists.org/archive/zam/1925/nov-28-1925-DW.pdf"
+    },
+    {
+      "title": "Herbert Zam Quits the Lovestone Group,",
+      "url": "https://www.marxists.org/archive/zam/1934/sep-08-1934-Militant.pdf"
+    },
+    {
+      "title": "How Not to Fight War,",
+      "url": "https://www.marxists.org/archive/zam/1936/may-30-1936-call.pdf"
+    },
+    {
+      "title": "How to Conduct Factory Campaigns,",
+      "url": "https://www.marxists.org/archive/zam/1925/dec-26-1925-yw.pdf"
+    },
+    {
+      "title": "International Labor Unity,",
+      "url": "https://www.marxists.org/archive/zam/1935/sep-21-1935-call.pdf"
+    },
+    {
+      "title": "International Labor Unity,",
+      "url": "https://www.marxists.org/archive/zam/1935/sep-28-1935-call.pdf"
+    },
+    {
+      "title": "Karl Liebknecht - Leader of the Youth,",
+      "url": "https://www.marxists.org/archive/zam/1926/jan-1926-1B-WM.pdf"
+    },
+    {
+      "title": "Kings and Revolutionists,",
+      "url": "https://www.marxists.org/archive/zam/1936/mar-07-1936-call.pdf"
+    },
+    {
+      "title": "Labor Unity in France and India,",
+      "url": "https://www.marxists.org/archive/zam/1935/aug-31-1935-call.pdf"
+    },
+    {
+      "title": "Lenin or DeLeon? DeLeon and Roots of American Communism,",
+      "url": "https://www.marxists.org/archive/zam/1931/jan-03-1931-RA.pdf"
+    },
+    {
+      "title": "Lenin or DeLeon? DeLeonism, Then and Now,",
+      "url": "https://www.marxists.org/archive/zam/1931/jan-17-1931-RA.pdf"
+    },
+    {
+      "title": "Lenin or DeLeon? Opportunism and Dualism,",
+      "url": "https://www.marxists.org/archive/zam/1931/jan-10-1931-RA.pdf"
+    },
+    {
+      "title": "May Day and the Youth,",
+      "url": "https://www.marxists.org/archive/zam/1928/may-01-1928-YW.pdf"
+    },
+    {
+      "title": "New Program of the C.P.L.A.,",
+      "url": "https://www.marxists.org/archive/zam/1932/may-21-1932-WA.pdf"
+    },
+    {
+      "title": "One Step Forward - Three Steps Backward: The Seventh World Congress of the Communist International,",
+      "url": "https://www.marxists.org/archive/zam/1935/nov-1935-ASQ.pdf"
+    },
+    {
+      "title": "Organic Unity and Realism,",
+      "url": "https://www.marxists.org/archive/zam/1936/feb-08-1936-call.pdf"
+    },
+    {
+      "title": "Part I;",
+      "url": "https://www.marxists.org/archive/zam/1927/feb-01-1927-YW.pdf"
+    },
+    {
+      "title": "Part I;",
+      "url": "https://www.marxists.org/archive/zam/1928/may-30-1928-DW.pdf"
+    },
+    {
+      "title": "Part I;",
+      "url": "https://www.marxists.org/archive/zam/1929/dec-01-1929-RA.pdf"
+    },
+    {
+      "title": "Part I;",
+      "url": "https://www.marxists.org/archive/zam/1930/jun-15-1930-RA.pdf"
+    },
+    {
+      "title": "Part I;",
+      "url": "https://www.marxists.org/archive/zam/1932/may-07-1932-WA.pdf"
+    },
+    {
+      "title": "Part I;",
+      "url": "https://www.marxists.org/archive/zam/1932/aug-06-1932-WA.pdf"
+    },
+    {
+      "title": "Part I;",
+      "url": "https://www.marxists.org/archive/zam/1933/feb-15-1933-WA.pdf"
+    },
+    {
+      "title": "Part II,",
+      "url": "https://www.marxists.org/archive/zam/1927/feb-15-1927-YW.pdf"
+    },
+    {
+      "title": "Part II,",
+      "url": "https://www.marxists.org/archive/zam/1930/jul-01-1930-RA.pdf"
+    },
+    {
+      "title": "Part II;",
+      "url": "https://www.marxists.org/archive/zam/1928/may-31-1928-DW.pdf"
+    },
+    {
+      "title": "Part II;",
+      "url": "https://www.marxists.org/archive/zam/1929/mar-28-1929-DW.pdf"
+    },
+    {
+      "title": "Part II;",
+      "url": "https://www.marxists.org/archive/zam/1929/dec-15-1929-RA.pdf"
+    },
+    {
+      "title": "Part II;",
+      "url": "https://www.marxists.org/archive/zam/1932/may-14-1932-WA.pdf"
+    },
+    {
+      "title": "Part II;",
+      "url": "https://www.marxists.org/archive/zam/1932/aug-20-1932-WA.pdf"
+    },
+    {
+      "title": "Part II;",
+      "url": "https://www.marxists.org/archive/zam/1933/mar-01-1933-WA.pdf"
+    },
+    {
+      "title": "Part III,",
+      "url": "https://www.marxists.org/archive/zam/1930/jan-01-1930-RA.pdf"
+    },
+    {
+      "title": "Part III,",
+      "url": "https://www.marxists.org/archive/zam/1933/apr-15-1933-WA.pdf"
+    },
+    {
+      "title": "Part III;",
+      "url": "https://www.marxists.org/archive/zam/1928/jun-01-1928-DW.pdf"
+    },
+    {
+      "title": "Part III;",
+      "url": "https://www.marxists.org/archive/zam/1929/mar-29-1929-DW.pdf"
+    },
+    {
+      "title": "Part IV;",
+      "url": "https://www.marxists.org/archive/zam/1929/mar-30-1929-DW.pdf"
+    },
+    {
+      "title": "Poland, France and Russia,",
+      "url": "https://www.marxists.org/archive/zam/1935/jul-20-1935-call.pdf"
+    },
+    {
+      "title": "Police Arrest YWL Speakers; Crowd Protests,",
+      "url": "https://www.marxists.org/archive/zam/1924/sep-30-1924-DW.pdf"
+    },
+    {
+      "title": "Progress of the United Front,",
+      "url": "https://www.marxists.org/archive/zam/1935/jul-27-1935-call.pdf"
+    },
+    {
+      "title": "Revolutionary Socialism in France,",
+      "url": "https://www.marxists.org/archive/zam/1935/nov-30-1935-call.pdf"
+    },
+    {
+      "title": "Revolutionary Socialism in Spain,",
+      "url": "https://www.marxists.org/archive/zam/1936/may-23-1936-call.pdf"
+    },
+    {
+      "title": "Russian Komsomols: Builders of the Future,",
+      "url": "https://www.marxists.org/archive/zam/1925/nov-07-1925-YW.pdf"
+    },
+    {
+      "title": "Socialism in India,",
+      "url": "https://www.marxists.org/archive/zam/1936/mar-14-1936-call.pdf"
+    },
+    {
+      "title": "Socialism, Neutrality and War,",
+      "url": "https://www.marxists.org/archive/zam/1936/jan-11-1936-call.pdf"
+    },
+    {
+      "title": "Socialist Youth and War,",
+      "url": "https://www.marxists.org/archive/zam/1936/jul-04-1936-call.pdf"
+    },
+    {
+      "title": "Some Comments on the Comintern,",
+      "url": "https://www.marxists.org/archive/zam/1935/aug-23-1935-call.pdf"
+    },
+    {
+      "title": "Some Questions of Comintern and C.P.S.U. Policy,",
+      "url": "https://www.marxists.org/archive/zam/1932/dec-15-1932-WA.pdf"
+    },
+    {
+      "title": "Some Questions of Communist Unity: The Proletarian Party and the C.P.-O.,",
+      "url": "https://www.marxists.org/archive/zam/1933/jul-01-1933-WA.pdf"
+    },
+    {
+      "title": "Spain Moves Forward,",
+      "url": "https://www.marxists.org/archive/zam/1936/feb-29-1936-call.pdf"
+    },
+    {
+      "title": "Statement of Political Bureau on Expulsions,",
+      "url": "https://www.marxists.org/archive/zam/1929/aug-24-1929-DW.pdf"
+    },
+    {
+      "title": "Tasks of Individual Member in Factory,",
+      "url": "https://www.marxists.org/archive/zam/1926/mar-06-1926-yw.pdf"
+    },
+    {
+      "title": "The 'Plan' Congress in Holland,",
+      "url": "https://www.marxists.org/archive/zam/1935/dec-14-1935-call.pdf"
+    },
+    {
+      "title": "The [CP's] New York Municipal Election Campaign,",
+      "url": "https://www.marxists.org/archive/zam/1929/nov-01-1929-RA.pdf"
+    },
+    {
+      "title": "The British Election Results,",
+      "url": "https://www.marxists.org/archive/zam/1935/nov-23-1935-call.pdf"
+    },
+    {
+      "title": "The Communists, Oil and War,",
+      "url": "https://www.marxists.org/archive/zam/1935/dec-07-1935-call.pdf"
+    },
+    {
+      "title": "The Concentration Group - What It Is and How it Functions,",
+      "url": "https://www.marxists.org/archive/zam/1925/dec-12-1925-yw.pdf"
+    },
+    {
+      "title": "The Fascist Terror Continues,",
+      "url": "https://www.marxists.org/archive/zam/1936/jul-11-1936-call.pdf"
+    },
+    {
+      "title": "The Forward March of Unity,",
+      "url": "https://www.marxists.org/archive/zam/1935/nov-02-1935-call.pdf"
+    },
+    {
+      "title": "The Forward March of Unity,",
+      "url": "https://www.marxists.org/archive/zam/1936/jan-04-1936-call.pdf"
+    },
+    {
+      "title": "The Historical Struggle Against the Gastonia Frame-up,",
+      "url": "https://www.marxists.org/archive/zam/1929/nov-15-1929-RA.pdf"
+    },
+    {
+      "title": "The Indian Socialist Party,",
+      "url": "https://www.marxists.org/archive/zam/1935/sep-07-1935-call.pdf"
+    },
+    {
+      "title": "The Liquidation of the YCI,",
+      "url": "https://www.marxists.org/archive/zam/1935/nov-16-1935-call.pdf"
+    },
+    {
+      "title": "The London Labor Conference,",
+      "url": "https://www.marxists.org/archive/zam/1936/mar-28-1936-call.pdf"
+    },
+    {
+      "title": "The Nominating Convention and Youth,",
+      "url": "https://www.marxists.org/archive/zam/1928/may-19-1928-DW.pdf"
+    },
+    {
+      "title": "The Open Letter and the New Party Line,",
+      "url": "https://www.marxists.org/archive/zam/1929/mar-26-1929-DW.pdf"
+    },
+    {
+      "title": "The Party Policy in Negro Work: The Self-Determination Slogan,",
+      "url": "https://www.marxists.org/archive/zam/1932/feb-06-1932-WA.pdf"
+    },
+    {
+      "title": "The People's Front in France,",
+      "url": "https://www.marxists.org/archive/zam/1936/feb-22-1936-call.pdf"
+    },
+    {
+      "title": "The Polish Parliament,",
+      "url": "https://www.marxists.org/archive/zam/1935/jun-29-1935-call.pdf"
+    },
+    {
+      "title": "The Prospects for a Labor Party,",
+      "url": "https://www.marxists.org/archive/zam/1932/sep-03-1932-WA.pdf"
+    },
+    {
+      "title": "The Resignation of Caballero,",
+      "url": "https://www.marxists.org/archive/zam/1936/jan-25-1936-call.pdf"
+    },
+    {
+      "title": "The Socialist International Brussels Resolution,",
+      "url": "https://www.marxists.org/archive/zam/1935/jun-01-1935-call.pdf"
+    },
+    {
+      "title": "The Struggle for Unity on a Higher Level,",
+      "url": "https://www.marxists.org/archive/zam/1933/dec-01-1933-WA.pdf"
+    },
+    {
+      "title": "The Youth and the Elections,",
+      "url": "https://www.marxists.org/archive/zam/1928/apr-1928-communist.pdf"
+    },
+    {
+      "title": "The Youth and the Russian Revolution",
+      "url": "https://www.marxists.org/archive/zam/1927/zam-youth-russian-rev.pdf"
+    },
+    {
+      "title": "The Youth International,",
+      "url": "https://www.marxists.org/archive/zam/1935/oct-19-1935-call.pdf"
+    },
+    {
+      "title": "The Youth Movement and the Sixth Anniversary of the Young Workers (Communist) League,",
+      "url": "https://www.marxists.org/archive/zam/1928/jun-1928-communist.pdf"
+    },
+    {
+      "title": "To All Members of the Young Workers League,",
+      "url": "https://www.marxists.org/archive/zam/1925/sep-12-1925-DW.pdf"
+    },
+    {
+      "title": "Trade Union Unity in France,",
+      "url": "https://www.marxists.org/archive/zam/1936/apr-04-1936-call.pdf"
+    },
+    {
+      "title": "Trotsky \"Changes His Mind\",",
+      "url": "https://www.marxists.org/archive/zam/1932/apr-02-1932-WA.pdf"
+    },
+    {
+      "title": "Trotsky and the Far East Crisis,",
+      "url": "https://www.marxists.org/archive/zam/1932/mar-05-1932-WA.pdf"
+    },
+    {
+      "title": "Trotskyists Join Socialists,",
+      "url": "https://www.marxists.org/archive/zam/1935/jun-15-1935-call.pdf"
+    },
+    {
+      "title": "Turmoil Over Belgium,",
+      "url": "https://www.marxists.org/archive/zam/1935/may-11-1935-call.pdf"
+    },
+    {
+      "title": "Underestimating Czech Fascism,",
+      "url": "https://www.marxists.org/archive/zam/1935/jun-22-1935-call.pdf"
+    },
+    {
+      "title": "Unionism in Austria,",
+      "url": "https://www.marxists.org/archive/zam/1936/apr-18-1936-call.pdf"
+    },
+    {
+      "title": "War Policies, Sanctions and Socialism,",
+      "url": "https://www.marxists.org/archive/zam/1936/may-1936-ASM.pdf"
+    },
+    {
+      "title": "What Next in Spain,",
+      "url": "https://www.marxists.org/archive/zam/1936/apr-25-1936-call.pdf"
+    },
+    {
+      "title": "What Next in Spain?,",
+      "url": "https://www.marxists.org/archive/zam/1936/aug-01-1936-call.pdf"
+    },
+    {
+      "title": "Whither the French Coalition,",
+      "url": "https://www.marxists.org/archive/zam/1936/jul-18-1936-call.pdf"
+    },
+    {
+      "title": "Why a Labor Party?,",
+      "url": "https://www.marxists.org/archive/zam/1933/aug-01-1933-WA.pdf"
+    },
+    {
+      "title": "Will Sanctions Mean War?,",
+      "url": "https://www.marxists.org/archive/zam/1935/oct-26-1935-call.pdf"
+    },
+    {
+      "title": "Will There Be Unity in France?,",
+      "url": "https://www.marxists.org/archive/zam/1935/may-18-1935-call.pdf"
+    },
+    {
+      "title": "Youth Facing Industrial Crisis. Young Workers Buro Meet Discusses Danger of World War,",
+      "url": "https://www.marxists.org/archive/zam/1928/feb-09-1928-DW.pdf"
+    },
+    {
+      "title": "Zam Outlines Many Important Tasks of the Young Workers Communist League,",
+      "url": "https://www.marxists.org/archive/zam/1929/apr-08-1929-DW.pdf"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/zam/index.htm"
+  ]
+}

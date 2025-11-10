@@ -1,0 +1,26 @@
+{
+  "collection": "comintern",
+  "thinker": "Christopher Hill",
+  "slug": "christopher-hill",
+  "source_url": "https://www.marxists.org/archive/hill-christopher/index.htm",
+  "status": "success",
+  "message": "Collected 3 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Cromwell and the English Middle Class Revolution",
+      "url": "https://www.marxists.org/archive/hill-christopher/1937/11/x01.htm"
+    },
+    {
+      "title": "English History",
+      "url": "https://www.marxists.org/archive/hill-christopher/1938/07/english_history.htm"
+    },
+    {
+      "title": "Tumults and Commotions – Turning the World Upside Down",
+      "url": "https://www.marxists.org/archive/hill-christopher/1997/xx/tumults.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/hill-christopher/index.htm"
+  ]
+}

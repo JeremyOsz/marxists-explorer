@@ -1,0 +1,13 @@
+{
+  "collection": "philosophy",
+  "thinker": "Heinrich Heine",
+  "slug": "heinrich-heine",
+  "source_url": null,
+  "status": "no_source_match",
+  "message": "No Marxists.org author page was identified.",
+  "warnings": [
+    "No entry located on index page"
+  ],
+  "works": [],
+  "visited_urls": []
+}

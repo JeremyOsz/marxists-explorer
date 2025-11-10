@@ -1,0 +1,38 @@
+{
+  "collection": "early-comintern",
+  "thinker": "Jacob Walcher",
+  "slug": "jacob-walcher",
+  "source_url": "https://www.marxists.org/archive/walcher/index.htm",
+  "status": "success",
+  "message": "Collected 6 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "In Defence of the Eight-Hour Day",
+      "url": "https://www.marxists.org/archive/walcher/1922/12/8-hourday.htm"
+    },
+    {
+      "title": "Lockout of 20,000 Workers in the Chemical Industry of Germany",
+      "url": "https://www.marxists.org/archive/walcher/1921/10/lockout.html"
+    },
+    {
+      "title": "The Congress of the German Metal Workers Union",
+      "url": "https://www.marxists.org/archive/walcher/1921/10/germetal.html"
+    },
+    {
+      "title": "The Congress of the Trade Union Opposition in Czecho-Slovakia",
+      "url": "https://www.marxists.org/archive/walcher/1922/11/tuopp-czech.htm"
+    },
+    {
+      "title": "The Fight in Ludwigshafen",
+      "url": "https://www.marxists.org/archive/walcher/1923/01/lud-hafen.htm"
+    },
+    {
+      "title": "The German Trade Unions in 1920",
+      "url": "https://www.marxists.org/archive/walcher/1921/11/germantus.html"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/walcher/index.htm"
+  ]
+}

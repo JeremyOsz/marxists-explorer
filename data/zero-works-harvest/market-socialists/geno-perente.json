@@ -1,0 +1,22 @@
+{
+  "collection": "market-socialists",
+  "thinker": "Geno Perente",
+  "slug": "geno-perente",
+  "source_url": "https://www.marxists.org/archive/perente/index.htm",
+  "status": "success",
+  "message": "Collected 2 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "An Explanation to the Citizenry of Northern California Concerning the Purposes and Method of the Revolution to be Waged in Northern California",
+      "url": "https://www.marxists.org/archive/perente/largo-leaflet.pdf"
+    },
+    {
+      "title": "The Essential Organizer: A Training Manual for Eastern Farm Workers Association",
+      "url": "https://www.marxists.org/archive/perente/essential-organizer.pdf"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/perente/index.htm"
+  ]
+}

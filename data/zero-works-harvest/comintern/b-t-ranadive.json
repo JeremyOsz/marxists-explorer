@@ -1,0 +1,26 @@
+{
+  "collection": "comintern",
+  "thinker": "B. T. Ranadive",
+  "slug": "b-t-ranadive",
+  "source_url": "https://www.marxists.org/archive/ranadive/index.htm",
+  "status": "success",
+  "message": "Collected 3 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "India's Sterling Balances",
+      "url": "https://www.marxists.org/archive/ranadive/1945/ranadive-indias-sterling-balances.pdf"
+    },
+    {
+      "title": "Population Problem of India",
+      "url": "https://www.marxists.org/archive/ranadive/1930/population-problem-of-india.pdf"
+    },
+    {
+      "title": "Working Class and National Defense. Report on Production (First Congress of the CPI, 28 May 1943)",
+      "url": "https://www.marxists.org/archive/ranadive/1943/working-class-and-national-defence-report-on-production.pdf"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/ranadive/index.htm"
+  ]
+}

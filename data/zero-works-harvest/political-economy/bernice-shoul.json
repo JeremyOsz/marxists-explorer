@@ -1,0 +1,18 @@
+{
+  "collection": "political-economy",
+  "thinker": "Bernice Shoul",
+  "slug": "bernice-shoul",
+  "source_url": "https://www.marxists.org/archive/shoul/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "The Marxian Theory of Capitalist Breakdown",
+      "url": "https://www.marxists.org/archive/shoul/1947/breakdown/index.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/shoul/index.htm"
+  ]
+}

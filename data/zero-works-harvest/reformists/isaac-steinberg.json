@@ -1,0 +1,18 @@
+{
+  "collection": "reformists",
+  "thinker": "Isaac Steinberg",
+  "slug": "isaac-steinberg",
+  "source_url": "https://www.marxists.org/archive/steinberg/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "The Workshop Of The Revolution",
+      "url": "https://www.marxists.org/archive/steinberg/1953/workshop/index.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/steinberg/index.htm"
+  ]
+}

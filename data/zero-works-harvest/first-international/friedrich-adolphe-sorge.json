@@ -1,0 +1,18 @@
+{
+  "collection": "first-international",
+  "thinker": "Friedrich Adolphe Sorge",
+  "slug": "friedrich-adolphe-sorge",
+  "source_url": "https://www.marxists.org/archive/sorge/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Socialism and the Worker",
+      "url": "https://www.marxists.org/archive/sorge/1876/socialism-worker.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/sorge/index.htm"
+  ]
+}

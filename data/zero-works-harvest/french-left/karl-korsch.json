@@ -1,0 +1,178 @@
+{
+  "collection": "french-left",
+  "thinker": "Karl Korsch",
+  "slug": "karl-korsch",
+  "source_url": "https://www.marxists.org/archive/korsch/index.htm",
+  "status": "success",
+  "message": "Collected 41 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "A Historical View of Geopolitics",
+      "url": "https://www.marxists.org/archive/korsch/1943/geopolitics.htm"
+    },
+    {
+      "title": "A Non-Dogmatic Approach to Marxism",
+      "url": "https://www.marxists.org/archive/korsch/1946/non-dogmatic.htm"
+    },
+    {
+      "title": "Britain And The War Aims of the Working Class",
+      "url": "https://www.marxists.org/archive/korsch/1941/britain.htm"
+    },
+    {
+      "title": "Collectivization in Spain",
+      "url": "https://www.marxists.org/archive/korsch/1939/collectivization.htm"
+    },
+    {
+      "title": "Economics and Politics in Revolutionary Spain",
+      "url": "https://www.marxists.org/archive/korsch/1938/economics-politics-spain.htm"
+    },
+    {
+      "title": "Evolution of the Problem of the Political Workers Councils in Germany",
+      "url": "https://www.marxists.org/archive/korsch/1921/councils.htm"
+    },
+    {
+      "title": "Introduction to Capital",
+      "url": "https://www.marxists.org/archive/korsch/19xx/introduction-capital.htm"
+    },
+    {
+      "title": "Introduction to Critique of Gotha Programme",
+      "url": "https://www.marxists.org/archive/korsch/1922/gotha.htm"
+    },
+    {
+      "title": "Karl Marx",
+      "url": "https://www.marxists.org/archive/korsch/1938/karl-marx/index.htm"
+    },
+    {
+      "title": "Leading Principles of Marxism: A Restatement",
+      "url": "https://www.marxists.org/archive/korsch/1937/restatement.htm"
+    },
+    {
+      "title": "Lenin and the Comintern",
+      "url": "https://www.marxists.org/archive/korsch/1924/lenin-comintern.htm"
+    },
+    {
+      "title": "Lenin as Philosopher",
+      "url": "https://www.marxists.org/archive/korsch/1938/lenin-philosophy.htm"
+    },
+    {
+      "title": "Marxism and Philosophy",
+      "url": "https://www.marxists.org/archive/korsch/1923/marxism-philosophy.htm"
+    },
+    {
+      "title": "Marxism and Philosophy: An Anti-critique",
+      "url": "https://www.marxists.org/archive/korsch/19xx/anti-critique.htm"
+    },
+    {
+      "title": "Marxism and the Present Task of the Proletarian Class Struggle",
+      "url": "https://www.marxists.org/archive/korsch/1938/class-struggle.htm"
+    },
+    {
+      "title": "Marxism as a Religion",
+      "url": "https://www.marxists.org/archive/korsch/1935/06/marxism-religion.htm"
+    },
+    {
+      "title": "Memories of Karl Korsch",
+      "url": "https://www.marxists.org/archive/korsch/memories-korsch.htm"
+    },
+    {
+      "title": "Notes on History: The Ambiguities of Totalitarian Ideologies",
+      "url": "https://www.marxists.org/archive/korsch/1942/history.htm"
+    },
+    {
+      "title": "On an Activistic Form of Materialism and on the Class and Partisan Character of Science",
+      "url": "https://www.marxists.org/archive/korsch/1946/non-dogmatic.htm#1931a"
+    },
+    {
+      "title": "On Materialist Dialectic",
+      "url": "https://www.marxists.org/archive/korsch/1924/materialist-dialectic.htm"
+    },
+    {
+      "title": "On the New Program of the American Workers Party",
+      "url": "https://www.marxists.org/archive/korsch/1935/01/awp-program.htm"
+    },
+    {
+      "title": "Position on Russia and the Communist Party",
+      "url": "https://www.marxists.org/archive/korsch/1935/position.htm"
+    },
+    {
+      "title": "Prelude to Hitler: The Internal Politics of Germany, 1918-1933",
+      "url": "https://www.marxists.org/archive/korsch/1940/pre-hitler.htm"
+    },
+    {
+      "title": "Remarks on the Theses Regarding the Next World Crisis, Second World War and the World Revolution",
+      "url": "https://www.marxists.org/archive/korsch/1935/05/remarks.htm"
+    },
+    {
+      "title": "Revolutionary Commune",
+      "url": "https://www.marxists.org/archive/korsch/1929/commune.htm"
+    },
+    {
+      "title": "Some Fundamental Presuppositions for a Materialist Discussion of Crisis Theory",
+      "url": "https://www.marxists.org/archive/korsch/1933/crisis-theory.htm"
+    },
+    {
+      "title": "State and Counterrevolution",
+      "url": "https://www.marxists.org/archive/korsch/1939/state-counterrevolution.htm"
+    },
+    {
+      "title": "Ten Theses on Marxism Today",
+      "url": "https://www.marxists.org/archive/korsch/1950/ten-theses.htm"
+    },
+    {
+      "title": "The Crisis of Marxism",
+      "url": "https://www.marxists.org/archive/korsch/1931/crisis-marxism.htm"
+    },
+    {
+      "title": "The Fascist Counterrevolution",
+      "url": "https://www.marxists.org/archive/korsch/1940/fascist-counterrrevolution.htm"
+    },
+    {
+      "title": "The Marxism of the First International",
+      "url": "https://www.marxists.org/archive/korsch/1924/first-international.htm"
+    },
+    {
+      "title": "The Marxist Dialectic",
+      "url": "https://www.marxists.org/archive/korsch/1923/marxist-dialectic.htm"
+    },
+    {
+      "title": "The Marxist Ideology in Russia",
+      "url": "https://www.marxists.org/archive/korsch/1938/marxist-ideology-russia.htm"
+    },
+    {
+      "title": "The Old Hegelian Dialectic and the New Materialistic Science",
+      "url": "https://www.marxists.org/archive/korsch/1937/hegelian-dialectic.htm"
+    },
+    {
+      "title": "The Passing of Marxian Orthodoxy",
+      "url": "https://www.marxists.org/archive/korsch/1937/marxian-orthodoxy.htm"
+    },
+    {
+      "title": "The Spanish Revolution",
+      "url": "https://www.marxists.org/archive/korsch/1931/spanish-revolution.htm"
+    },
+    {
+      "title": "The Structure and Practice of Totalitarianism",
+      "url": "https://www.marxists.org/archive/korsch/1942/totalitarianism.htm"
+    },
+    {
+      "title": "The Workers' Fight against Fascism",
+      "url": "https://www.marxists.org/archive/korsch/1941/fascism.htm"
+    },
+    {
+      "title": "Theses on Hegel and Revolution",
+      "url": "https://www.marxists.org/archive/korsch/1946/non-dogmatic.htm#1931"
+    },
+    {
+      "title": "Theses toward a Critique of the Fascist Conception of the State",
+      "url": "https://www.marxists.org/archive/korsch/1932/theses-fascist-state.htm"
+    },
+    {
+      "title": "Why I am a Marxist",
+      "url": "https://www.marxists.org/archive/korsch/1934/why-marxist.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/korsch/index.htm"
+  ]
+}

@@ -57,7 +57,7 @@
   {
     "collection": "anarchists",
     "thinker": "Léo Taxil",
-    "slug": "l-o-taxil"
+    "slug": "leo-taxil"
   },
   {
     "collection": "anarchists",
@@ -202,7 +202,7 @@
   {
     "collection": "comintern",
     "thinker": "János Kádár",
-    "slug": "j-nos-k-d-r"
+    "slug": "janos-kadar"
   },
   {
     "collection": "comintern",
@@ -237,7 +237,7 @@
   {
     "collection": "comintern",
     "thinker": "Mátyás Rákosi",
-    "slug": "m-ty-s-r-kosi"
+    "slug": "matyas-rakosi"
   },
   {
     "collection": "comintern",
@@ -282,7 +282,7 @@
   {
     "collection": "comintern",
     "thinker": "Vŭlko Chervenkov",
-    "slug": "v-lko-chervenkov"
+    "slug": "vulko-chervenkov"
   },
   {
     "collection": "comintern",
@@ -372,12 +372,12 @@
   {
     "collection": "early-comintern",
     "thinker": "José Carlos Mariátegui",
-    "slug": "jos-carlos-mari-tegui"
+    "slug": "jose-carlos-mariategui"
   },
   {
     "collection": "early-comintern",
     "thinker": "Julián Gorkin",
-    "slug": "juli-n-gorkin"
+    "slug": "julian-gorkin"
   },
   {
     "collection": "early-comintern",
@@ -392,7 +392,7 @@
   {
     "collection": "early-comintern",
     "thinker": "Manuel Gómez",
-    "slug": "manuel-g-mez"
+    "slug": "manuel-gomez"
   },
   {
     "collection": "early-comintern",
@@ -662,7 +662,7 @@
   {
     "collection": "frankfurt-school",
     "thinker": "Jürgen Habermas",
-    "slug": "j-rgen-habermas"
+    "slug": "jurgen-habermas"
   },
   {
     "collection": "frankfurt-school",
@@ -677,7 +677,7 @@
   {
     "collection": "french-left",
     "thinker": "Benny Lévy",
-    "slug": "benny-l-vy"
+    "slug": "benny-levy"
   },
   {
     "collection": "french-left",
@@ -707,7 +707,7 @@
   {
     "collection": "french-left",
     "thinker": "Lucien Sève",
-    "slug": "lucien-s-ve"
+    "slug": "lucien-seve"
   },
   {
     "collection": "french-left",
@@ -727,7 +727,7 @@
   {
     "collection": "french-revolution",
     "thinker": "Félix Pyat",
-    "slug": "f-lix-pyat"
+    "slug": "felix-pyat"
   },
   {
     "collection": "french-revolution",
@@ -817,7 +817,7 @@
   {
     "collection": "left-communism",
     "thinker": "Otto Rühle",
-    "slug": "otto-r-hle"
+    "slug": "otto-ruhle"
   },
   {
     "collection": "left-communism",
@@ -1017,7 +1017,7 @@
   {
     "collection": "paris-commune",
     "thinker": "Jules Valès",
-    "slug": "jules-val-s"
+    "slug": "jules-vales"
   },
   {
     "collection": "paris-commune",
@@ -1062,7 +1062,7 @@
   {
     "collection": "philosophy",
     "thinker": "François Voltaire",
-    "slug": "fran-ois-voltaire"
+    "slug": "francois-voltaire"
   },
   {
     "collection": "philosophy",
@@ -1222,7 +1222,7 @@
   {
     "collection": "political-science",
     "thinker": "Louis-René Villermé",
-    "slug": "louis-ren-villerm"
+    "slug": "louis-rene-villerme"
   },
   {
     "collection": "political-science",
@@ -1247,7 +1247,7 @@
   {
     "collection": "populists",
     "thinker": "Attila József",
-    "slug": "attila-j-zsef"
+    "slug": "attila-jozsef"
   },
   {
     "collection": "reformists",
@@ -1282,7 +1282,7 @@
   {
     "collection": "reformists",
     "thinker": "Jean Jaurès",
-    "slug": "jean-jaur-s"
+    "slug": "jean-jaures"
   },
   {
     "collection": "reformists",
@@ -1592,7 +1592,7 @@
   {
     "collection": "trotskyists",
     "thinker": "Pierre Broué",
-    "slug": "pierre-brou"
+    "slug": "pierre-broue"
   },
   {
     "collection": "trotskyists",
@@ -1667,11 +1667,11 @@
   {
     "collection": "utopianism",
     "thinker": "Étienne Cabet",
-    "slug": "tienne-cabet"
+    "slug": "etienne-cabet"
   },
   {
     "collection": "western-marxism",
     "thinker": "Georg Lukács",
-    "slug": "georg-luk-cs"
+    "slug": "georg-lukacs"
   }
 ]

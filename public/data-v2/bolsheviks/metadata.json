@@ -29,7 +29,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/7/76/Gorchakov_by_Bogdanov-Belsky.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Gorchakov_by_Bogdanov-Belsky.jpg/250px-Gorchakov_by_Bogdanov-Belsky.jpg",
-    "w": 0
+    "w": 5,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 5
+      }
+    ]
   },
   {
     "n": "Alexander Shliapnikov",
@@ -38,7 +44,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/1/17/Shliapnikov-alexander.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Shliapnikov-alexander.jpg/250px-Shliapnikov-alexander.jpg",
-    "w": 0
+    "w": 4,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 4
+      }
+    ]
   },
   {
     "n": "Alexander Voronsky",
@@ -47,7 +59,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Voronski.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Voronski.jpg/250px-Voronski.jpg",
-    "w": 0
+    "w": 6,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 6
+      }
+    ]
   },
   {
     "n": "Anatoly Lunacharsky",
@@ -238,7 +256,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Trotsky-Annenkov_1921_Red_Army.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Trotsky-Annenkov_1921_Red_Army.jpg/250px-Trotsky-Annenkov_1921_Red_Army.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "Gabriel Miasnikov",
@@ -498,7 +522,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Tomsky_Stalin_Kalinin_May_1_1926.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Tomsky_Stalin_Kalinin_May_1_1926.jpg/250px-Tomsky_Stalin_Kalinin_May_1_1926.jpg",
-    "w": 0
+    "w": 3,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 3
+      }
+    ]
   },
   {
     "n": "Nadezhada Krupskaya",
@@ -534,7 +564,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Memorial_-_Leon_Trotsky_House_Museum_-_Coyoacan_-_Mexico_City_-_Mexico.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Memorial_-_Leon_Trotsky_House_Museum_-_Coyoacan_-_Mexico_City_-_Mexico.jpg/250px-Memorial_-_Leon_Trotsky_House_Museum_-_Coyoacan_-_Mexico_City_-_Mexico.jpg",
-    "w": 0
+    "w": 26,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 26
+      }
+    ]
   },
   {
     "n": "Nikolai Bukharin",
@@ -570,7 +606,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/0/01/Osinsky_V.V.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Osinsky_V.V.jpg/200px-Osinsky_V.V.jpg",
-    "w": 0
+    "w": 5,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 5
+      }
+    ]
   },
   {
     "n": "Osip Piatnitsky",
@@ -721,6 +763,12 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Letters_of_Fyodor_Michailovitch_Dostoevsky_to_his_family_and_friends_%28IA_lettersoffyodorm00dostrich%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Letters_of_Fyodor_Michailovitch_Dostoevsky_to_his_family_and_friends_%28IA_lettersoffyodorm00dostrich%29.pdf/page1-200px-Letters_of_Fyodor_Michailovitch_Dostoevsky_to_his_family_and_friends_%28IA_lettersoffyodorm00dostrich%29.pdf.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   }
 ]

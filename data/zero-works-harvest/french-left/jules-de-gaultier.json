@@ -1,0 +1,18 @@
+{
+  "collection": "french-left",
+  "thinker": "Jules de Gaultier",
+  "slug": "jules-de-gaultier",
+  "source_url": "https://www.marxists.org/archive/gaultier/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "A Critique of the Idea of Progress",
+      "url": "https://www.marxists.org/archive/gaultier/1910/progress.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/gaultier/index.htm"
+  ]
+}

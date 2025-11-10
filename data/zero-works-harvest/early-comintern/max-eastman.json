@@ -1,0 +1,74 @@
+{
+  "collection": "early-comintern",
+  "thinker": "Max Eastman",
+  "slug": "max-eastman",
+  "source_url": "https://www.marxists.org/archive/eastman/index.htm",
+  "status": "success",
+  "message": "Collected 15 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Bill Haywood, Communist",
+      "url": "https://www.marxists.org/archive/eastman/1921/bill-haywood.htm"
+    },
+    {
+      "title": "Foster",
+      "url": "https://www.marxists.org/archive/eastman/1921/foster.htm"
+    },
+    {
+      "title": "Hillquit Excommunicates the Soviet",
+      "url": "https://www.marxists.org/archive/eastman/1920/11/hillquit1.htm"
+    },
+    {
+      "title": "Hillquit Repeats His Error",
+      "url": "https://www.marxists.org/archive/eastman/1921/01/hillquit2.htm"
+    },
+    {
+      "title": "Introduction toCapital,The Communist Manifestoand Other Writings",
+      "url": "https://www.marxists.org/archive/eastman/1932/introduction.htm"
+    },
+    {
+      "title": "John Reed, Bolshevik Envoy to the United States – A Character Sketch",
+      "url": "https://www.marxists.org/archive/eastman/1918/02/reed.htm"
+    },
+    {
+      "title": "Letter to Josephine",
+      "url": "https://www.marxists.org/archive/eastman/1945/to-josephine.htm"
+    },
+    {
+      "title": "Letter to Miss Mendham",
+      "url": "https://www.marxists.org/archive/eastman/1938/to-miss-mendham.htm"
+    },
+    {
+      "title": "Letter to Mr Simon (On death penalty in the USSR)",
+      "url": "https://www.marxists.org/archive/eastman/1941/to-mr-simon.htm"
+    },
+    {
+      "title": "Letter to Robert Minor in Paris from Max Eastman in New York City",
+      "url": "https://www.marxists.org/archive/eastman/1919/06/letter.htm"
+    },
+    {
+      "title": "Marxism: Science or Philosophy?",
+      "url": "https://www.marxists.org/archive/eastman/1935/science-philosophy.htm"
+    },
+    {
+      "title": "The Clarté Movement",
+      "url": "https://www.marxists.org/archive/eastman/1920/clarte.htm"
+    },
+    {
+      "title": "The End of Socialism in Russia",
+      "url": "https://www.marxists.org/archive/eastman/1938/end-socialism.htm"
+    },
+    {
+      "title": "Wilson and the World’s Future",
+      "url": "https://www.marxists.org/archive/eastman/1918/wilson.htm"
+    },
+    {
+      "title": "Woman's Suffrage and Sentiment",
+      "url": "https://www.marxists.org/archive/eastman/1909/suffrage.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/eastman/index.htm"
+  ]
+}

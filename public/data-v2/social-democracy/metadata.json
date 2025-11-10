@@ -21,7 +21,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/3/35/Friedrich_Engels_-_Max_Stirner_%281892%29_V02-1.2_raw.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Friedrich_Engels_-_Max_Stirner_%281892%29_V02-1.2_raw.jpg/250px-Friedrich_Engels_-_Max_Stirner_%281892%29_V02-1.2_raw.jpg",
-    "w": 0
+    "w": 7,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 7
+      }
+    ]
   },
   {
     "n": "August Palm",
@@ -30,7 +36,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/c/c9/August_Palm_SPA4.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/August_Palm_SPA4.jpg/250px-August_Palm_SPA4.jpg",
-    "w": 0
+    "w": 4,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 4
+      }
+    ]
   },
   {
     "n": "Ben Hanford",
@@ -39,7 +51,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/1/10/Hanford-Ben-portrait.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Hanford-Ben-portrait.jpg/250px-Hanford-Ben-portrait.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "Constance Markievicz",
@@ -71,7 +89,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Dan._DeLeon%2C_portrait_bust_LCCN2014680961.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Dan._DeLeon%2C_portrait_bust_LCCN2014680961.jpg/250px-Dan._DeLeon%2C_portrait_bust_LCCN2014680961.jpg",
-    "w": 0
+    "w": 48,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 48
+      }
+    ]
   },
   {
     "n": "Dora Montefiore",
@@ -166,7 +190,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Half-length_portrait_photograph_of_Dr._Edward_Bibbins_Aveling%2C_seated%2C_facing_right.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Half-length_portrait_photograph_of_Dr._Edward_Bibbins_Aveling%2C_seated%2C_facing_right.jpg/250px-Half-length_portrait_photograph_of_Dr._Edward_Bibbins_Aveling%2C_seated%2C_facing_right.jpg",
-    "w": 0
+    "w": 21,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 21
+      }
+    ]
   },
   {
     "n": "Edward Carpenter",
@@ -175,7 +205,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/2/28/Edward_Carpenter_%281905%29.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Edward_Carpenter_%281905%29.jpg/250px-Edward_Carpenter_%281905%29.jpg",
-    "w": 0
+    "w": 7,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 7
+      }
+    ]
   },
   {
     "n": "Eleanor Marx",
@@ -184,7 +220,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/9/98/Eleanor-Marx.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Eleanor-Marx.jpg/250px-Eleanor-Marx.jpg",
-    "w": 0
+    "w": 45,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 45
+      }
+    ]
   },
   {
     "n": "Eugene Debs",
@@ -267,7 +309,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/6/6b/William_Morris_and_the_Early_Days_of_the_Socialist_Movement_%28IA_williammorrisear00glasiala%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/William_Morris_and_the_Early_Days_of_the_Socialist_Movement_%28IA_williammorrisear00glasiala%29.pdf/page1-200px-William_Morris_and_the_Early_Days_of_the_Socialist_Movement_%28IA_williammorrisear00glasiala%29.pdf.jpg",
-    "w": 0
+    "w": 8,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 8
+      }
+    ]
   },
   {
     "n": "Georgi Plekhanov",
@@ -295,7 +343,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Motion_Picture_Magazine_%28Aug_1924-Jan_1925%29_%28IA_motionpicturemag28brew%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Motion_Picture_Magazine_%28Aug_1924-Jan_1925%29_%28IA_motionpicturemag28brew%29.pdf/page1-200px-Motion_Picture_Magazine_%28Aug_1924-Jan_1925%29_%28IA_motionpicturemag28brew%29.pdf.jpg",
-    "w": 0
+    "w": 53,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 53
+      }
+    ]
   },
   {
     "n": "Helmut Wagner",
@@ -327,7 +381,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Henry_Mayers_Hyndman_by_Sydney_Prior_Hall.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Henry_Mayers_Hyndman_by_Sydney_Prior_Hall.jpg/250px-Henry_Mayers_Hyndman_by_Sydney_Prior_Hall.jpg",
-    "w": 0
+    "w": 65,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 65
+      }
+    ]
   },
   {
     "n": "James Connolly",
@@ -336,7 +396,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/4/4e/James_Austin_Connolly_%281843%E2%80%931914%29.png",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/James_Austin_Connolly_%281843%E2%80%931914%29.png/250px-James_Austin_Connolly_%281843%E2%80%931914%29.png",
-    "w": 0
+    "w": 320,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 320
+      }
+    ]
   },
   {
     "n": "Karl Kautsky",
@@ -377,7 +443,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Johann_Beer_portrait.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Johann_Beer_portrait.jpg/250px-Johann_Beer_portrait.jpg",
-    "w": 0
+    "w": 34,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 34
+      }
+    ]
   },
   {
     "n": "Morris Hillquit",
@@ -405,7 +477,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/2/2f/The_industrial_evolution_of_the_United_States%3B_%28IA_industrialevolut00wrig_2%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/The_industrial_evolution_of_the_United_States%3B_%28IA_industrialevolut00wrig_2%29.pdf/page1-200px-The_industrial_evolution_of_the_United_States%3B_%28IA_industrialevolut00wrig_2%29.pdf.jpg",
-    "w": 0
+    "w": 61,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 61
+      }
+    ]
   },
   {
     "n": "Rosa Luxemburg",
@@ -484,7 +562,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Tom_Mann_-_btv1b53101227j.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tom_Mann_-_btv1b53101227j.jpg/250px-Tom_Mann_-_btv1b53101227j.jpg",
-    "w": 0
+    "w": 24,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 24
+      }
+    ]
   },
   {
     "n": "Victor Berger",
@@ -493,7 +577,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Victor_Berger_Medium_Portrait.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Victor_Berger_Medium_Portrait.jpg/250px-Victor_Berger_Medium_Portrait.jpg",
-    "w": 0
+    "w": 3,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 3
+      }
+    ]
   },
   {
     "n": "Vida D. Scudder",
@@ -502,7 +592,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/1/19/English_poems_%28IA_englishpoems00scud%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/English_poems_%28IA_englishpoems00scud%29.pdf/page1-200px-English_poems_%28IA_englishpoems00scud%29.pdf.jpg",
-    "w": 0
+    "w": 4,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 4
+      }
+    ]
   },
   {
     "n": "William Morris",
@@ -511,6 +607,12 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/8/8c/William_Morris_Hunt_self_portrait.jpeg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/William_Morris_Hunt_self_portrait.jpeg/250px-William_Morris_Hunt_self_portrait.jpeg",
-    "w": 0
+    "w": 3,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 3
+      }
+    ]
   }
 ]

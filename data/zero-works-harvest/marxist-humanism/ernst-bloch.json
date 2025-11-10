@@ -1,0 +1,26 @@
+{
+  "collection": "marxist-humanism",
+  "thinker": "Ernst Bloch",
+  "slug": "ernst-bloch",
+  "source_url": "https://www.marxists.org/archive/bloch/index.htm",
+  "status": "success",
+  "message": "Collected 3 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Commentary on Theses on Feuerbach",
+      "url": "https://www.marxists.org/archive/bloch/hope/commentary-theses.htm"
+    },
+    {
+      "title": "Introduction toThe Principle of Hope",
+      "url": "https://www.marxists.org/archive/bloch/hope/introduction.htm"
+    },
+    {
+      "title": "On Karl Marx",
+      "url": "https://www.marxists.org/archive/bloch/on-marx/on-karl-marx.pdf"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/bloch/index.htm"
+  ]
+}

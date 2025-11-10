@@ -1,0 +1,54 @@
+{
+  "collection": "feminists",
+  "thinker": "Evelyn Reed",
+  "slug": "evelyn-reed",
+  "source_url": "https://www.marxists.org/archive/reed-evelyn/index.htm",
+  "status": "success",
+  "message": "Collected 10 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "A Study of the Feminine Mystique",
+      "url": "https://www.marxists.org/archive/reed-evelyn/1964/friedan-review.htm"
+    },
+    {
+      "title": "Anthropology Today",
+      "url": "https://www.marxists.org/archive/reed-evelyn/1957/anthropology.htm"
+    },
+    {
+      "title": "Feminism and “The Female Eunuch”",
+      "url": "https://www.marxists.org/archive/reed-evelyn/1971/female-eunuch.htm"
+    },
+    {
+      "title": "In Defence of the Women's Movement",
+      "url": "https://www.marxists.org/archive/reed-evelyn/1970/womens-movement.pdf"
+    },
+    {
+      "title": "Is “Man” an “Aggressive Ape”?",
+      "url": "https://www.marxists.org/archive/reed-evelyn/1970/aggressive-ape.htm"
+    },
+    {
+      "title": "New Light on the Origins of Man",
+      "url": "https://www.marxists.org/archive/reed-evelyn/1963/origins-man.htm"
+    },
+    {
+      "title": "Review ofThe Savage Mind,by Claude Levi-Strauss",
+      "url": "https://www.marxists.org/archive/reed-evelyn/1967/savage-mind.htm"
+    },
+    {
+      "title": "The Matriarchal-Brotherhood. Sex and labor In Primitive Society",
+      "url": "https://www.marxists.org/archive/reed-evelyn/1954/matriarchal-brotherhood.htm"
+    },
+    {
+      "title": "The Myth of Women’s Inferiority",
+      "url": "https://www.marxists.org/archive/reed-evelyn/1954/myth-inferiority.htm"
+    },
+    {
+      "title": "Women: Caste, Class or Oppressed Sex",
+      "url": "https://www.marxists.org/archive/reed-evelyn/1970/caste-class-sex.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/reed-evelyn/index.htm"
+  ]
+}

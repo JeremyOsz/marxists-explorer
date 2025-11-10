@@ -1,0 +1,18 @@
+{
+  "collection": "comintern",
+  "thinker": "Kaysone Phomvihane",
+  "slug": "kaysone-phomvihane",
+  "source_url": "https://www.marxists.org/archive/kaysone/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Revolution in Laos: Practice and Prospects",
+      "url": "https://www.marxists.org/archive/kaysone/revolution-in-laos.pdf"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/kaysone/index.htm"
+  ]
+}

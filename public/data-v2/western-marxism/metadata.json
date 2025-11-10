@@ -29,7 +29,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Luk%C3%A1cs_Gy%C3%B6rgy_filoz%C3%B3fus%2C_mellette_D%C3%A9ry_Tiborn%C3%A9._Fortepan_13776.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Luk%C3%A1cs_Gy%C3%B6rgy_filoz%C3%B3fus%2C_mellette_D%C3%A9ry_Tiborn%C3%A9._Fortepan_13776.jpg/250px-Luk%C3%A1cs_Gy%C3%B6rgy_filoz%C3%B3fus%2C_mellette_D%C3%A9ry_Tiborn%C3%A9._Fortepan_13776.jpg",
-    "w": 0
+    "w": 67,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 67
+      }
+    ]
   },
   {
     "n": "JBS Haldane",

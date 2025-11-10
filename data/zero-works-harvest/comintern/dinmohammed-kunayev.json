@@ -1,0 +1,18 @@
+{
+  "collection": "comintern",
+  "thinker": "Dinmohammed Kunayev",
+  "slug": "dinmohammed-kunayev",
+  "source_url": "https://www.marxists.org/archive/kunayev/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Kazakhstan: Seven-Year Plan for Prosperity",
+      "url": "https://www.marxists.org/archive/kunayev/1959-7-year-plan.pdf"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/kunayev/index.htm"
+  ]
+}

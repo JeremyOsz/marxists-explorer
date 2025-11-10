@@ -1,0 +1,26 @@
+{
+  "collection": "left-communism",
+  "thinker": "John Keracher",
+  "slug": "john-keracher",
+  "source_url": "https://www.marxists.org/archive/keracher/index.htm",
+  "status": "success",
+  "message": "Collected 3 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Economics for Beginners",
+      "url": "https://www.marxists.org/archive/keracher/1935/economics-for-beginners.htm"
+    },
+    {
+      "title": "How the Gods were Made",
+      "url": "https://www.marxists.org/archive/keracher/1929/how-gods-made.htm"
+    },
+    {
+      "title": "Producers and Parasites",
+      "url": "https://www.marxists.org/archive/keracher/1935/producers-parasites.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/keracher/index.htm"
+  ]
+}

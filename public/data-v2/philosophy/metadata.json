@@ -150,7 +150,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Lizzie_B._Dewey_by_John_Singer_Sargent_-_Worcester_Art_Museum_-_IMG_7105.JPG",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Lizzie_B._Dewey_by_John_Singer_Sargent_-_Worcester_Art_Museum_-_IMG_7105.JPG/250px-Lizzie_B._Dewey_by_John_Singer_Sargent_-_Worcester_Art_Museum_-_IMG_7105.JPG",
-    "w": 0
+    "w": 9,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 9
+      }
+    ]
   },
   {
     "n": "John McTaggart",

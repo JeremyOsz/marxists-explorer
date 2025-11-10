@@ -45,7 +45,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/0/01/Journal_officiel_de_la_R%C3%A9publique_fran%C3%A7aise%2C_31_d%C3%A9cembre_1875.djvu",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Journal_officiel_de_la_R%C3%A9publique_fran%C3%A7aise%2C_31_d%C3%A9cembre_1875.djvu/page1-200px-Journal_officiel_de_la_R%C3%A9publique_fran%C3%A7aise%2C_31_d%C3%A9cembre_1875.djvu.jpg",
-    "w": 0
+    "w": 12,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 12
+      }
+    ]
   },
   {
     "n": "Brian Bunting",
@@ -160,7 +166,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Mohamed_Siad_Barre_1970_portrait.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Mohamed_Siad_Barre_1970_portrait.jpg/250px-Mohamed_Siad_Barre_1970_portrait.jpg",
-    "w": 0
+    "w": 6,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 6
+      }
+    ]
   },
   {
     "n": "Neville Alexander",

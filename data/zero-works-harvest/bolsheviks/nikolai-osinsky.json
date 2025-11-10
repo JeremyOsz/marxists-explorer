@@ -1,0 +1,34 @@
+{
+  "collection": "bolsheviks",
+  "thinker": "Nikolai Osinsky",
+  "slug": "nikolai-osinsky",
+  "source_url": "https://www.marxists.org/archive/osinsky/index.htm",
+  "status": "success",
+  "message": "Collected 5 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Clear Answers",
+      "url": "https://www.marxists.org/archive/osinsky/1918/clear-answers.htm"
+    },
+    {
+      "title": "On the Construction of Socialism",
+      "url": "https://www.marxists.org/archive/osinsky/1918/construction-socialism.htm"
+    },
+    {
+      "title": "Our New Land Policy",
+      "url": "https://www.marxists.org/archive/osinsky/1922/land-policy.htm"
+    },
+    {
+      "title": "Review: N Bukharin, The World Economy and Capitalism, an Economic Essay",
+      "url": "https://www.marxists.org/archive/osinsky/1918/review-bukharin.htm"
+    },
+    {
+      "title": "The Fourth Year of the Five-Year Plan",
+      "url": "https://www.marxists.org/archive/osinsky/1932/five-year-plan.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/osinsky/index.htm"
+  ]
+}

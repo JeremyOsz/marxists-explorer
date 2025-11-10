@@ -1,0 +1,30 @@
+{
+  "collection": "early-comintern",
+  "thinker": "Louis Fraina (Corey)",
+  "slug": "louis-fraina-corey",
+  "source_url": "https://www.marxists.org/archive/corey/index.htm",
+  "status": "success",
+  "message": "Collected 4 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Concentration and Labor",
+      "url": "https://www.marxists.org/archive/corey/1918/revsoc/supp2.html"
+    },
+    {
+      "title": "Imperialism in Action",
+      "url": "https://www.marxists.org/archive/corey/1918/revsoc/supp1.html"
+    },
+    {
+      "title": "Revolutionary Socialism",
+      "url": "https://www.marxists.org/archive/corey/1918/revsoc/index.html"
+    },
+    {
+      "title": "The Decline of American Capitalism",
+      "url": "https://www.marxists.org/archive/corey/1934/decline/index.html"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/corey/index.htm"
+  ]
+}

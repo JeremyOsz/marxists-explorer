@@ -15,7 +15,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/a/a1/The_life_and_adventures_of_John_James_Audubon%2C_the_naturalist_%28microform%29_%28IA_cihm_05790%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/The_life_and_adventures_of_John_James_Audubon%2C_the_naturalist_%28microform%29_%28IA_cihm_05790%29.pdf/page1-200px-The_life_and_adventures_of_John_James_Audubon%2C_the_naturalist_%28microform%29_%28IA_cihm_05790%29.pdf.jpg",
-    "w": 0
+    "w": 349,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 349
+      }
+    ]
   },
   {
     "n": "Claude Lefort",
@@ -105,7 +111,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/d/df/Ernst_Bloch.svg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Ernst_Bloch.svg/250px-Ernst_Bloch.svg.png",
-    "w": 0
+    "w": 3,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 3
+      }
+    ]
   },
   {
     "n": "Eugene Kamenka",
@@ -114,7 +126,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Russia-Suzdal-Nativity_Cathedral-1.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Russia-Suzdal-Nativity_Cathedral-1.jpg/250px-Russia-Suzdal-Nativity_Cathedral-1.jpg",
-    "w": 0
+    "w": 4,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 4
+      }
+    ]
   },
   {
     "n": "Franz Jakubowski",
@@ -123,7 +141,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Stolperstein_Erika_Jakubowski_Greifswalder_Stra%C3%9Fe_228a_0120.JPG",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Stolperstein_Erika_Jakubowski_Greifswalder_Stra%C3%9Fe_228a_0120.JPG/250px-Stolperstein_Erika_Jakubowski_Greifswalder_Stra%C3%9Fe_228a_0120.JPG",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "Grace Lee Boggs",
@@ -141,7 +165,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/6/67/The_parson%27s_daughter_%28IA_parsonsdaughter00hook%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/The_parson%27s_daughter_%28IA_parsonsdaughter00hook%29.pdf/page1-200px-The_parson%27s_daughter_%28IA_parsonsdaughter00hook%29.pdf.jpg",
-    "w": 0
+    "w": 4,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 4
+      }
+    ]
   },
   {
     "n": "Joe McCarney",
@@ -150,7 +180,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/3/35/Reception_to_Mr._John_H._Flagler._McKeesport%2C_forty_years_after_%28IA_receptiontomrjoh00flag%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Reception_to_Mr._John_H._Flagler._McKeesport%2C_forty_years_after_%28IA_receptiontomrjoh00flag%29.pdf/page1-200px-Reception_to_Mr._John_H._Flagler._McKeesport%2C_forty_years_after_%28IA_receptiontomrjoh00flag%29.pdf.jpg",
-    "w": 0
+    "w": 6,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 6
+      }
+    ]
   },
   {
     "n": "John Saville",
@@ -159,7 +195,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/b/b7/John_Adams_Library_%28IA_catalogueofscarc00shep%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/John_Adams_Library_%28IA_catalogueofscarc00shep%29.pdf/page1-200px-John_Adams_Library_%28IA_catalogueofscarc00shep%29.pdf.jpg",
-    "w": 0
+    "w": 35,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 35
+      }
+    ]
   },
   {
     "n": "Marcel Liebman",

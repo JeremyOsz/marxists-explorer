@@ -208,7 +208,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/d/da/The_diary_of_John_Evelyn_%28IA_diaryofjohnevely03evel%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_diary_of_John_Evelyn_%28IA_diaryofjohnevely03evel%29.pdf/page1-200px-The_diary_of_John_Evelyn_%28IA_diaryofjohnevely03evel%29.pdf.jpg",
-    "w": 0
+    "w": 10,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 10
+      }
+    ]
   },
   {
     "n": "Franois Voltaire",
@@ -235,7 +241,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/7/7e/George_Orwell_press_photo.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/George_Orwell_press_photo.jpg/250px-George_Orwell_press_photo.jpg",
-    "w": 0
+    "w": 8,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 8
+      }
+    ]
   },
   {
     "n": "Germaine Greer",
@@ -487,7 +499,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/4/43/Mary_Ritter_Beard_%28148004v%29.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Mary_Ritter_Beard_%28148004v%29.jpg/250px-Mary_Ritter_Beard_%28148004v%29.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "Mary Heaton Vorse",
@@ -563,7 +581,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Paul_Robeson_by_Ronald_Moody_01.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Paul_Robeson_by_Ronald_Moody_01.jpg/250px-Paul_Robeson_by_Ronald_Moody_01.jpg",
-    "w": 0
+    "w": 5,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 5
+      }
+    ]
   },
   {
     "n": "Peter Fryer",
@@ -698,6 +722,12 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/9/9d/William-Henry-Chamberlin_portrait.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/William-Henry-Chamberlin_portrait.jpg/250px-William-Henry-Chamberlin_portrait.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   }
 ]

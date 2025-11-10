@@ -1,0 +1,18 @@
+{
+  "collection": "french-revolution",
+  "thinker": "Félix Pyat",
+  "slug": "felix-pyat",
+  "source_url": "https://www.marxists.org/archive/pyat/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Toast at the Democratic and Socialist Banquet",
+      "url": "https://www.marxists.org/archive/pyat/1848/toast.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/pyat/index.htm"
+  ]
+}

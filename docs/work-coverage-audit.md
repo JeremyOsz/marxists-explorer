@@ -2,21 +2,19 @@
 
 Generated automatically.
 
-
 ## Thinkers with 0 works
 
+Total: 211
 
-### african-liberation
+### African Liberation (5)
 
-- Baruch Hirson
 - Govan Mbeki
 - Kwame Nkrumah
-- Mohamed Siad Barre
 - Patrice Lumumba
 - Samora Machel
 - Thomas Sankara
 
-### anarchists
+### Anarchists (10)
 
 - Alexander Berkman
 - Emma Goldman
@@ -29,28 +27,14 @@ Generated automatically.
 - Ravachol
 - Rudolf Rocker
 
-### black-liberation
+### Black Liberation (1)
 
 - Toussaint Louverture
 
-### bolsheviks
+### Comintern (22)
 
-- Alexander Bogdanov
-- Alexander Shliapnikov
-- Alexander Voronsky
-- Felix Raskolnikov
-- Mikhail Tomsky
-- Natalia Sedova Trotsky
-- Nikolai Osinsky
-- Vladimir Milyutin
-
-### comintern
-
-- B. T. Ranadive
 - Bill Bland
-- Christopher Hill
 - Claudia Jones
-- Dinmohammed Kunayev
 - Dmitry Manuilsky
 - Enver Hoxha
 - Fred Rose
@@ -58,16 +42,10 @@ Generated automatically.
 - Georgy Malenkov
 - Huberto Alvarado
 - J. T. Murphy
-- James W. Ford
 - Josef Stalin
-- János Kádár
-- Kaysone Phomvihane
 - Lance Sharkey
 - Lavrenti Beria
-- Leonid Brezhnev
-- Mikhail Gorbachev
 - Mikhail Suslov
-- Mátyás Rákosi
 - Nicolae Ceasescu
 - Nikita Khrushchev
 - Nikolai Bulganin
@@ -76,50 +54,24 @@ Generated automatically.
 - Tim Buck
 - Victor Perlo
 - Vyacheslav Molotov
-- Vŭlko Chervenkov
 - Wilfred Burchett
-- William Z. Foster
 
-### early-comintern
+### Early Comintern (2)
 
-- Albert Rhys Williams
-- Alexander Lozovsky
-- Angelo Braxton Herndon
-- Cyril Briggs
-- David Ivon Jones
-- Doxey Wilkerson
-- Francis Franklin
-- Fritz Wolffheim
-- Heinrich Laufenberg
-- Henri Wallon
-- Herbert Zam
-- Jacob Walcher
-- John Gates
-- John MacLean
-- John Reed
 - José Carlos Mariátegui
 - Julián Gorkin
-- Louis Fraina (Corey)
-- M N Roy
-- Manuel Gómez
-- Max Eastman
-- Otto Hall
-- Paul Levi
-- Pierre Monatte
-- Rose Wortis
-- Victor Serge
 
-### ethics
+### Ethics (2)
 
 - Immanuel Kant
 - Jean-Marie Guyau
 
-### fabians
+### Fabians (2)
 
 - H.G. Wells
 - Oscar Wilde
 
-### feminists
+### Feminists (36)
 
 - Alice Field
 - Anna Louise Strong
@@ -131,10 +83,8 @@ Generated automatically.
 - Dale Spender
 - Drucilla Cornell
 - Elizabeth Gurley Flynn
-- Evelyn Reed
 - Franois Voltaire
 - Full Biography
-- George Orwell
 - Germaine Greer
 - Harold Isaacs
 - Harriet Taylor
@@ -150,46 +100,31 @@ Generated automatically.
 - Louis-Ren Villerm
 - Lynn Beaton
 - Marlene Dixon
-- Mary Beard
 - Mary Heaton Vorse
 - Mary Wollstonecraft
 - Nicholas Chernyshevsky
 - Olive Schreiner
-- Paul Robeson
 - Sheila Rowbotham
 - Shulamith Firestone
 - Teresa Ebert
 - Upton Sinclair
 - Vida Goldstein
-- William Chamberlin
 
-### first-international
+### Frankfurt School (3)
 
-- Friedrich Adolphe Sorge
-
-### frankfurt-school
-
-- Erich Fromm
 - Jürgen Habermas
 - Leo Lowenthal
 - Max Horkheimer
 
-### french-left
+### French Left (3)
 
 - Benny Lévy
-- Friedrich Adler
 - Guy Debord
-- Harry Baldwin
-- Jules de Gaultier
-- Karl Korsch
-- Lucien Sève
-- Paul Nizan
 - Pierre Morhange
 
-### french-revolution
+### French Revolution (9)
 
 - Auguste Blanqui
-- Félix Pyat
 - General Boulanger
 - Gracchus Babeuf
 - Holbach
@@ -199,27 +134,8 @@ Generated automatically.
 - Julien La Mettrie
 - Robespierre
 
-### guerilla-marxism
+### Maoists (12)
 
-- Carlos Marighella
-- Juan Gelman
-
-### left-communism
-
-- Bernard Reichenbach
-- Eugene Lanti
-- Franz Pfemfert
-- Jacques Camatte
-- John Keracher
-- Lucien Laurat
-- Maurice Brinton
-- Otto Rühle
-- Paul Mattick
-- Walter Kendall
-
-### maoists
-
-- Amulya Sen
 - Charu Mazumdar
 - Hua Guofeng
 - Lin Biao
@@ -228,50 +144,38 @@ Generated automatically.
 - Pol Pot
 - Sam Marcy
 - Song Renqiong
-- V. G. Wilcox
 - Vinod Mishra
 - Zhang Chunqiao
 - Zhou Enlai
 - Zhu De
 
-### market-socialists
+### Market Socialists (1)
 
 - Deng Xiaoping
-- Geno Perente
 
-### marxist-humanism
+### Marxist Humanism (4)
 
 - C. Wright Mills
-- CLR James
-- Ernst Bloch
-- Eugene Kamenka
-- Franz Jakubowski
 - Grace Lee Boggs
-- Howard L. Parsons
-- Joe McCarney
-- John Saville
 - Marshall Berman
 - William Gorman
 
-### national-liberation
+### National Liberation (6)
 
-- George Padmore
 - Ghassan Kanafani
-- Harry Haywood
 - Le Duan
 - Lu Xun
 - Messali Hadj
 - Paulo Freire
 - Pham Van Dong
-- Truong Chinh
 
-### paris-commune
+### Paris Commune (3)
 
 - Henri Rochefort
 - Jules Valès
 - Louise Michel
 
-### philosophy
+### Philosophy (25)
 
 - Alasdair MacIntyre
 - Auguste Comte
@@ -289,7 +193,6 @@ Generated automatically.
 - JB Baillie
 - Johann Gottfried Herder
 - Johann Gottlieb Fichte
-- John Dewey
 - John McTaggart
 - Ludwig Feuerbach
 - Max Stirner
@@ -300,18 +203,16 @@ Generated automatically.
 - Rene Descartes
 - Spinoza
 
-### political-economy
+### Political Economy (6)
 
 - Adam Smith
-- Bernice Shoul
 - David Yaffe
 - Frederick Taylor
 - J. M. Keynes
-- John Hobson
 - John Stuart Mill
 - Thomas Malthus
 
-### political-science
+### Political Science (10)
 
 - Alexis de Tocqueville
 - General Carl von Clausewitz
@@ -324,48 +225,24 @@ Generated automatically.
 - Thomas Hobbes
 - Thomas Paine
 
-### populists
+### Populists (1)
 
 - Attila József
 
-### reformists
+### Reformists (6)
 
 - Alexander Kerensky
 - Bruno Rizzi
 - Eduard Bernstein
 - Georgy Gapon
 - Hjalmar Branting
-- Isaac Steinberg
 - Jean Jaurès
-- Jean Longuet
-- Leon Blum
 
-### social-democracy
+### Social Democracy (1)
 
-- Antonio Labriola
-- August Palm
-- Ben Hanford
-- Daniel DeLeon
-- Edward Aveling
-- Edward Carpenter
-- Eleanor Marx
-- Frank Kitz
-- Harry Quelch
-- Henry Hyndman
-- James Connolly
 - Louis B. Boudin
-- Max Beer
-- Peter Petroff
-- Tom Mann
-- Victor Berger
-- Vida D. Scudder
-- William Morris
 
-### soviet-marxism
-
-- Alexander Luria
-
-### soviet-science
+### Soviet Science (6)
 
 - Alexander Spirkin
 - Anton Makarenko
@@ -374,41 +251,27 @@ Generated automatically.
 - T. D. Lysenko
 - Vitaly Vygodsky
 
-### trotskyists
+### Trotskyists (27)
 
 - Abram Leon
 - Adolfo Gilly
-- Brian Pearce
 - Carl Cowl
 - Carlos Hudson
 - Charlie Van Gelderen
-- Daniel Bensaid
 - Daniel Norman
-- David Korner (Barta)
 - Denzil Dean Harber
-- Felix Morrow
-- Frank Glass
-- George Novack
-- George Rawick
 - Gerry Healy
-- Harry Braverman
-- Hugo Dewar
 - Hugo Oehler
 - J. Posadas
 - James Burnham
 - James Cannon
 - Jock Haston
-- Joseph Hansen
 - Ken Tarbuck
 - Kurt Landau
 - Liborio Justo
 - Ludvik Hass
 - Maurice Quarter
-- Max Shachtman
-- Michel Pablo
 - Nimrod Sejake
-- Pandelis Pouliopoulos
-- Peter Camejo
 - Peter Hadden
 - Pierre Broué
 - Pierre Frank
@@ -417,9 +280,8 @@ Generated automatically.
 - Russell Blackwell
 - Susan Green
 - Tom Stamm
-- Walter Held
 
-### utopianism
+### Utopianism (8)
 
 - Charles Fourier
 - Edward Bellamy
@@ -430,20 +292,18 @@ Generated automatically.
 - Thomas More
 - Étienne Cabet
 
-### western-marxism
-
-- Georg Lukács
 
 ## Thinkers with 1-5 works
 
+Total: 153
 
-### african-liberation
+### African Liberation (3)
 
 - Joe Slovo — 2 works
-- Julius Nyerere — 1 works
+- Julius Nyerere — 1 work
 - Neville Alexander — 5 works
 
-### anarchists
+### Anarchists (7)
 
 - Bernard Lazare — 3 works
 - Fernando Tarrida del Marmol — 5 works
@@ -453,158 +313,214 @@ Generated automatically.
 - Murray Bookchin — 4 works
 - Tom Brown — 3 works
 
-### black-liberation
+### Black Liberation (2)
 
 - Fred Hampton — 5 works
 - Malcolm X — 2 works
 
-### bolsheviks
+### Bolsheviks (13)
 
+- Alexander Bogdanov — 5 works
+- Alexander Shliapnikov — 4 works
+- Felix Raskolnikov — 1 work
 - Gabriel Miasnikov — 5 works
 - Georgy Oppokov (Lomov) — 5 works
 - Grigory Sokolnikov — 4 works
 - Leon Kamenev — 5 works
+- Mikhail Tomsky — 3 works
+- Nikolai Osinsky — 5 works
 - Osip Piatnitsky — 2 works
-- Sergo Ordzhnikidze — 1 works
-- Vladimir Antonov-Ovseenko — 1 works
+- Sergo Ordzhnikidze — 1 work
+- Vladimir Antonov-Ovseenko — 1 work
+- Vladimir Milyutin — 1 work
 
-### comintern
+### Comintern (18)
 
+- B. T. Ranadive — 3 works
 - Christopher Caudwell — 4 works
+- Christopher Hill — 3 works
+- Dinmohammed Kunayev — 1 work
 - Georges Politzer — 5 works
+- János Kádár — 4 works
+- Kaysone Phomvihane — 1 work
 - Konstantin Chernenko — 4 works
 - Louis Aragon — 4 works
 - Nikos Zachariadis — 3 works
-- Schafik Jorge Handal — 1 works
+- Schafik Jorge Handal — 1 work
 - Sheng Shicai — 5 works
-- Shripad Amrit Dange — 1 works
-- Todor Zhivkov — 1 works
+- Shripad Amrit Dange — 1 work
+- Todor Zhivkov — 1 work
+- Vŭlko Chervenkov — 1 work
 - Yumjaagiin Tsedenbal — 4 works
 - Yuri Andropov — 2 works
 - Álvaro Cunhal — 2 works
 
-### early-comintern
+### Early Comintern (18)
 
 - Ernst Meyer — 2 works
-- Fritz Heckert — 1 works
+- Fritz Heckert — 1 work
+- Fritz Wolffheim — 1 work
 - Gus Hall — 2 works
+- Heinrich Laufenberg — 1 work
 - Henk Sneevliet — 3 works
 - Isaak Illich Rubin — 3 works
 - Jay Lovestone — 4 works
 - Lajos Magyar — 2 works
+- Louis Fraina (Corey) — 4 works
 - Ludwig Lore — 4 works
 - Paul Frölich — 4 works
+- Paul Levi — 2 works
+- Pierre Monatte — 5 works
 - Tan Malaka — 5 works
 - Theodor Bergmann — 4 works
 - Wilhelm Pieck — 5 works
 - Wm. F. Dunne — 3 works
 
-### feminists
+### Feminists (9)
 
 - Anuradha Gandhy — 2 works
-- Begum Roquia — 1 works
+- Begum Roquia — 1 work
 - Howard Zinn — 5 works
 - Mark Starr — 3 works
+- Mary Beard — 1 work
+- Paul Robeson — 5 works
 - Sigmund Freud — 5 works
 - Simone de Beauvoir — 3 works
+- William Chamberlin — 1 work
 
-### first-international
+### First International (11)
 
-- August Bebel — 1 works
+- August Bebel — 1 work
 - Eugene Pottier — 3 works
-- Frederick Lessner — 1 works
+- Frederick Lessner — 1 work
+- Friedrich Adolphe Sorge — 1 work
 - Friedrich Engels — 5 works
-- Joseph Dietzgen — 1 works
+- Joseph Dietzgen — 1 work
 - Jules Guesde — 2 works
 - Karl Marx & Fredrick Engels — 4 works
 - Paul Lafargue — 2 works
-- Victor Considerant — 1 works
-- Wilhelm Liebknecht — 1 works
+- Victor Considerant — 1 work
+- Wilhelm Liebknecht — 1 work
 
-### frankfurt-school
+### Frankfurt School (4)
 
 - Henryk Grossman — 5 works
 - Herbert Marcuse — 4 works
 - Theodor Adorno — 4 works
 - Walter Benjamin — 4 works
 
-### french-left
+### French Left (4)
 
 - André Gorz — 4 works
+- Friedrich Adler — 1 work
 - Jean-Paul Sartre — 4 works
+- Jules de Gaultier — 1 work
 
-### guerilla-marxism
+### French Revolution (1)
 
-- Hamid Ashraf — 1 works
-- Mahir Çayan — 1 works
+- Félix Pyat — 1 work
 
-### left-communism
+### Guerilla Marxism (3)
+
+- Hamid Ashraf — 1 work
+- Juan Gelman — 2 works
+- Mahir Çayan — 1 work
+
+### Left Communism (8)
 
 - Arrigo Cervetto — 3 works
+- Bernard Reichenbach — 2 works
 - Cajo Brendel — 5 works
+- Eugene Lanti — 4 works
+- Franz Pfemfert — 1 work
+- John Keracher — 3 works
 - Julian Borchardt — 2 works
 - Marceau Pivert — 2 works
 
-### maoists
+### Maoists (5)
 
+- Amulya Sen — 1 work
 - Cherukuri Rajkumar — 5 works
-- Li Lisan — 1 works
+- Li Lisan — 1 work
 - Santosh Rana — 5 works
+- V. G. Wilcox — 2 works
 
-### market-socialists
+### Market Socialists (4)
 
 - Branko Pribicevic — 2 works
 - Filemon Lagman — 5 works
-- Shahrokh Zamani — 1 works
+- Geno Perente — 2 works
+- Shahrokh Zamani — 1 work
 
-### marxist-humanism
+### Marxist Humanism (7)
 
 - Claude Lefort — 2 works
+- Ernst Bloch — 3 works
+- Eugene Kamenka — 4 works
+- Franz Jakubowski — 1 work
+- Howard L. Parsons — 4 works
 - Sebastiano Timpanaro — 3 works
 - Z. A. Jordan — 3 works
 
-### national-liberation
+### National Liberation (6)
 
 - Fidel Castro — 3 works
 - Frantz Fanon — 4 works
 - Kim Il Sung — 5 works
-- Marta Harnecker — 1 works
+- Marta Harnecker — 1 work
 - Pedro Albizu Campos — 4 works
 - Võ Nguyên Giáp — 2 works
 
-### political-science
+### Political Economy (1)
+
+- Bernice Shoul — 1 work
+
+### Political Science (1)
 
 - Childe — 3 works
 
-### social-democracy
+### Reformists (3)
 
-- Annie Besant — 1 works
+- Isaac Steinberg — 1 work
+- Jean Longuet — 5 works
+- Leon Blum — 3 works
+
+### Social Democracy (10)
+
+- Annie Besant — 1 work
+- August Palm — 4 works
+- Ben Hanford — 1 work
 - Georgi Plekhanov — 2 works
 - Helmut Wagner — 3 works
 - Karl Kautsky — 4 works
 - Morris Hillquit — 4 works
+- Victor Berger — 3 works
+- Vida D. Scudder — 4 works
+- William Morris — 3 works
 
-### soviet-marxism
+### Soviet Marxism (5)
 
 - A I Meshcheryakov — 2 works
 - Daniil El'konin — 3 works
 - Feliks Mikhailov — 4 works
-- V A Lektorsky — 1 works
+- V A Lektorsky — 1 work
 - Valentin Voloshinov — 3 works
 
-### soviet-science
+### Soviet Science (1)
 
-- Sergey Ivanovich Vavilov — 1 works
+- Sergey Ivanovich Vavilov — 1 work
 
-### trotskyists
+### Trotskyists (7)
 
 - Balasz Nagy — 4 works
 - Chen Bilan — 3 works
-- Geoff Pilling — 1 works
+- Geoff Pilling — 1 work
+- Hugo Dewar — 4 works
 - Luis Vitale — 3 works
 - Nahuel Moreno — 5 works
+- Pandelis Pouliopoulos — 1 work
 
-### western-marxism
+### Western Marxism (2)
 
 - Georg Lukacs — 3 works
-- Roman Rosdolsky — 1 works
+- Roman Rosdolsky — 1 work

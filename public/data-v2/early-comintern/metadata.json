@@ -6,7 +6,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/8/85/Lenin%3B_the_man_and_his_work_%28IA_leninmanhiswork00will%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Lenin%3B_the_man_and_his_work_%28IA_leninmanhiswork00will%29.pdf/page1-200px-Lenin%3B_the_man_and_his_work_%28IA_leninmanhiswork00will%29.pdf.jpg",
-    "w": 0
+    "w": 7,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 7
+      }
+    ]
   },
   {
     "n": "Alexander Lozovsky",
@@ -15,7 +21,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/5/59/Solomon_Abramovich_Lozovsky_-_Lenin%2C_The_Great_Strategist_of_the_Class_War_-_tr._Alexander_Bittleman_%281924%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Solomon_Abramovich_Lozovsky_-_Lenin%2C_The_Great_Strategist_of_the_Class_War_-_tr._Alexander_Bittleman_%281924%29.pdf/page1-200px-Solomon_Abramovich_Lozovsky_-_Lenin%2C_The_Great_Strategist_of_the_Class_War_-_tr._Alexander_Bittleman_%281924%29.pdf.jpg",
-    "w": 0
+    "w": 64,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 64
+      }
+    ]
   },
   {
     "n": "Alfred Rosmer",
@@ -90,7 +102,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Mosby%27s_Rangers_-_a_record_of_the_operations_of_the_Forty-third_Battalion_of_Virginia_Cavalry%2C_from_its_organization_to_the_surrender_%28IA_mosbysrangers00willrich%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Mosby%27s_Rangers_-_a_record_of_the_operations_of_the_Forty-third_Battalion_of_Virginia_Cavalry%2C_from_its_organization_to_the_surrender_%28IA_mosbysrangers00willrich%29.pdf/page1-200px-thumbnail.pdf.jpg",
-    "w": 0
+    "w": 218,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 218
+      }
+    ]
   },
   {
     "n": "Antonio Gramsci",
@@ -258,7 +276,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/3/32/Brief_guide_to_the_portraits_in_Christ_Church_Hall%2C_Oxford._For_the_use_of_visitors_%28IA_briefguidetoport00haverich%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Brief_guide_to_the_portraits_in_Christ_Church_Hall%2C_Oxford._For_the_use_of_visitors_%28IA_briefguidetoport00haverich%29.pdf/page1-200px-Brief_guide_to_the_portraits_in_Christ_Church_Hall%2C_Oxford._For_the_use_of_visitors_%28IA_briefguidetoport00haverich%29.pdf.jpg",
-    "w": 0
+    "w": 222,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 222
+      }
+    ]
   },
   {
     "n": "David Ivon Jones",
@@ -267,7 +291,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/1/1a/A_dictionary_of_the_Welsh_language%2C_explained_in_English_-_with_numerous_illustrations%2C_from_the_literary_remains_and_from_the_living_speech_of_the_Cymmry_-_to_which_is_prefixed_%28IA_ADictionaryOfTheWelshLanguageV1%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/A_dictionary_of_the_Welsh_language%2C_explained_in_English_-_with_numerous_illustrations%2C_from_the_literary_remains_and_from_the_living_speech_of_the_Cymmry_-_to_which_is_prefixed_%28IA_ADictionaryOfTheWelshLanguageV1%29.pdf/page1-200px-thumbnail.pdf.jpg",
-    "w": 0
+    "w": 22,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 22
+      }
+    ]
   },
   {
     "n": "Doxey Wilkerson",
@@ -276,7 +306,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/0/06/Baldwin%27s_and_Review%27s_Reidsville%2C_North_Carolina_City_Directory_%281935%29_-_DPLA_-_f6741d86a6e3f79eea0367e16c7b3d5d.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Baldwin%27s_and_Review%27s_Reidsville%2C_North_Carolina_City_Directory_%281935%29_-_DPLA_-_f6741d86a6e3f79eea0367e16c7b3d5d.pdf/page1-200px-Baldwin%27s_and_Review%27s_Reidsville%2C_North_Carolina_City_Directory_%281935%29_-_DPLA_-_f6741d86a6e3f79eea0367e16c7b3d5d.pdf.jpg",
-    "w": 0
+    "w": 130,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 130
+      }
+    ]
   },
   {
     "n": "Ernst Meyer",
@@ -362,7 +398,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/1/16/Balearica_regulorum_portrait_3.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Balearica_regulorum_portrait_3.jpg/250px-Balearica_regulorum_portrait_3.jpg",
-    "w": 0
+    "w": 26,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 26
+      }
+    ]
   },
   {
     "n": "Fritz Heckert",
@@ -386,7 +428,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Karte_Heinrich_Vogeler_an_Fritz_Wolffheim_1922-04-24.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Karte_Heinrich_Vogeler_an_Fritz_Wolffheim_1922-04-24.jpg/250px-Karte_Heinrich_Vogeler_an_Fritz_Wolffheim_1922-04-24.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "Guido Baracchi",
@@ -476,7 +524,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Heinrich_Laufenberg_%28links%29_im_Hamburg_Rathaus_1918.JPG",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Heinrich_Laufenberg_%28links%29_im_Hamburg_Rathaus_1918.JPG/250px-Heinrich_Laufenberg_%28links%29_im_Hamburg_Rathaus_1918.JPG",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "Henk Sneevliet",
@@ -527,7 +581,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/d/de/Henri_Wallon_by_Georges_Lafosse.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Henri_Wallon_by_Georges_Lafosse.jpg/250px-Henri_Wallon_by_Georges_Lafosse.jpg",
-    "w": 0
+    "w": 7,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 7
+      }
+    ]
   },
   {
     "n": "Herbert Zam",
@@ -536,7 +596,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/0/0f/A_Year_on_the_Punjab_Frontier_in_1848-49%3B_2nd._ed.%2C_in_Two_Volumes%2C_Vol._I_%28IA_dli.granth.71464%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/A_Year_on_the_Punjab_Frontier_in_1848-49%3B_2nd._ed.%2C_in_Two_Volumes%2C_Vol._I_%28IA_dli.granth.71464%29.pdf/page1-200px-A_Year_on_the_Punjab_Frontier_in_1848-49%3B_2nd._ed.%2C_in_Two_Volumes%2C_Vol._I_%28IA_dli.granth.71464%29.pdf.jpg",
-    "w": 0
+    "w": 125,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 125
+      }
+    ]
   },
   {
     "n": "Isaak Illich Rubin",
@@ -564,7 +630,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/d/d6/FSJ.Stuttgart.1909.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/FSJ.Stuttgart.1909.jpg/250px-FSJ.Stuttgart.1909.jpg",
-    "w": 0
+    "w": 6,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 6
+      }
+    ]
   },
   {
     "n": "Jay Lovestone",
@@ -592,7 +664,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/b/bc/John_Gates%2C_head-and-shoulders_portrait%2C_facing_right.tif",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/John_Gates%2C_head-and-shoulders_portrait%2C_facing_right.tif/lossy-page1-200px-John_Gates%2C_head-and-shoulders_portrait%2C_facing_right.tif.jpg",
-    "w": 0
+    "w": 34,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 34
+      }
+    ]
   },
   {
     "n": "John MacLean",
@@ -601,7 +679,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/6/6d/A_history_of_the_clan_MacLean_from_its_first_settlement_at_Duard_Castle_%281889%29_title_page.png",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/A_history_of_the_clan_MacLean_from_its_first_settlement_at_Duard_Castle_%281889%29_title_page.png/250px-A_history_of_the_clan_MacLean_from_its_first_settlement_at_Duard_Castle_%281889%29_title_page.png",
-    "w": 0
+    "w": 117,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 117
+      }
+    ]
   },
   {
     "n": "John Reed",
@@ -610,7 +694,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Portrait_of_John_Reed.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Portrait_of_John_Reed.jpg/250px-Portrait_of_John_Reed.jpg",
-    "w": 0
+    "w": 31,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 31
+      }
+    ]
   },
   {
     "n": "Joseph Zack",
@@ -726,7 +816,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/b/b9/The_Masses%2C_Volume_6%2C_Issue_4.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/The_Masses%2C_Volume_6%2C_Issue_4.pdf/page1-200px-The_Masses%2C_Volume_6%2C_Issue_4.pdf.jpg",
-    "w": 0
+    "w": 4,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 4
+      }
+    ]
   },
   {
     "n": "Louise Bryant",
@@ -773,7 +869,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Isabella_Bennet%2C_Duchess_of_Grafton.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Isabella_Bennet%2C_Duchess_of_Grafton.jpg/250px-Isabella_Bennet%2C_Duchess_of_Grafton.jpg",
-    "w": 0
+    "w": 159,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 159
+      }
+    ]
   },
   {
     "n": "Manuel Gómez",
@@ -782,7 +884,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Pintura_Manuel_G%C3%B3mez_Pedraza.png",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Pintura_Manuel_G%C3%B3mez_Pedraza.png/250px-Pintura_Manuel_G%C3%B3mez_Pedraza.png",
-    "w": 0
+    "w": 156,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 156
+      }
+    ]
   },
   {
     "n": "Max Bedacht",
@@ -834,7 +942,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/4/43/Max_Eastman_%28The_Bookman%2C_1913%29.png",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Max_Eastman_%28The_Bookman%2C_1913%29.png/250px-Max_Eastman_%28The_Bookman%2C_1913%29.png",
-    "w": 0
+    "w": 15,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 15
+      }
+    ]
   },
   {
     "n": "Otto Hall",
@@ -843,7 +957,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Otto_Mueller_Bildnis_Maschka_Mueller.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Otto_Mueller_Bildnis_Maschka_Mueller.jpg/250px-Otto_Mueller_Bildnis_Maschka_Mueller.jpg",
-    "w": 0
+    "w": 30,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 30
+      }
+    ]
   },
   {
     "n": "Palmiro Togliatti",
@@ -890,7 +1010,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/6/69/Paul-Levi-1920.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Paul-Levi-1920.jpg/250px-Paul-Levi-1920.jpg",
-    "w": 0
+    "w": 2,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 2
+      }
+    ]
   },
   {
     "n": "Pierre Monatte",
@@ -899,7 +1025,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/2/21/Panegyrique_de_Ste_Therese%2C_prononc_devant_la_Reine_en_l%27Eglise_des_Carmelites_de_la_ru_du_Boulloy_%28IA_wotb_7591316%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Panegyrique_de_Ste_Therese%2C_prononc_devant_la_Reine_en_l%27Eglise_des_Carmelites_de_la_ru_du_Boulloy_%28IA_wotb_7591316%29.pdf/page1-200px-Panegyrique_de_Ste_Therese%2C_prononc_devant_la_Reine_en_l%27Eglise_des_Carmelites_de_la_ru_du_Boulloy_%28IA_wotb_7591316%29.pdf.jpg",
-    "w": 0
+    "w": 5,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 5
+      }
+    ]
   },
   {
     "n": "Rose Wortis",
@@ -908,7 +1040,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/3/30/The_harp_of_Perthshire%3B_a_collection_of_songs%2C_ballads%2C_and_other_poetical_pieces_chiefly_by_local_authors%2C_with_notes_explanatory%2C_critical_and_biographical_%28IA_cu31924013511823%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/The_harp_of_Perthshire%3B_a_collection_of_songs%2C_ballads%2C_and_other_poetical_pieces_chiefly_by_local_authors%2C_with_notes_explanatory%2C_critical_and_biographical_%28IA_cu31924013511823%29.pdf/page1-200px-thumbnail.pdf.jpg",
-    "w": 0
+    "w": 104,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 104
+      }
+    ]
   },
   {
     "n": "Sam Darcy",
@@ -990,7 +1128,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/2/20/Serge_-_Carnets%2C_1952.djvu",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Serge_-_Carnets%2C_1952.djvu/page1-200px-Serge_-_Carnets%2C_1952.djvu.jpg",
-    "w": 0
+    "w": 105,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 105
+      }
+    ]
   },
   {
     "n": "Walter Ulbricht",

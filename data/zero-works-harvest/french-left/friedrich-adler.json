@@ -1,0 +1,18 @@
+{
+  "collection": "french-left",
+  "thinker": "Friedrich Adler",
+  "slug": "friedrich-adler",
+  "source_url": "https://www.marxists.org/archive/adler-friedrich/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "The Witchcraft Trial in Moscow",
+      "url": "https://www.marxists.org/archive/adler-friedrich/1936/trials.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/adler-friedrich/index.htm"
+  ]
+}

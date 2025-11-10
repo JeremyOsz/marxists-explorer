@@ -1,0 +1,30 @@
+{
+  "collection": "social-democracy",
+  "thinker": "Vida D. Scudder",
+  "slug": "vida-d-scudder",
+  "source_url": "https://www.marxists.org/archive/scudder/index.htm",
+  "status": "success",
+  "message": "Collected 4 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Social Teachings of the Christian Year",
+      "url": "https://www.marxists.org/archive/scudder/1918/1918-socialteachings.pdf"
+    },
+    {
+      "title": "Socialism and Character",
+      "url": "https://www.marxists.org/archive/scudder/1912/socialism-and-character-scudder.pdf"
+    },
+    {
+      "title": "The Church and the Hour: Reflections of a Socialist Churchwoman",
+      "url": "https://www.marxists.org/archive/scudder/1917/1917-reflections.pdf"
+    },
+    {
+      "title": "Why Join the Party?",
+      "url": "https://www.marxists.org/archive/scudder/1913/join-the-party.pdf"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/scudder/index.htm"
+  ]
+}

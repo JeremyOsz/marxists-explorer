@@ -1,0 +1,18 @@
+{
+  "collection": "marxist-humanism",
+  "thinker": "Franz Jakubowski",
+  "slug": "franz-jakubowski",
+  "source_url": "https://www.marxists.org/archive/jakubowski/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Ideology and Superstructure in Historical Materialism",
+      "url": "https://www.marxists.org/archive/jakubowski/1936/Ideology-Superstructure.pdf"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/jakubowski/index.htm"
+  ]
+}

@@ -57,7 +57,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Il_Cittadino_Italiano_n_110-1881_%28IA_CittadinoItaliano1883-171%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Il_Cittadino_Italiano_n_110-1881_%28IA_CittadinoItaliano1883-171%29.pdf/page1-200px-Il_Cittadino_Italiano_n_110-1881_%28IA_CittadinoItaliano1883-171%29.pdf.jpg",
-    "w": 0
+    "w": 2,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 2
+      }
+    ]
   },
   {
     "n": "Mansoor Hekmat",

@@ -15,7 +15,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Catalog_of_Copyright_Entries%2C_1912_Engravings_Prints_Etc._Fine_Arts_For_the_Year_1912_New_Series_Vol_7_Part_4_%28IA_catalogofcopyrig74libr%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Catalog_of_Copyright_Entries%2C_1912_Engravings_Prints_Etc._Fine_Arts_For_the_Year_1912_New_Series_Vol_7_Part_4_%28IA_catalogofcopyrig74libr%29.pdf/page1-200px-Catalog_of_Copyright_Entries%2C_1912_Engravings_Prints_Etc._Fine_Arts_For_the_Year_1912_New_Series_Vol_7_Part_4_%28IA_catalogofcopyrig74libr%29.pdf.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "David Yaffe",
@@ -51,7 +57,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/2/29/John_Hobson%2C_portrait%2C_as_a_young_man_Wellcome_L0020335.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/John_Hobson%2C_portrait%2C_as_a_young_man_Wellcome_L0020335.jpg/250px-John_Hobson%2C_portrait%2C_as_a_young_man_Wellcome_L0020335.jpg",
-    "w": 0
+    "w": 16,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 16
+      }
+    ]
   },
   {
     "n": "John Stuart Mill",

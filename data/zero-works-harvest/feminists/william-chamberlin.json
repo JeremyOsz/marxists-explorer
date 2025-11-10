@@ -1,0 +1,18 @@
+{
+  "collection": "feminists",
+  "thinker": "William Chamberlin",
+  "slug": "william-chamberlin",
+  "source_url": "https://www.marxists.org/archive/chamberlin-william/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Soviet Russia: A Living Record and a History",
+      "url": "https://www.marxists.org/archive/chamberlin-william/1929/soviet-russia/index.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/chamberlin-william/index.htm"
+  ]
+}

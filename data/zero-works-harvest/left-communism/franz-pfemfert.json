@@ -1,0 +1,18 @@
+{
+  "collection": "left-communism",
+  "thinker": "Franz Pfemfert",
+  "slug": "franz-pfemfert",
+  "source_url": "https://www.marxists.org/archive/pfemfert/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Lenin'sInfantile Disorder...and the Third International",
+      "url": "https://www.marxists.org/archive/pfemfert/1920/08/07.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/pfemfert/index.htm"
+  ]
+}

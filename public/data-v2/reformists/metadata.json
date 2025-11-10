@@ -51,7 +51,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Isaac_Steinberg_1939.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Isaac_Steinberg_1939.jpg/250px-Isaac_Steinberg_1939.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "Jean Jaurès",
@@ -69,7 +75,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/0/07/Jean_Longuet_-_btv1b53171899s.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Jean_Longuet_-_btv1b53171899s.jpg/250px-Jean_Longuet_-_btv1b53171899s.jpg",
-    "w": 0
+    "w": 5,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 5
+      }
+    ]
   },
   {
     "n": "Leon Blum",
@@ -78,6 +90,12 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/d/da/L%C3%A9on_Blum_Meurisse_b_1927.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/L%C3%A9on_Blum_Meurisse_b_1927.jpg/250px-L%C3%A9on_Blum_Meurisse_b_1927.jpg",
-    "w": 0
+    "w": 3,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 3
+      }
+    ]
   }
 ]

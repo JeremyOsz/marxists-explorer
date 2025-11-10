@@ -1,0 +1,18 @@
+{
+  "collection": "bolsheviks",
+  "thinker": "Felix Raskolnikov",
+  "slug": "felix-raskolnikov",
+  "source_url": "https://www.marxists.org/archive/raskolnikov/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Kronstadt and Petrograd in 1917",
+      "url": "https://www.marxists.org/archive/raskolnikov/1925/kronstadt-petrograd-1917/index.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/raskolnikov/index.htm"
+  ]
+}

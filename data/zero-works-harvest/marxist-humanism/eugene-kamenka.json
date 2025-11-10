@@ -1,0 +1,30 @@
+{
+  "collection": "marxist-humanism",
+  "thinker": "Eugene Kamenka",
+  "slug": "eugene-kamenka",
+  "source_url": "https://www.marxists.org/archive/kamenka/index.htm",
+  "status": "success",
+  "message": "Collected 4 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Capitalism, Socialism and Bureaucracy",
+      "url": "https://www.marxists.org/archive/kamenka/1989/bureaucracy/capitalism-socialism.htm"
+    },
+    {
+      "title": "Marxism and Ethics",
+      "url": "https://www.marxists.org/archive/kamenka/1969/marxism+ethics.pdf"
+    },
+    {
+      "title": "The Ethical Foundations of Marxism",
+      "url": "https://www.marxists.org/archive/kamenka/1962/ethical-foundations/index.htm"
+    },
+    {
+      "title": "What is Bureaucracy and What is its Future?",
+      "url": "https://www.marxists.org/archive/kamenka/1989/bureaucracy/future.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/kamenka/index.htm"
+  ]
+}

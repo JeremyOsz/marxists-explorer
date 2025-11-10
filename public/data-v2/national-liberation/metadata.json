@@ -141,7 +141,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/6/62/George_Padmore_marries_Julia_Semper%2C_1924.png",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/George_Padmore_marries_Julia_Semper%2C_1924.png/250px-George_Padmore_marries_Julia_Semper%2C_1924.png",
-    "w": 0
+    "w": 149,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 149
+      }
+    ]
   },
   {
     "n": "Ghassan Kanafani",
@@ -159,7 +165,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Harry_Haywood_We_Follow_The_Path_Less_Traveled_The_City_at_The_Crossroads_of_History.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Harry_Haywood_We_Follow_The_Path_Less_Traveled_The_City_at_The_Crossroads_of_History.jpg/250px-Harry_Haywood_We_Follow_The_Path_Less_Traveled_The_City_at_The_Crossroads_of_History.jpg",
-    "w": 0
+    "w": 61,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 61
+      }
+    ]
   },
   {
     "n": "Ho Chi Minh",
@@ -383,7 +395,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Truong_Chinh_mugshot.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Truong_Chinh_mugshot.jpg/250px-Truong_Chinh_mugshot.jpg",
-    "w": 0
+    "w": 10,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 10
+      }
+    ]
   },
   {
     "n": "Võ Nguyên Giáp",

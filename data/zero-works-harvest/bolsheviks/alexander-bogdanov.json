@@ -1,0 +1,34 @@
+{
+  "collection": "bolsheviks",
+  "thinker": "Alexander Bogdanov",
+  "slug": "alexander-bogdanov",
+  "source_url": "https://www.marxists.org/archive/bogdanov/index.htm",
+  "status": "success",
+  "message": "Collected 5 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Proletarian Poetry",
+      "url": "https://www.marxists.org/archive/bogdanov/1923/proletarian-poetry.htm"
+    },
+    {
+      "title": "Religion, Art and Marxism",
+      "url": "https://www.marxists.org/archive/bogdanov/1924/religion-art.htm"
+    },
+    {
+      "title": "Socially Organised Society: Socialist Society",
+      "url": "https://www.marxists.org/archive/bogdanov/1919/socialism.htm"
+    },
+    {
+      "title": "The Situation of Russian Industry",
+      "url": "https://www.marxists.org/archive/bogdanov/1923/01/russ-ind.htm"
+    },
+    {
+      "title": "The Workers’ Artistic Inheritance",
+      "url": "https://www.marxists.org/archive/bogdanov/1924/artistic-inheritance.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/bogdanov/index.htm"
+  ]
+}

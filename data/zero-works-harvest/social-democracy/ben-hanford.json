@@ -1,0 +1,18 @@
+{
+  "collection": "social-democracy",
+  "thinker": "Ben Hanford",
+  "slug": "ben-hanford",
+  "source_url": "https://www.marxists.org/archive/hanford/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "The Jimmie Higginses",
+      "url": "https://www.marxists.org/archive/hanford/works/xx/jimmie-higgins.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/hanford/index.htm"
+  ]
+}

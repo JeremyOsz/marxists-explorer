@@ -1,0 +1,26 @@
+{
+  "collection": "bolsheviks",
+  "thinker": "Mikhail Tomsky",
+  "slug": "mikhail-tomsky",
+  "source_url": "https://www.marxists.org/archive/tomsky/index.htm",
+  "status": "success",
+  "message": "Collected 3 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "The Trade Unions, the Party and the State",
+      "url": "https://www.marxists.org/archive/tomsky/1927/unions_party_state.htm"
+    },
+    {
+      "title": "Tomsky and A. B. Swales, President of the British Trades Union Congress",
+      "url": "https://www.marxists.org/archive/tomsky/pictures/tomsky_swales.htm"
+    },
+    {
+      "title": "Tomsky and the All Russian Central Council of Trade Unions members",
+      "url": "https://www.marxists.org/archive/tomsky/pictures/all_russian.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/tomsky/index.htm"
+  ]
+}

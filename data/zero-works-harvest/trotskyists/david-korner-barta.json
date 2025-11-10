@@ -1,0 +1,46 @@
+{
+  "collection": "trotskyists",
+  "thinker": "David Korner (Barta)",
+  "slug": "david-korner-barta",
+  "source_url": "https://www.marxists.org/archive/barta/index.htm",
+  "status": "success",
+  "message": "Collected 8 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "A Letter from Barta onLes Enfants Du Prophète",
+      "url": "https://www.marxists.org/archive/barta/1972/letter.htm"
+    },
+    {
+      "title": "How the Bolshevik-Leninist Group of Romania was Founded",
+      "url": "https://www.marxists.org/archive/barta/1935/romania.htm"
+    },
+    {
+      "title": "Letter From Bucharest to Trotsky",
+      "url": "https://www.marxists.org/archive/barta/1936/letter-trotsky.htm"
+    },
+    {
+      "title": "Letter to Young Communists",
+      "url": "https://www.marxists.org/archive/barta/1944/letter_young_comm.htm"
+    },
+    {
+      "title": "Long Live the Red Army of Workers and Peasants!",
+      "url": "https://www.marxists.org/archive/barta/1941/red-army.htm"
+    },
+    {
+      "title": "Report on Organisation (43 report)",
+      "url": "https://www.marxists.org/archive/barta/1943/43_report.htm"
+    },
+    {
+      "title": "Taking off again – this time with the left foot forward !",
+      "url": "https://www.marxists.org/archive/barta/1974/taking_off.htm"
+    },
+    {
+      "title": "The Barta–Sedova Letters",
+      "url": "https://www.marxists.org/archive/barta/1946-1949/letters01.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/barta/index.htm"
+  ]
+}

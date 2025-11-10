@@ -1,0 +1,26 @@
+{
+  "collection": "social-democracy",
+  "thinker": "William Morris",
+  "slug": "william-morris",
+  "source_url": "https://www.marxists.org/archive/morris/index.htm",
+  "status": "success",
+  "message": "Collected 3 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Chronology",
+      "url": "https://www.marxists.org/archive/morris/works/chrono.htm"
+    },
+    {
+      "title": "Journalism",
+      "url": "https://www.marxists.org/archive/morris/works/articles.htm"
+    },
+    {
+      "title": "Works",
+      "url": "https://www.marxists.org/archive/morris/works/index.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/morris/index.htm"
+  ]
+}

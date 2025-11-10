@@ -1,0 +1,18 @@
+{
+  "collection": "trotskyists",
+  "thinker": "Pandelis Pouliopoulos",
+  "slug": "pandelis-pouliopoulos",
+  "source_url": "https://www.marxists.org/archive/pouliop/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "[works]",
+      "url": "https://www.marxists.org/archive/pouliop/works/index.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/pouliop/index.htm"
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "collection": "social-democracy",
+  "thinker": "Eleanor Marx",
+  "slug": "eleanor-marx",
+  "source_url": "https://www.marxists.org/archive/eleanor-marx/index.htm",
+  "status": "success",
+  "message": "Collected 45 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "A Ball-Mood",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1890/kielland.htm"
+    },
+    {
+      "title": "A Doll’s House Repaired",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1891/dolls-house-repaired.htm"
+    },
+    {
+      "title": "An Account of Abbé Vogler",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1881/vogler.htm"
+    },
+    {
+      "title": "An Enemy of Society",
+      "url": "https://www.marxists.org/archive/eleanor-marx/works/enemy/index.htm"
+    },
+    {
+      "title": "Comments on Clara Zetkin's speech",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1896/10/gotha.htm#zetkin"
+    },
+    {
+      "title": "Dramatic Notes",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1890/theatre.htm"
+    },
+    {
+      "title": "Evil May Day",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1894/05/evilmay.htm"
+    },
+    {
+      "title": "Exchange with Bax",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1895/11/bax-exchange.htm"
+    },
+    {
+      "title": "French and German Classes for the SDF",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1896/09/languages.htm"
+    },
+    {
+      "title": "Gladstone’s Budget Speech of 1863",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1884/gladstone.htm"
+    },
+    {
+      "title": "Karl Marx",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1883/06/karl-marx.htm"
+    },
+    {
+      "title": "Karl Marx’s “Capital”",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1897/03/marxs-capital.htm"
+    },
+    {
+      "title": "Letter from Eleanor and Edward Aveling to Justice, on their health",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1898/01/health.htm"
+    },
+    {
+      "title": "Letter to Samuel Gompers",
+      "url": "https://www.marxists.org/archive/eleanor-marx/works/afl.htm"
+    },
+    {
+      "title": "Literature Notes",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1890/literature.htm"
+    },
+    {
+      "title": "Madame Bovary",
+      "url": "https://www.marxists.org/archive/eleanor-marx/works/bovary/index.htm"
+    },
+    {
+      "title": "Marx's Theory of Value",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1883/06/karl-marx.htm#s2"
+    },
+    {
+      "title": "Procession of Children for the Hyde Park Peace Demonstration",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1896/07/children.htm"
+    },
+    {
+      "title": "Record of the International Movement",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1885/record-international.htm"
+    },
+    {
+      "title": "Record of the International Movement",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1886/record-international.htm"
+    },
+    {
+      "title": "Record of the International Popular Movement",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1884/record-international.htm"
+    },
+    {
+      "title": "Report to the Brussels International Congress",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1891/brussels-report.htm"
+    },
+    {
+      "title": "Report to the Zurich International Congress",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1893/zurich-report.htm"
+    },
+    {
+      "title": "Review of Bebel’s ‘Woman in the Past, Present and Future’",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1885/bebelrev.htm"
+    },
+    {
+      "title": "Shelley and Socialism",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1888/04/shelley-socialism.htm"
+    },
+    {
+      "title": "Socialist Municipalities and Communes in France",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1897/01/municipalities.htm"
+    },
+    {
+      "title": "Socialist Personalities: Sketches at the Zurich International Congress: men",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1893/men.htm"
+    },
+    {
+      "title": "Socialist Personalities: Sketches at the Zurich International Congress: women",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1893/women.htm"
+    },
+    {
+      "title": "Speech on the First May Day",
+      "url": "https://www.marxists.org/archive/eleanor-marx/works/mayday.htm"
+    },
+    {
+      "title": "Suggestions for Propaganda Work",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1897/01/propaganda-work.htm"
+    },
+    {
+      "title": "The Chicago Anarchists",
+      "url": "https://www.marxists.org/archive/eleanor-marx/works/chicago.htm"
+    },
+    {
+      "title": "The difference between Byron and Shelley",
+      "url": "https://www.marxists.org/archive/eleanor-marx/works/poets.htm"
+    },
+    {
+      "title": "The Factory Hell",
+      "url": "https://www.marxists.org/archive/eleanor-marx/works/factory.htm"
+    },
+    {
+      "title": "The Gotha Congress",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1896/10/gotha.htm"
+    },
+    {
+      "title": "The Irish Dynamiters",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1884/irish.htm"
+    },
+    {
+      "title": "The Lady of the Sea",
+      "url": "https://www.marxists.org/archive/eleanor-marx/works/los/index.htm"
+    },
+    {
+      "title": "The Liverpool Congress",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1890/liverpool-congress.htm"
+    },
+    {
+      "title": "The Other Side of the Picture",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1896/06/russia.htm"
+    },
+    {
+      "title": "The Pall Mall Gazette",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1885/pallmall.htm"
+    },
+    {
+      "title": "The Proletarian in the Home",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1896/11/proletarian-home.htm"
+    },
+    {
+      "title": "The Rev. W Landsell, D.D.",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1883/03/landsell.htm"
+    },
+    {
+      "title": "The Woman Question",
+      "url": "https://www.marxists.org/archive/eleanor-marx/works/womanq.htm"
+    },
+    {
+      "title": "The Working Class Movement in America",
+      "url": "https://www.marxists.org/archive/eleanor-marx/works/wcia.htm"
+    },
+    {
+      "title": "The working class movement in England",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1895/working-class-england/index.htm"
+    },
+    {
+      "title": "Underground Russia",
+      "url": "https://www.marxists.org/archive/eleanor-marx/1883/08/underground-russia.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/eleanor-marx/index.htm"
+  ]
+}

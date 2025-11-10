@@ -1,0 +1,58 @@
+{
+  "collection": "left-communism",
+  "thinker": "Otto Rühle",
+  "slug": "otto-ruhle",
+  "source_url": "https://www.marxists.org/archive/ruhle/index.htm",
+  "status": "success",
+  "message": "Collected 11 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Abridgement of Karl Marx's Capital",
+      "url": "https://www.marxists.org/archive/ruhle/1939/capital.htm"
+    },
+    {
+      "title": "From the Bourgeois to the Proletarian Revolution",
+      "url": "https://www.marxists.org/archive/ruhle/1924/revolution.htm"
+    },
+    {
+      "title": "Karl Marx: His Life and Works",
+      "url": "https://www.marxists.org/archive/ruhle/1928/marx/index.htm"
+    },
+    {
+      "title": "Letter to Comrade Schlamm",
+      "url": "https://www.marxists.org/archive/ruhle/1937/letter-schlamm.htm"
+    },
+    {
+      "title": "Moscow and Ourselves",
+      "url": "https://www.marxists.org/archive/ruhle/1920/moscow-and-ourselves.htm"
+    },
+    {
+      "title": "Report from Moscow",
+      "url": "https://www.marxists.org/archive/ruhle/1920/ruhle01.htm"
+    },
+    {
+      "title": "Speech in the Reichstag",
+      "url": "https://www.marxists.org/archive/ruhle/1918/ruhle01.htm"
+    },
+    {
+      "title": "The Psyche of the Proletarian Child",
+      "url": "https://www.marxists.org/archive/ruhle/1925/proletarian-child.htm"
+    },
+    {
+      "title": "The Revolution Is Not A Party Affair",
+      "url": "https://www.marxists.org/archive/ruhle/1920/ruhle02.htm"
+    },
+    {
+      "title": "The Struggle Against Fascism Begins with the Struggle Against Bolshevism",
+      "url": "https://www.marxists.org/archive/ruhle/1939/ruhle01.htm"
+    },
+    {
+      "title": "Which Side To Take?",
+      "url": "https://www.marxists.org/archive/ruhle/1940/ruhle01.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/ruhle/index.htm"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "collection": "political-economy",
+  "thinker": "John Hobson",
+  "slug": "john-hobson",
+  "source_url": "https://www.marxists.org/archive/hobson/index.htm",
+  "status": "success",
+  "message": "Collected 16 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Britain’s Economic Outlook on Europe",
+      "url": "https://www.marxists.org/archive/hobson/1922/08/outlook.htm"
+    },
+    {
+      "title": "Collectivism in Industry",
+      "url": "https://www.marxists.org/archive/hobson/1896/10/collectivism.html"
+    },
+    {
+      "title": "Imperialism, A Study",
+      "url": "https://www.marxists.org/archive/hobson/1902/imperialism/index.htm"
+    },
+    {
+      "title": "Marginal Units in the Theory of Distribution",
+      "url": "https://www.marxists.org/archive/hobson/1904/09/distribution.htm"
+    },
+    {
+      "title": "Mr. Kidd’sSocial Evolution",
+      "url": "https://www.marxists.org/archive/hobson/1895/11/kidd.htm"
+    },
+    {
+      "title": "Neo-Classical Economics in Britain",
+      "url": "https://www.marxists.org/archive/hobson/1925/09/neoclass.htm"
+    },
+    {
+      "title": "Socialistic Imperialism",
+      "url": "https://www.marxists.org/archive/hobson/1901/10/socimp.htm"
+    },
+    {
+      "title": "The Dynamics of the Wages Question – Discussion",
+      "url": "https://www.marxists.org/archive/hobson/1903/02/wages.htm"
+    },
+    {
+      "title": "The Economics of Thorstein Veblen",
+      "url": "https://www.marxists.org/archive/hobson/1937/03/veblen.htm"
+    },
+    {
+      "title": "The Element of Monopoly in Prices",
+      "url": "https://www.marxists.org/archive/hobson/1891/10/prices.htm"
+    },
+    {
+      "title": "The Influence of Machinery Upon Employment",
+      "url": "https://www.marxists.org/archive/hobson/1893/03/machines.htm"
+    },
+    {
+      "title": "The Law of the Three Rents",
+      "url": "https://www.marxists.org/archive/hobson/1891/04/rents.htm"
+    },
+    {
+      "title": "The Marginal Theory of Distribution",
+      "url": "https://www.marxists.org/archive/hobson/1905/09/margin.htm"
+    },
+    {
+      "title": "The Scientific Basis of Imperialism",
+      "url": "https://www.marxists.org/archive/hobson/1902/09/sciimp.htm"
+    },
+    {
+      "title": "Underconsumption – An Exposition and a Reply",
+      "url": "https://www.marxists.org/archive/hobson/1933/11/underconsum.htm"
+    },
+    {
+      "title": "Why the War Came as a Surprise",
+      "url": "https://www.marxists.org/archive/hobson/1920/09/war.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/hobson/index.htm"
+  ]
+}

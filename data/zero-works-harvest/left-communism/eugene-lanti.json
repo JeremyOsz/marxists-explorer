@@ -1,0 +1,30 @@
+{
+  "collection": "left-communism",
+  "thinker": "Eugene Lanti",
+  "slug": "eugene-lanti",
+  "source_url": "https://www.marxists.org/archive/lanti/index.htm",
+  "status": "success",
+  "message": "Collected 4 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "If Lenin Were an Esperantist",
+      "url": "https://www.marxists.org/archive/lanti/1920/lenin.htm"
+    },
+    {
+      "title": "International or A-national Organizing?",
+      "url": "https://www.marxists.org/archive/lanti/1920/international.htm"
+    },
+    {
+      "title": "Manifesto of Non-Nationalists",
+      "url": "https://www.marxists.org/archive/lanti/1931/manifesto.htm"
+    },
+    {
+      "title": "Three Weeks in Russia",
+      "url": "https://www.marxists.org/archive/lanti/1922/3-weeks.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/lanti/index.htm"
+  ]
+}

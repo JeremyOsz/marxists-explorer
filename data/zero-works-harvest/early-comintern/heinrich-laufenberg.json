@@ -1,0 +1,18 @@
+{
+  "collection": "early-comintern",
+  "thinker": "Heinrich Laufenberg",
+  "slug": "heinrich-laufenberg",
+  "source_url": "https://www.marxists.org/archive/laufenberg/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "The Hamburg Revolution",
+      "url": "https://www.marxists.org/archive/laufenberg/1919/07/26.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/laufenberg/index.htm"
+  ]
+}

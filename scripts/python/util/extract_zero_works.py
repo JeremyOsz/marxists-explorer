@@ -14,6 +14,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import unicodedata
 from pathlib import Path
 from typing import Dict, List
 
@@ -26,7 +27,9 @@ ENTRY_PREFIX = "- "
 
 def slugify_name(name: str) -> str:
     """Create a lightweight slug used for logging and checklisting."""
-    cleaned = re.sub(r"[’'`]", "", name)
+    normalized = unicodedata.normalize("NFKD", name)
+    ascii_name = normalized.encode("ascii", "ignore").decode("ascii")
+    cleaned = re.sub(r"[’'`]", "", ascii_name)
     cleaned = re.sub(r"[^a-zA-Z0-9]+", "-", cleaned).strip("-")
     return cleaned.lower()
 

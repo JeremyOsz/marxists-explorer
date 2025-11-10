@@ -1,0 +1,18 @@
+{
+  "collection": "comintern",
+  "thinker": "Vŭlko Chervenkov",
+  "slug": "vulko-chervenkov",
+  "source_url": "https://www.marxists.org/archive/chervenkov/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "All Out to Fulfill the 1950 Economic Plan",
+      "url": "https://www.marxists.org/archive/chervenkov/1950-all-out-to-fulfill-1950-econ-plan.pdf"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/chervenkov/index.htm"
+  ]
+}

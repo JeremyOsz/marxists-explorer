@@ -1,0 +1,22 @@
+{
+  "collection": "guerilla-marxism",
+  "thinker": "Juan Gelman",
+  "slug": "juan-gelman",
+  "source_url": "https://www.marxists.org/archive/gelman/index.htm",
+  "status": "success",
+  "message": "Collected 2 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Anti-Humanism",
+      "url": "https://www.marxists.org/archive/gelman/1994/anti-humanism.htm"
+    },
+    {
+      "title": "Noises",
+      "url": "https://www.marxists.org/archive/gelman/1970/noises.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/gelman/index.htm"
+  ]
+}

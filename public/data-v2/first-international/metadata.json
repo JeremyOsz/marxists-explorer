@@ -90,7 +90,13 @@
     "b": "https://www.marxists.org/reference/archive/sorge/bio/index.htm",
     "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Friedrich_Adolph_Sorge.jpg/200px-Friedrich_Adolph_Sorge.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Illustrierter_Katalog_der_M%C3%BCnchener_Jahresausstellung_von_Kunstwerken_aller_Nationen_im_k%C3%B6nigl._Glaspalaste_.._%28IA_illustrierterkat1893munc%29.pdf/page1-200px-Illustrierter_Katalog_der_M%C3%BCnchener_Jahresausstellung_von_Kunstwerken_aller_Nationen_im_k%C3%B6nigl._Glaspalaste_.._%28IA_illustrierterkat1893munc%29.pdf.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "Friedrich Engels",

@@ -6,7 +6,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/8/84/Marighella_Assassinado.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Marighella_Assassinado.jpg/250px-Marighella_Assassinado.jpg",
-    "w": 0
+    "w": 38,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 38
+      }
+    ]
   },
   {
     "n": "Che Guevara",
@@ -69,7 +75,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Juan_Gelman_-presidenciagovar-_31JUL07.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Juan_Gelman_-presidenciagovar-_31JUL07.jpg/250px-Juan_Gelman_-presidenciagovar-_31JUL07.jpg",
-    "w": 0
+    "w": 2,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 2
+      }
+    ]
   },
   {
     "n": "Mahir Çayan",

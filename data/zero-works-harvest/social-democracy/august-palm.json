@@ -1,0 +1,30 @@
+{
+  "collection": "social-democracy",
+  "thinker": "August Palm",
+  "slug": "august-palm",
+  "source_url": "https://www.marxists.org/archive/palm-august/index.htm",
+  "status": "success",
+  "message": "Collected 4 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Speech at Hotel Stockholm, Malmö, 6 November 1881",
+      "url": "https://www.marxists.org/archive/palm-august/1881/speech.htm"
+    },
+    {
+      "title": "The Labor Issue, 25 September 1885",
+      "url": "https://www.marxists.org/archive/palm-august/1885/labor-issue.htm"
+    },
+    {
+      "title": "To the Public, 25 September 1885",
+      "url": "https://www.marxists.org/archive/palm-august/1885/to-public.htm"
+    },
+    {
+      "title": "To the Social-Democrats of Sweden, 25 September 1885",
+      "url": "https://www.marxists.org/archive/palm-august/1885/to-social-democrats.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/palm-august/index.htm"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "collection": "reformists",
+  "thinker": "Leon Blum",
+  "slug": "leon-blum",
+  "source_url": "https://www.marxists.org/archive/blum/index.htm",
+  "status": "success",
+  "message": "Collected 3 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Memories of the Dreyfus Affair",
+      "url": "https://www.marxists.org/archive/blum/1935/dreyfus-memories.htm"
+    },
+    {
+      "title": "On Andre Gide",
+      "url": "https://www.marxists.org/archive/blum/1897/andre-gide.htm"
+    },
+    {
+      "title": "Speech at the Socialist Party Congress at Tours",
+      "url": "https://www.marxists.org/archive/blum/1920/speech.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/blum/index.htm"
+  ]
+}

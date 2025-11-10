@@ -1,0 +1,13 @@
+{
+  "collection": "political-science",
+  "thinker": "John Locke",
+  "slug": "john-locke",
+  "source_url": null,
+  "status": "no_source_match",
+  "message": "No Marxists.org author page was identified.",
+  "warnings": [
+    "No entry located on index page"
+  ],
+  "works": [],
+  "visited_urls": []
+}

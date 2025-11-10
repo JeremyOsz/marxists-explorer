@@ -6,7 +6,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Erich_Fromm.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Erich_Fromm.jpg/250px-Erich_Fromm.jpg",
-    "w": 0
+    "w": 11,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 11
+      }
+    ]
   },
   {
     "n": "Henryk Grossman",

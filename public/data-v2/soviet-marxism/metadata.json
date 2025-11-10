@@ -21,7 +21,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/6/67/Alexander_Luria.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Alexander_Luria.jpg/250px-Alexander_Luria.jpg",
-    "w": 0
+    "w": 25,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 25
+      }
+    ]
   },
   {
     "n": "Alexei Leont'ev",

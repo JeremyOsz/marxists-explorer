@@ -1,0 +1,22 @@
+{
+  "collection": "left-communism",
+  "thinker": "Bernard Reichenbach",
+  "slug": "bernard-reichenbach",
+  "source_url": "https://www.marxists.org/archive/reichenbach/index.htm",
+  "status": "success",
+  "message": "Collected 2 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Moscow 1921",
+      "url": "https://www.marxists.org/archive/reichenbach/1964/moscow.htm"
+    },
+    {
+      "title": "The KAPD in Retrospect",
+      "url": "https://www.marxists.org/archive/reichenbach/1969/retrospect.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/reichenbach/index.htm"
+  ]
+}

@@ -15,7 +15,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Chantalat_-_Portrait_de_F%C3%A9lix_Pyat_%281810-1889%29%2C_journaliste_et_homme_politique_-_P48_-_Mus%C3%A9e_Carnavalet.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Chantalat_-_Portrait_de_F%C3%A9lix_Pyat_%281810-1889%29%2C_journaliste_et_homme_politique_-_P48_-_Mus%C3%A9e_Carnavalet.jpg/250px-Chantalat_-_Portrait_de_F%C3%A9lix_Pyat_%281810-1889%29%2C_journaliste_et_homme_politique_-_P48_-_Mus%C3%A9e_Carnavalet.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "General Boulanger",

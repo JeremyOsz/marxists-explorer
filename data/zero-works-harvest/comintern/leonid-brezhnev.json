@@ -1,0 +1,62 @@
+{
+  "collection": "comintern",
+  "thinker": "Leonid Brezhnev",
+  "slug": "leonid-brezhnev",
+  "source_url": "https://www.marxists.org/archive/brezhnev/index.htm",
+  "status": "success",
+  "message": "Collected 12 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "47th Anniversary of the Great October Socialist Revolution",
+      "url": "https://www.marxists.org/archive/brezhnev/1964/47th-Anniversary-October-Revolution.pdf"
+    },
+    {
+      "title": "Following Lenin's Course: Speeches and articles",
+      "url": "https://www.marxists.org/archive/brezhnev/1972/followingleninscourse1972.pdf"
+    },
+    {
+      "title": "Following Lenin's Course: Speeches and articles (1972-1975)",
+      "url": "https://www.marxists.org/archive/brezhnev/1975/followingleninscourse1975.pdf"
+    },
+    {
+      "title": "For peace, security, cooperation and social progress in Europe",
+      "url": "https://www.marxists.org/archive/brezhnev/1976/confcompartieseurope1976.pdf"
+    },
+    {
+      "title": "Great October, 1917-1967: Fifty Years of Great Achievements of Socialism",
+      "url": "https://www.marxists.org/archive/brezhnev/1967/50years.pdf"
+    },
+    {
+      "title": "On Soviet Policy following the Israeli Aggression in the Middle East. Report to the Plenum of the Central Committee of the CPSU",
+      "url": "https://www.marxists.org/archive/brezhnev/1967/june/20.htm"
+    },
+    {
+      "title": "On the Draft Constitution (Fundamental Law) of the Union of Soviet Socialist Republics and the Results of the Nationwide Discussion of the Draft",
+      "url": "https://www.marxists.org/archive/brezhnev/1977/oct/brezhnevondraftconstitutionussr.pdf"
+    },
+    {
+      "title": "Our Course: Peace and Socialism (Speeches delivered in 1978)",
+      "url": "https://www.marxists.org/archive/brezhnev/1979/our-course-peace-and-socialism-1978-1979.pdf"
+    },
+    {
+      "title": "Our Course: Peace and Socialism (Speeches delivered in 1981)",
+      "url": "https://www.marxists.org/archive/brezhnev/1982/brezhnevpeacesocialism1981.pdf"
+    },
+    {
+      "title": "Report of the Central Committee of the Communist Party of the Soviet Union to the 24th Congress of the CPSU",
+      "url": "https://www.marxists.org/archive/brezhnev/1971/report-cc-cpsu-24th-congress-1971.pdf"
+    },
+    {
+      "title": "Report of the Central Committee of the CPSU to the XXVI Congress of the Communist Party of the Soviet Union and the Immediate Tasks of the Party in Home and Foreign Policy",
+      "url": "https://www.marxists.org/archive/brezhnev/1981/report-to-26th-cpsu-congress.pdf"
+    },
+    {
+      "title": "The Great October Revolution and Mankind's Progress",
+      "url": "https://www.marxists.org/archive/brezhnev/1977/nov/02.pdf"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/brezhnev/index.htm"
+  ]
+}

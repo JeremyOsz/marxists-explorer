@@ -1,0 +1,18 @@
+{
+  "collection": "bolsheviks",
+  "thinker": "Vladimir Milyutin",
+  "slug": "vladimir-milyutin",
+  "source_url": "https://www.marxists.org/archive/milyutin/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "The Economic Organisation of Soviet Russia - A Brief Sketch of the Organisation and the Present Situation of Industry in Russia",
+      "url": "https://www.marxists.org/archive/milyutin/1920/economicorganisation.pdf"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/milyutin/index.htm"
+  ]
+}

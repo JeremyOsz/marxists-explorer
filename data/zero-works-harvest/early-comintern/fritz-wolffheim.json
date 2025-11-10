@@ -1,0 +1,18 @@
+{
+  "collection": "early-comintern",
+  "thinker": "Fritz Wolffheim",
+  "slug": "fritz-wolffheim",
+  "source_url": "https://www.marxists.org/archive/wolffheim/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Factory Organizations or Trade Unions?",
+      "url": "https://www.marxists.org/archive/wolffheim/1919/08/16.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/wolffheim/index.htm"
+  ]
+}

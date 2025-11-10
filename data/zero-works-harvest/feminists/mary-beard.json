@@ -1,0 +1,18 @@
+{
+  "collection": "feminists",
+  "thinker": "Mary Beard",
+  "slug": "mary-beard",
+  "source_url": "https://www.marxists.org/archive/beard/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "A Short History of the American Labor Movement",
+      "url": "https://www.marxists.org/archive/beard/labor-movement/book.pdf"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/beard/index.htm"
+  ]
+}

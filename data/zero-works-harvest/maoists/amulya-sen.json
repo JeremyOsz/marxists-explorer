@@ -1,0 +1,18 @@
+{
+  "collection": "maoists",
+  "thinker": "Amulya Sen",
+  "slug": "amulya-sen",
+  "source_url": "https://www.marxists.org/archive/sen/index.htm",
+  "status": "success",
+  "message": "Collected 1 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Two Essays: People's Democratic Revolution and the Peasant Question [1968] / \"Mass Line\" in Prommoting the Politics of Agrarian Revolution [1974]",
+      "url": "https://www.marxists.org/archive/sen/two-essays.pdf"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/sen/index.htm"
+  ]
+}

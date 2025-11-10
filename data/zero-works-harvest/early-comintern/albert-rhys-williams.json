@@ -1,0 +1,42 @@
+{
+  "collection": "early-comintern",
+  "thinker": "Albert Rhys Williams",
+  "slug": "albert-rhys-williams",
+  "source_url": "https://www.marxists.org/archive/williams/index.htm",
+  "status": "success",
+  "message": "Collected 7 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "\"The Red Funeral of Vladivostok\"",
+      "url": "https://www.marxists.org/archive/williams/shallsocialismtr00reed.pdf"
+    },
+    {
+      "title": "In the Claws of the German Eagle",
+      "url": "https://www.marxists.org/archive/williams/inclawsofgermaneagle.pdf"
+    },
+    {
+      "title": "Lenin: The Man and his Work",
+      "url": "https://www.marxists.org/archive/williams/lenin-the-man-and-his-work.pdf"
+    },
+    {
+      "title": "Russian Soviets - Seventy-Six Questions and Answers on the Workingman's Government of Russia",
+      "url": "https://www.marxists.org/archive/williams/russiansovietsse00will.pdf"
+    },
+    {
+      "title": "The Bolsheviks and the Soviets",
+      "url": "https://www.marxists.org/archive/williams/bolsheviksandso00willgoog.pdf"
+    },
+    {
+      "title": "The Russian Land",
+      "url": "https://www.marxists.org/archive/williams/russianland010621mbp.pdf"
+    },
+    {
+      "title": "Through the Russian Revolution",
+      "url": "https://www.marxists.org/archive/williams/throughrussianre00will.pdf"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/williams/index.htm"
+  ]
+}

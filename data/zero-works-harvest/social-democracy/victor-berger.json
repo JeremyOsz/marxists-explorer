@@ -1,0 +1,26 @@
+{
+  "collection": "social-democracy",
+  "thinker": "Victor Berger",
+  "slug": "victor-berger",
+  "source_url": "https://www.marxists.org/archive/berger-victor/index.htm",
+  "status": "success",
+  "message": "Collected 3 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Broadsides",
+      "url": "https://www.marxists.org/archive/berger-victor/1912/broadsides.pdf"
+    },
+    {
+      "title": "Voice and Pen of Victor L. Berger: Congressional Speeches and Editorials",
+      "url": "https://www.marxists.org/archive/berger-victor/1929/voice-pen.pdf"
+    },
+    {
+      "title": "Why We Are in This War",
+      "url": "https://www.marxists.org/archive/berger-victor/1917/war.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/berger-victor/index.htm"
+  ]
+}
