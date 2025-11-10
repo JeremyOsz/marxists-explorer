@@ -27,7 +27,13 @@ export default async function Home() {
           <ThinkerSearch thinkers={thinkers} />
         </Suspense>
         
-        <div className="mt-16 text-center">
+        <div className="mt-16 space-y-4 text-center">
+          <a
+            href="/visualizations"
+            className="inline-flex items-center justify-center rounded-md border border-input bg-background px-6 py-3 text-sm font-medium transition-colors hover:bg-muted"
+          >
+            Explore catalogue visualisations
+          </a>
           <p className="text-sm text-muted-foreground">
             Data sourced from{" "}
             <a 
