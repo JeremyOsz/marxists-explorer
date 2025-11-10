@@ -286,6 +286,57 @@ def write_result(output_dir: Path, result: HarvestResult) -> None:
     output_file.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
+def load_register(path: Path) -> Dict[Tuple[str, str], Dict[str, object]]:
+    if not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    register: Dict[Tuple[str, str], Dict[str, object]] = {}
+    for record in data:
+        collection = record.get("collection")
+        slug = record.get("slug")
+        if not collection or not slug:
+            continue
+        register[(collection, slug)] = record
+    return register
+
+
+def save_register(path: Path, register: Dict[Tuple[str, str], Dict[str, object]]) -> None:
+    payload = [register[key] for key in sorted(register)]
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def update_register_entry(
+    register: Dict[Tuple[str, str], Dict[str, object]],
+    result: HarvestResult,
+) -> None:
+    if not result.source_url:
+        return
+    key = (result.collection, result.slug)
+    entry = register.setdefault(
+        key,
+        {
+            "collection": result.collection,
+            "thinker": result.thinker,
+            "slug": result.slug,
+            "sources": [],
+        },
+    )
+
+    sources: List[Dict[str, object]] = entry.setdefault("sources", [])
+    existing_urls = {source.get("url") for source in sources}
+    if result.source_url not in existing_urls:
+        sources.append(
+            {
+                "label": "Marxists.org Author Index",
+                "type": "mia_author_index",
+                "url": result.source_url,
+                "works_root": WorkHarvester._get_author_root(result.source_url),
+                "notes": [],
+            }
+        )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Harvest works for zero-work thinkers.")
     parser.add_argument(
@@ -306,6 +357,12 @@ def main() -> None:
         default=None,
         help="Optional limit for debugging.",
     )
+    parser.add_argument(
+        "--register-file",
+        type=Path,
+        default=None,
+        help="Optional thinker source register to update after harvest.",
+    )
     args = parser.parse_args()
 
     matches = load_matches(args.matches_file, limit=args.limit)
@@ -314,12 +371,21 @@ def main() -> None:
     successes = 0
     total = len(matches)
 
+    register: Dict[Tuple[str, str], Dict[str, object]] = {}
+    if args.register_file:
+        register = load_register(args.register_file)
+
     for record in matches:
         result = harvester.harvest(record)
         write_result(args.output_dir, result)
         if result.status == "success":
             successes += 1
+            if args.register_file:
+                update_register_entry(register, result)
         print(f"[{result.status:>15}] {record.thinker}: {result.message}")
+
+    if args.register_file:
+        save_register(args.register_file, register)
 
     print(f"\nCompleted harvest for {total} thinkers. Successful: {successes}, failures: {total - successes}")
 
