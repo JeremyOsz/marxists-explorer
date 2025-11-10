@@ -123,8 +123,10 @@ export async function loadCategoryMetadata(category: string): Promise<CategoryMe
   // Get the folder path for the category
   const categoryPath = await getCategoryPath(category);
   
-  // Check cache
-  if (metadataCache.has(categoryPath)) {
+  const shouldUseCache = process.env.NODE_ENV === 'production';
+
+  // Check cache (only in production to avoid stale data during development)
+  if (shouldUseCache && metadataCache.has(categoryPath)) {
     return metadataCache.get(categoryPath)!;
   }
 
@@ -139,8 +141,12 @@ export async function loadCategoryMetadata(category: string): Promise<CategoryMe
 
     const metadata = await response.json() as CategoryMetadata[];
     
-    // Cache it
-    metadataCache.set(categoryPath, metadata);
+    // Cache it when appropriate
+    if (shouldUseCache) {
+      metadataCache.set(categoryPath, metadata);
+    } else {
+      metadataCache.delete(categoryPath);
+    }
     
     return metadata;
   } catch (error) {

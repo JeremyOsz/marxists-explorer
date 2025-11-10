@@ -116,19 +116,137 @@
     "b": "https://www.marxists.org/reference/archive/mao/bio/index.htm",
     "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Mao_Zedong_1945.jpg/800px-Mao_Zedong_1945.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Mao_Zedong_Portr%C3%A4t_am_Eingang_zur_Verbotenen_Stadt.jpg/250px-Mao_Zedong_Portr%C3%A4t_am_Eingang_zur_Verbotenen_Stadt.jpg",
-    "w": 4,
+    "w": 2162,
     "subjects": [
       {
-        "name": "Criticism",
-        "count": 2
+        "name": "Early Works",
+        "count": 473
       },
       {
-        "name": "Letters",
-        "count": 1
+        "name": "1920-1929",
+        "count": 468
       },
       {
-        "name": "History",
-        "count": 1
+        "name": "1930-1939",
+        "count": 458
+      },
+      {
+        "name": "1940-1949",
+        "count": 397
+      },
+      {
+        "name": "1950-1959",
+        "count": 253
+      },
+      {
+        "name": "1960-1969",
+        "count": 107
+      },
+      {
+        "name": "1970-1976",
+        "count": 6
+      }
+    ],
+    "j": [
+      {
+        "title": "A Study of Physical Education",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-6/mswv6_01.htm"
+      },
+      {
+        "title": "To Hakuro Toten (Miyazaki Toten)",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-6/mswv6_02.htm"
+      },
+      {
+        "title": "To the Glory of the Hans",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-6/mswv6_03.htm"
+      },
+      {
+        "title": "The Great Union of the Popular Masses",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-6/mswv6_04.htm"
+      },
+      {
+        "title": "Miss Chao's Suicide",
+        "url": "https://www.marxists.org/reference/archive/mao/works/1919/miss-chao.htm"
+      },
+      {
+        "title": "Communism and Dictatorship",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-6/mswv6_06.htm"
+      },
+      {
+        "title": "The Role of the Merchants in the National Revolution",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-6/mswv6_07.htm"
+      },
+      {
+        "title": "The Chinese Government and the Foreigners",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-6/mswv6_08.htm"
+      },
+      {
+        "title": "Analysis of the Classes in Chinese Society",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_1.htm"
+      },
+      {
+        "title": "The Bitter Sufferings of the Peasants in Kiangsu and Chekiang, and Their Movements of Resistance",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-6/mswv6_09.htm"
+      },
+      {
+        "title": "Report on an Investigation of the Peasant Movement In Hunan",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_2.htm"
+      },
+      {
+        "title": "Why is it that Red Political Power can Exist in China?",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_3.htm"
+      },
+      {
+        "title": "The Struggle in the Chingkang Mountains",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_4.htm"
+      },
+      {
+        "title": "The Second Anniversary of An Wu-ching's Martyrdom",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-6/mswv6_10.htm"
+      },
+      {
+        "title": "On Correcting Mistaken Ideas in the Party",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_5.htm"
+      },
+      {
+        "title": "A Single Spark Can Start a Prairie Fire",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_6.htm"
+      },
+      {
+        "title": "Oppose Book Worship",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-6/mswv6_11.htm"
+      },
+      {
+        "title": "Decree Regarding Marriage",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-6/mswv6_12.htm"
+      },
+      {
+        "title": "A Letter from the Chinese Workers' and Peasants' Red Army to Our Brothers the Soldiers of the White Army on the Subject of the Forced Occupation of Manchuria by Japanese Imperialism",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-6/mswv6_13.htm"
+      },
+      {
+        "title": "The League of Nations is a League of Robbers!",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-6/mswv6_15.htm"
+      },
+      {
+        "title": "Preliminary Conclusions of the Land Investigation Campaign",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-6/mswv6_16.htm"
+      },
+      {
+        "title": "The Land Investigation Campaign is the Central Important Task in the Vast (Soviet) Areas",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-6/mswv6_17.htm"
+      },
+      {
+        "title": "Report to the 2 nd National Congress of Workers and Peasants Representatives",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-6/mswv6_18.htm"
+      },
+      {
+        "title": "Pay Attention to Economic Work",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_7.htm"
+      },
+      {
+        "title": "How to Differentiate the Classes in the Rural Areas",
+        "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-1/mswv1_8.htm"
       }
     ]
   },
