@@ -5,7 +5,7 @@ import { getAvailableCategories } from '@/lib/data/folder-loader';
  * GET /api/catalogue/categories
  * Returns list of all available categories
  */
-export async function GET_CATEGORIES() {
+export async function GET() {
   try {
     const categories = await getAvailableCategories();
     
