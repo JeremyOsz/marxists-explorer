@@ -1,11 +1,11 @@
 /**
  * @jest-environment node
  */
-import { GET_CATEGORIES } from '../route';
+import { GET} from '../route';
 
 describe('GET /api/catalogue/categories', () => {
   it('should return all categories', async () => {
-    const response = await GET_CATEGORIES();
+    const response = await GET();
     const data = await response.json();
 
     expect(response.status).toBe(200);
@@ -16,7 +16,7 @@ describe('GET /api/catalogue/categories', () => {
   });
 
   it('should return at least 30 categories', async () => {
-    const response = await GET_CATEGORIES();
+    const response = await GET();
     const data = await response.json();
 
     expect(data.data.count).toBeGreaterThanOrEqual(30);
@@ -24,7 +24,7 @@ describe('GET /api/catalogue/categories', () => {
   });
 
   it('should return category IDs as strings', async () => {
-    const response = await GET_CATEGORIES()
+    const response = await GET()
     const data = await response.json();
 
     data.data.categories.forEach((category: string) => {
