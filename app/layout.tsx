@@ -1,3 +1,4 @@
+import Link from "next/link";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -24,10 +25,28 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <div className="min-h-screen bg-background text-foreground">
+          <header className="border-b bg-background/80 backdrop-blur">
+            <nav className="container mx-auto flex items-center justify-between px-4 py-4">
+              <Link href="/" className="text-lg font-semibold tracking-tight">
+                Marxists Explorer
+              </Link>
+              <div className="flex items-center gap-4 text-sm font-medium">
+                <Link href="/" className="text-muted-foreground transition-colors hover:text-foreground">
+                  Home
+                </Link>
+                <Link
+                  href="/visualizations"
+                  className="text-muted-foreground transition-colors hover:text-foreground"
+                >
+                  Visualisations
+                </Link>
+              </div>
+            </nav>
+          </header>
+          <main>{children}</main>
+        </div>
       </body>
     </html>
   );
