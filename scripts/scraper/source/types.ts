@@ -55,8 +55,16 @@ export interface PeriodicalRecord {
   readonly raw: Record<string, unknown>;
 }
 
+export interface WorkRecord {
+  readonly authorId: string;
+  readonly title: string;
+  readonly href: string;
+  readonly canonicalHref: string;
+  readonly raw: Record<string, unknown>;
+}
+
 export interface DiscoveryAnomaly {
-  readonly scope: 'authors' | 'sections' | 'periodicals' | 'subjects' | 'general';
+  readonly scope: 'authors' | 'sections' | 'periodicals' | 'works' | 'subjects' | 'general';
   readonly level: 'warning' | 'error';
   readonly message: string;
   readonly context?: Record<string, unknown>;
@@ -67,6 +75,7 @@ export interface SourceCatalogue {
   readonly authors: readonly AuthorRecord[];
   readonly sections: readonly SectionRecord[];
   readonly periodicals: readonly PeriodicalRecord[];
+  readonly works: readonly WorkRecord[];
   readonly anomalies: readonly DiscoveryAnomaly[];
 }
 
@@ -78,6 +87,8 @@ export interface CatalogueDiff {
     readonly sectionsRemoved: number;
     readonly periodicalsAdded: number;
     readonly periodicalsRemoved: number;
+    readonly worksAdded: number;
+    readonly worksRemoved: number;
   };
   readonly authorsAdded: readonly AuthorRecord[];
   readonly authorsRemoved: readonly AuthorRecord[];
@@ -85,6 +96,8 @@ export interface CatalogueDiff {
   readonly sectionsRemoved: readonly SectionRecord[];
   readonly periodicalsAdded: readonly PeriodicalRecord[];
   readonly periodicalsRemoved: readonly PeriodicalRecord[];
+  readonly worksAdded: readonly WorkRecord[];
+  readonly worksRemoved: readonly WorkRecord[];
 }
 
 export interface DiscoveryRunPaths {
@@ -118,5 +131,4 @@ export interface RawSnapshotInfo {
 }
 
 export type HeaderExtractor = (headers: Headers) => HttpHeadersSnapshot;
-
 

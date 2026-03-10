@@ -85,7 +85,15 @@ export async function loadCatalogue(
 ): Promise<SourceCatalogue | null> {
   try {
     const raw = await fs.readFile(filePath, 'utf-8');
-    return JSON.parse(raw) as SourceCatalogue;
+    const parsed = JSON.parse(raw) as Partial<SourceCatalogue>;
+    return {
+      fetchedAt: parsed.fetchedAt ?? new Date(0).toISOString(),
+      authors: Array.isArray(parsed.authors) ? parsed.authors : [],
+      sections: Array.isArray(parsed.sections) ? parsed.sections : [],
+      periodicals: Array.isArray(parsed.periodicals) ? parsed.periodicals : [],
+      works: Array.isArray(parsed.works) ? parsed.works : [],
+      anomalies: Array.isArray(parsed.anomalies) ? parsed.anomalies : [],
+    };
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code === 'ENOENT') {
       return null;
@@ -147,5 +155,4 @@ export async function resolvePreviousCatalogue(
   if (!previous) return null;
   return loadCatalogue(previous.cataloguePath);
 }
-
 

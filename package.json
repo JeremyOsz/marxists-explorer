@@ -14,9 +14,9 @@
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push",
     "scraper:sync-sources": "tsx scripts/scraper/source/index.ts",
-    "scraper:harvest-works": "tsx scripts/scraper/works/index.ts",
     "scraper:promote": "tsx scripts/scraper/promote-latest.ts",
-    "scraper:prune-artifacts": "tsx scripts/scraper/prune-artifacts.ts"
+    "scraper:prune-artifacts": "tsx scripts/scraper/prune-artifacts.ts",
+    "scraper:migrate-thinkers": "tsx scripts/scraper/migrate-thinkers.ts"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",

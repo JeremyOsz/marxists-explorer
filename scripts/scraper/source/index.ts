@@ -7,10 +7,12 @@ import { fetchAuthorsResource } from './downloaders/authors';
 import { fetchSectionsResource } from './downloaders/sections';
 import { fetchPeriodicalsResource } from './downloaders/periodicals';
 import { fetchSubjectIndices } from './downloaders/htmlIndex';
+import { fetchWorksForAuthors } from './downloaders/works';
 import { parseAuthors } from './parsers/authors';
 import { parseSections } from './parsers/sections';
 import { parsePeriodicals } from './parsers/periodicals';
 import { parseSubjectIndex } from './parsers/htmlIndex';
+import { parseWorksFromAuthors } from './parsers/works';
 import { buildSourceCatalogue } from './catalogueBuilder';
 import { diffCatalogues, formatDiffMarkdown } from './diff';
 
@@ -42,6 +44,32 @@ async function main(): Promise<void> {
       'json',
     );
     const authorsParsed = parseAuthors(authorsResource.data);
+
+    console.log(`Fetching works for ${authorsParsed.authors.length} authors...`);
+    const worksSnapshots = await fetchWorksForAuthors(
+      client,
+      authorsParsed.authors,
+      (current, total) => {
+        if (current % 100 === 0 || current === total) {
+          console.log(`  Progress: ${current}/${total} authors processed`);
+        }
+      },
+    );
+    console.log(`Fetched works pages for ${worksSnapshots.length} authors`);
+    
+    // Save raw HTML snapshots for works
+    for (const snapshot of worksSnapshots) {
+      await writeRawSnapshot(
+        snapshot.meta,
+        snapshot.html,
+        paths.rawDir,
+        `works-${snapshot.author.id}`,
+        'html',
+      );
+    }
+    
+    const worksParsed = parseWorksFromAuthors(worksSnapshots);
+    console.log(`Extracted ${worksParsed.works.length} works`);
 
     const sectionsResource = await fetchSectionsResource(client);
     await writeRawSnapshot(
@@ -81,6 +109,7 @@ async function main(): Promise<void> {
       ...authorsParsed.anomalies,
       ...sectionsParsed.anomalies,
       ...periodicalsParsed.anomalies,
+      ...worksParsed.anomalies,
       ...subjectAnomalies,
     ];
 
@@ -89,6 +118,7 @@ async function main(): Promise<void> {
       authors: authorsParsed.authors,
       sections: sectionsParsed.sections,
       periodicals: periodicalsParsed.periodicals,
+      works: worksParsed.works,
       anomalies,
     });
 
@@ -111,6 +141,11 @@ async function main(): Promise<void> {
           authors: authorsResource.meta,
           sections: sectionsResource.meta,
           periodicals: periodicalsResource.meta,
+          works: {
+            authorsProcessed: worksSnapshots.length,
+            worksExtracted: worksParsed.works.length,
+            snapshots: worksSnapshots.map((s) => s.meta),
+          },
           subjectHtml: subjectSnapshots.map((snapshot) => snapshot.meta),
         },
         summary: diff.summary,
