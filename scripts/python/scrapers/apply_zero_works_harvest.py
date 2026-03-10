@@ -19,6 +19,7 @@ import argparse
 import json
 from pathlib import Path
 from typing import Dict, Iterable, List, Tuple
+from urllib.parse import urlparse, urlunparse
 
 
 DEFAULT_SUBJECT = "General"
@@ -46,7 +47,10 @@ def load_metadata(collection_dir: Path) -> List[Dict[str, object]]:
     metadata_file = collection_dir / "metadata.json"
     if not metadata_file.exists():
         raise FileNotFoundError(f"Missing metadata.json for collection: {collection_dir}")
-    return json.loads(metadata_file.read_text(encoding="utf-8"))
+    payload = json.loads(metadata_file.read_text(encoding="utf-8"))
+    if not isinstance(payload, list):
+        raise ValueError(f"Expected metadata list in {metadata_file}")
+    return payload
 
 
 def save_metadata(collection_dir: Path, metadata: List[Dict[str, object]]) -> None:
@@ -59,6 +63,8 @@ def update_metadata_entry(entry: Dict[str, object], subject: str, work_count: in
     entry["w"] = work_count
 
     subjects = entry.get("subjects") or []
+    if not isinstance(subjects, list):
+        subjects = []
     updated = False
     for subject_entry in subjects:
         if subject_entry.get("name") == subject:
@@ -84,11 +90,17 @@ def apply_harvest_record(
 
     unique_by_url: Dict[str, Dict[str, str]] = {}
     for item in works:
+        if not isinstance(item, dict):
+            continue
         url = item.get("url")
         title = item.get("title")
         if not url or not title:
             continue
-        unique_by_url.setdefault(url, {"title": title.strip(), "url": url})
+        canonical_url = canonicalize_url(str(url))
+        cleaned_title = str(title).strip()
+        if not canonical_url or not cleaned_title:
+            continue
+        unique_by_url.setdefault(canonical_url, {"title": cleaned_title, "url": canonical_url})
 
     # Sort works by title for determinism
     sorted_works = sorted(unique_by_url.values(), key=lambda item: item["title"].lower())
@@ -104,6 +116,14 @@ def apply_harvest_record(
         return
 
     save_metadata(base_dir / collection, metadata)
+
+
+def canonicalize_url(url: str) -> str:
+    parsed = urlparse(url)
+    if not parsed.scheme or not parsed.netloc:
+        return ""
+    cleaned = parsed._replace(query="", fragment="")
+    return urlunparse(cleaned)
 
 
 def main() -> None:
@@ -152,7 +172,7 @@ def main() -> None:
             failed += 1
             continue
 
-        if not works:
+        if not isinstance(works, list) or not works:
             print(f"[WARN] No works in successful harvest for {thinker}, skipping.")
             failed += 1
             continue
@@ -161,6 +181,9 @@ def main() -> None:
             apply_harvest_record(args.data_dir, collection, thinker, works, subject=args.subject)
             applied += 1
         except FileNotFoundError as exc:
+            print(f"[ERROR] {exc}")
+            failed += 1
+        except ValueError as exc:
             print(f"[ERROR] {exc}")
             failed += 1
         except OSError as exc:
@@ -175,5 +198,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
 

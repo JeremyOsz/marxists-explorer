@@ -9,10 +9,10 @@ from __future__ import annotations
 
 import json
 import sys
+import argparse
 from pathlib import Path
 
-ROOT = Path("/Users/jeremy/Documents/marxists-explorer")
-AUDIT_PATH = ROOT / "docs" / "work-coverage-audit.md"
+DEFAULT_AUDIT_PATH = Path("docs/work-coverage-audit.md")
 
 
 def parse_zero_coverage(path: Path) -> dict[str, list[str]]:
@@ -54,7 +54,16 @@ def parse_zero_coverage(path: Path) -> dict[str, list[str]]:
 
 
 def main() -> int:
-    data = parse_zero_coverage(AUDIT_PATH)
+    parser = argparse.ArgumentParser(description="Extract thinkers with zero works from coverage audit.")
+    parser.add_argument(
+        "--audit-file",
+        type=Path,
+        default=DEFAULT_AUDIT_PATH,
+        help="Path to docs/work-coverage-audit.md",
+    )
+    args = parser.parse_args()
+
+    data = parse_zero_coverage(args.audit_file)
     json.dump(data, sys.stdout, indent=2, ensure_ascii=False)
     sys.stdout.write("\n")
     return 0
@@ -62,5 +71,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
 

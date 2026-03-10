@@ -20,7 +20,6 @@ from typing import Dict, List
 
 
 SECTION_HEADING = "## Thinkers with 0 works"
-NEXT_SECTION_HEADING = "## Thinkers with 1-5 works"
 CATEGORY_PREFIX = "### "
 ENTRY_PREFIX = "- "
 
@@ -43,10 +42,11 @@ def parse_zero_works_section(markdown_text: str) -> Dict[str, List[str]]:
     except ValueError as exc:
         raise ValueError(f"Could not find section heading '{SECTION_HEADING}'") from exc
 
-    try:
-        end_idx = lines.index(NEXT_SECTION_HEADING, start_idx + 1)
-    except ValueError:
-        end_idx = len(lines)
+    end_idx = len(lines)
+    for idx in range(start_idx + 1, len(lines)):
+        if lines[idx].startswith("## "):
+            end_idx = idx
+            break
 
     zero_work_lines = lines[start_idx + 1 : end_idx]
 
@@ -77,7 +77,7 @@ def build_output_structure(collection_map: Dict[str, List[str]]) -> List[Dict[st
     """Flatten the mapping into a list of records with computed helper data."""
     records: List[Dict[str, object]] = []
     for collection, thinkers in sorted(collection_map.items()):
-        for thinker in thinkers:
+        for thinker in sorted(set(thinkers)):
             records.append(
                 {
                     "collection": collection,
@@ -116,5 +116,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
 

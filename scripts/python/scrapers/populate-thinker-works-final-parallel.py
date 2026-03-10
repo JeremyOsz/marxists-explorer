@@ -8,12 +8,14 @@ import json
 import re
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
-import time
+from urllib.parse import urljoin, urlparse, urlunparse
 import logging
 from typing import Dict, List, Optional, Tuple
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
+import argparse
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -21,14 +23,24 @@ logger = logging.getLogger(__name__)
 
 # Base URL for Marxists Internet Archive
 MIA_BASE_URL = "https://www.marxists.org"
-
-# Thread-safe print lock
-print_lock = Lock()
+REQUEST_TIMEOUT = 15
+MAX_RETRIES = 3
 
 class ComprehensiveMIAWorksScraper:
     def __init__(self, base_url: str = MIA_BASE_URL):
         self.base_url = base_url
         self.print_lock = Lock()
+        self.session = requests.Session()
+        self.session.headers.update({'User-Agent': 'Marxists Explorer Bot 1.0'})
+        retry = Retry(
+            total=MAX_RETRIES,
+            backoff_factor=0.5,
+            status_forcelist=(429, 500, 502, 503, 504),
+            allowed_methods=("GET",),
+            respect_retry_after_header=True,
+        )
+        self.session.mount("https://", HTTPAdapter(max_retries=retry))
+        self.session.mount("http://", HTTPAdapter(max_retries=retry))
         
     def extract_author_links_from_index(self, index_file: str) -> List[Tuple[str, str, str]]:
         """Extract author links and their categories from ref/index"""
@@ -66,22 +78,9 @@ class ComprehensiveMIAWorksScraper:
     def fetch_works_for_author(self, author_name: str, author_url: str, category: str) -> Optional[List[Dict[str, str]]]:
         """Fetch works for a single author with retry logic"""
         try:
-            # Add archive/ prefix if not present
-            if not author_url.startswith('/archive/'):
-                if author_url.startswith('/'):
-                    author_url = f'/archive{author_url}'
-                else:
-                    author_url = f'/archive/{author_url}'
-            
-            full_url = self.base_url + author_url
-            
-            # Create a separate session for this thread
-            session = requests.Session()
-            session.headers.update({
-                'User-Agent': 'Marxists Explorer Bot 1.0'
-            })
-            
-            response = session.get(full_url, timeout=15)
+            full_url = self._normalize_author_url(author_url)
+
+            response = self.session.get(full_url, timeout=REQUEST_TIMEOUT)
             response.raise_for_status()
             
             soup = BeautifulSoup(response.content, 'html.parser')
@@ -99,13 +98,16 @@ class ComprehensiveMIAWorksScraper:
                 # Skip navigation and metadata links
                 if any(skip in href.lower() for skip in ['index.htm', 'bio/', 'other/', 'about']):
                     continue
+                if title.lower() in {'home', 'contents', 'index'}:
+                    continue
                 
                 # Only include works that point to archive or have .htm
                 if '/archive/' in href or href.endswith('.htm'):
                     # Clean up the title
                     title = re.sub(r'\s+', ' ', title).strip()
                     if len(title) > 3:  # Filter out very short titles
-                        works.append({'title': title, 'url': href})
+                        absolute_url = self._canonicalize_url(urljoin(full_url, href))
+                        works.append({'title': title, 'url': absolute_url})
             
             # Remove duplicates
             seen = set()
@@ -126,6 +128,22 @@ class ComprehensiveMIAWorksScraper:
             with self.print_lock:
                 logger.error(f"Unexpected error for {author_name}: {str(e)}")
             return None
+
+    def _normalize_author_url(self, author_url: str) -> str:
+        if author_url.startswith("http://") or author_url.startswith("https://"):
+            return author_url
+        if not author_url.startswith('/archive/'):
+            if author_url.startswith('/'):
+                author_url = f'/archive{author_url}'
+            else:
+                author_url = f'/archive/{author_url}'
+        return urljoin(self.base_url, author_url)
+
+    @staticmethod
+    def _canonicalize_url(url: str) -> str:
+        parsed = urlparse(url)
+        cleaned = parsed._replace(query="", fragment="")
+        return urlunparse(cleaned)
     
     def populate_thinkers_bundle(self, index_file: str, bundle_file: str, max_authors: Optional[int] = None, max_workers: int = 8):
         """Populate the thinkers bundle with works data using parallel processing"""
@@ -180,9 +198,6 @@ class ComprehensiveMIAWorksScraper:
                     if result:
                         author_name, works, category = result
                         results.append((author_name, works, category))
-                        
-                        # Add delay between batches
-                        time.sleep(0.2)
             
             # Update bundle with results from this batch
             for author_name, works, category in results:
@@ -238,16 +253,20 @@ class ComprehensiveMIAWorksScraper:
         return False
 
 def main():
+    parser = argparse.ArgumentParser(description="Populate thinkers-bundle.json with scraped works.")
+    parser.add_argument("--index-file", default="ref/index", help="Path to local author index HTML file.")
+    parser.add_argument("--bundle-file", default="data/thinkers-bundle.json", help="Path to thinkers bundle JSON.")
+    parser.add_argument("--max-authors", type=int, default=None, help="Optional cap for debugging.")
+    parser.add_argument("--max-workers", type=int, default=8, help="Thread pool size (default: 8).")
+    args = parser.parse_args()
+
     scraper = ComprehensiveMIAWorksScraper()
-    
-    # Run the population with parallel processing (8 workers = 4-8x faster)
     scraper.populate_thinkers_bundle(
-        index_file='ref/index',
-        bundle_file='data/thinkers-bundle.json',
-        max_authors=None,  # Process all authors
-        max_workers=8      # Use 8 parallel threads
+        index_file=args.index_file,
+        bundle_file=args.bundle_file,
+        max_authors=args.max_authors,
+        max_workers=args.max_workers,
     )
 
 if __name__ == '__main__':
     main()
-

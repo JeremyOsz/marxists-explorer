@@ -16,27 +16,44 @@ from __future__ import annotations
 import json
 import re
 import sys
+import argparse
 from pathlib import Path
 from typing import Dict, List, Tuple
 
 import requests
 from bs4 import BeautifulSoup
 from bs4.element import NavigableString, Tag
+from requests.adapters import HTTPAdapter
 from urllib.parse import urljoin
+from urllib3.util.retry import Retry
 
 
 BASE_URL = "https://www.marxists.org/reference/archive/mao/selected-works/date-index.htm"
-DATA_ROOT = Path("/Users/jeremy/Documents/marxists-explorer/public/data-v2/maoists/Mao Zedong")
-METADATA_PATH = Path("/Users/jeremy/Documents/marxists-explorer/public/data-v2/maoists/metadata.json")
+DEFAULT_DATA_ROOT = Path("public/data-v2/maoists/Mao Zedong")
+DEFAULT_METADATA_PATH = Path("public/data-v2/maoists/metadata.json")
 USER_AGENT = "MarxistsExplorer/1.0 (+https://github.com/jeremy/marxists-explorer)"
+REQUEST_TIMEOUT = 60
+MAX_RETRIES = 3
 
 
-def fetch_html(url: str) -> BeautifulSoup:
-    """Download the HTML page and return a BeautifulSoup parser."""
+def build_session() -> requests.Session:
     session = requests.Session()
     session.headers.update({"User-Agent": USER_AGENT})
+    retry = Retry(
+        total=MAX_RETRIES,
+        backoff_factor=0.5,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=("GET",),
+        respect_retry_after_header=True,
+    )
+    session.mount("https://", HTTPAdapter(max_retries=retry))
+    session.mount("http://", HTTPAdapter(max_retries=retry))
+    return session
 
-    response = session.get(url, timeout=60, verify=False)  # noqa: S501 - site uses older cert chain
+
+def fetch_html(url: str, session: requests.Session, verify_tls: bool = True) -> BeautifulSoup:
+    """Download the HTML page and return a BeautifulSoup parser."""
+    response = session.get(url, timeout=REQUEST_TIMEOUT, verify=verify_tls)
     response.raise_for_status()
     return BeautifulSoup(response.content, "html.parser")
 
@@ -145,28 +162,32 @@ def collect_sections(soup: BeautifulSoup) -> Tuple[Dict[str, List[Dict[str, str]
     return sections, recommended
 
 
-def write_section_files(sections: Dict[str, List[Dict[str, str]]]) -> None:
+def write_section_files(sections: Dict[str, List[Dict[str, str]]], data_root: Path) -> None:
     """Write JSON files for each subject and clean up obsolete files."""
-    DATA_ROOT.mkdir(parents=True, exist_ok=True)
+    data_root.mkdir(parents=True, exist_ok=True)
 
     new_filenames = {f"{subject}.json" for subject in sections}
-    for existing_file in DATA_ROOT.glob("*.json"):
+    for existing_file in data_root.glob("*.json"):
         if existing_file.name not in new_filenames:
             existing_file.unlink()
 
     for subject, works in sections.items():
-        out_path = DATA_ROOT / f"{subject}.json"
+        out_path = data_root / f"{subject}.json"
         with out_path.open("w", encoding="utf-8") as handle:
             json.dump(works, handle, indent=2, ensure_ascii=False)
             handle.write("\n")
 
 
-def update_metadata(sections: Dict[str, List[Dict[str, str]]], recommended: List[Dict[str, str]]) -> None:
+def update_metadata(
+    sections: Dict[str, List[Dict[str, str]]],
+    recommended: List[Dict[str, str]],
+    metadata_path: Path,
+) -> None:
     """Update Mao Zedong's metadata entry with new subjects, counts, totals, and major works."""
-    if not METADATA_PATH.exists():
-        raise FileNotFoundError(f"Metadata file not found: {METADATA_PATH}")
+    if not metadata_path.exists():
+        raise FileNotFoundError(f"Metadata file not found: {metadata_path}")
 
-    with METADATA_PATH.open("r", encoding="utf-8") as handle:
+    with metadata_path.open("r", encoding="utf-8") as handle:
         metadata = json.load(handle)
 
     updated = False
@@ -192,21 +213,47 @@ def update_metadata(sections: Dict[str, List[Dict[str, str]]], recommended: List
     if not updated:
         raise ValueError("Mao Zedong entry not found in metadata.")
 
-    with METADATA_PATH.open("w", encoding="utf-8") as handle:
+    with metadata_path.open("w", encoding="utf-8") as handle:
         json.dump(metadata, handle, indent=2, ensure_ascii=False)
         handle.write("\n")
 
 
 def main() -> int:
-    soup = fetch_html(BASE_URL)
+    parser = argparse.ArgumentParser(description="Fetch and persist Mao selected works from Marxists.org.")
+    parser.add_argument(
+        "--url",
+        default=BASE_URL,
+        help="Source date-index URL",
+    )
+    parser.add_argument(
+        "--data-root",
+        type=Path,
+        default=DEFAULT_DATA_ROOT,
+        help="Output folder for subject JSON files.",
+    )
+    parser.add_argument(
+        "--metadata-path",
+        type=Path,
+        default=DEFAULT_METADATA_PATH,
+        help="Path to maoists metadata.json",
+    )
+    parser.add_argument(
+        "--insecure",
+        action="store_true",
+        help="Disable TLS certificate verification for legacy environments.",
+    )
+    args = parser.parse_args()
+
+    session = build_session()
+    soup = fetch_html(args.url, session=session, verify_tls=not args.insecure)
     sections, recommended = collect_sections(soup)
 
     if not sections:
         print("No sections were parsed from the source page.", file=sys.stderr)
         return 1
 
-    write_section_files(sections)
-    update_metadata(sections, recommended)
+    write_section_files(sections, data_root=args.data_root)
+    update_metadata(sections, recommended, metadata_path=args.metadata_path)
 
     print(f"Updated {len(sections)} subject files for Mao Zedong with {sum(len(v) for v in sections.values())} works.")
     print(f"Marked {len(recommended)} works as recommended.")
@@ -215,5 +262,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
 

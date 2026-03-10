@@ -22,11 +22,13 @@ import unicodedata
 from collections import defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Dict, Iterable, List
+from typing import Dict, Iterable, List, Sequence
 
 import requests
 from bs4 import BeautifulSoup
 from requests import Response
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 
 MIA_INDEX_URL = "https://www.marxists.org/archive/index.htm"
@@ -34,13 +36,19 @@ USER_AGENT = "Marxists Explorer Bot/0.1 (+https://github.com/jeremy-marxists-exp
 
 REQUEST_TIMEOUT = 15
 REQUEST_DELAY_SECONDS = 1.0
+MAX_RETRIES = 3
 
 
 def normalize_name(name: str) -> str:
     normalized = unicodedata.normalize("NFKD", name)
     ascii_name = normalized.encode("ascii", "ignore").decode("ascii")
     tokens = [token for token in ascii_name.lower().replace("&", " ").split() if token]
-    return "".join(tokens)
+    return " ".join(tokens)
+
+
+def name_tokens(name: str) -> List[str]:
+    normalized = normalize_name(name)
+    return [token for token in normalized.split() if token]
 
 
 @dataclass
@@ -66,6 +74,15 @@ class AuthorIndexMapper:
         self.index_url = index_url
         self.session = requests.Session()
         self.session.headers.update({"User-Agent": USER_AGENT})
+        retry = Retry(
+            total=MAX_RETRIES,
+            backoff_factor=0.5,
+            status_forcelist=(429, 500, 502, 503, 504),
+            allowed_methods=("GET",),
+            respect_retry_after_header=True,
+        )
+        self.session.mount("https://", HTTPAdapter(max_retries=retry))
+        self.session.mount("http://", HTTPAdapter(max_retries=retry))
         self._last_request_timestamp = 0.0
 
     def _throttled_get(self, url: str) -> Response:
@@ -112,7 +129,7 @@ class AuthorIndexMapper:
             lookup[normalized].append(entry)
 
             # Add secondary key for last-name only entries
-            tokens = normalized.split()
+            tokens = name_tokens(text)
             if len(tokens) > 1:
                 lookup[tokens[-1]].append(entry)
 
@@ -126,8 +143,9 @@ class AuthorIndexMapper:
 
         for record in zero_records:
             thinker = record["thinker"]
-            normalized = normalize_name(thinker)
-            matches = lookup.get(normalized, [])
+            thinker_tokens = name_tokens(thinker)
+            normalized = " ".join(thinker_tokens)
+            matches = self._dedupe_entries(lookup.get(normalized, []))
 
             match_result = MatchResult(
                 collection=record["collection"],
@@ -148,9 +166,8 @@ class AuthorIndexMapper:
                 ]
             else:
                 # Try last name match
-                tokens = normalized.split()
-                if tokens:
-                    fallback_matches = lookup.get(tokens[-1], [])
+                if thinker_tokens:
+                    fallback_matches = self._dedupe_entries(lookup.get(thinker_tokens[-1], []))
                     if fallback_matches:
                         match_result.status = "last_name_match"
                         match_result.matches = [
@@ -170,6 +187,13 @@ class AuthorIndexMapper:
             results.append(match_result)
 
         return results
+
+    @staticmethod
+    def _dedupe_entries(entries: Sequence[AuthorEntry]) -> List[AuthorEntry]:
+        unique: Dict[str, AuthorEntry] = {}
+        for entry in entries:
+            unique.setdefault(entry.url, entry)
+        return sorted(unique.values(), key=lambda item: item.text.lower())
 
 
 def main() -> None:
@@ -215,5 +239,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
 

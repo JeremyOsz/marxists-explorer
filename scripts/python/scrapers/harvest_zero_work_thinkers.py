@@ -27,13 +27,16 @@ from typing import Dict, Iterable, List, Optional, Set, Tuple
 import requests
 from bs4 import BeautifulSoup
 from requests import Response
+from requests.adapters import HTTPAdapter
 from urllib.parse import urljoin, urlparse
+from urllib3.util.retry import Retry
 
 
 USER_AGENT = "Marxists Explorer Bot/0.1 (+https://github.com/jeremy-marxists-explorer)"
 REQUEST_TIMEOUT = 15
 REQUEST_DELAY_SECONDS = 1.0
 MAX_CRAWL_DEPTH = 3
+MAX_RETRIES = 3
 
 LINK_KEYWORDS = (
     "/works/",
@@ -91,6 +94,15 @@ class WorkHarvester:
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({"User-Agent": USER_AGENT})
+        retry = Retry(
+            total=MAX_RETRIES,
+            backoff_factor=0.5,
+            status_forcelist=(429, 500, 502, 503, 504),
+            allowed_methods=("GET",),
+            respect_retry_after_header=True,
+        )
+        self.session.mount("https://", HTTPAdapter(max_retries=retry))
+        self.session.mount("http://", HTTPAdapter(max_retries=retry))
         self._last_request_timestamp = 0.0
 
     def _throttled_get(self, url: str) -> Response:
@@ -123,7 +135,7 @@ class WorkHarvester:
 
         # Prefer the first match (closest to exact name)
         primary_match = thinker.matches[0]
-        source_url = primary_match["url"]
+        source_url = self._canonicalize_url(primary_match["url"])
         source_root = self._get_author_root(source_url)
 
         queue: deque[Tuple[str, int]] = deque()
@@ -155,7 +167,7 @@ class WorkHarvester:
                     continue
 
                 href = link["href"]
-                next_url = urljoin(current_url, href)
+                next_url = self._canonicalize_url(urljoin(current_url, href))
 
                 if not next_url.startswith(source_root):
                     continue
@@ -167,7 +179,7 @@ class WorkHarvester:
                     }
                     continue
 
-                if self._should_descend(next_url, depth):
+                if self._should_descend(next_url, depth, max_depth):
                     queue.append((next_url, depth + 1))
 
         if works:
@@ -201,13 +213,19 @@ class WorkHarvester:
         return f"{parsed.scheme}://{parsed.netloc}/{root_path}"
 
     @staticmethod
+    def _canonicalize_url(url: str) -> str:
+        parsed = urlparse(url)
+        cleaned_path = parsed.path or "/"
+        return f"{parsed.scheme}://{parsed.netloc}{cleaned_path}"
+
+    @staticmethod
     def _contains_keyword(path: str) -> bool:
         lowered = path.lower()
         return any(keyword in lowered for keyword in LINK_KEYWORDS)
 
     @staticmethod
-    def _has_allowed_extension(url: str) -> bool:
-        lowered = url.lower()
+    def _has_allowed_extension(url_or_path: str) -> bool:
+        lowered = url_or_path.lower()
         return lowered.endswith(ALLOWED_EXTENSIONS)
 
     def _is_candidate_work(self, url: str, title: str) -> bool:
@@ -236,8 +254,8 @@ class WorkHarvester:
             return False
         return len(title.split()) >= 3
 
-    def _should_descend(self, url: str, depth: int) -> bool:
-        if depth >= MAX_CRAWL_DEPTH:
+    def _should_descend(self, url: str, depth: int, max_depth: int) -> bool:
+        if depth >= max_depth:
             return False
 
         parsed = urlparse(url)
@@ -363,6 +381,12 @@ def main() -> None:
         default=None,
         help="Optional thinker source register to update after harvest.",
     )
+    parser.add_argument(
+        "--max-depth",
+        type=int,
+        default=MAX_CRAWL_DEPTH,
+        help=f"Maximum crawl depth from the source page (default: {MAX_CRAWL_DEPTH}).",
+    )
     args = parser.parse_args()
 
     matches = load_matches(args.matches_file, limit=args.limit)
@@ -376,7 +400,7 @@ def main() -> None:
         register = load_register(args.register_file)
 
     for record in matches:
-        result = harvester.harvest(record)
+        result = harvester.harvest(record, max_depth=args.max_depth)
         write_result(args.output_dir, result)
         if result.status == "success":
             successes += 1
@@ -392,5 +416,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
 
