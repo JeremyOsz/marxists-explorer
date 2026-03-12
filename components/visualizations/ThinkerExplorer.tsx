@@ -5,6 +5,7 @@ import type { Thinker } from "@/lib/types/thinker";
 import { CategoryThinkerGraph } from "@/components/visualizations/CategoryThinkerGraph";
 import { WorkCountDistributionChart } from "@/components/visualizations/WorkCountDistributionChart";
 import { OverviewNetworkGraph } from "@/components/visualizations/OverviewNetworkGraph";
+import { categories as categoryMetadata } from "@/lib/data/categories";
 import {
   buildThinkerOverviewNetwork,
   getThinkersForOverviewSelection,
@@ -28,6 +29,25 @@ type RelatedThinkerRow = {
   workCount: number;
   sharedSubjects: string[];
   score: number;
+};
+
+type EraRange = {
+  start: number;
+  end: number;
+};
+
+type EraRow = {
+  label: string;
+  thinkerCount: number;
+  share: number;
+  start: number;
+  end: number;
+  span: number;
+};
+
+type TemporalPoint = {
+  year: number;
+  value: number;
 };
 
 function meaningfulSubjects(thinker: Thinker) {
@@ -113,6 +133,84 @@ function median(values: number[]): number {
   return sorted[mid];
 }
 
+function normalizeAbbreviatedYear(startYear: number, rawEnd: number): number {
+  if (rawEnd >= 1000) {
+    return rawEnd;
+  }
+
+  if (rawEnd >= 100) {
+    const millennium = Math.floor(startYear / 1000) * 1000;
+    const candidate = millennium + rawEnd;
+    if (candidate < startYear) {
+      return candidate + 1000;
+    }
+    return candidate;
+  }
+
+  const century = Math.floor(startYear / 100) * 100;
+  const candidate = century + rawEnd;
+  if (candidate < startYear) {
+    return candidate + 100;
+  }
+  return candidate;
+}
+
+function parseEraRange(description: string | undefined): EraRange | null {
+  if (!description) {
+    return null;
+  }
+
+  const years = new Set<number>();
+  const rangePattern = /(\d{4})\s*-\s*(\d{2,4})(?:s)?/g;
+  for (const match of description.matchAll(rangePattern)) {
+    const start = Number.parseInt(match[1], 10);
+    const rawEnd = Number.parseInt(match[2], 10);
+    if (Number.isNaN(start) || Number.isNaN(rawEnd)) {
+      continue;
+    }
+
+    years.add(start);
+    years.add(normalizeAbbreviatedYear(start, rawEnd));
+  }
+
+  const yearPattern = /\b(1[5-9]\d{2}|20\d{2})(?:s)?\b/g;
+  for (const match of description.matchAll(yearPattern)) {
+    const year = Number.parseInt(match[1], 10);
+    if (!Number.isNaN(year)) {
+      years.add(year);
+    }
+  }
+
+  if (years.size === 0) {
+    return null;
+  }
+
+  const sorted = [...years].sort((a, b) => a - b);
+  return { start: sorted[0], end: sorted[sorted.length - 1] };
+}
+
+function buildTemporalSeries(eraRows: EraRow[]): TemporalPoint[] {
+  if (eraRows.length === 0) {
+    return [];
+  }
+
+  const startYear = Math.min(...eraRows.map((row) => row.start));
+  const endYear = Math.max(...eraRows.map((row) => row.end));
+  const points: TemporalPoint[] = [];
+
+  for (let year = startYear; year <= endYear; year += 1) {
+    let value = 0;
+    for (const row of eraRows) {
+      if (year >= row.start && year <= row.end) {
+        value += row.thinkerCount / row.span;
+      }
+    }
+    points.push({ year, value });
+  }
+
+  return points;
+}
+
 function SummaryCard({
   label,
   value,
@@ -160,6 +258,117 @@ function PulseCard({
           className={`h-full rounded-full bg-gradient-to-r ${accentClassName}`}
           style={{ width: `${boundedPercent}%` }}
         />
+      </div>
+    </div>
+  );
+}
+
+function TemporalSeriesCard({
+  eraRows,
+  temporalSeries,
+}: {
+  eraRows: EraRow[];
+  temporalSeries: TemporalPoint[];
+}) {
+  if (eraRows.length === 0 || temporalSeries.length === 0) {
+    return null;
+  }
+
+  const width = 980;
+  const height = 270;
+  const margin = { top: 18, right: 20, bottom: 34, left: 16 };
+  const chartWidth = width - margin.left - margin.right;
+  const chartHeight = height - margin.top - margin.bottom;
+  const minYear = temporalSeries[0].year;
+  const maxYear = temporalSeries[temporalSeries.length - 1].year;
+  const maxValue = Math.max(...temporalSeries.map((point) => point.value), 1);
+  const yearSpan = Math.max(maxYear - minYear, 1);
+  const xForYear = (year: number) =>
+    margin.left + ((year - minYear) / yearSpan) * chartWidth;
+  const yForValue = (value: number) =>
+    margin.top + chartHeight - (value / maxValue) * chartHeight;
+
+  const linePath = temporalSeries
+    .map((point, index) => `${index === 0 ? "M" : "L"} ${xForYear(point.year)} ${yForValue(point.value)}`)
+    .join(" ");
+  const areaPath = `${linePath} L ${xForYear(maxYear)} ${margin.top + chartHeight} L ${xForYear(minYear)} ${margin.top + chartHeight} Z`;
+  const ticks = [0, 0.25, 0.5, 0.75, 1].map((ratio) => Math.round(minYear + yearSpan * ratio));
+  const peakPoints = [...temporalSeries]
+    .sort((a, b) => b.value - a.value || a.year - b.year)
+    .slice(0, 3)
+    .sort((a, b) => a.year - b.year);
+  const earliestEra = eraRows.reduce((earliest, row) => (row.start < earliest.start ? row : earliest), eraRows[0]);
+  const latestEra = eraRows.reduce((latest, row) => (row.end > latest.end ? row : latest), eraRows[0]);
+
+  return (
+    <div className="mt-5 rounded-[1.2rem] border border-border/70 bg-white/80 p-4">
+      <div className="flex flex-col gap-1 md:flex-row md:items-center md:justify-between">
+        <div>
+          <div className="text-sm font-semibold">Temporal signal</div>
+          <div className="text-xs text-muted-foreground">
+            Corpus presence over time, inferred from category era descriptions.
+          </div>
+        </div>
+        <div className="inline-flex items-center gap-3 text-xs text-muted-foreground">
+          <span>{earliestEra.start}</span>
+          <span className="h-px w-6 bg-border" />
+          <span>{latestEra.end}</span>
+        </div>
+      </div>
+
+      <div className="mt-3 rounded-xl border border-border/70 bg-[linear-gradient(180deg,rgba(239,246,255,0.62),rgba(255,255,255,0.92))] p-2">
+        <svg viewBox={`0 0 ${width} ${height}`} className="h-[240px] w-full" role="img" aria-label="Temporal corpus trend line">
+          {ticks.map((year) => (
+            <g key={year}>
+              <line
+                x1={xForYear(year)}
+                y1={margin.top}
+                x2={xForYear(year)}
+                y2={margin.top + chartHeight}
+                stroke="#dbeafe"
+                strokeWidth={1}
+              />
+              <text
+                x={xForYear(year)}
+                y={height - 10}
+                textAnchor="middle"
+                className="fill-slate-500 text-[11px]"
+              >
+                {year}
+              </text>
+            </g>
+          ))}
+          <path d={areaPath} fill="url(#temporalArea)" opacity={0.95} />
+          <path d={linePath} fill="none" stroke="#2563eb" strokeWidth={2.4} />
+          {peakPoints.map((point) => (
+            <g key={point.year}>
+              <circle cx={xForYear(point.year)} cy={yForValue(point.value)} r={4.2} fill="#0ea5e9" />
+              <text
+                x={xForYear(point.year)}
+                y={yForValue(point.value) - 9}
+                textAnchor="middle"
+                className="fill-slate-700 text-[11px] font-medium"
+              >
+                {point.year}
+              </text>
+            </g>
+          ))}
+          <defs>
+            <linearGradient id="temporalArea" x1="0" x2="0" y1="0" y2="1">
+              <stop offset="0%" stopColor="#60a5fa" stopOpacity="0.34" />
+              <stop offset="100%" stopColor="#93c5fd" stopOpacity="0.06" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
+      <div className="mt-3 grid gap-2 md:grid-cols-3">
+        {peakPoints.map((point) => (
+          <div key={`peak-${point.year}`} className="rounded-lg border border-border/70 bg-white px-3 py-2 text-xs">
+            <div className="font-medium text-slate-900">{point.year}</div>
+            <div className="text-muted-foreground">{point.value.toFixed(2)} weighted thinker signal</div>
+          </div>
+        ))}
       </div>
     </div>
   );
@@ -261,6 +470,26 @@ export function ThinkerExplorer({ thinkers }: ThinkerExplorerProps) {
   const concentration = Math.round(
     categoryRows.reduce((sum, row) => sum + (row.thinkerCount / Math.max(thinkers.length, 1)) ** 2, 0) * 100
   );
+  const categoryMetaByName = new Map(categoryMetadata.map((category) => [category.name, category]));
+  const eraRows: EraRow[] = categoryRows
+    .map((categoryRow) => {
+      const meta = categoryMetaByName.get(categoryRow.label);
+      const range = parseEraRange(meta?.description);
+      if (!range) {
+        return null;
+      }
+      return {
+        label: categoryRow.label,
+        thinkerCount: categoryRow.thinkerCount,
+        share: categoryRow.share,
+        start: range.start,
+        end: range.end,
+        span: Math.max(1, range.end - range.start + 1),
+      };
+    })
+    .filter((row): row is NonNullable<typeof row> => row !== null)
+    .sort((a, b) => a.start - b.start || b.thinkerCount - a.thinkerCount || a.label.localeCompare(b.label));
+  const temporalSeries = buildTemporalSeries(eraRows);
   const activeSelectionSize = selectionThinkers.length || thinkers.length;
   const bridgeCapacity = Math.max(overview.categories.length * Math.max(overview.subjects.length, 1), 1);
   const bridgeDensity = Math.round((totalEdges / bridgeCapacity) * 100);
@@ -666,10 +895,11 @@ export function ThinkerExplorer({ thinkers }: ThinkerExplorerProps) {
         />
       </section>
 
-      <section className="rounded-[1.8rem] border border-border/70 bg-[linear-gradient(180deg,rgba(255,255,255,0.97),rgba(248,250,252,0.94))] p-5 shadow-sm">
-        <div className="mb-5 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+      <section className="rounded-[1.8rem] border border-border/70 bg-[linear-gradient(145deg,rgba(255,255,255,0.96),rgba(241,245,249,0.93),rgba(240,253,250,0.86))] p-5 shadow-sm">
+        <div className="mb-5 flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
           <div>
-            <h3 className="text-lg font-semibold">Catalogue Scale</h3>
+            <div className="text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground">Distribution</div>
+            <h3 className="mt-1 text-xl font-semibold tracking-tight">Catalogue scale</h3>
             <p className="mt-1 text-sm text-muted-foreground">
               Work counts are grouped into broad ranges so the biggest catalogues do not dominate the rest of the corpus.
             </p>
@@ -790,6 +1020,8 @@ export function ThinkerExplorer({ thinkers }: ThinkerExplorerProps) {
             </div>
           </div>
         </div>
+
+        <TemporalSeriesCard eraRows={eraRows} temporalSeries={temporalSeries} />
       </section>
     </div>
   );

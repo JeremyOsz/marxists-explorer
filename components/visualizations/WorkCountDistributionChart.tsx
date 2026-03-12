@@ -3,7 +3,7 @@
 import { max } from "d3-array";
 import { axisBottom, axisLeft } from "d3-axis";
 import { scaleBand, scaleLinear, scaleSequential } from "d3-scale";
-import { interpolateReds } from "d3-scale-chromatic";
+import { interpolateBlues } from "d3-scale-chromatic";
 import { select } from "d3-selection";
 import type { Selection } from "d3-selection";
 import { useEffect, useRef } from "react";
@@ -59,7 +59,7 @@ export function WorkCountDistributionChart({
         .nice()
         .range([innerHeight, 0]);
 
-      const color = scaleSequential(interpolateReds).domain([0, maxValue]);
+      const color = scaleSequential(interpolateBlues).domain([0, maxValue]);
 
       root
         .selectAll("rect")
