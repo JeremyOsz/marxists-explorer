@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 from typing import Dict, Iterable, List, Tuple
 from urllib.parse import urlparse, urlunparse
@@ -38,7 +39,8 @@ def load_harvest_records(harvest_dir: Path) -> Iterable[Tuple[Path, dict]]:
 
 def ensure_thinker_directory(base_dir: Path, collection: str, thinker: str) -> Path:
     """Create the thinker directory if it does not exist and return its path."""
-    thinker_dir = base_dir / collection / thinker
+    collection_dir = resolve_collection_dir(base_dir, collection)
+    thinker_dir = collection_dir / thinker
     thinker_dir.mkdir(parents=True, exist_ok=True)
     return thinker_dir
 
@@ -106,7 +108,8 @@ def apply_harvest_record(
     sorted_works = sorted(unique_by_url.values(), key=lambda item: item["title"].lower())
     subject_file.write_text(json.dumps(sorted_works, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-    metadata = load_metadata(base_dir / collection)
+    collection_dir = resolve_collection_dir(base_dir, collection)
+    metadata = load_metadata(collection_dir)
     for entry in metadata:
         if entry.get("n") == thinker:
             update_metadata_entry(entry, subject, len(sorted_works))
@@ -115,7 +118,7 @@ def apply_harvest_record(
         print(f"[WARN] Metadata entry not found for thinker '{thinker}' in collection '{collection}'.")
         return
 
-    save_metadata(base_dir / collection, metadata)
+    save_metadata(collection_dir, metadata)
 
 
 def canonicalize_url(url: str) -> str:
@@ -124,6 +127,19 @@ def canonicalize_url(url: str) -> str:
         return ""
     cleaned = parsed._replace(query="", fragment="")
     return urlunparse(cleaned)
+
+
+def resolve_collection_dir(base_dir: Path, collection: str) -> Path:
+    candidate = base_dir / collection
+    if candidate.exists():
+        return candidate
+
+    stripped = re.sub(r"\s+\(\d+\)\s*$", "", collection).strip()
+    candidate = base_dir / stripped
+    if candidate.exists():
+        return candidate
+
+    raise FileNotFoundError(f"Collection directory not found: {collection}")
 
 
 def main() -> None:
@@ -198,4 +214,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

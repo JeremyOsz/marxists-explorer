@@ -10,6 +10,7 @@ from __future__ import annotations
 import json
 import sys
 import argparse
+import re
 from pathlib import Path
 
 DEFAULT_AUDIT_PATH = Path("docs/work-coverage-audit.md")
@@ -37,7 +38,7 @@ def parse_zero_coverage(path: Path) -> dict[str, list[str]]:
             continue
 
         if line.startswith("### "):
-            current = line.removeprefix("### ").strip()
+            current = re.sub(r"\s+\(\d+\)\s*$", "", line.removeprefix("### ").strip())
             if current:
                 collections[current] = []
             continue
@@ -71,4 +72,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

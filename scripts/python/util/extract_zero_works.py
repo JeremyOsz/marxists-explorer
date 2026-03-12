@@ -24,6 +24,10 @@ CATEGORY_PREFIX = "### "
 ENTRY_PREFIX = "- "
 
 
+def normalize_collection_name(collection: str) -> str:
+    return re.sub(r"\s+\(\d+\)\s*$", "", collection).strip()
+
+
 def slugify_name(name: str) -> str:
     """Create a lightweight slug used for logging and checklisting."""
     normalized = unicodedata.normalize("NFKD", name)
@@ -59,7 +63,7 @@ def parse_zero_works_section(markdown_text: str) -> Dict[str, List[str]]:
             continue
 
         if line.startswith(CATEGORY_PREFIX):
-            current_category = line[len(CATEGORY_PREFIX) :].strip()
+            current_category = normalize_collection_name(line[len(CATEGORY_PREFIX) :].strip())
             collection_map.setdefault(current_category, [])
             continue
 
@@ -116,4 +120,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
