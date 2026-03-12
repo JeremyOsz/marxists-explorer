@@ -108,7 +108,7 @@ export function CategoryThinkerGraph({
             Follow the category into its thinkers, then inspect the active thinker's strongest indexed subjects.
           </div>
           {previewThinker ? (
-            <div className="mt-3 inline-flex rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-xs font-medium text-sky-900">
+            <div className="mt-3 inline-flex rounded-full border border-red-200 bg-red-50 px-3 py-1 text-xs font-medium text-red-900">
               {selectedThinkerId === activeThinkerId
                 ? `Selected thinker: ${previewThinker.name}`
                 : `Previewing: ${previewThinker.name}`}
@@ -150,7 +150,7 @@ export function CategoryThinkerGraph({
               key={`edge-${thinkerId}`}
               d={edgePath(categoryX + categoryCardWidth, categoryY, thinkerX, y)}
               fill="none"
-              stroke={highlighted ? "#2563eb" : "#cbd5e1"}
+              stroke={highlighted ? "#b91c1c" : "#cbd5e1"}
               strokeOpacity={highlighted ? 0.5 : 0.16}
               strokeWidth={strokeWidth}
             />
@@ -169,11 +169,11 @@ export function CategoryThinkerGraph({
               width={categoryCardWidth}
               height={cardHeight}
               rx={18}
-              fill="#0f172a"
-              stroke="#0f172a"
+              fill="#7f1d1d"
+              stroke="#7f1d1d"
               strokeWidth={2}
             />
-            <circle cx={18} cy={0} r={9} fill="#93c5fd" />
+            <circle cx={18} cy={0} r={9} fill="#fca5a5" />
             <text x={40} y={-3} className="fill-white text-[17px] font-semibold">
               {category}
             </text>
@@ -191,7 +191,7 @@ export function CategoryThinkerGraph({
                   cy={0}
                   r={12}
                   fill="#1e293b"
-                  stroke="#93c5fd"
+                  stroke="#fca5a5"
                   strokeWidth={1.3}
                 />
                 <text
@@ -258,11 +258,11 @@ export function CategoryThinkerGraph({
                 width={thinkerCardWidth}
                 height={cardHeight}
                 rx={18}
-                fill={active ? "#0f172a" : previewed ? "#eff6ff" : "#ffffff"}
-                stroke={active ? "#0f172a" : previewed ? "#60a5fa" : "#cbd5e1"}
+                fill={active ? "#7f1d1d" : previewed ? "#fef2f2" : "#ffffff"}
+                stroke={active ? "#7f1d1d" : previewed ? "#f87171" : "#cbd5e1"}
                 strokeWidth={active ? 2 : 1.2}
               />
-              <circle cx={18} cy={0} r={7} fill={active ? "#93c5fd" : "#0f172a"} />
+              <circle cx={18} cy={0} r={7} fill={active ? "#fca5a5" : "#7f1d1d"} />
               <text
                 x={40}
                 y={-3}
@@ -294,7 +294,7 @@ export function CategoryThinkerGraph({
                   <path
                     d={edgePath(thinkerX + thinkerCardWidth, activeThinkerY, subjectX, y)}
                     fill="none"
-                    stroke="#0f766e"
+                    stroke="#b91c1c"
                     strokeOpacity={0.42}
                     strokeWidth={strokeWidth}
                   />
@@ -305,11 +305,11 @@ export function CategoryThinkerGraph({
                       width={subjectCardWidth}
                       height={cardHeight}
                       rx={18}
-                      fill="#f8fafc"
-                      stroke="#5eead4"
+                      fill="#fef2f2"
+                      stroke="#fca5a5"
                       strokeWidth={1.5}
                     />
-                    <circle cx={subjectCardWidth - 18} cy={0} r={7} fill="#0f766e" />
+                    <circle cx={subjectCardWidth - 18} cy={0} r={7} fill="#b91c1c" />
                     <text x={24} y={-3} className="fill-slate-900 text-[16px] font-semibold">
                       {subject.name}
                     </text>

@@ -101,7 +101,7 @@ export function ThinkerSubjectGraph({
               key={`${edge.source}-${edge.target}`}
               d={edgePath(source.x + layout.cardWidth, source.y, target.x, target.y)}
               fill="none"
-              stroke={highlighted ? "#0f766e" : "#cbd5e1"}
+              stroke={highlighted ? "#b91c1c" : "#cbd5e1"}
               strokeOpacity={highlighted ? 0.52 : 0.12}
               strokeWidth={Math.max(2, edge.weight * 1.4)}
             />
@@ -131,11 +131,11 @@ export function ThinkerSubjectGraph({
                 width={layout.cardWidth}
                 height={layout.cardHeight}
                 rx={18}
-                fill={active ? "#0f172a" : previewed ? "#eff6ff" : "#ffffff"}
-                stroke={active ? "#0f172a" : previewed ? "#60a5fa" : "#cbd5e1"}
+                fill={active ? "#7f1d1d" : previewed ? "#fef2f2" : "#ffffff"}
+                stroke={active ? "#7f1d1d" : previewed ? "#f87171" : "#cbd5e1"}
                 strokeWidth={active ? 2 : 1.2}
               />
-              <circle cx={18} cy={0} r={8} fill={active ? "#93c5fd" : "#0f172a"} />
+              <circle cx={18} cy={0} r={8} fill={active ? "#fca5a5" : "#7f1d1d"} />
               <text
                 x={36}
                 y={-2}
@@ -174,8 +174,8 @@ export function ThinkerSubjectGraph({
                 width={layout.cardWidth}
                 height={layout.cardHeight}
                 rx={18}
-                fill={active ? "#ecfeff" : "#ffffff"}
-                stroke={active ? "#14b8a6" : "#99f6e4"}
+                fill={active ? "#fef2f2" : "#ffffff"}
+                stroke={active ? "#dc2626" : "#fecaca"}
                 strokeWidth={active ? 2 : 1.2}
               />
               <text x={18} y={-2} className="fill-slate-900 text-[15px] font-semibold">
@@ -184,7 +184,7 @@ export function ThinkerSubjectGraph({
               <text x={18} y={15} className="fill-slate-500 text-[11px]">
                 {node.thinkerCount ?? 0} thinkers
               </text>
-              <circle cx={layout.cardWidth - 18} cy={0} r={8} fill="#0f766e" />
+              <circle cx={layout.cardWidth - 18} cy={0} r={8} fill="#b91c1c" />
             </g>
           );
         })}

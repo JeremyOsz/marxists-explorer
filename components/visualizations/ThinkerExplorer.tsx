@@ -215,7 +215,7 @@ function SummaryCard({
   label,
   value,
   detail,
-  accentClassName = "from-slate-500/30 via-sky-500/25 to-emerald-500/20",
+  accentClassName = "from-slate-500/30 via-red-500/25 to-rose-500/20",
 }: {
   label: string;
   value: string;
@@ -225,7 +225,7 @@ function SummaryCard({
   return (
     <div className="group relative overflow-hidden rounded-[1.4rem] border border-border/70 bg-card/90 p-5 shadow-sm">
       <div className={`pointer-events-none absolute inset-x-0 top-0 h-1 bg-gradient-to-r ${accentClassName}`} />
-      <div className="pointer-events-none absolute -right-10 -top-10 h-28 w-28 rounded-full bg-sky-100/35 blur-2xl transition-transform duration-300 group-hover:scale-110" />
+      <div className="pointer-events-none absolute -right-10 -top-10 h-28 w-28 rounded-full bg-red-100/35 blur-2xl transition-transform duration-300 group-hover:scale-110" />
       <div className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">{label}</div>
       <div className="mt-3 text-3xl font-semibold tracking-tight">{value}</div>
       <div className="mt-2 text-sm text-muted-foreground">{detail}</div>
@@ -316,7 +316,7 @@ function TemporalSeriesCard({
         </div>
       </div>
 
-      <div className="mt-3 rounded-xl border border-border/70 bg-[linear-gradient(180deg,rgba(239,246,255,0.62),rgba(255,255,255,0.92))] p-2">
+      <div className="mt-3 rounded-xl border border-border/70 bg-[linear-gradient(180deg,rgba(254,242,242,0.62),rgba(255,255,255,0.92))] p-2">
         <svg viewBox={`0 0 ${width} ${height}`} className="h-[240px] w-full" role="img" aria-label="Temporal corpus trend line">
           {ticks.map((year) => (
             <g key={year}>
@@ -325,7 +325,7 @@ function TemporalSeriesCard({
                 y1={margin.top}
                 x2={xForYear(year)}
                 y2={margin.top + chartHeight}
-                stroke="#dbeafe"
+                stroke="#fecaca"
                 strokeWidth={1}
               />
               <text
@@ -339,10 +339,10 @@ function TemporalSeriesCard({
             </g>
           ))}
           <path d={areaPath} fill="url(#temporalArea)" opacity={0.95} />
-          <path d={linePath} fill="none" stroke="#2563eb" strokeWidth={2.4} />
+          <path d={linePath} fill="none" stroke="#b91c1c" strokeWidth={2.4} />
           {peakPoints.map((point) => (
             <g key={point.year}>
-              <circle cx={xForYear(point.year)} cy={yForValue(point.value)} r={4.2} fill="#0ea5e9" />
+              <circle cx={xForYear(point.year)} cy={yForValue(point.value)} r={4.2} fill="#dc2626" />
               <text
                 x={xForYear(point.year)}
                 y={yForValue(point.value) - 9}
@@ -355,8 +355,8 @@ function TemporalSeriesCard({
           ))}
           <defs>
             <linearGradient id="temporalArea" x1="0" x2="0" y1="0" y2="1">
-              <stop offset="0%" stopColor="#60a5fa" stopOpacity="0.34" />
-              <stop offset="100%" stopColor="#93c5fd" stopOpacity="0.06" />
+              <stop offset="0%" stopColor="#f87171" stopOpacity="0.34" />
+              <stop offset="100%" stopColor="#fca5a5" stopOpacity="0.06" />
             </linearGradient>
           </defs>
         </svg>
@@ -510,19 +510,19 @@ export function ThinkerExplorer({ thinkers }: ThinkerExplorerProps) {
           label="Thinkers"
           value={thinkers.length.toLocaleString()}
           detail="Indexed thinkers available to the overview."
-          accentClassName="from-slate-500/35 via-sky-500/30 to-cyan-500/25"
+          accentClassName="from-slate-500/35 via-red-500/30 to-rose-500/25"
         />
         <SummaryCard
           label="Currents"
           value={overview.categories.length.toLocaleString()}
           detail="Categories with strong links into the visible subject field."
-          accentClassName="from-emerald-500/35 via-teal-500/30 to-sky-500/25"
+          accentClassName="from-red-600/35 via-red-500/30 to-rose-500/25"
         />
         <SummaryCard
           label="Top Subject"
           value={topSubject?.label ?? "None"}
           detail={topSubject ? `${topSubject.thinkerCount} thinkers touch this subject.` : "No subject signal available."}
-          accentClassName="from-cyan-500/35 via-blue-500/30 to-indigo-500/25"
+          accentClassName="from-red-500/35 via-red-600/30 to-rose-600/25"
         />
         <SummaryCard
           label="Strongest Bridge"
@@ -532,11 +532,11 @@ export function ThinkerExplorer({ thinkers }: ThinkerExplorerProps) {
               : "None"
           }
           detail={strongestEdge ? `${strongestEdge.weight} thinkers on this edge.` : "No overview edges available."}
-          accentClassName="from-blue-500/35 via-indigo-500/30 to-emerald-500/25"
+          accentClassName="from-red-600/35 via-rose-500/30 to-red-500/25"
         />
       </div>
 
-      <section className="rounded-[1.5rem] border border-border/70 bg-[linear-gradient(140deg,rgba(255,255,255,0.95),rgba(239,246,255,0.84),rgba(240,253,250,0.86))] p-4 shadow-sm">
+      <section className="rounded-[1.5rem] border border-border/70 bg-[linear-gradient(140deg,rgba(255,255,255,0.95),rgba(254,242,242,0.9),rgba(255,228,230,0.86))] p-4 shadow-sm">
         <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
           <div>
             <div className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">Journey Status</div>
@@ -568,7 +568,7 @@ export function ThinkerExplorer({ thinkers }: ThinkerExplorerProps) {
         </div>
       </section>
 
-      <section className="rounded-[2rem] border border-border/70 bg-[linear-gradient(135deg,rgba(15,23,42,0.02),rgba(15,118,110,0.08),rgba(29,78,216,0.04))] p-6 shadow-sm">
+      <section className="rounded-[2rem] border border-border/70 bg-[linear-gradient(135deg,rgba(15,23,42,0.02),rgba(185,28,28,0.08),rgba(127,29,29,0.06))] p-6 shadow-sm">
         <div className="mb-5 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <div className="text-xs font-semibold uppercase tracking-[0.22em] text-muted-foreground">
@@ -713,7 +713,7 @@ export function ThinkerExplorer({ thinkers }: ThinkerExplorerProps) {
                           </div>
                           <div className="mt-1 h-2 rounded-full bg-slate-100">
                             <div
-                              className="h-full rounded-full bg-[linear-gradient(90deg,#0f766e,#38bdf8)]"
+                              className="h-full rounded-full bg-[linear-gradient(90deg,#b91c1c,#dc2626)]"
                               style={{ width: `${width}%` }}
                             />
                           </div>
@@ -806,7 +806,7 @@ export function ThinkerExplorer({ thinkers }: ThinkerExplorerProps) {
                             </div>
                             <div className="mt-1 h-2 rounded-full bg-slate-100">
                               <div
-                                className="h-full rounded-full bg-[linear-gradient(90deg,#2563eb,#38bdf8)]"
+                                className="h-full rounded-full bg-[linear-gradient(90deg,#b91c1c,#dc2626)]"
                                 style={{ width: `${width}%` }}
                               />
                             </div>
@@ -877,21 +877,21 @@ export function ThinkerExplorer({ thinkers }: ThinkerExplorerProps) {
           value={totalEdges.toLocaleString()}
           detail="Category-subject bridges visible in the main graph."
           percent={bridgeDensity}
-          accentClassName="from-sky-500 to-indigo-500"
+          accentClassName="from-red-500 to-rose-600"
         />
         <PulseCard
           label="Dominant Subject"
           value={topSubject?.label ?? "None"}
           detail={topSubject ? `${topSubject.thinkerCount} thinkers` : "No dominant subject available."}
           percent={dominantSubjectCoverage}
-          accentClassName="from-teal-500 to-sky-500"
+          accentClassName="from-red-600 to-rose-500"
         />
         <PulseCard
           label="Selection Size"
           value={activeSelectionSize.toLocaleString()}
           detail={selection ? "Thinkers in the active category or subject selection." : "No selection yet."}
           percent={selectionCoverage}
-          accentClassName="from-indigo-500 to-emerald-500"
+          accentClassName="from-red-500 to-rose-500"
         />
       </section>
 
@@ -944,21 +944,21 @@ export function ThinkerExplorer({ thinkers }: ThinkerExplorerProps) {
             value={totalWorks.toLocaleString()}
             detail={`${avgWorks.toLocaleString()} average works per thinker`}
             percent={Math.min(100, Math.round((avgWorks / Math.max(medianWorks, 1)) * 50))}
-            accentClassName="from-indigo-500 to-cyan-500"
+            accentClassName="from-red-600 to-rose-500"
           />
           <PulseCard
             label="Median Works"
             value={medianWorks.toLocaleString()}
             detail="Typical catalogue size across thinkers"
             percent={Math.min(100, Math.round((medianWorks / Math.max(avgWorks, 1)) * 70))}
-            accentClassName="from-sky-500 to-emerald-500"
+            accentClassName="from-red-500 to-rose-600"
           />
           <PulseCard
             label="Subject Coverage"
             value={`${subjectCoverage}%`}
             detail={`${thinkersWithSubjects.length.toLocaleString()} thinkers with indexed subjects`}
             percent={subjectCoverage}
-            accentClassName="from-teal-500 to-cyan-500"
+            accentClassName="from-red-600 to-rose-600"
           />
           <PulseCard
             label="Concentration"
@@ -983,7 +983,7 @@ export function ThinkerExplorer({ thinkers }: ThinkerExplorerProps) {
                   </div>
                   <div className="mt-1 h-2 rounded-full bg-slate-100">
                     <div
-                      className="h-full rounded-full bg-[linear-gradient(90deg,#2563eb,#14b8a6)]"
+                      className="h-full rounded-full bg-[linear-gradient(90deg,#b91c1c,#dc2626)]"
                       style={{ width: `${Math.max(6, categoryRow.share)}%` }}
                     />
                   </div>
@@ -1011,7 +1011,7 @@ export function ThinkerExplorer({ thinkers }: ThinkerExplorerProps) {
                   </div>
                   <div className="mt-1 h-2 rounded-full bg-slate-100">
                     <div
-                      className="h-full rounded-full bg-[linear-gradient(90deg,#0f766e,#38bdf8)]"
+                      className="h-full rounded-full bg-[linear-gradient(90deg,#b91c1c,#dc2626)]"
                       style={{ width: `${Math.max(6, subjectRow.share)}%` }}
                     />
                   </div>

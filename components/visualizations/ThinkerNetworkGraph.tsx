@@ -28,22 +28,22 @@ type SimLink = ThinkerGraphLink & d3.SimulationLinkDatum<SimNode>;
 
 const EDGE_COLORS: Record<ThinkerGraphLink["primaryType"], string> = {
   subject: "#8f2d2d",
-  category: "#1d4ed8",
+  category: "#b91c1c",
   hybrid: "#475569",
 };
 
 const NODE_PALETTE = [
-  "#0f766e",
+  "#b91c1c",
   "#be123c",
-  "#1d4ed8",
-  "#9333ea",
-  "#15803d",
+  "#dc2626",
+  "#991b1b",
+  "#7f1d1d",
   "#b45309",
   "#374151",
   "#7c2d12",
-  "#4338ca",
+  "#9f1239",
   "#be185d",
-  "#0369a1",
+  "#a16207",
   "#4d7c0f",
 ];
 

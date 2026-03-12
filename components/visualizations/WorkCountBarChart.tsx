@@ -3,7 +3,7 @@
 import { max } from "d3-array";
 import { axisBottom } from "d3-axis";
 import { scaleBand, scaleLinear, scaleSequential } from "d3-scale";
-import { interpolateBlues } from "d3-scale-chromatic";
+import { interpolateReds } from "d3-scale-chromatic";
 import { select } from "d3-selection";
 import { useEffect, useRef } from "react";
 
@@ -57,7 +57,7 @@ export function WorkCountBarChart({ data, className }: WorkCountBarChartProps) {
         .range([0, innerHeight])
         .padding(0.2);
 
-      const color = scaleSequential(interpolateBlues).domain([0, maxValue]);
+      const color = scaleSequential(interpolateReds).domain([0, maxValue]);
 
       const groups = root
         .selectAll("g.bar")

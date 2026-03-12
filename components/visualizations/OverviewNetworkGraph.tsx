@@ -155,7 +155,7 @@ export function OverviewNetworkGraph({
                 target.y
               )}
               fill="none"
-              stroke={highlighted ? "#2563eb" : "#cbd5e1"}
+              stroke={highlighted ? "#b91c1c" : "#cbd5e1"}
               strokeOpacity={highlighted ? 0.52 : 0.12}
               strokeWidth={Math.max(2, edge.weight * 1.25)}
             />
@@ -188,8 +188,8 @@ export function OverviewNetworkGraph({
                 width={layout.cardWidth}
                 height={layout.cardHeight}
                 rx={18}
-                fill={active ? "#0f172a" : previewed ? "#eff6ff" : "#ffffff"}
-                stroke={active ? "#0f172a" : previewed ? "#60a5fa" : "#cbd5e1"}
+                fill={active ? "#7f1d1d" : previewed ? "#fef2f2" : "#ffffff"}
+                stroke={active ? "#7f1d1d" : previewed ? "#f87171" : "#cbd5e1"}
                 strokeWidth={active ? 2 : 1.2}
                 opacity={muted ? 0.28 : 1}
               />
@@ -197,7 +197,7 @@ export function OverviewNetworkGraph({
                 cx={18}
                 cy={0}
                 r={Math.max(6, Math.min(11, 5 + node.thinkerCount * 0.18))}
-                fill={active ? "#93c5fd" : "#0f172a"}
+                fill={active ? "#fca5a5" : "#7f1d1d"}
                 opacity={muted ? 0.28 : 1}
               />
               <text
@@ -243,8 +243,8 @@ export function OverviewNetworkGraph({
                 width={layout.cardWidth}
                 height={layout.cardHeight}
                 rx={18}
-                fill={active ? "#0f766e" : previewed ? "#ecfeff" : "#ffffff"}
-                stroke={active ? "#0f766e" : previewed ? "#14b8a6" : "#99f6e4"}
+                fill={active ? "#7f1d1d" : previewed ? "#fef2f2" : "#ffffff"}
+                stroke={active ? "#7f1d1d" : previewed ? "#dc2626" : "#fecaca"}
                 strokeWidth={active ? 2 : 1.2}
                 opacity={muted ? 0.28 : 1}
               />
@@ -258,7 +258,7 @@ export function OverviewNetworkGraph({
               <text
                 x={18}
                 y={15}
-                className={active ? "fill-teal-50 text-[11px]" : "fill-slate-500 text-[11px]"}
+                className={active ? "fill-red-50 text-[11px]" : "fill-slate-500 text-[11px]"}
               >
                 {node.thinkerCount} thinkers
               </text>
@@ -266,7 +266,7 @@ export function OverviewNetworkGraph({
                 cx={layout.cardWidth - 18}
                 cy={0}
                 r={Math.max(6, Math.min(11, 5 + node.thinkerCount * 0.12))}
-                fill={active ? "#ccfbf1" : "#0f766e"}
+                fill={active ? "#fecaca" : "#b91c1c"}
                 opacity={muted ? 0.28 : 1}
               />
             </g>
