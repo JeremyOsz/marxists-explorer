@@ -28,6 +28,7 @@ import requests
 from bs4 import BeautifulSoup
 from requests import Response
 from requests.adapters import HTTPAdapter
+from urllib.parse import urlparse
 from urllib3.util.retry import Retry
 
 
@@ -123,6 +124,12 @@ class AuthorIndexMapper:
                 if href.startswith("../"):
                     continue
                 url = requests.compat.urljoin(self.index_url, href)
+
+            parsed_url = urlparse(url)
+            if "marxists.org" not in parsed_url.netloc:
+                continue
+            if "/archive/" not in parsed_url.path:
+                continue
 
             normalized = normalize_name(text)
             entry = AuthorEntry(text=text, href=href, url=url, category=current_category)
@@ -239,4 +246,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

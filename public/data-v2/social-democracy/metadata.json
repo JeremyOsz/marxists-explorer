@@ -434,7 +434,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Boudin_-_La_Fameuse_Com%C3%A9dienne%2C_1688%2C_%C3%A9dition_Bonnassies%2C_1870.djvu",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Boudin_-_La_Fameuse_Com%C3%A9dienne%2C_1688%2C_%C3%A9dition_Bonnassies%2C_1870.djvu/page1-200px-Boudin_-_La_Fameuse_Com%C3%A9dienne%2C_1688%2C_%C3%A9dition_Bonnassies%2C_1870.djvu.jpg",
-    "w": 0
+    "w": 19,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 19
+      }
+    ]
   },
   {
     "n": "Max Beer",

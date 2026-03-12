@@ -22,6 +22,7 @@ from typing import Dict, List
 SECTION_HEADING = "## Thinkers with 0 works"
 CATEGORY_PREFIX = "### "
 ENTRY_PREFIX = "- "
+EXCLUDED_THINKER_NAMES = {"full biography"}
 
 
 def normalize_collection_name(collection: str) -> str:
@@ -35,6 +36,13 @@ def slugify_name(name: str) -> str:
     cleaned = re.sub(r"[’'`]", "", ascii_name)
     cleaned = re.sub(r"[^a-zA-Z0-9]+", "-", cleaned).strip("-")
     return cleaned.lower()
+
+
+def is_valid_thinker_name(name: str) -> bool:
+    normalized = normalize_collection_name(name).lower()
+    if normalized in EXCLUDED_THINKER_NAMES:
+        return False
+    return True
 
 
 def parse_zero_works_section(markdown_text: str) -> Dict[str, List[str]]:
@@ -71,7 +79,7 @@ def parse_zero_works_section(markdown_text: str) -> Dict[str, List[str]]:
             if current_category is None:
                 raise ValueError(f"Found thinker entry before category heading: '{line}'")
             thinker_name = line[len(ENTRY_PREFIX) :].strip()
-            if thinker_name:
+            if thinker_name and is_valid_thinker_name(thinker_name):
                 collection_map[current_category].append(thinker_name)
 
     return collection_map

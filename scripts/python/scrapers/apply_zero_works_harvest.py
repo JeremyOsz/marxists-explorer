@@ -18,6 +18,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import unicodedata
 from pathlib import Path
 from typing import Dict, Iterable, List, Tuple
 from urllib.parse import urlparse, urlunparse
@@ -136,6 +137,13 @@ def resolve_collection_dir(base_dir: Path, collection: str) -> Path:
 
     stripped = re.sub(r"\s+\(\d+\)\s*$", "", collection).strip()
     candidate = base_dir / stripped
+    if candidate.exists():
+        return candidate
+
+    normalized = unicodedata.normalize("NFKD", stripped)
+    ascii_collection = normalized.encode("ascii", "ignore").decode("ascii")
+    slug = re.sub(r"[^a-zA-Z0-9]+", "-", ascii_collection).strip("-").lower()
+    candidate = base_dir / slug
     if candidate.exists():
         return candidate
 

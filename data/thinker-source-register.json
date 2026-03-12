@@ -1,5 +1,117 @@
 [
   {
+    "collection": "Comintern",
+    "thinker": "Claudia Jones",
+    "slug": "claudia-jones",
+    "sources": [
+      {
+        "label": "Marxists.org Author Index",
+        "type": "mia_author_index",
+        "url": "https://www.marxists.org/archive/jones/index.htm",
+        "works_root": "https://www.marxists.org/archive/jones/",
+        "notes": []
+      }
+    ]
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Nicolae Ceasescu",
+    "slug": "nicolae-ceasescu",
+    "sources": [
+      {
+        "label": "Marxists.org Author Index",
+        "type": "mia_author_index",
+        "url": "https://www.marxists.org/archive/ceausescu/index.htm",
+        "works_root": "https://www.marxists.org/archive/ceausescu/",
+        "notes": []
+      }
+    ]
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Victor Perlo",
+    "slug": "victor-perlo",
+    "sources": [
+      {
+        "label": "Marxists.org Author Index",
+        "type": "mia_author_index",
+        "url": "https://www.marxists.org/archive/perlo/index.htm",
+        "works_root": "https://www.marxists.org/archive/perlo/",
+        "notes": []
+      }
+    ]
+  },
+  {
+    "collection": "Early Comintern",
+    "thinker": "José Carlos Mariátegui",
+    "slug": "jose-carlos-mariategui",
+    "sources": [
+      {
+        "label": "Marxists.org Author Index",
+        "type": "mia_author_index",
+        "url": "https://www.marxists.org/archive/mariateg/index.htm",
+        "works_root": "https://www.marxists.org/archive/mariateg/",
+        "notes": []
+      }
+    ]
+  },
+  {
+    "collection": "French Left",
+    "thinker": "Pierre Morhange",
+    "slug": "pierre-morhange",
+    "sources": [
+      {
+        "label": "Marxists.org Author Index",
+        "type": "mia_author_index",
+        "url": "https://www.marxists.org/archive/morhange/index.htm",
+        "works_root": "https://www.marxists.org/archive/morhange/",
+        "notes": []
+      }
+    ]
+  },
+  {
+    "collection": "Social Democracy",
+    "thinker": "Louis B. Boudin",
+    "slug": "louis-b-boudin",
+    "sources": [
+      {
+        "label": "Marxists.org Author Index",
+        "type": "mia_author_index",
+        "url": "https://www.marxists.org/archive/boudin/index.html",
+        "works_root": "https://www.marxists.org/archive/boudin/index.html/",
+        "notes": []
+      }
+    ]
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "James Cannon",
+    "slug": "james-cannon",
+    "sources": [
+      {
+        "label": "Marxists.org Author Index",
+        "type": "mia_author_index",
+        "url": "https://www.marxists.org/archive/cannon/index.htm",
+        "works_root": "https://www.marxists.org/archive/cannon/",
+        "notes": []
+      }
+    ]
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Ross Dowson",
+    "slug": "ross-dowson",
+    "sources": [
+      {
+        "label": "Marxists.org Author Index",
+        "type": "mia_author_index",
+        "url": "https://www.marxists.org/archive/dowson/index.html",
+        "works_root": "https://www.marxists.org/archive/dowson/index.html/",
+        "notes": []
+      }
+    ]
+  },
+  {
     "collection": "african-liberation",
     "thinker": "Amilcar Cabral",
     "slug": "amilcar-cabral",

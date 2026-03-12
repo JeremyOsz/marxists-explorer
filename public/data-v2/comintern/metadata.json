@@ -99,7 +99,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Claudia_Jones.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Claudia_Jones.jpg/250px-Claudia_Jones.jpg",
-    "w": 0
+    "w": 24,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 24
+      }
+    ]
   },
   {
     "n": "Dinmohammed Kunayev",
@@ -632,7 +638,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/0/01/Nicolae_Ceau%C8%99escu.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Nicolae_Ceau%C8%99escu.jpg/250px-Nicolae_Ceau%C8%99escu.jpg",
-    "w": 0
+    "w": 15,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 15
+      }
+    ]
   },
   {
     "n": "Nikita Khrushchev",
@@ -804,7 +816,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/8/89/Jornal_da_Tarde_%28N224%29_1870-07-20.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Jornal_da_Tarde_%28N224%29_1870-07-20.pdf/page1-200px-Jornal_da_Tarde_%28N224%29_1870-07-20.pdf.jpg",
-    "w": 0
+    "w": 3,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 3
+      }
+    ]
   },
   {
     "n": "Vyacheslav Molotov",

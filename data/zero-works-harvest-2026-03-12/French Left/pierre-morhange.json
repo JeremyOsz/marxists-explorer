@@ -1,0 +1,30 @@
+{
+  "collection": "French Left",
+  "thinker": "Pierre Morhange",
+  "slug": "pierre-morhange",
+  "source_url": "https://www.marxists.org/archive/morhange/index.htm",
+  "status": "success",
+  "message": "Collected 4 candidate works.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Café",
+      "url": "https://www.marxists.org/archive/morhange/cafe.htm"
+    },
+    {
+      "title": "Paris",
+      "url": "https://www.marxists.org/archive/morhange/paris.htm"
+    },
+    {
+      "title": "Rain",
+      "url": "https://www.marxists.org/archive/morhange/rain.htm"
+    },
+    {
+      "title": "Sunday",
+      "url": "https://www.marxists.org/archive/morhange/sunday.htm"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/morhange/index.htm"
+  ]
+}

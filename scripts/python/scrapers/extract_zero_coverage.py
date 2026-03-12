@@ -14,6 +14,7 @@ import re
 from pathlib import Path
 
 DEFAULT_AUDIT_PATH = Path("docs/work-coverage-audit.md")
+EXCLUDED_THINKER_NAMES = {"full biography"}
 
 
 def parse_zero_coverage(path: Path) -> dict[str, list[str]]:
@@ -47,7 +48,7 @@ def parse_zero_coverage(path: Path) -> dict[str, list[str]]:
             if current is None:
                 continue
             thinker = line.removeprefix("- ").strip()
-            if thinker:
+            if thinker and thinker.lower() not in EXCLUDED_THINKER_NAMES:
                 collections[current].append(thinker)
 
     # Drop empty collections and sort names for determinism

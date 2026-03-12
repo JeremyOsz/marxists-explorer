@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import time
 import unicodedata
 from collections import deque
@@ -28,7 +29,7 @@ import requests
 from bs4 import BeautifulSoup
 from requests import Response
 from requests.adapters import HTTPAdapter
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, urlunparse
 from urllib3.util.retry import Retry
 
 
@@ -56,6 +57,8 @@ LINK_KEYWORDS = (
 )
 
 ALLOWED_EXTENSIONS = (".htm", ".html", ".pdf", ".txt")
+EXCLUDED_TITLE_KEYWORDS = ("biography", "obituary", "index", "contents", "home")
+EXCLUDED_PATH_FRAGMENTS = ("/bio", "/biography", "/images/", "/photo", "/audio/", "/video/")
 
 
 def normalize_whitespace(text: str) -> str:
@@ -161,22 +164,22 @@ class WorkHarvester:
                 warnings.append(f"Request failed for {current_url}: {exc}")
                 continue
 
-            for link in soup.find_all("a", href=True):
-                title = normalize_whitespace(link.get_text(strip=True))
-                if not title or len(title) <= 2:
+            for link in soup.find_all(["a", "area"], href=True):
+                title = self._extract_link_title(link)
+                if not title:
                     continue
 
                 href = link["href"]
                 next_url = self._canonicalize_url(urljoin(current_url, href))
 
-                if not next_url.startswith(source_root):
-                    continue
-
-                if self._is_candidate_work(next_url, title):
+                if self._is_candidate_work(next_url, title, depth, source_root, source_url):
                     works[next_url] = {
                         "title": title,
                         "url": next_url,
                     }
+                    continue
+
+                if not next_url.startswith(source_root):
                     continue
 
                 if self._should_descend(next_url, depth, max_depth):
@@ -215,8 +218,8 @@ class WorkHarvester:
     @staticmethod
     def _canonicalize_url(url: str) -> str:
         parsed = urlparse(url)
-        cleaned_path = parsed.path or "/"
-        return f"{parsed.scheme}://{parsed.netloc}{cleaned_path}"
+        cleaned = parsed._replace(path=parsed.path or "/", query="", fragment="")
+        return urlunparse(cleaned)
 
     @staticmethod
     def _contains_keyword(path: str) -> bool:
@@ -228,18 +231,50 @@ class WorkHarvester:
         lowered = url_or_path.lower()
         return lowered.endswith(ALLOWED_EXTENSIONS)
 
-    def _is_candidate_work(self, url: str, title: str) -> bool:
+    @staticmethod
+    def _extract_link_title(link) -> str:
+        text = normalize_whitespace(link.get_text(" ", strip=True))
+        if text:
+            return text
+
+        for attr in ("title", "alt", "aria-label"):
+            value = link.attrs.get(attr)
+            if isinstance(value, str):
+                cleaned = normalize_whitespace(value)
+                if cleaned:
+                    return cleaned
+
+        href = link.attrs.get("href", "")
+        parsed = urlparse(href)
+        candidate = parsed.path.rstrip("/").rsplit("/", 1)[-1]
+        candidate = re.sub(r"\.(html?|pdf|txt)$", "", candidate, flags=re.IGNORECASE)
+        candidate = candidate.replace("-", " ").replace("_", " ").strip()
+        return normalize_whitespace(candidate)
+
+    def _is_candidate_work(
+        self,
+        url: str,
+        title: str,
+        depth: int,
+        source_root: str,
+        source_url: str,
+    ) -> bool:
         parsed = urlparse(url)
         path = parsed.path.lower()
+        source_parsed = urlparse(source_url)
 
         if not self._has_allowed_extension(path):
             return False
 
-        if "bio" in path or "biography" in path:
+        if any(fragment in path for fragment in EXCLUDED_PATH_FRAGMENTS):
             return False
 
         lowered_title = title.lower()
-        if "biography" in lowered_title or "obituary" in lowered_title:
+        if any(keyword in lowered_title for keyword in EXCLUDED_TITLE_KEYWORDS):
+            return False
+
+        file_name = path.rsplit("/", 1)[-1]
+        if file_name in {"index.htm", "index.html", "contents.htm", "contents.html"}:
             return False
 
         if self._contains_keyword(path):
@@ -249,8 +284,21 @@ class WorkHarvester:
         if any(segment.isdigit() and len(segment) == 4 for segment in path.split("/")):
             return True
 
-        # Fall back to heuristics: lengthy titles that are not indexes
-        if "index" in path or "contents" in path:
+        # Direct document links on the author landing page are usually curated works,
+        # even when they live outside the author's archive directory.
+        if depth == 0 and parsed.netloc == source_parsed.netloc:
+            if url.startswith(source_root):
+                return True
+            if file_name.endswith(".pdf") or len(title.split()) >= 2:
+                return True
+
+        # Shallow index pages inside the author tree often list short-titled works
+        # like poems or article stubs ("Paris", "Trotsky", etc.).
+        if depth <= 1 and url.startswith(source_root):
+            return True
+
+        # Fall back to heuristics: keep longer titles inside the author tree.
+        if not url.startswith(source_root):
             return False
         return len(title.split()) >= 3
 
@@ -416,4 +464,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

@@ -436,7 +436,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/4/43/Girl_of_the_Welayta_people.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Girl_of_the_Welayta_people.jpg/250px-Girl_of_the_Welayta_people.jpg",
-    "w": 0
+    "w": 412,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 412
+      }
+    ]
   },
   {
     "n": "Jock Haston",
@@ -653,7 +659,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/2/27/Babar.djvu",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Babar.djvu/page1-200px-Babar.djvu.jpg",
-    "w": 0
+    "w": 41,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 41
+      }
+    ]
   },
   {
     "n": "Russell Blackwell",

@@ -1,1677 +1,1052 @@
 [
   {
-    "collection": "african-liberation",
-    "thinker": "Baruch Hirson",
-    "slug": "baruch-hirson"
-  },
-  {
-    "collection": "african-liberation",
+    "collection": "African Liberation",
     "thinker": "Govan Mbeki",
     "slug": "govan-mbeki"
   },
   {
-    "collection": "african-liberation",
+    "collection": "African Liberation",
     "thinker": "Kwame Nkrumah",
     "slug": "kwame-nkrumah"
   },
   {
-    "collection": "african-liberation",
-    "thinker": "Mohamed Siad Barre",
-    "slug": "mohamed-siad-barre"
-  },
-  {
-    "collection": "african-liberation",
+    "collection": "African Liberation",
     "thinker": "Patrice Lumumba",
     "slug": "patrice-lumumba"
   },
   {
-    "collection": "african-liberation",
+    "collection": "African Liberation",
     "thinker": "Samora Machel",
     "slug": "samora-machel"
   },
   {
-    "collection": "african-liberation",
+    "collection": "African Liberation",
     "thinker": "Thomas Sankara",
     "slug": "thomas-sankara"
   },
   {
-    "collection": "anarchists",
+    "collection": "Anarchists",
     "thinker": "Alexander Berkman",
     "slug": "alexander-berkman"
   },
   {
-    "collection": "anarchists",
+    "collection": "Anarchists",
     "thinker": "Emma Goldman",
     "slug": "emma-goldman"
   },
   {
-    "collection": "anarchists",
+    "collection": "Anarchists",
     "thinker": "Errico Malatesta",
     "slug": "errico-malatesta"
   },
   {
-    "collection": "anarchists",
+    "collection": "Anarchists",
     "thinker": "Fredy Perlman",
     "slug": "fredy-perlman"
   },
   {
-    "collection": "anarchists",
+    "collection": "Anarchists",
     "thinker": "Léo Taxil",
     "slug": "leo-taxil"
   },
   {
-    "collection": "anarchists",
+    "collection": "Anarchists",
     "thinker": "Nestor Makhno",
     "slug": "nestor-makhno"
   },
   {
-    "collection": "anarchists",
+    "collection": "Anarchists",
     "thinker": "Petr Kropotkin",
     "slug": "petr-kropotkin"
   },
   {
-    "collection": "anarchists",
+    "collection": "Anarchists",
     "thinker": "Pierre-Joseph Proudhon",
     "slug": "pierre-joseph-proudhon"
   },
   {
-    "collection": "anarchists",
+    "collection": "Anarchists",
     "thinker": "Ravachol",
     "slug": "ravachol"
   },
   {
-    "collection": "anarchists",
+    "collection": "Anarchists",
     "thinker": "Rudolf Rocker",
     "slug": "rudolf-rocker"
   },
   {
-    "collection": "black-liberation",
+    "collection": "Black Liberation",
     "thinker": "Toussaint Louverture",
     "slug": "toussaint-louverture"
   },
   {
-    "collection": "bolsheviks",
-    "thinker": "Alexander Bogdanov",
-    "slug": "alexander-bogdanov"
-  },
-  {
-    "collection": "bolsheviks",
-    "thinker": "Alexander Shliapnikov",
-    "slug": "alexander-shliapnikov"
-  },
-  {
-    "collection": "bolsheviks",
-    "thinker": "Alexander Voronsky",
-    "slug": "alexander-voronsky"
-  },
-  {
-    "collection": "bolsheviks",
-    "thinker": "Felix Raskolnikov",
-    "slug": "felix-raskolnikov"
-  },
-  {
-    "collection": "bolsheviks",
-    "thinker": "Mikhail Tomsky",
-    "slug": "mikhail-tomsky"
-  },
-  {
-    "collection": "bolsheviks",
-    "thinker": "Natalia Sedova Trotsky",
-    "slug": "natalia-sedova-trotsky"
-  },
-  {
-    "collection": "bolsheviks",
-    "thinker": "Nikolai Osinsky",
-    "slug": "nikolai-osinsky"
-  },
-  {
-    "collection": "bolsheviks",
-    "thinker": "Vladimir Milyutin",
-    "slug": "vladimir-milyutin"
-  },
-  {
-    "collection": "comintern",
-    "thinker": "B. T. Ranadive",
-    "slug": "b-t-ranadive"
-  },
-  {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Bill Bland",
     "slug": "bill-bland"
   },
   {
-    "collection": "comintern",
-    "thinker": "Christopher Hill",
-    "slug": "christopher-hill"
-  },
-  {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Claudia Jones",
     "slug": "claudia-jones"
   },
   {
-    "collection": "comintern",
-    "thinker": "Dinmohammed Kunayev",
-    "slug": "dinmohammed-kunayev"
-  },
-  {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Dmitry Manuilsky",
     "slug": "dmitry-manuilsky"
   },
   {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Enver Hoxha",
     "slug": "enver-hoxha"
   },
   {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Fred Rose",
     "slug": "fred-rose"
   },
   {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Georgi Dimitrov",
     "slug": "georgi-dimitrov"
   },
   {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Georgy Malenkov",
     "slug": "georgy-malenkov"
   },
   {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Huberto Alvarado",
     "slug": "huberto-alvarado"
   },
   {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "J. T. Murphy",
     "slug": "j-t-murphy"
   },
   {
-    "collection": "comintern",
-    "thinker": "James W. Ford",
-    "slug": "james-w-ford"
-  },
-  {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Josef Stalin",
     "slug": "josef-stalin"
   },
   {
-    "collection": "comintern",
-    "thinker": "János Kádár",
-    "slug": "janos-kadar"
-  },
-  {
-    "collection": "comintern",
-    "thinker": "Kaysone Phomvihane",
-    "slug": "kaysone-phomvihane"
-  },
-  {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Lance Sharkey",
     "slug": "lance-sharkey"
   },
   {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Lavrenti Beria",
     "slug": "lavrenti-beria"
   },
   {
-    "collection": "comintern",
-    "thinker": "Leonid Brezhnev",
-    "slug": "leonid-brezhnev"
-  },
-  {
-    "collection": "comintern",
-    "thinker": "Mikhail Gorbachev",
-    "slug": "mikhail-gorbachev"
-  },
-  {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Mikhail Suslov",
     "slug": "mikhail-suslov"
   },
   {
-    "collection": "comintern",
-    "thinker": "Mátyás Rákosi",
-    "slug": "matyas-rakosi"
-  },
-  {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Nicolae Ceasescu",
     "slug": "nicolae-ceasescu"
   },
   {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Nikita Khrushchev",
     "slug": "nikita-khrushchev"
   },
   {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Nikolai Bulganin",
     "slug": "nikolai-bulganin"
   },
   {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Pietro Secchia",
     "slug": "pietro-secchia"
   },
   {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "R. Palme Dutt",
     "slug": "r-palme-dutt"
   },
   {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Tim Buck",
     "slug": "tim-buck"
   },
   {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Victor Perlo",
     "slug": "victor-perlo"
   },
   {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Vyacheslav Molotov",
     "slug": "vyacheslav-molotov"
   },
   {
-    "collection": "comintern",
-    "thinker": "Vŭlko Chervenkov",
-    "slug": "vulko-chervenkov"
-  },
-  {
-    "collection": "comintern",
+    "collection": "Comintern",
     "thinker": "Wilfred Burchett",
     "slug": "wilfred-burchett"
   },
   {
-    "collection": "comintern",
-    "thinker": "William Z. Foster",
-    "slug": "william-z-foster"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Albert Rhys Williams",
-    "slug": "albert-rhys-williams"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Alexander Lozovsky",
-    "slug": "alexander-lozovsky"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Angelo Braxton Herndon",
-    "slug": "angelo-braxton-herndon"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Cyril Briggs",
-    "slug": "cyril-briggs"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "David Ivon Jones",
-    "slug": "david-ivon-jones"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Doxey Wilkerson",
-    "slug": "doxey-wilkerson"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Francis Franklin",
-    "slug": "francis-franklin"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Fritz Wolffheim",
-    "slug": "fritz-wolffheim"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Heinrich Laufenberg",
-    "slug": "heinrich-laufenberg"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Henri Wallon",
-    "slug": "henri-wallon"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Herbert Zam",
-    "slug": "herbert-zam"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Jacob Walcher",
-    "slug": "jacob-walcher"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "John Gates",
-    "slug": "john-gates"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "John MacLean",
-    "slug": "john-maclean"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "John Reed",
-    "slug": "john-reed"
-  },
-  {
-    "collection": "early-comintern",
+    "collection": "Early Comintern",
     "thinker": "José Carlos Mariátegui",
     "slug": "jose-carlos-mariategui"
   },
   {
-    "collection": "early-comintern",
+    "collection": "Early Comintern",
     "thinker": "Julián Gorkin",
     "slug": "julian-gorkin"
   },
   {
-    "collection": "early-comintern",
-    "thinker": "Louis Fraina (Corey)",
-    "slug": "louis-fraina-corey"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "M N Roy",
-    "slug": "m-n-roy"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Manuel Gómez",
-    "slug": "manuel-gomez"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Max Eastman",
-    "slug": "max-eastman"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Otto Hall",
-    "slug": "otto-hall"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Paul Levi",
-    "slug": "paul-levi"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Pierre Monatte",
-    "slug": "pierre-monatte"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Rose Wortis",
-    "slug": "rose-wortis"
-  },
-  {
-    "collection": "early-comintern",
-    "thinker": "Victor Serge",
-    "slug": "victor-serge"
-  },
-  {
-    "collection": "ethics",
+    "collection": "Ethics",
     "thinker": "Immanuel Kant",
     "slug": "immanuel-kant"
   },
   {
-    "collection": "ethics",
+    "collection": "Ethics",
     "thinker": "Jean-Marie Guyau",
     "slug": "jean-marie-guyau"
   },
   {
-    "collection": "fabians",
+    "collection": "Fabians",
     "thinker": "H.G. Wells",
     "slug": "h-g-wells"
   },
   {
-    "collection": "fabians",
+    "collection": "Fabians",
     "thinker": "Oscar Wilde",
     "slug": "oscar-wilde"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Alice Field",
     "slug": "alice-field"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Anna Louise Strong",
     "slug": "anna-louise-strong"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Arthur Rosenberg",
     "slug": "arthur-rosenberg"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Athur Ransome",
     "slug": "athur-ransome"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Attila Jzsef",
     "slug": "attila-jzsef"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Barbara Ehrenreich",
     "slug": "barbara-ehrenreich"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Charles Darwin",
     "slug": "charles-darwin"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Dale Spender",
     "slug": "dale-spender"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Drucilla Cornell",
     "slug": "drucilla-cornell"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Elizabeth Gurley Flynn",
     "slug": "elizabeth-gurley-flynn"
   },
   {
-    "collection": "feminists",
-    "thinker": "Evelyn Reed",
-    "slug": "evelyn-reed"
-  },
-  {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Franois Voltaire",
     "slug": "franois-voltaire"
   },
   {
-    "collection": "feminists",
-    "thinker": "Full Biography",
-    "slug": "full-biography"
-  },
-  {
-    "collection": "feminists",
-    "thinker": "George Orwell",
-    "slug": "george-orwell"
-  },
-  {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Germaine Greer",
     "slug": "germaine-greer"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Harold Isaacs",
     "slug": "harold-isaacs"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Harriet Taylor",
     "slug": "harriet-taylor"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Helen Keller",
     "slug": "helen-keller"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Henry Noel Brailsford",
     "slug": "henry-noel-brailsford"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "James T. Farrell",
     "slug": "james-t-farrell"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "John Pilger",
     "slug": "john-pilger"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Juliet Mitchell",
     "slug": "juliet-mitchell"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Kate Millett",
     "slug": "kate-millett"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Lena MorrowLewis",
     "slug": "lena-morrowlewis"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Lewis Henry Morgan",
     "slug": "lewis-henry-morgan"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Linda Nicholson",
     "slug": "linda-nicholson"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Louis-Ren Villerm",
     "slug": "louis-ren-villerm"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Lynn Beaton",
     "slug": "lynn-beaton"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Marlene Dixon",
     "slug": "marlene-dixon"
   },
   {
-    "collection": "feminists",
-    "thinker": "Mary Beard",
-    "slug": "mary-beard"
-  },
-  {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Mary Heaton Vorse",
     "slug": "mary-heaton-vorse"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Mary Wollstonecraft",
     "slug": "mary-wollstonecraft"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Nicholas Chernyshevsky",
     "slug": "nicholas-chernyshevsky"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Olive Schreiner",
     "slug": "olive-schreiner"
   },
   {
-    "collection": "feminists",
-    "thinker": "Paul Robeson",
-    "slug": "paul-robeson"
-  },
-  {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Sheila Rowbotham",
     "slug": "sheila-rowbotham"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Shulamith Firestone",
     "slug": "shulamith-firestone"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Teresa Ebert",
     "slug": "teresa-ebert"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Upton Sinclair",
     "slug": "upton-sinclair"
   },
   {
-    "collection": "feminists",
+    "collection": "Feminists",
     "thinker": "Vida Goldstein",
     "slug": "vida-goldstein"
   },
   {
-    "collection": "feminists",
-    "thinker": "William Chamberlin",
-    "slug": "william-chamberlin"
-  },
-  {
-    "collection": "first-international",
-    "thinker": "Friedrich Adolphe Sorge",
-    "slug": "friedrich-adolphe-sorge"
-  },
-  {
-    "collection": "frankfurt-school",
-    "thinker": "Erich Fromm",
-    "slug": "erich-fromm"
-  },
-  {
-    "collection": "frankfurt-school",
+    "collection": "Frankfurt School",
     "thinker": "Jürgen Habermas",
     "slug": "jurgen-habermas"
   },
   {
-    "collection": "frankfurt-school",
+    "collection": "Frankfurt School",
     "thinker": "Leo Lowenthal",
     "slug": "leo-lowenthal"
   },
   {
-    "collection": "frankfurt-school",
+    "collection": "Frankfurt School",
     "thinker": "Max Horkheimer",
     "slug": "max-horkheimer"
   },
   {
-    "collection": "french-left",
+    "collection": "French Left",
     "thinker": "Benny Lévy",
     "slug": "benny-levy"
   },
   {
-    "collection": "french-left",
-    "thinker": "Friedrich Adler",
-    "slug": "friedrich-adler"
-  },
-  {
-    "collection": "french-left",
+    "collection": "French Left",
     "thinker": "Guy Debord",
     "slug": "guy-debord"
   },
   {
-    "collection": "french-left",
-    "thinker": "Harry Baldwin",
-    "slug": "harry-baldwin"
-  },
-  {
-    "collection": "french-left",
-    "thinker": "Jules de Gaultier",
-    "slug": "jules-de-gaultier"
-  },
-  {
-    "collection": "french-left",
-    "thinker": "Karl Korsch",
-    "slug": "karl-korsch"
-  },
-  {
-    "collection": "french-left",
-    "thinker": "Lucien Sève",
-    "slug": "lucien-seve"
-  },
-  {
-    "collection": "french-left",
-    "thinker": "Paul Nizan",
-    "slug": "paul-nizan"
-  },
-  {
-    "collection": "french-left",
+    "collection": "French Left",
     "thinker": "Pierre Morhange",
     "slug": "pierre-morhange"
   },
   {
-    "collection": "french-revolution",
+    "collection": "French Revolution",
     "thinker": "Auguste Blanqui",
     "slug": "auguste-blanqui"
   },
   {
-    "collection": "french-revolution",
-    "thinker": "Félix Pyat",
-    "slug": "felix-pyat"
-  },
-  {
-    "collection": "french-revolution",
+    "collection": "French Revolution",
     "thinker": "General Boulanger",
     "slug": "general-boulanger"
   },
   {
-    "collection": "french-revolution",
+    "collection": "French Revolution",
     "thinker": "Gracchus Babeuf",
     "slug": "gracchus-babeuf"
   },
   {
-    "collection": "french-revolution",
+    "collection": "French Revolution",
     "thinker": "Holbach",
     "slug": "holbach"
   },
   {
-    "collection": "french-revolution",
+    "collection": "French Revolution",
     "thinker": "Jacques Roux",
     "slug": "jacques-roux"
   },
   {
-    "collection": "french-revolution",
+    "collection": "French Revolution",
     "thinker": "Jean-Jacques Rousseau",
     "slug": "jean-jacques-rousseau"
   },
   {
-    "collection": "french-revolution",
+    "collection": "French Revolution",
     "thinker": "Jean-Paul Marat",
     "slug": "jean-paul-marat"
   },
   {
-    "collection": "french-revolution",
+    "collection": "French Revolution",
     "thinker": "Julien La Mettrie",
     "slug": "julien-la-mettrie"
   },
   {
-    "collection": "french-revolution",
+    "collection": "French Revolution",
     "thinker": "Robespierre",
     "slug": "robespierre"
   },
   {
-    "collection": "guerilla-marxism",
-    "thinker": "Carlos Marighella",
-    "slug": "carlos-marighella"
-  },
-  {
-    "collection": "guerilla-marxism",
-    "thinker": "Juan Gelman",
-    "slug": "juan-gelman"
-  },
-  {
-    "collection": "left-communism",
-    "thinker": "Bernard Reichenbach",
-    "slug": "bernard-reichenbach"
-  },
-  {
-    "collection": "left-communism",
-    "thinker": "Eugene Lanti",
-    "slug": "eugene-lanti"
-  },
-  {
-    "collection": "left-communism",
-    "thinker": "Franz Pfemfert",
-    "slug": "franz-pfemfert"
-  },
-  {
-    "collection": "left-communism",
-    "thinker": "Jacques Camatte",
-    "slug": "jacques-camatte"
-  },
-  {
-    "collection": "left-communism",
-    "thinker": "John Keracher",
-    "slug": "john-keracher"
-  },
-  {
-    "collection": "left-communism",
-    "thinker": "Lucien Laurat",
-    "slug": "lucien-laurat"
-  },
-  {
-    "collection": "left-communism",
-    "thinker": "Maurice Brinton",
-    "slug": "maurice-brinton"
-  },
-  {
-    "collection": "left-communism",
-    "thinker": "Otto Rühle",
-    "slug": "otto-ruhle"
-  },
-  {
-    "collection": "left-communism",
-    "thinker": "Paul Mattick",
-    "slug": "paul-mattick"
-  },
-  {
-    "collection": "left-communism",
-    "thinker": "Walter Kendall",
-    "slug": "walter-kendall"
-  },
-  {
-    "collection": "maoists",
-    "thinker": "Amulya Sen",
-    "slug": "amulya-sen"
-  },
-  {
-    "collection": "maoists",
+    "collection": "Maoists",
     "thinker": "Charu Mazumdar",
     "slug": "charu-mazumdar"
   },
   {
-    "collection": "maoists",
+    "collection": "Maoists",
     "thinker": "Hua Guofeng",
     "slug": "hua-guofeng"
   },
   {
-    "collection": "maoists",
+    "collection": "Maoists",
     "thinker": "Lin Biao",
     "slug": "lin-biao"
   },
   {
-    "collection": "maoists",
+    "collection": "Maoists",
     "thinker": "Liu Shaoqi",
     "slug": "liu-shaoqi"
   },
   {
-    "collection": "maoists",
+    "collection": "Maoists",
     "thinker": "Peng Zhen",
     "slug": "peng-zhen"
   },
   {
-    "collection": "maoists",
+    "collection": "Maoists",
     "thinker": "Pol Pot",
     "slug": "pol-pot"
   },
   {
-    "collection": "maoists",
+    "collection": "Maoists",
     "thinker": "Sam Marcy",
     "slug": "sam-marcy"
   },
   {
-    "collection": "maoists",
+    "collection": "Maoists",
     "thinker": "Song Renqiong",
     "slug": "song-renqiong"
   },
   {
-    "collection": "maoists",
-    "thinker": "V. G. Wilcox",
-    "slug": "v-g-wilcox"
-  },
-  {
-    "collection": "maoists",
+    "collection": "Maoists",
     "thinker": "Vinod Mishra",
     "slug": "vinod-mishra"
   },
   {
-    "collection": "maoists",
+    "collection": "Maoists",
     "thinker": "Zhang Chunqiao",
     "slug": "zhang-chunqiao"
   },
   {
-    "collection": "maoists",
+    "collection": "Maoists",
     "thinker": "Zhou Enlai",
     "slug": "zhou-enlai"
   },
   {
-    "collection": "maoists",
+    "collection": "Maoists",
     "thinker": "Zhu De",
     "slug": "zhu-de"
   },
   {
-    "collection": "market-socialists",
+    "collection": "Market Socialists",
     "thinker": "Deng Xiaoping",
     "slug": "deng-xiaoping"
   },
   {
-    "collection": "market-socialists",
-    "thinker": "Geno Perente",
-    "slug": "geno-perente"
-  },
-  {
-    "collection": "marxist-humanism",
+    "collection": "Marxist Humanism",
     "thinker": "C. Wright Mills",
     "slug": "c-wright-mills"
   },
   {
-    "collection": "marxist-humanism",
-    "thinker": "CLR James",
-    "slug": "clr-james"
-  },
-  {
-    "collection": "marxist-humanism",
-    "thinker": "Ernst Bloch",
-    "slug": "ernst-bloch"
-  },
-  {
-    "collection": "marxist-humanism",
-    "thinker": "Eugene Kamenka",
-    "slug": "eugene-kamenka"
-  },
-  {
-    "collection": "marxist-humanism",
-    "thinker": "Franz Jakubowski",
-    "slug": "franz-jakubowski"
-  },
-  {
-    "collection": "marxist-humanism",
+    "collection": "Marxist Humanism",
     "thinker": "Grace Lee Boggs",
     "slug": "grace-lee-boggs"
   },
   {
-    "collection": "marxist-humanism",
-    "thinker": "Howard L. Parsons",
-    "slug": "howard-l-parsons"
-  },
-  {
-    "collection": "marxist-humanism",
-    "thinker": "Joe McCarney",
-    "slug": "joe-mccarney"
-  },
-  {
-    "collection": "marxist-humanism",
-    "thinker": "John Saville",
-    "slug": "john-saville"
-  },
-  {
-    "collection": "marxist-humanism",
+    "collection": "Marxist Humanism",
     "thinker": "Marshall Berman",
     "slug": "marshall-berman"
   },
   {
-    "collection": "marxist-humanism",
+    "collection": "Marxist Humanism",
     "thinker": "William Gorman",
     "slug": "william-gorman"
   },
   {
-    "collection": "national-liberation",
-    "thinker": "George Padmore",
-    "slug": "george-padmore"
-  },
-  {
-    "collection": "national-liberation",
+    "collection": "National Liberation",
     "thinker": "Ghassan Kanafani",
     "slug": "ghassan-kanafani"
   },
   {
-    "collection": "national-liberation",
-    "thinker": "Harry Haywood",
-    "slug": "harry-haywood"
-  },
-  {
-    "collection": "national-liberation",
+    "collection": "National Liberation",
     "thinker": "Le Duan",
     "slug": "le-duan"
   },
   {
-    "collection": "national-liberation",
+    "collection": "National Liberation",
     "thinker": "Lu Xun",
     "slug": "lu-xun"
   },
   {
-    "collection": "national-liberation",
+    "collection": "National Liberation",
     "thinker": "Messali Hadj",
     "slug": "messali-hadj"
   },
   {
-    "collection": "national-liberation",
+    "collection": "National Liberation",
     "thinker": "Paulo Freire",
     "slug": "paulo-freire"
   },
   {
-    "collection": "national-liberation",
+    "collection": "National Liberation",
     "thinker": "Pham Van Dong",
     "slug": "pham-van-dong"
   },
   {
-    "collection": "national-liberation",
-    "thinker": "Truong Chinh",
-    "slug": "truong-chinh"
-  },
-  {
-    "collection": "paris-commune",
+    "collection": "Paris Commune",
     "thinker": "Henri Rochefort",
     "slug": "henri-rochefort"
   },
   {
-    "collection": "paris-commune",
+    "collection": "Paris Commune",
     "thinker": "Jules Valès",
     "slug": "jules-vales"
   },
   {
-    "collection": "paris-commune",
+    "collection": "Paris Commune",
     "thinker": "Louise Michel",
     "slug": "louise-michel"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Alasdair MacIntyre",
     "slug": "alasdair-macintyre"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Auguste Comte",
     "slug": "auguste-comte"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Benedetto Croce",
     "slug": "benedetto-croce"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Blaise Pascal",
     "slug": "blaise-pascal"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Cyril Smith",
     "slug": "cyril-smith"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Denis Diderot",
     "slug": "denis-diderot"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Francis Bacon",
     "slug": "francis-bacon"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "François Voltaire",
     "slug": "francois-voltaire"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Friedrich Jacobi",
     "slug": "friedrich-jacobi"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Friedrich Schelling",
     "slug": "friedrich-schelling"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "G W F Hegel",
     "slug": "g-w-f-hegel"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "GW Cunningham",
     "slug": "gw-cunningham"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Heinrich Heine",
     "slug": "heinrich-heine"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "JB Baillie",
     "slug": "jb-baillie"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Johann Gottfried Herder",
     "slug": "johann-gottfried-herder"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Johann Gottlieb Fichte",
     "slug": "johann-gottlieb-fichte"
   },
   {
-    "collection": "philosophy",
-    "thinker": "John Dewey",
-    "slug": "john-dewey"
-  },
-  {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "John McTaggart",
     "slug": "john-mctaggart"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Ludwig Feuerbach",
     "slug": "ludwig-feuerbach"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Max Stirner",
     "slug": "max-stirner"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Max Weber",
     "slug": "max-weber"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Moses Hess",
     "slug": "moses-hess"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Percy Bysshe Shelley",
     "slug": "percy-bysshe-shelley"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Rebecca Cooper",
     "slug": "rebecca-cooper"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Rene Descartes",
     "slug": "rene-descartes"
   },
   {
-    "collection": "philosophy",
+    "collection": "Philosophy",
     "thinker": "Spinoza",
     "slug": "spinoza"
   },
   {
-    "collection": "political-economy",
+    "collection": "Political Economy",
     "thinker": "Adam Smith",
     "slug": "adam-smith"
   },
   {
-    "collection": "political-economy",
-    "thinker": "Bernice Shoul",
-    "slug": "bernice-shoul"
-  },
-  {
-    "collection": "political-economy",
+    "collection": "Political Economy",
     "thinker": "David Yaffe",
     "slug": "david-yaffe"
   },
   {
-    "collection": "political-economy",
+    "collection": "Political Economy",
     "thinker": "Frederick Taylor",
     "slug": "frederick-taylor"
   },
   {
-    "collection": "political-economy",
+    "collection": "Political Economy",
     "thinker": "J. M. Keynes",
     "slug": "j-m-keynes"
   },
   {
-    "collection": "political-economy",
-    "thinker": "John Hobson",
-    "slug": "john-hobson"
-  },
-  {
-    "collection": "political-economy",
+    "collection": "Political Economy",
     "thinker": "John Stuart Mill",
     "slug": "john-stuart-mill"
   },
   {
-    "collection": "political-economy",
+    "collection": "Political Economy",
     "thinker": "Thomas Malthus",
     "slug": "thomas-malthus"
   },
   {
-    "collection": "political-science",
+    "collection": "Political Science",
     "thinker": "Alexis de Tocqueville",
     "slug": "alexis-de-tocqueville"
   },
   {
-    "collection": "political-science",
+    "collection": "Political Science",
     "thinker": "General Carl von Clausewitz",
     "slug": "general-carl-von-clausewitz"
   },
   {
-    "collection": "political-science",
+    "collection": "Political Science",
     "thinker": "George Washington Plunkett",
     "slug": "george-washington-plunkett"
   },
   {
-    "collection": "political-science",
+    "collection": "Political Science",
     "thinker": "Gerrard Winstanley",
     "slug": "gerrard-winstanley"
   },
   {
-    "collection": "political-science",
+    "collection": "Political Science",
     "thinker": "John Locke",
     "slug": "john-locke"
   },
   {
-    "collection": "political-science",
+    "collection": "Political Science",
     "thinker": "Louis-René Villermé",
     "slug": "louis-rene-villerme"
   },
   {
-    "collection": "political-science",
+    "collection": "Political Science",
     "thinker": "Nicolo Machiavelli",
     "slug": "nicolo-machiavelli"
   },
   {
-    "collection": "political-science",
+    "collection": "Political Science",
     "thinker": "Sun-Tzu",
     "slug": "sun-tzu"
   },
   {
-    "collection": "political-science",
+    "collection": "Political Science",
     "thinker": "Thomas Hobbes",
     "slug": "thomas-hobbes"
   },
   {
-    "collection": "political-science",
+    "collection": "Political Science",
     "thinker": "Thomas Paine",
     "slug": "thomas-paine"
   },
   {
-    "collection": "populists",
+    "collection": "Populists",
     "thinker": "Attila József",
     "slug": "attila-jozsef"
   },
   {
-    "collection": "reformists",
+    "collection": "Reformists",
     "thinker": "Alexander Kerensky",
     "slug": "alexander-kerensky"
   },
   {
-    "collection": "reformists",
+    "collection": "Reformists",
     "thinker": "Bruno Rizzi",
     "slug": "bruno-rizzi"
   },
   {
-    "collection": "reformists",
+    "collection": "Reformists",
     "thinker": "Eduard Bernstein",
     "slug": "eduard-bernstein"
   },
   {
-    "collection": "reformists",
+    "collection": "Reformists",
     "thinker": "Georgy Gapon",
     "slug": "georgy-gapon"
   },
   {
-    "collection": "reformists",
+    "collection": "Reformists",
     "thinker": "Hjalmar Branting",
     "slug": "hjalmar-branting"
   },
   {
-    "collection": "reformists",
-    "thinker": "Isaac Steinberg",
-    "slug": "isaac-steinberg"
-  },
-  {
-    "collection": "reformists",
+    "collection": "Reformists",
     "thinker": "Jean Jaurès",
     "slug": "jean-jaures"
   },
   {
-    "collection": "reformists",
-    "thinker": "Jean Longuet",
-    "slug": "jean-longuet"
-  },
-  {
-    "collection": "reformists",
-    "thinker": "Leon Blum",
-    "slug": "leon-blum"
-  },
-  {
-    "collection": "social-democracy",
-    "thinker": "Antonio Labriola",
-    "slug": "antonio-labriola"
-  },
-  {
-    "collection": "social-democracy",
-    "thinker": "August Palm",
-    "slug": "august-palm"
-  },
-  {
-    "collection": "social-democracy",
-    "thinker": "Ben Hanford",
-    "slug": "ben-hanford"
-  },
-  {
-    "collection": "social-democracy",
-    "thinker": "Daniel DeLeon",
-    "slug": "daniel-deleon"
-  },
-  {
-    "collection": "social-democracy",
-    "thinker": "Edward Aveling",
-    "slug": "edward-aveling"
-  },
-  {
-    "collection": "social-democracy",
-    "thinker": "Edward Carpenter",
-    "slug": "edward-carpenter"
-  },
-  {
-    "collection": "social-democracy",
-    "thinker": "Eleanor Marx",
-    "slug": "eleanor-marx"
-  },
-  {
-    "collection": "social-democracy",
-    "thinker": "Frank Kitz",
-    "slug": "frank-kitz"
-  },
-  {
-    "collection": "social-democracy",
-    "thinker": "Harry Quelch",
-    "slug": "harry-quelch"
-  },
-  {
-    "collection": "social-democracy",
-    "thinker": "Henry Hyndman",
-    "slug": "henry-hyndman"
-  },
-  {
-    "collection": "social-democracy",
-    "thinker": "James Connolly",
-    "slug": "james-connolly"
-  },
-  {
-    "collection": "social-democracy",
+    "collection": "Social Democracy",
     "thinker": "Louis B. Boudin",
     "slug": "louis-b-boudin"
   },
   {
-    "collection": "social-democracy",
-    "thinker": "Max Beer",
-    "slug": "max-beer"
-  },
-  {
-    "collection": "social-democracy",
-    "thinker": "Peter Petroff",
-    "slug": "peter-petroff"
-  },
-  {
-    "collection": "social-democracy",
-    "thinker": "Tom Mann",
-    "slug": "tom-mann"
-  },
-  {
-    "collection": "social-democracy",
-    "thinker": "Victor Berger",
-    "slug": "victor-berger"
-  },
-  {
-    "collection": "social-democracy",
-    "thinker": "Vida D. Scudder",
-    "slug": "vida-d-scudder"
-  },
-  {
-    "collection": "social-democracy",
-    "thinker": "William Morris",
-    "slug": "william-morris"
-  },
-  {
-    "collection": "soviet-marxism",
-    "thinker": "Alexander Luria",
-    "slug": "alexander-luria"
-  },
-  {
-    "collection": "soviet-science",
+    "collection": "Soviet Science",
     "thinker": "Alexander Spirkin",
     "slug": "alexander-spirkin"
   },
   {
-    "collection": "soviet-science",
+    "collection": "Soviet Science",
     "thinker": "Anton Makarenko",
     "slug": "anton-makarenko"
   },
   {
-    "collection": "soviet-science",
+    "collection": "Soviet Science",
     "thinker": "I. V. Michurin",
     "slug": "i-v-michurin"
   },
   {
-    "collection": "soviet-science",
+    "collection": "Soviet Science",
     "thinker": "N. A. Semashko",
     "slug": "n-a-semashko"
   },
   {
-    "collection": "soviet-science",
+    "collection": "Soviet Science",
     "thinker": "T. D. Lysenko",
     "slug": "t-d-lysenko"
   },
   {
-    "collection": "soviet-science",
+    "collection": "Soviet Science",
     "thinker": "Vitaly Vygodsky",
     "slug": "vitaly-vygodsky"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Abram Leon",
     "slug": "abram-leon"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Adolfo Gilly",
     "slug": "adolfo-gilly"
   },
   {
-    "collection": "trotskyists",
-    "thinker": "Brian Pearce",
-    "slug": "brian-pearce"
-  },
-  {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Carl Cowl",
     "slug": "carl-cowl"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Carlos Hudson",
     "slug": "carlos-hudson"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Charlie Van Gelderen",
     "slug": "charlie-van-gelderen"
   },
   {
-    "collection": "trotskyists",
-    "thinker": "Daniel Bensaid",
-    "slug": "daniel-bensaid"
-  },
-  {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Daniel Norman",
     "slug": "daniel-norman"
   },
   {
-    "collection": "trotskyists",
-    "thinker": "David Korner (Barta)",
-    "slug": "david-korner-barta"
-  },
-  {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Denzil Dean Harber",
     "slug": "denzil-dean-harber"
   },
   {
-    "collection": "trotskyists",
-    "thinker": "Felix Morrow",
-    "slug": "felix-morrow"
-  },
-  {
-    "collection": "trotskyists",
-    "thinker": "Frank Glass",
-    "slug": "frank-glass"
-  },
-  {
-    "collection": "trotskyists",
-    "thinker": "George Novack",
-    "slug": "george-novack"
-  },
-  {
-    "collection": "trotskyists",
-    "thinker": "George Rawick",
-    "slug": "george-rawick"
-  },
-  {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Gerry Healy",
     "slug": "gerry-healy"
   },
   {
-    "collection": "trotskyists",
-    "thinker": "Harry Braverman",
-    "slug": "harry-braverman"
-  },
-  {
-    "collection": "trotskyists",
-    "thinker": "Hugo Dewar",
-    "slug": "hugo-dewar"
-  },
-  {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Hugo Oehler",
     "slug": "hugo-oehler"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "J. Posadas",
     "slug": "j-posadas"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "James Burnham",
     "slug": "james-burnham"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "James Cannon",
     "slug": "james-cannon"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Jock Haston",
     "slug": "jock-haston"
   },
   {
-    "collection": "trotskyists",
-    "thinker": "Joseph Hansen",
-    "slug": "joseph-hansen"
-  },
-  {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Ken Tarbuck",
     "slug": "ken-tarbuck"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Kurt Landau",
     "slug": "kurt-landau"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Liborio Justo",
     "slug": "liborio-justo"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Ludvik Hass",
     "slug": "ludvik-hass"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Maurice Quarter",
     "slug": "maurice-quarter"
   },
   {
-    "collection": "trotskyists",
-    "thinker": "Max Shachtman",
-    "slug": "max-shachtman"
-  },
-  {
-    "collection": "trotskyists",
-    "thinker": "Michel Pablo",
-    "slug": "michel-pablo"
-  },
-  {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Nimrod Sejake",
     "slug": "nimrod-sejake"
   },
   {
-    "collection": "trotskyists",
-    "thinker": "Pandelis Pouliopoulos",
-    "slug": "pandelis-pouliopoulos"
-  },
-  {
-    "collection": "trotskyists",
-    "thinker": "Peter Camejo",
-    "slug": "peter-camejo"
-  },
-  {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Peter Hadden",
     "slug": "peter-hadden"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Pierre Broué",
     "slug": "pierre-broue"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Pierre Frank",
     "slug": "pierre-frank"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Ronnie Sookhdeo",
     "slug": "ronnie-sookhdeo"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Ross Dowson",
     "slug": "ross-dowson"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Russell Blackwell",
     "slug": "russell-blackwell"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Susan Green",
     "slug": "susan-green"
   },
   {
-    "collection": "trotskyists",
+    "collection": "Trotskyists",
     "thinker": "Tom Stamm",
     "slug": "tom-stamm"
   },
   {
-    "collection": "trotskyists",
-    "thinker": "Walter Held",
-    "slug": "walter-held"
-  },
-  {
-    "collection": "utopianism",
+    "collection": "Utopianism",
     "thinker": "Charles Fourier",
     "slug": "charles-fourier"
   },
   {
-    "collection": "utopianism",
+    "collection": "Utopianism",
     "thinker": "Edward Bellamy",
     "slug": "edward-bellamy"
   },
   {
-    "collection": "utopianism",
+    "collection": "Utopianism",
     "thinker": "James Harrington",
     "slug": "james-harrington"
   },
   {
-    "collection": "utopianism",
+    "collection": "Utopianism",
     "thinker": "Morelly",
     "slug": "morelly"
   },
   {
-    "collection": "utopianism",
+    "collection": "Utopianism",
     "thinker": "Robert Owen",
     "slug": "robert-owen"
   },
   {
-    "collection": "utopianism",
+    "collection": "Utopianism",
     "thinker": "Saint-Simon",
     "slug": "saint-simon"
   },
   {
-    "collection": "utopianism",
+    "collection": "Utopianism",
     "thinker": "Thomas More",
     "slug": "thomas-more"
   },
   {
-    "collection": "utopianism",
+    "collection": "Utopianism",
     "thinker": "Étienne Cabet",
     "slug": "etienne-cabet"
-  },
-  {
-    "collection": "western-marxism",
-    "thinker": "Georg Lukács",
-    "slug": "georg-lukacs"
   }
 ]
