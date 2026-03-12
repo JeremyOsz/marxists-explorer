@@ -1,0 +1,28 @@
+{
+  "n": "Leon Trotsky",
+  "c": "Bolsheviks",
+  "d": "Russian revolutionary, Marxist theorist, and Soviet politician. Key organizer of the October Revolution and founder of the Red Army. Later exiled and assassinated for opposing Stalinism.",
+  "b": "https://www.marxists.org/reference/archive/trotsky/bio/index.htm",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/3/31/Leon_trotsky.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Leon_trotsky.jpg/250px-Leon_trotsky.jpg",
+  "w": 25,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 10
+    },
+    {
+      "name": "Criticism",
+      "count": 4
+    },
+    {
+      "name": "Letters",
+      "count": 10
+    },
+    {
+      "name": "Literature",
+      "count": 1
+    }
+  ],
+  "s": "leon trotsky bolsheviks russian revolutionary, marxist theorist, and soviet politician. key organizer of the october revolution and founder of the red army. later exiled and assassinated for opposing stalinism. general criticism letters literature"
+}

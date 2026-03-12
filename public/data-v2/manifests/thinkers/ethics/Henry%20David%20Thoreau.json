@@ -1,0 +1,36 @@
+{
+  "n": "Henry David Thoreau",
+  "c": "Ethics",
+  "d": "Marxist thinker and theorist in the tradition of ethics.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg/250px-Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg",
+  "w": 55,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 23
+    },
+    {
+      "name": "Political Theory",
+      "count": 16
+    },
+    {
+      "name": "Criticism",
+      "count": 9
+    },
+    {
+      "name": "Economics",
+      "count": 3
+    },
+    {
+      "name": "Letters",
+      "count": 1
+    },
+    {
+      "name": "History",
+      "count": 3
+    }
+  ],
+  "s": "henry david thoreau ethics marxist thinker and theorist in the tradition of ethics. general political theory criticism economics letters history"
+}

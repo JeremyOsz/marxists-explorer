@@ -1,0 +1,36 @@
+{
+  "n": "Maxim Gorky",
+  "c": "Bolsheviks",
+  "d": "Marxist thinker and theorist in the tradition of the bolsheviks.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Maxim_Gorky_LOC_Restored_edit1.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Maxim_Gorky_LOC_Restored_edit1.jpg/250px-Maxim_Gorky_LOC_Restored_edit1.jpg",
+  "w": 29,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 18
+    },
+    {
+      "name": "Criticism",
+      "count": 2
+    },
+    {
+      "name": "Political Theory",
+      "count": 3
+    },
+    {
+      "name": "Letters",
+      "count": 4
+    },
+    {
+      "name": "History",
+      "count": 1
+    },
+    {
+      "name": "Literature",
+      "count": 1
+    }
+  ],
+  "s": "maxim gorky bolsheviks marxist thinker and theorist in the tradition of the bolsheviks. general criticism political theory letters history literature"
+}

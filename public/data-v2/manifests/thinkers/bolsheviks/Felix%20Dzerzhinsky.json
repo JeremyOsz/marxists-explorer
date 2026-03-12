@@ -1,0 +1,44 @@
+{
+  "n": "Felix Dzerzhinsky",
+  "c": "Bolsheviks",
+  "d": "Marxist thinker and theorist in the tradition of the bolsheviks.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Portrait_of_Felix_Dzerzhinsky_2.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Portrait_of_Felix_Dzerzhinsky_2.jpg/250px-Portrait_of_Felix_Dzerzhinsky_2.jpg",
+  "w": 122,
+  "subjects": [
+    {
+      "name": "Criticism",
+      "count": 15
+    },
+    {
+      "name": "Political Theory",
+      "count": 6
+    },
+    {
+      "name": "General",
+      "count": 53
+    },
+    {
+      "name": "Letters",
+      "count": 19
+    },
+    {
+      "name": "History",
+      "count": 17
+    },
+    {
+      "name": "Economics",
+      "count": 9
+    },
+    {
+      "name": "Literature",
+      "count": 1
+    },
+    {
+      "name": "Philosophy",
+      "count": 2
+    }
+  ],
+  "s": "felix dzerzhinsky bolsheviks marxist thinker and theorist in the tradition of the bolsheviks. criticism political theory general letters history economics literature philosophy"
+}

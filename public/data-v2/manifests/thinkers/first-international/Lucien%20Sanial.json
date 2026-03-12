@@ -1,0 +1,40 @@
+{
+  "n": "Lucien Sanial",
+  "c": "First International",
+  "d": "French Marxist who moved to the US and joined a forerunner of DeLeon's Socialist Labor Party",
+  "b": "https://www.marxists.org/reference/archive/sanial/bio/index.htm",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/1/18/Sanial-Lucien.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sanial-Lucien.jpg/250px-Sanial-Lucien.jpg",
+  "w": 23,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 11
+    },
+    {
+      "name": "Philosophy",
+      "count": 1
+    },
+    {
+      "name": "Economics",
+      "count": 2
+    },
+    {
+      "name": "Criticism",
+      "count": 3
+    },
+    {
+      "name": "Political Theory",
+      "count": 3
+    },
+    {
+      "name": "History",
+      "count": 2
+    },
+    {
+      "name": "Biography",
+      "count": 1
+    }
+  ],
+  "s": "lucien sanial first international french marxist who moved to the us and joined a forerunner of deleon's socialist labor party general philosophy economics criticism political theory history biography"
+}

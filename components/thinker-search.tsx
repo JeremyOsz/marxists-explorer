@@ -1,9 +1,8 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { Thinker, Work } from "@/lib/types/thinker";
-import { loadThinkerWorks } from "@/lib/data/folder-loader";
+import { Thinker } from "@/lib/types/thinker";
 import { ThinkerSearchBar } from "./thinker-search-ui/ThinkerSearchBar";
 import { ThinkerList } from "./thinker-search-ui/ThinkerList";
 import { ThinkerDetailDialog } from "./thinker-search-ui/ThinkerDetailDialog";
@@ -14,12 +13,11 @@ interface ThinkerSearchProps {
 
 export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
   const [selectedThinker, setSelectedThinker] = useState<Thinker | null>(null);
-  const [selectedThinkerWorks, setSelectedThinkerWorks] = useState<Work[]>([]);
-  const [loadingWorks, setLoadingWorks] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [mounted, setMounted] = useState(false);
   const [selectedThinkerNameForRouter, setSelectedThinkerNameForRouter] = useState<string | null>(null);
+  const deferredSearchQuery = useDeferredValue(searchQuery);
 
   const router = typeof window !== 'undefined' ? useRouter() : null;
   const searchParams = typeof window !== 'undefined' ? useSearchParams() : null;
@@ -27,16 +25,6 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
   useEffect(() => {
     setMounted(true);
   }, []);
-
-  useEffect(() => {
-    if (selectedThinker) {
-      setLoadingWorks(true);
-      loadThinkerWorks(selectedThinker.category, selectedThinker.name).then((works) => {
-        setSelectedThinkerWorks(works);
-        setLoadingWorks(false);
-      });
-    }
-  }, [selectedThinker]);
 
   useEffect(() => {
     if (mounted && searchParams) {
@@ -87,13 +75,13 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
       );
     }
 
-    if (searchQuery.trim()) {
-      const query = searchQuery.toLowerCase();
+    if (deferredSearchQuery.trim()) {
+      const query = deferredSearchQuery.toLowerCase();
       
       const scoredThinkers = filtered.map((thinker) => {
         const name = thinker.name.toLowerCase();
         const category = thinker.category.toLowerCase();
-        const description = thinker.description.toLowerCase();
+        const searchText = thinker.searchText ?? `${name} ${category} ${thinker.description.toLowerCase()}`;
         
         let score = 0;
         let hasMatch = false;
@@ -110,7 +98,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
         } else if (category.includes(query)) {
           score = 400;
           hasMatch = true;
-        } else if (description.includes(query)) {
+        } else if (searchText.includes(query)) {
           score = 200;
           hasMatch = true;
         }
@@ -125,7 +113,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
     }
 
     return filtered;
-  }, [thinkers, searchQuery, selectedCategory]);
+  }, [deferredSearchQuery, selectedCategory, thinkers]);
 
   const getLastName = (name: string): string => {
     const cleanName = name.replace(/\([^)]*\)/g, '').trim();
@@ -134,11 +122,11 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
   };
 
   const { exactMatches, otherResults } = useMemo(() => {
-    if (!searchQuery.trim()) {
+    if (!deferredSearchQuery.trim()) {
       return { exactMatches: [], otherResults: filteredThinkers };
     }
 
-    const query = searchQuery.toLowerCase();
+    const query = deferredSearchQuery.toLowerCase();
     const exactMatches = filteredThinkers.filter((thinker) => {
       const name = thinker.name.toLowerCase();
       return name === query || name.startsWith(query + ' ') || name.endsWith(' ' + query);
@@ -149,7 +137,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
     });
 
     return { exactMatches, otherResults };
-  }, [filteredThinkers, searchQuery]);
+  }, [deferredSearchQuery, filteredThinkers]);
 
   const groupedThinkers = useMemo(() => {
     const grouped = otherResults.reduce((acc, thinker) => {
@@ -161,7 +149,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
     }, {} as Record<string, Thinker[]>);
     
     Object.keys(grouped).forEach((category) => {
-      if (searchQuery.trim()) {
+      if (deferredSearchQuery.trim()) {
       } else {
         grouped[category].sort((a, b) => 
           getLastName(a.name).localeCompare(getLastName(b.name))
@@ -174,7 +162,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
     );
     
     return Object.fromEntries(sortedEntries);
-  }, [otherResults, searchQuery]);
+  }, [deferredSearchQuery, otherResults]);
 
   return (
     <div className="w-full space-y-4">
@@ -198,8 +186,6 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
       <ThinkerDetailDialog
         selectedThinker={selectedThinker}
         onOpenChange={handleDialogChange}
-        selectedThinkerWorks={selectedThinkerWorks}
-        loadingWorks={loadingWorks}
       />
     </div>
   );

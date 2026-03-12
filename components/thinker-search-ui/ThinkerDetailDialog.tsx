@@ -1,20 +1,15 @@
 import { Thinker } from "@/lib/types/thinker";
-import { ThinkerWorksList } from "./ThinkerWorksList";
 import { ThinkerWorksBySection } from "./ThinkerWorksBySection";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "../ui/dialog";
 
 interface ThinkerDetailDialogProps {
   selectedThinker: Thinker | null;
-  onOpenChange: (open: boolean) => void; // Reverted to (open: boolean) => void
-  selectedThinkerWorks: Thinker["works"];
-  loadingWorks: boolean;
+  onOpenChange: (open: boolean) => void;
 }
 
 export function ThinkerDetailDialog({
   selectedThinker,
   onOpenChange,
-  selectedThinkerWorks,
-  loadingWorks,
 }: ThinkerDetailDialogProps) {
   return (
     <Dialog open={!!selectedThinker} onOpenChange={onOpenChange}>

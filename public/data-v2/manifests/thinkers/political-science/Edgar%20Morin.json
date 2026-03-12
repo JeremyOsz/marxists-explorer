@@ -1,0 +1,40 @@
+{
+  "n": "Edgar Morin",
+  "c": "Political Science",
+  "d": "Marxist thinker and theorist in the tradition of political science.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Edgar_Morin%2C_1972_%28cropped%29.tif",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Edgar_Morin%2C_1972_%28cropped%29.tif/lossless-page1-200px-Edgar_Morin%2C_1972_%28cropped%29.tif.png",
+  "w": 282,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 123
+    },
+    {
+      "name": "Criticism",
+      "count": 36
+    },
+    {
+      "name": "Political Theory",
+      "count": 36
+    },
+    {
+      "name": "Economics",
+      "count": 49
+    },
+    {
+      "name": "Letters",
+      "count": 12
+    },
+    {
+      "name": "History",
+      "count": 25
+    },
+    {
+      "name": "Philosophy",
+      "count": 1
+    }
+  ],
+  "s": "edgar morin political science marxist thinker and theorist in the tradition of political science. general criticism political theory economics letters history philosophy"
+}

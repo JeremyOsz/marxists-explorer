@@ -1,0 +1,32 @@
+{
+  "n": "Evald Ilyenkov",
+  "c": "Soviet Marxism",
+  "d": "Marxist thinker and theorist in the tradition of soviet marxism.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Evald_Ilyenkov.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Evald_Ilyenkov.jpg/250px-Evald_Ilyenkov.jpg",
+  "w": 13,
+  "subjects": [
+    {
+      "name": "Philosophy",
+      "count": 3
+    },
+    {
+      "name": "General",
+      "count": 7
+    },
+    {
+      "name": "Criticism",
+      "count": 1
+    },
+    {
+      "name": "Political Theory",
+      "count": 1
+    },
+    {
+      "name": "Economics",
+      "count": 1
+    }
+  ],
+  "s": "evald ilyenkov soviet marxism marxist thinker and theorist in the tradition of soviet marxism. philosophy general criticism political theory economics"
+}

@@ -38,10 +38,10 @@ export async function GET(request: Request) {
     
     // Filter by search query if provided
     if (query) {
-      results = results.filter(t =>
-        t.name.toLowerCase().includes(query) ||
-        t.description?.toLowerCase().includes(query) ||
-        t.category.toLowerCase().includes(query)
+      results = results.filter((thinker) =>
+        thinker.searchText?.includes(query) ||
+        thinker.name.toLowerCase().includes(query) ||
+        thinker.category.toLowerCase().includes(query)
       );
     }
     
@@ -65,4 +65,3 @@ export async function GET(request: Request) {
     );
   }
 }
-

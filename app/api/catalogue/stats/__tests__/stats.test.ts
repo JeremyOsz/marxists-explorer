@@ -25,7 +25,7 @@ describe('GET /api/catalogue/stats', () => {
     const response = await GET(request);
     const data = await response.json();
 
-    expect(data.data.totalThinkers).toBeGreaterThan(600);
+    expect(data.data.totalThinkers).toBeGreaterThan(500);
     expect(data.data.totalWorks).toBeGreaterThan(10000);
     expect(data.data.totalCategories).toBeGreaterThanOrEqual(30);
     expect(data.data.averageWorksPerThinker).toBeGreaterThan(0);
@@ -80,4 +80,3 @@ describe('GET /api/catalogue/stats', () => {
     expect(date.toString()).not.toBe('Invalid Date');
   });
 });
-

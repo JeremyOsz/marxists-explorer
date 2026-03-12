@@ -1,0 +1,36 @@
+{
+  "n": "Theo. Rothstein",
+  "c": "Social Democracy",
+  "d": "Marxist thinker and theorist in the tradition of social democracy.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/5/55/Theodore_Rothstein.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Theodore_Rothstein.jpg/250px-Theodore_Rothstein.jpg",
+  "w": 70,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 37
+    },
+    {
+      "name": "Political Theory",
+      "count": 18
+    },
+    {
+      "name": "Philosophy",
+      "count": 2
+    },
+    {
+      "name": "History",
+      "count": 5
+    },
+    {
+      "name": "Criticism",
+      "count": 6
+    },
+    {
+      "name": "Economics",
+      "count": 2
+    }
+  ],
+  "s": "theo. rothstein social democracy marxist thinker and theorist in the tradition of social democracy. general political theory philosophy history criticism economics"
+}

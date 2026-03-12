@@ -1,0 +1,44 @@
+{
+  "n": "Dora Montefiore",
+  "c": "Social Democracy",
+  "d": "Marxist thinker and theorist in the tradition of social democracy.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/9/95/Dora_Montefiore%2C_c._1904.png",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Dora_Montefiore%2C_c._1904.png/250px-Dora_Montefiore%2C_c._1904.png",
+  "w": 296,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 165
+    },
+    {
+      "name": "Letters",
+      "count": 30
+    },
+    {
+      "name": "Criticism",
+      "count": 53
+    },
+    {
+      "name": "Literature",
+      "count": 3
+    },
+    {
+      "name": "Political Theory",
+      "count": 20
+    },
+    {
+      "name": "Economics",
+      "count": 8
+    },
+    {
+      "name": "History",
+      "count": 15
+    },
+    {
+      "name": "Philosophy",
+      "count": 2
+    }
+  ],
+  "s": "dora montefiore social democracy marxist thinker and theorist in the tradition of social democracy. general letters criticism literature political theory economics history philosophy"
+}

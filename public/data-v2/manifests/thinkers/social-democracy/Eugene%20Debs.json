@@ -1,0 +1,36 @@
+{
+  "n": "Eugene Debs",
+  "c": "Social Democracy",
+  "d": "Marxist thinker and theorist in the tradition of social democracy.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/5/53/Eugene_V._Debs_portrait_sketch.jpeg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Eugene_V._Debs_portrait_sketch.jpeg/250px-Eugene_V._Debs_portrait_sketch.jpeg",
+  "w": 67,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 38
+    },
+    {
+      "name": "Letters",
+      "count": 7
+    },
+    {
+      "name": "Economics",
+      "count": 7
+    },
+    {
+      "name": "History",
+      "count": 4
+    },
+    {
+      "name": "Political Theory",
+      "count": 8
+    },
+    {
+      "name": "Criticism",
+      "count": 3
+    }
+  ],
+  "s": "eugene debs social democracy marxist thinker and theorist in the tradition of social democracy. general letters economics history political theory criticism"
+}

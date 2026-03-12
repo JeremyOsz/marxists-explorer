@@ -1,0 +1,40 @@
+{
+  "n": "Che Guevara",
+  "c": "Guerilla Marxism",
+  "d": "Argentine Marxist revolutionary, physician, author, guerrilla leader, diplomat, and military theorist. A major figure of the Cuban Revolution. Icon of leftist revolutionary movements.",
+  "b": "https://www.marxists.org/archive/guevara/index.htm",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/CheHigh.jpg/800px-CheHigh.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/CheHigh.jpg/250px-CheHigh.jpg",
+  "w": 20,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 3
+    },
+    {
+      "name": "Political Theory",
+      "count": 6
+    },
+    {
+      "name": "Biography",
+      "count": 1
+    },
+    {
+      "name": "Criticism",
+      "count": 3
+    },
+    {
+      "name": "History",
+      "count": 4
+    },
+    {
+      "name": "Economics",
+      "count": 1
+    },
+    {
+      "name": "Letters",
+      "count": 2
+    }
+  ],
+  "s": "che guevara guerilla marxism argentine marxist revolutionary, physician, author, guerrilla leader, diplomat, and military theorist. a major figure of the cuban revolution. icon of leftist revolutionary movements. general political theory biography criticism history economics letters"
+}

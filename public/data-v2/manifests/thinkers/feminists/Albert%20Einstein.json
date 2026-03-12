@@ -1,0 +1,40 @@
+{
+  "n": "Albert Einstein",
+  "c": "Feminists",
+  "d": "Marxist thinker and theorist in the tradition of feminists.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/4/41/Portrait_of_Albert_Einstein_and_Others_%281879-1955%29%2C_Physicist_-_Restoration1.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Portrait_of_Albert_Einstein_and_Others_%281879-1955%29%2C_Physicist_-_Restoration1.jpg/250px-Portrait_of_Albert_Einstein_and_Others_%281879-1955%29%2C_Physicist_-_Restoration1.jpg",
+  "w": 172,
+  "subjects": [
+    {
+      "name": "History",
+      "count": 7
+    },
+    {
+      "name": "Criticism",
+      "count": 17
+    },
+    {
+      "name": "General",
+      "count": 104
+    },
+    {
+      "name": "Political Theory",
+      "count": 30
+    },
+    {
+      "name": "Letters",
+      "count": 10
+    },
+    {
+      "name": "Economics",
+      "count": 3
+    },
+    {
+      "name": "Philosophy",
+      "count": 1
+    }
+  ],
+  "s": "albert einstein feminists marxist thinker and theorist in the tradition of feminists. history criticism general political theory letters economics philosophy"
+}

@@ -1,0 +1,36 @@
+{
+  "n": "Michael Davitt",
+  "c": "Fabians",
+  "d": "Marxist thinker and theorist in the tradition of fabians.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Michael_Davitt_by_William_Orpen.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Michael_Davitt_by_William_Orpen.jpg/250px-Michael_Davitt_by_William_Orpen.jpg",
+  "w": 100,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 59
+    },
+    {
+      "name": "Political Theory",
+      "count": 12
+    },
+    {
+      "name": "History",
+      "count": 5
+    },
+    {
+      "name": "Letters",
+      "count": 5
+    },
+    {
+      "name": "Economics",
+      "count": 14
+    },
+    {
+      "name": "Criticism",
+      "count": 5
+    }
+  ],
+  "s": "michael davitt fabians marxist thinker and theorist in the tradition of fabians. general political theory history letters economics criticism"
+}

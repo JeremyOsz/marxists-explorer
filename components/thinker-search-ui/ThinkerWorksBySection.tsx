@@ -1,7 +1,9 @@
-import { useState, useEffect } from "react";
+"use client";
+
+import { useEffect, useState } from "react";
 import { Thinker, Work } from "@/lib/types/thinker";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { loadThinkerWorksBySubject } from "@/lib/data/thinker-lookups";
+import { loadThinkerWorksBySubject } from "@/lib/data/folder-loader";
 
 interface ThinkerWorksBySectionProps {
   thinker: Thinker;
@@ -13,17 +15,41 @@ export function ThinkerWorksBySection({ thinker }: ThinkerWorksBySectionProps) {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    const fetchWorks = async () => {
-      if (thinker && thinker.name && thinker.category) {
-        setLoading(true);
-        const groupedWorks = await loadThinkerWorksBySubject(thinker.name, thinker.category);
-        setThinkerWorksBySubjectData(groupedWorks);
-        setLoading(false);
-      } else {
+    let cancelled = false;
+
+    async function fetchWorks() {
+      if (!thinker?.name || !thinker.category || !thinker.subjects?.length) {
         setThinkerWorksBySubjectData({});
+        setLoading(false);
+        return;
       }
-    };
+
+      setLoading(true);
+
+      const worksBySubjectEntries = await Promise.all(
+        thinker.subjects.map(async (subject) => [
+          subject.name,
+          await loadThinkerWorksBySubject(thinker.category, thinker.name, subject.name),
+        ] as const)
+      );
+
+      if (cancelled) {
+        return;
+      }
+
+      setThinkerWorksBySubjectData(
+        Object.fromEntries(
+          worksBySubjectEntries.filter(([, works]) => works.length > 0)
+        )
+      );
+      setLoading(false);
+    }
+
     fetchWorks();
+
+    return () => {
+      cancelled = true;
+    };
   }, [thinker]);
 
   if (loading) {

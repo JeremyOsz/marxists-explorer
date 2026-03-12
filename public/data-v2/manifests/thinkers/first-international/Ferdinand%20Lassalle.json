@@ -1,0 +1,36 @@
+{
+  "n": "Ferdinand Lassalle",
+  "c": "First International",
+  "d": "German socialist, contemporary and critic of Marx.",
+  "b": "https://www.marxists.org/reference/archive/lassalle/bio/index.htm",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Ferdinand_Lassalle.jpg/200px-Ferdinand_Lassalle.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Ferdinand_Lassalle_standing_portrait.jpg/250px-Ferdinand_Lassalle_standing_portrait.jpg",
+  "w": 24,
+  "subjects": [
+    {
+      "name": "Criticism",
+      "count": 3
+    },
+    {
+      "name": "General",
+      "count": 14
+    },
+    {
+      "name": "Political Theory",
+      "count": 3
+    },
+    {
+      "name": "History",
+      "count": 1
+    },
+    {
+      "name": "Letters",
+      "count": 2
+    },
+    {
+      "name": "Economics",
+      "count": 1
+    }
+  ],
+  "s": "ferdinand lassalle first international german socialist, contemporary and critic of marx. criticism general political theory history letters economics"
+}

@@ -1,0 +1,32 @@
+{
+  "n": "Georgi Chicherin",
+  "c": "Bolsheviks",
+  "d": "Marxist thinker and theorist in the tradition of the bolsheviks.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Bundesarchiv_Bild_102-12859A%2C_Georgi_Wassiljewitsch_Tschitscherin.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Bundesarchiv_Bild_102-12859A%2C_Georgi_Wassiljewitsch_Tschitscherin.jpg/250px-Bundesarchiv_Bild_102-12859A%2C_Georgi_Wassiljewitsch_Tschitscherin.jpg",
+  "w": 27,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 7
+    },
+    {
+      "name": "Letters",
+      "count": 12
+    },
+    {
+      "name": "Criticism",
+      "count": 6
+    },
+    {
+      "name": "History",
+      "count": 1
+    },
+    {
+      "name": "Political Theory",
+      "count": 1
+    }
+  ],
+  "s": "georgi chicherin bolsheviks marxist thinker and theorist in the tradition of the bolsheviks. general letters criticism history political theory"
+}

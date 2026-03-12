@@ -1,0 +1,28 @@
+{
+  "n": "Evgeny Pashukanis",
+  "c": "Soviet Marxism",
+  "d": "Marxist thinker and theorist in the tradition of soviet marxism.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/7/7d/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9F%D0%B0%D1%88%D1%83%D0%BA%D0%B0%D0%BD%D0%B8%D1%81.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9F%D0%B0%D1%88%D1%83%D0%BA%D0%B0%D0%BD%D0%B8%D1%81.jpg/250px-%D0%95%D0%B2%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9F%D0%B0%D1%88%D1%83%D0%BA%D0%B0%D0%BD%D0%B8%D1%81.jpg",
+  "w": 10,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 5
+    },
+    {
+      "name": "Political Theory",
+      "count": 2
+    },
+    {
+      "name": "Criticism",
+      "count": 1
+    },
+    {
+      "name": "Economics",
+      "count": 2
+    }
+  ],
+  "s": "evgeny pashukanis soviet marxism marxist thinker and theorist in the tradition of soviet marxism. general political theory criticism economics"
+}

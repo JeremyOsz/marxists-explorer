@@ -1,0 +1,36 @@
+{
+  "n": "John Brown",
+  "c": "Black Liberation",
+  "d": "Marxist thinker and theorist in the tradition of black liberation.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/7/73/Portrait_of_Rev._M._O._Jones_%28Menai_Bridge%29_%284670346%29.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Portrait_of_Rev._M._O._Jones_%28Menai_Bridge%29_%284670346%29.jpg/250px-Portrait_of_Rev._M._O._Jones_%28Menai_Bridge%29_%284670346%29.jpg",
+  "w": 15,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 2
+    },
+    {
+      "name": "Economics",
+      "count": 5
+    },
+    {
+      "name": "Criticism",
+      "count": 3
+    },
+    {
+      "name": "Letters",
+      "count": 1
+    },
+    {
+      "name": "History",
+      "count": 2
+    },
+    {
+      "name": "Political Theory",
+      "count": 2
+    }
+  ],
+  "s": "john brown black liberation marxist thinker and theorist in the tradition of black liberation. general economics criticism letters history political theory"
+}

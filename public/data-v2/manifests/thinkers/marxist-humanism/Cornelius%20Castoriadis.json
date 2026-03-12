@@ -1,0 +1,32 @@
+{
+  "n": "Cornelius Castoriadis",
+  "c": "Marxist Humanism",
+  "d": "Marxist thinker and theorist in the tradition of marxist humanism.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Cornelius_Castoriadis.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Cornelius_Castoriadis.jpg/250px-Cornelius_Castoriadis.jpg",
+  "w": 8,
+  "subjects": [
+    {
+      "name": "Political Theory",
+      "count": 3
+    },
+    {
+      "name": "History",
+      "count": 1
+    },
+    {
+      "name": "Philosophy",
+      "count": 1
+    },
+    {
+      "name": "General",
+      "count": 2
+    },
+    {
+      "name": "Economics",
+      "count": 1
+    }
+  ],
+  "s": "cornelius castoriadis marxist humanism marxist thinker and theorist in the tradition of marxist humanism. political theory history philosophy general economics"
+}

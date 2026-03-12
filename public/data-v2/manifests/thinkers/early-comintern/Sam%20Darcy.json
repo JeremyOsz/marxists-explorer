@@ -1,0 +1,32 @@
+{
+  "n": "Sam Darcy",
+  "c": "Early Comintern",
+  "d": "Marxist thinker and theorist in the tradition of early comintern.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Eton_college_portraits.djvu",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Eton_college_portraits.djvu/page1-200px-Eton_college_portraits.djvu.jpg",
+  "w": 19,
+  "subjects": [
+    {
+      "name": "Political Theory",
+      "count": 5
+    },
+    {
+      "name": "General",
+      "count": 8
+    },
+    {
+      "name": "History",
+      "count": 1
+    },
+    {
+      "name": "Economics",
+      "count": 4
+    },
+    {
+      "name": "Criticism",
+      "count": 1
+    }
+  ],
+  "s": "sam darcy early comintern marxist thinker and theorist in the tradition of early comintern. political theory general history economics criticism"
+}

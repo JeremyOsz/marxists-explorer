@@ -1,0 +1,28 @@
+{
+  "n": "Henryk Grossman",
+  "c": "Frankfurt School",
+  "d": "Marxist thinker and theorist in the tradition of frankfurt school.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/4/45/Henryk_Grossman_portrait.png",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Henryk_Grossman_portrait.png/250px-Henryk_Grossman_portrait.png",
+  "w": 5,
+  "subjects": [
+    {
+      "name": "Criticism",
+      "count": 1
+    },
+    {
+      "name": "General",
+      "count": 1
+    },
+    {
+      "name": "Economics",
+      "count": 2
+    },
+    {
+      "name": "Political Theory",
+      "count": 1
+    }
+  ],
+  "s": "henryk grossman frankfurt school marxist thinker and theorist in the tradition of frankfurt school. criticism general economics political theory"
+}

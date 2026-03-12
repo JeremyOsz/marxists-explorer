@@ -1,0 +1,28 @@
+{
+  "n": "Carlo Cafiero",
+  "c": "Anarchists",
+  "d": "Marxist thinker and theorist in the tradition of anarchists.",
+  "b": "/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/1/11/Carlo_Cafiero1.png",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Carlo_Cafiero1.png/250px-Carlo_Cafiero1.png",
+  "w": 8,
+  "subjects": [
+    {
+      "name": "Economics",
+      "count": 1
+    },
+    {
+      "name": "Letters",
+      "count": 2
+    },
+    {
+      "name": "Political Theory",
+      "count": 4
+    },
+    {
+      "name": "History",
+      "count": 1
+    }
+  ],
+  "s": "carlo cafiero anarchists marxist thinker and theorist in the tradition of anarchists. economics letters political theory history"
+}

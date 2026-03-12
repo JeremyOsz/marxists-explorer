@@ -1,0 +1,24 @@
+{
+  "n": "Jack London",
+  "c": "Feminists",
+  "d": "Marxist thinker and theorist in the tradition of feminists.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/d/de/Portrait_photograph_of_Jack_London.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Portrait_photograph_of_Jack_London.jpg/250px-Portrait_photograph_of_Jack_London.jpg",
+  "w": 12,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 9
+    },
+    {
+      "name": "Political Theory",
+      "count": 2
+    },
+    {
+      "name": "Literature",
+      "count": 1
+    }
+  ],
+  "s": "jack london feminists marxist thinker and theorist in the tradition of feminists. general political theory literature"
+}

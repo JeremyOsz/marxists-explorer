@@ -1,0 +1,32 @@
+{
+  "n": "Christian Rakovsky",
+  "c": "Bolsheviks",
+  "d": "Marxist thinker and theorist in the tradition of the bolsheviks.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/0/08/Rakovsky_letter_to_UK.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Rakovsky_letter_to_UK.jpg/250px-Rakovsky_letter_to_UK.jpg",
+  "w": 23,
+  "subjects": [
+    {
+      "name": "Political Theory",
+      "count": 6
+    },
+    {
+      "name": "General",
+      "count": 8
+    },
+    {
+      "name": "History",
+      "count": 2
+    },
+    {
+      "name": "Criticism",
+      "count": 5
+    },
+    {
+      "name": "Letters",
+      "count": 2
+    }
+  ],
+  "s": "christian rakovsky bolsheviks marxist thinker and theorist in the tradition of the bolsheviks. political theory general history criticism letters"
+}

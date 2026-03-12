@@ -1,0 +1,24 @@
+{
+  "n": "Sigmund Freud",
+  "c": "Feminists",
+  "d": "Marxist thinker and theorist in the tradition of feminists.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sigmund_Freud_LIFE.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Sigmund_Freud_LIFE.jpg/250px-Sigmund_Freud_LIFE.jpg",
+  "w": 5,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 2
+    },
+    {
+      "name": "Criticism",
+      "count": 2
+    },
+    {
+      "name": "History",
+      "count": 1
+    }
+  ],
+  "s": "sigmund freud feminists marxist thinker and theorist in the tradition of feminists. general criticism history"
+}

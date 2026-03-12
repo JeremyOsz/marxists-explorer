@@ -1,0 +1,32 @@
+{
+  "n": "Jacques Hébert",
+  "c": "French Revolution",
+  "d": "Marxist thinker and theorist in the tradition of french revolution.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Jacques-Ren%C3%A9_H%C3%A9bert_par_Gabriel.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Jacques-Ren%C3%A9_H%C3%A9bert_par_Gabriel.jpg/250px-Jacques-Ren%C3%A9_H%C3%A9bert_par_Gabriel.jpg",
+  "w": 9,
+  "subjects": [
+    {
+      "name": "Economics",
+      "count": 2
+    },
+    {
+      "name": "Criticism",
+      "count": 3
+    },
+    {
+      "name": "History",
+      "count": 1
+    },
+    {
+      "name": "Political Theory",
+      "count": 2
+    },
+    {
+      "name": "General",
+      "count": 1
+    }
+  ],
+  "s": "jacques hébert french revolution marxist thinker and theorist in the tradition of french revolution. economics criticism history political theory general"
+}

@@ -1,0 +1,44 @@
+{
+  "n": "Johann Georg Eccarius",
+  "c": "First International",
+  "d": "German communist, supported Marx in the International and in British trade unions.",
+  "b": "https://www.marxists.org/reference/archive/eccarius/bio/index.htm",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/f/fc/GTH_Eccariusdenkmal_01.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/GTH_Eccariusdenkmal_01.jpg/250px-GTH_Eccariusdenkmal_01.jpg",
+  "w": 45,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 19
+    },
+    {
+      "name": "Philosophy",
+      "count": 7
+    },
+    {
+      "name": "Economics",
+      "count": 2
+    },
+    {
+      "name": "Criticism",
+      "count": 7
+    },
+    {
+      "name": "Literature",
+      "count": 1
+    },
+    {
+      "name": "History",
+      "count": 6
+    },
+    {
+      "name": "Political Theory",
+      "count": 1
+    },
+    {
+      "name": "Letters",
+      "count": 2
+    }
+  ],
+  "s": "johann georg eccarius first international german communist, supported marx in the international and in british trade unions. general philosophy economics criticism literature history political theory letters"
+}

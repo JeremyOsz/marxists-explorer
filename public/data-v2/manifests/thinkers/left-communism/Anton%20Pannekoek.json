@@ -1,0 +1,40 @@
+{
+  "n": "Anton Pannekoek",
+  "c": "Left Communism",
+  "d": "Marxist thinker and theorist in the tradition of left communism.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Panne.gif",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Panne.gif",
+  "w": 63,
+  "subjects": [
+    {
+      "name": "Philosophy",
+      "count": 3
+    },
+    {
+      "name": "General",
+      "count": 25
+    },
+    {
+      "name": "Political Theory",
+      "count": 16
+    },
+    {
+      "name": "Criticism",
+      "count": 8
+    },
+    {
+      "name": "History",
+      "count": 8
+    },
+    {
+      "name": "Letters",
+      "count": 2
+    },
+    {
+      "name": "Economics",
+      "count": 1
+    }
+  ],
+  "s": "anton pannekoek left communism marxist thinker and theorist in the tradition of left communism. philosophy general political theory criticism history letters economics"
+}

@@ -1,0 +1,24 @@
+{
+  "n": "Karl Kautsky",
+  "c": "Social Democracy",
+  "d": "Czech-Austrian philosopher, journalist, and Marxist theorist. Leading theoretician of the Social Democratic Party of Germany. Popularized Marxist economics and opposed Bolshevism.",
+  "b": "https://www.marxists.org/reference/archive/kautsky/bio/index.htm",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Karl_Kautsky.jpg/800px-Karl_Kautsky.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Karl_Kautsky%2C_1910s.jpg/250px-Karl_Kautsky%2C_1910s.jpg",
+  "w": 4,
+  "subjects": [
+    {
+      "name": "Economics",
+      "count": 1
+    },
+    {
+      "name": "Political Theory",
+      "count": 2
+    },
+    {
+      "name": "History",
+      "count": 1
+    }
+  ],
+  "s": "karl kautsky social democracy czech-austrian philosopher, journalist, and marxist theorist. leading theoretician of the social democratic party of germany. popularized marxist economics and opposed bolshevism. economics political theory history"
+}

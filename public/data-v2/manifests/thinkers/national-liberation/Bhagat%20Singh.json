@@ -1,0 +1,32 @@
+{
+  "n": "Bhagat Singh",
+  "c": "National Liberation",
+  "d": "Marxist thinker and theorist in the tradition of national liberation.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/4/42/Bhagat_Singh_sketch.svg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Bhagat_Singh_sketch.svg/250px-Bhagat_Singh_sketch.svg.png",
+  "w": 25,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 8
+    },
+    {
+      "name": "Criticism",
+      "count": 4
+    },
+    {
+      "name": "History",
+      "count": 1
+    },
+    {
+      "name": "Letters",
+      "count": 7
+    },
+    {
+      "name": "Political Theory",
+      "count": 5
+    }
+  ],
+  "s": "bhagat singh national liberation marxist thinker and theorist in the tradition of national liberation. general criticism history letters political theory"
+}

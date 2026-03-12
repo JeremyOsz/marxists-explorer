@@ -1,12 +1,22 @@
-import { render, screen, waitFor } from '@testing-library/react';
+import { fireEvent, render, screen, waitFor } from '@testing-library/react';
 import { ThinkerSearch } from '../thinker-search';
 
-// Mock the data loading functions
-jest.mock('@/lib/data/folder-loader', () => ({
-  loadThinkerWorks: jest.fn(),
+jest.mock('../thinker-search-ui/ThinkerSearchBar', () => ({
+  ThinkerSearchBar: ({ searchQuery, setSearchQuery }: { searchQuery: string; setSearchQuery: (value: string) => void }) => (
+    <input
+      aria-label="Thinker search"
+      value={searchQuery}
+      onChange={(event) => setSearchQuery(event.target.value)}
+    />
+  ),
 }));
 
-import { loadThinkerWorks } from '@/lib/data/folder-loader';
+jest.mock('next/navigation', () => ({
+  useRouter: () => ({
+    push: jest.fn(),
+  }),
+  useSearchParams: () => new URLSearchParams(),
+}));
 
 const mockThinkers = [
   {
@@ -18,6 +28,8 @@ const mockThinkers = [
     thumbnailUrl: 'https://example.com/marx-thumb.jpg',
     works: [],
     workCount: 10,
+    searchText: 'karl marx first-international father of modern socialism',
+    subjects: [{ name: 'Economics', count: 5 }],
   },
   {
     name: 'Vladimir Lenin',
@@ -28,6 +40,8 @@ const mockThinkers = [
     thumbnailUrl: 'https://example.com/lenin-thumb.jpg',
     works: [],
     workCount: 8,
+    searchText: 'vladimir lenin bolsheviks leader of the russian revolution',
+    subjects: [{ name: 'Political Theory', count: 4 }],
   },
   {
     name: 'Leon Trotsky',
@@ -38,19 +52,16 @@ const mockThinkers = [
     thumbnailUrl: 'https://example.com/trotsky-thumb.jpg',
     works: [],
     workCount: 12,
+    searchText: 'leon trotsky trotskyists bolshevik revolutionary',
+    subjects: [{ name: 'History', count: 6 }],
   },
 ];
 
 describe('ThinkerSearch', () => {
-  beforeEach(() => {
-    (loadThinkerWorks as jest.Mock).mockResolvedValue([]);
-  });
-
   it('should render the search component', () => {
     render(<ThinkerSearch thinkers={mockThinkers} />);
     
-    // The command component should be present (it uses role="combobox" for autocomplete)
-    expect(screen.getByRole('combobox')).toBeInTheDocument();
+    expect(screen.getByLabelText('Thinker search')).toBeTruthy();
   });
 
   it('should display all thinkers initially', async () => {
@@ -58,10 +69,21 @@ describe('ThinkerSearch', () => {
     
     // Wait for items to appear
     await waitFor(() => {
-      expect(screen.getByText('Karl Marx')).toBeInTheDocument();
-      expect(screen.getByText('Vladimir Lenin')).toBeInTheDocument();
-      expect(screen.getByText('Leon Trotsky')).toBeInTheDocument();
+      expect(screen.getByText('Karl Marx')).toBeTruthy();
+      expect(screen.getByText('Vladimir Lenin')).toBeTruthy();
+      expect(screen.getByText('Leon Trotsky')).toBeTruthy();
+    });
+  });
+
+  it('should filter thinkers using precomputed search text', async () => {
+    render(<ThinkerSearch thinkers={mockThinkers} />);
+
+    const input = screen.getByLabelText('Thinker search');
+    fireEvent.input(input, { target: { value: 'russian revolution' } });
+
+    await waitFor(() => {
+      expect(screen.getByText('Vladimir Lenin')).toBeTruthy();
+      expect(screen.queryByText('Karl Marx')).toBeNull();
     });
   });
 });
-

@@ -1,0 +1,32 @@
+{
+  "n": "Anatoly Lunacharsky",
+  "c": "Bolsheviks",
+  "d": "Marxist thinker and theorist in the tradition of the bolsheviks.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/6/66/Anatoly-Lunacharsky-1923.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Anatoly-Lunacharsky-1923.jpg/250px-Anatoly-Lunacharsky-1923.jpg",
+  "w": 15,
+  "subjects": [
+    {
+      "name": "History",
+      "count": 2
+    },
+    {
+      "name": "Letters",
+      "count": 1
+    },
+    {
+      "name": "Criticism",
+      "count": 6
+    },
+    {
+      "name": "General",
+      "count": 5
+    },
+    {
+      "name": "Literature",
+      "count": 1
+    }
+  ],
+  "s": "anatoly lunacharsky bolsheviks marxist thinker and theorist in the tradition of the bolsheviks. history letters criticism general literature"
+}

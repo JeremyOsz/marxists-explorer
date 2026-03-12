@@ -1,0 +1,36 @@
+{
+  "n": "Lev Vygotsky",
+  "c": "Soviet Marxism",
+  "d": "Marxist thinker and theorist in the tradition of soviet marxism.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/6/67/Lev-Semyonovich-Vygotsky-1896-1934.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Lev-Semyonovich-Vygotsky-1896-1934.jpg/250px-Lev-Semyonovich-Vygotsky-1896-1934.jpg",
+  "w": 31,
+  "subjects": [
+    {
+      "name": "Philosophy",
+      "count": 7
+    },
+    {
+      "name": "General",
+      "count": 14
+    },
+    {
+      "name": "Criticism",
+      "count": 6
+    },
+    {
+      "name": "Letters",
+      "count": 1
+    },
+    {
+      "name": "Literature",
+      "count": 1
+    },
+    {
+      "name": "Political Theory",
+      "count": 2
+    }
+  ],
+  "s": "lev vygotsky soviet marxism marxist thinker and theorist in the tradition of soviet marxism. philosophy general criticism letters literature political theory"
+}

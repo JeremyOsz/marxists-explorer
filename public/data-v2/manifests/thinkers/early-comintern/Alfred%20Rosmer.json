@@ -1,0 +1,32 @@
+{
+  "n": "Alfred Rosmer",
+  "c": "Early Comintern",
+  "d": "Marxist thinker and theorist in the tradition of early comintern.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Portrait_of_Paul_Vaillant-Couturier_%28s.d.%29_%2814671362859%29.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Portrait_of_Paul_Vaillant-Couturier_%28s.d.%29_%2814671362859%29.jpg/250px-Portrait_of_Paul_Vaillant-Couturier_%28s.d.%29_%2814671362859%29.jpg",
+  "w": 24,
+  "subjects": [
+    {
+      "name": "Criticism",
+      "count": 2
+    },
+    {
+      "name": "General",
+      "count": 14
+    },
+    {
+      "name": "Letters",
+      "count": 4
+    },
+    {
+      "name": "History",
+      "count": 3
+    },
+    {
+      "name": "Literature",
+      "count": 1
+    }
+  ],
+  "s": "alfred rosmer early comintern marxist thinker and theorist in the tradition of early comintern. criticism general letters history literature"
+}

@@ -1,0 +1,40 @@
+{
+  "n": "Harry Pollitt",
+  "c": "Comintern",
+  "d": "Marxist thinker and theorist in the tradition of comintern.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/8/82/Pollitt_Portrait.png",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Pollitt_Portrait.png/250px-Pollitt_Portrait.png",
+  "w": 27,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 10
+    },
+    {
+      "name": "Political Theory",
+      "count": 7
+    },
+    {
+      "name": "Criticism",
+      "count": 6
+    },
+    {
+      "name": "Literature",
+      "count": 1
+    },
+    {
+      "name": "History",
+      "count": 1
+    },
+    {
+      "name": "Economics",
+      "count": 1
+    },
+    {
+      "name": "Letters",
+      "count": 1
+    }
+  ],
+  "s": "harry pollitt comintern marxist thinker and theorist in the tradition of comintern. general political theory criticism literature history economics letters"
+}

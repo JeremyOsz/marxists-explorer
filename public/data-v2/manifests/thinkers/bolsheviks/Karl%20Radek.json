@@ -1,0 +1,36 @@
+{
+  "n": "Karl Radek",
+  "c": "Bolsheviks",
+  "d": "Marxist thinker and theorist in the tradition of the bolsheviks.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Portrait_of_Karl_Radek_%28s.d.%29_%2814150774578%29.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Portrait_of_Karl_Radek_%28s.d.%29_%2814150774578%29.jpg/250px-Portrait_of_Karl_Radek_%28s.d.%29_%2814150774578%29.jpg",
+  "w": 35,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 10
+    },
+    {
+      "name": "Philosophy",
+      "count": 4
+    },
+    {
+      "name": "Political Theory",
+      "count": 10
+    },
+    {
+      "name": "Criticism",
+      "count": 5
+    },
+    {
+      "name": "History",
+      "count": 2
+    },
+    {
+      "name": "Letters",
+      "count": 4
+    }
+  ],
+  "s": "karl radek bolsheviks marxist thinker and theorist in the tradition of the bolsheviks. general philosophy political theory criticism history letters"
+}

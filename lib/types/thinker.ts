@@ -18,6 +18,13 @@ export interface Thinker {
   imageUrl: string;
   thumbnailUrl?: string;
   workCount?: number; // For metadata-only thinkers
+  subjects?: SubjectSummary[];
+  searchText?: string;
+}
+
+export interface SubjectSummary {
+  name: string;
+  count: number;
 }
 
 // Lightweight metadata for initial bundle (works loaded separately)
@@ -30,6 +37,11 @@ export interface ThinkerMetadata {
   t?: string; // thumbnailUrl
   w: number; // workCount
   j?: Work[]; // majorWorks
+  subjects?: SubjectSummary[];
+}
+
+export interface SearchManifestThinker extends ThinkerMetadata {
+  s: string; // pre-normalized search text
 }
 
 export interface ThinkerLookup {

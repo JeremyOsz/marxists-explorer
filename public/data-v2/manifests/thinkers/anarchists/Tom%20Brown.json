@@ -1,0 +1,20 @@
+{
+  "n": "Tom Brown",
+  "c": "Anarchists",
+  "d": "Marxist thinker and theorist in the tradition of anarchists.",
+  "b": "/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/3/36/Portrait_of_%27Tom_Brown%27_%284670928%29.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Portrait_of_%27Tom_Brown%27_%284670928%29.jpg/250px-Portrait_of_%27Tom_Brown%27_%284670928%29.jpg",
+  "w": 3,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 2
+    },
+    {
+      "name": "Letters",
+      "count": 1
+    }
+  ],
+  "s": "tom brown anarchists marxist thinker and theorist in the tradition of anarchists. general letters"
+}

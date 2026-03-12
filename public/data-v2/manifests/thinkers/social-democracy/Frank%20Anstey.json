@@ -1,0 +1,40 @@
+{
+  "n": "Frank Anstey",
+  "c": "Social Democracy",
+  "d": "Marxist thinker and theorist in the tradition of social democracy.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/0/09/Portrait_of_Frank_Anstey_%28cropped%29.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Portrait_of_Frank_Anstey_%28cropped%29.jpg/250px-Portrait_of_Frank_Anstey_%28cropped%29.jpg",
+  "w": 71,
+  "subjects": [
+    {
+      "name": "Economics",
+      "count": 1
+    },
+    {
+      "name": "General",
+      "count": 36
+    },
+    {
+      "name": "Criticism",
+      "count": 8
+    },
+    {
+      "name": "History",
+      "count": 16
+    },
+    {
+      "name": "Letters",
+      "count": 3
+    },
+    {
+      "name": "Political Theory",
+      "count": 6
+    },
+    {
+      "name": "Literature",
+      "count": 1
+    }
+  ],
+  "s": "frank anstey social democracy marxist thinker and theorist in the tradition of social democracy. economics general criticism history letters political theory literature"
+}

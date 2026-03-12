@@ -2,8 +2,6 @@ import { WorkCountBarChart } from "@/components/visualizations/WorkCountBarChart
 import { WorkCountDistributionChart } from "@/components/visualizations/WorkCountDistributionChart";
 import { loadAllThinkersMetadata } from "@/lib/data/folder-loader";
 
-export const dynamic = "force-dynamic";
-
 type WorkCountBucket = {
   rangeLabel: string;
   thinkers: number;
@@ -88,5 +86,4 @@ export default async function VisualizationsPage() {
     </div>
   );
 }
-
 

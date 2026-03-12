@@ -1,0 +1,32 @@
+{
+  "n": "Otto Ville Kuusinen",
+  "c": "Comintern",
+  "d": "Marxist thinker and theorist in the tradition of comintern.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Otto_Wille_Kuusinen.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Otto_Wille_Kuusinen.jpg/250px-Otto_Wille_Kuusinen.jpg",
+  "w": 11,
+  "subjects": [
+    {
+      "name": "Economics",
+      "count": 2
+    },
+    {
+      "name": "General",
+      "count": 4
+    },
+    {
+      "name": "Letters",
+      "count": 3
+    },
+    {
+      "name": "Political Theory",
+      "count": 1
+    },
+    {
+      "name": "History",
+      "count": 1
+    }
+  ],
+  "s": "otto ville kuusinen comintern marxist thinker and theorist in the tradition of comintern. economics general letters political theory history"
+}

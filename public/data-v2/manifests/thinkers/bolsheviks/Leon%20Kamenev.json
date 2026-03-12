@@ -1,0 +1,28 @@
+{
+  "n": "Leon Kamenev",
+  "c": "Bolsheviks",
+  "d": "Marxist thinker and theorist in the tradition of the bolsheviks.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/2/20/Serge_-_Carnets%2C_1952.djvu",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Serge_-_Carnets%2C_1952.djvu/page1-200px-Serge_-_Carnets%2C_1952.djvu.jpg",
+  "w": 5,
+  "subjects": [
+    {
+      "name": "Literature",
+      "count": 1
+    },
+    {
+      "name": "History",
+      "count": 1
+    },
+    {
+      "name": "Criticism",
+      "count": 1
+    },
+    {
+      "name": "General",
+      "count": 2
+    }
+  ],
+  "s": "leon kamenev bolsheviks marxist thinker and theorist in the tradition of the bolsheviks. literature history criticism general"
+}

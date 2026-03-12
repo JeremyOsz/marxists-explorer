@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { loadAllThinkersMetadata, getThinkerSubjects } from '@/lib/data/folder-loader';
+import { loadAllThinkersMetadata } from '@/lib/data/folder-loader';
 
 /**
  * GET /api/catalogue/thinkers/compare
@@ -47,8 +47,7 @@ export async function GET(request: Request) {
       );
       
       if (thinker) {
-        // Get subjects for this thinker
-        const subjects = await getThinkerSubjects(thinker.category, thinker.name);
+        const subjects = thinker.subjects?.map((subject) => subject.name) || [];
         
         comparison.push({
           name: thinker.name,
@@ -102,4 +101,3 @@ export async function GET(request: Request) {
     );
   }
 }
-

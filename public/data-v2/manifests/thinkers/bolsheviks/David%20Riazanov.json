@@ -1,0 +1,36 @@
+{
+  "n": "David Riazanov",
+  "c": "Bolsheviks",
+  "d": "Marxist thinker and theorist in the tradition of the bolsheviks.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/7/76/Riazanov.jpg",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Riazanov.jpg/250px-Riazanov.jpg",
+  "w": 35,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 20
+    },
+    {
+      "name": "Political Theory",
+      "count": 3
+    },
+    {
+      "name": "Criticism",
+      "count": 4
+    },
+    {
+      "name": "Letters",
+      "count": 6
+    },
+    {
+      "name": "Literature",
+      "count": 1
+    },
+    {
+      "name": "History",
+      "count": 1
+    }
+  ],
+  "s": "david riazanov bolsheviks marxist thinker and theorist in the tradition of the bolsheviks. general political theory criticism letters literature history"
+}

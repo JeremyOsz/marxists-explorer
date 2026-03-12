@@ -1,0 +1,28 @@
+{
+  "n": "George Bernard Shaw",
+  "c": "Fabians",
+  "d": "Marxist thinker and theorist in the tradition of fabians.",
+  "b": "https://www.marxists.org/reference/archive/",
+  "i": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Portrait_of_George_Bernard_Shaw_.PNG",
+  "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Portrait_of_George_Bernard_Shaw_.PNG/200px-Portrait_of_George_Bernard_Shaw_.PNG",
+  "w": 9,
+  "subjects": [
+    {
+      "name": "Letters",
+      "count": 3
+    },
+    {
+      "name": "General",
+      "count": 4
+    },
+    {
+      "name": "Political Theory",
+      "count": 1
+    },
+    {
+      "name": "History",
+      "count": 1
+    }
+  ],
+  "s": "george bernard shaw fabians marxist thinker and theorist in the tradition of fabians. letters general political theory history"
+}
