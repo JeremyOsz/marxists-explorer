@@ -2,11 +2,46 @@
   "collection": "Utopianism",
   "thinker": "Charles Fourier",
   "slug": "charles-fourier",
-  "source_url": null,
-  "source_id": "redtexts",
-  "status": "no_works_found",
-  "message": "No works after merge.",
-  "warnings": [],
-  "works": [],
-  "visited_urls": []
+  "source_url": "https://theanarchistlibrary.org/category/author/charles-fourier",
+  "source_id": "mia",
+  "status": "success",
+  "message": "Collected 6 works from 4 source(s).",
+  "warnings": [
+    "No entry located on index page"
+  ],
+  "works": [
+    {
+      "title": "Against Civilization",
+      "url": "https://theanarchistlibrary.org/library/john-zerzan-against-civilization",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Attractive Labour",
+      "url": "https://theanarchistlibrary.org/library/charles-fourier-attractive-labour",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Of Education",
+      "url": "https://theanarchistlibrary.org/library/charles-fourier-of-education",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Of the Role of the Passions",
+      "url": "https://theanarchistlibrary.org/library/charles-fourier-of-the-role-of-the-passions",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "On Trade",
+      "url": "https://theanarchistlibrary.org/library/charles-fourier-on-trade",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Phalanstery",
+      "url": "https://theanarchistlibrary.org/library/charles-fourier-the-phalanstery",
+      "source_id": "anarchist_library"
+    }
+  ],
+  "visited_urls": [
+    "https://theanarchistlibrary.org/category/author/charles-fourier"
+  ]
 }

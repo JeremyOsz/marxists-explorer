@@ -2,11 +2,166 @@
   "collection": "Anarchists",
   "thinker": "Rudolf Rocker",
   "slug": "rudolf-rocker",
-  "source_url": null,
-  "source_id": "redtexts",
-  "status": "no_works_found",
-  "message": "No works after merge.",
-  "warnings": [],
-  "works": [],
-  "visited_urls": []
+  "source_url": "https://theanarchistlibrary.org/category/author/rudolf-rocker",
+  "source_id": "mia",
+  "status": "success",
+  "message": "Collected 30 works from 4 source(s).",
+  "warnings": [
+    "No entry located on index page"
+  ],
+  "works": [
+    {
+      "title": "Anarchism and Anarcho",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-anarchism-and-anarcho-syndicalism",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anarchism and Sovietism",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-anarchism-and-sovietism",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anarchism and the National Liberation Struggle",
+      "url": "https://theanarchistlibrary.org/library/alfredo-bonanno-anarchism-and-the-national-liberation-struggle",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anarcho",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-anarchosyndicalism",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anarchy and organisation",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-anarchy-and-organisation",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Bloodstained",
+      "url": "https://theanarchistlibrary.org/library/friends-of-aron-baron-bloodstained",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Declaration of the Principles of Syndicalism",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-declaration-of-the-principles-of-syndicalism",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Federalism",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-federalism",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Marx and Anarchism",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-marx-and-anarchism",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Max Baginski",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-max-baginski",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Milly Witkop",
+      "url": "https://theanarchistlibrary.org/library/rudolph-rocker-milly-witkop-rocker",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Nationalism and Culture",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-nationalism-and-culture",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "On Francesco Ghezzi",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-on-francesco-ghezzi",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "On German Social Democracy",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-on-german-social-democracy",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "On the Concept of the Petty Bourgeois",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-on-the-concept-of-the-petty-bourgeois",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Social Rights and Freedoms",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-social-rights-and-freedoms",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Socialism and the Principles of the International Working Men’s Association",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-socialism-and-the-principles-of-the-international-working-men-s-association",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Suggestions for Discussion",
+      "url": "https://theanarchistlibrary.org/library/alexander-berkman-and-emma-goldman-suggestions-for-discussion",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Beginnings of German Syndicalism",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-the-beginnings-of-german-syndicalism",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Communist Party and the Idea of Dictatorship",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-the-communist-party-and-the-idea-of-dictatorship",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The London Years",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-the-london-years",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Order of the Hour",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-the-order-of-the-hour",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Political Philosophy of Bakunin",
+      "url": "https://theanarchistlibrary.org/library/maximoff-the-political-philosophy-of-bakunin",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Poverty of Statism",
+      "url": "https://theanarchistlibrary.org/library/nikolai-bukharin-luigi-fabbri-rudolf-rocker-and-albert-meltzer-the-poverty-of-statism-anarchism",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Six",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-the-six",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Soviet System or the Dictatorship of the Proletariat?",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-the-soviet-system-or-the-dictatorship-of-the-proletariat",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Tragedy of Spain",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-the-tragedy-of-spain",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Truth About Spain",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-the-truth-about-spain",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The World Scene from the Libertarian Point of View",
+      "url": "https://theanarchistlibrary.org/library/free-society-group-the-world-scene-from-the-libertarian-point-of-view",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "What Is Anarchism? An Introduction",
+      "url": "https://theanarchistlibrary.org/library/donald-rooum-and-freedom-press-ed-what-is-anarchism-an-introduction",
+      "source_id": "anarchist_library"
+    }
+  ],
+  "visited_urls": [
+    "https://theanarchistlibrary.org/category/author/rudolf-rocker"
+  ]
 }

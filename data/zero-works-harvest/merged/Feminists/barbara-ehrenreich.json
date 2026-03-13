@@ -2,11 +2,21 @@
   "collection": "Feminists",
   "thinker": "Barbara Ehrenreich",
   "slug": "barbara-ehrenreich",
-  "source_url": null,
-  "source_id": "redtexts",
-  "status": "no_works_found",
-  "message": "No works after merge.",
-  "warnings": [],
-  "works": [],
-  "visited_urls": []
+  "source_url": "https://theanarchistlibrary.org/category/author/barbara-ehrenreich",
+  "source_id": "mia",
+  "status": "success",
+  "message": "Collected 1 works from 4 source(s).",
+  "warnings": [
+    "No entry located on index page"
+  ],
+  "works": [
+    {
+      "title": "Occult Features of Anarchism",
+      "url": "https://theanarchistlibrary.org/library/erica-lagalisse-occult-features-of-anarchism-book",
+      "source_id": "anarchist_library"
+    }
+  ],
+  "visited_urls": [
+    "https://theanarchistlibrary.org/category/author/barbara-ehrenreich"
+  ]
 }

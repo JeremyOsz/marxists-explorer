@@ -6,7 +6,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Portrait_painting_of_Charles_Fourier_by_Jean_Gigoux_%E2%80%94_1835.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Portrait_painting_of_Charles_Fourier_by_Jean_Gigoux_%E2%80%94_1835.jpg/250px-Portrait_painting_of_Charles_Fourier_by_Jean_Gigoux_%E2%80%94_1835.jpg",
-    "w": 0
+    "w": 6,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 6
+      }
+    ]
   },
   {
     "n": "Edward Bellamy",
@@ -42,7 +48,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/8/81/Portrait_of_Robert_Owen_%281294983%29.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Portrait_of_Robert_Owen_%281294983%29.jpg/250px-Portrait_of_Robert_Owen_%281294983%29.jpg",
-    "w": 0
+    "w": 2,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 2
+      }
+    ]
   },
   {
     "n": "Saint-Simon",
@@ -60,7 +72,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Hans_Holbein%2C_the_Younger_-_Sir_Thomas_More_-_Google_Art_Project.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Hans_Holbein%2C_the_Younger_-_Sir_Thomas_More_-_Google_Art_Project.jpg/250px-Hans_Holbein%2C_the_Younger_-_Sir_Thomas_More_-_Google_Art_Project.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "Étienne Cabet",

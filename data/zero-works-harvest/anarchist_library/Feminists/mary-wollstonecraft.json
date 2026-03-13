@@ -1,0 +1,45 @@
+{
+  "collection": "Feminists",
+  "thinker": "Mary Wollstonecraft",
+  "slug": "mary-wollstonecraft",
+  "source_url": "https://theanarchistlibrary.org/category/author/mary-wollstonecraft",
+  "source_id": "anarchist_library",
+  "status": "success",
+  "message": "Collected 6 works from The Anarchist Library.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "A Vindication of the Rights of Men",
+      "url": "https://theanarchistlibrary.org/library/mary-wollstonecraft-a-vindication-of-the-rights-of-men",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "A Vindication of the Rights of Woman",
+      "url": "https://theanarchistlibrary.org/library/mary-wollstonecraft-a-vindication-of-the-rights-of-woman",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Letters Written in Sweden, Norway, and Denmark",
+      "url": "https://theanarchistlibrary.org/library/mary-wollstonecraft-letters-written-in-sweden-norway-and-denmark",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Maria",
+      "url": "https://theanarchistlibrary.org/library/mary-wollstonecraft-maria",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Mary",
+      "url": "https://theanarchistlibrary.org/library/mary-wollstonecraft-mary",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Original Stories from Real Life",
+      "url": "https://theanarchistlibrary.org/library/mary-wollstonecraft-original-stories-from-real-life",
+      "source_id": "anarchist_library"
+    }
+  ],
+  "visited_urls": [
+    "https://theanarchistlibrary.org/category/author/mary-wollstonecraft"
+  ]
+}

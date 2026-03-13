@@ -154,6 +154,12 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/4/44/Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph%2C_seated.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph%2C_seated.jpg/250px-Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph%2C_seated.jpg",
-    "w": 0
+    "w": 7,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 7
+      }
+    ]
   }
 ]

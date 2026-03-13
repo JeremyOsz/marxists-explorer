@@ -1,0 +1,20 @@
+{
+  "collection": "Feminists",
+  "thinker": "Elizabeth Gurley Flynn",
+  "slug": "elizabeth-gurley-flynn",
+  "source_url": "https://theanarchistlibrary.org/category/author/elizabeth-gurley-flynn",
+  "source_id": "anarchist_library",
+  "status": "success",
+  "message": "Collected 1 works from The Anarchist Library.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Sabotage",
+      "url": "https://theanarchistlibrary.org/library/elizabeth-gurley-flynn-sabotage",
+      "source_id": "anarchist_library"
+    }
+  ],
+  "visited_urls": [
+    "https://theanarchistlibrary.org/category/author/elizabeth-gurley-flynn"
+  ]
+}

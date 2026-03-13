@@ -1,0 +1,85 @@
+{
+  "collection": "Philosophy",
+  "thinker": "Max Stirner",
+  "slug": "max-stirner",
+  "source_url": "https://theanarchistlibrary.org/category/author/max-stirner",
+  "source_id": "anarchist_library",
+  "status": "success",
+  "message": "Collected 14 works from The Anarchist Library.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Art and Religion",
+      "url": "https://theanarchistlibrary.org/library/max-stirner-art-and-religion",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Ego and His Own",
+      "url": "https://theanarchistlibrary.org/library/max-stirner-the-ego-and-his-own",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The False Principle of Our Education",
+      "url": "https://theanarchistlibrary.org/library/max-stirner-the-false-principle-of-our-education",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Free Ones (Der Freien)",
+      "url": "https://theanarchistlibrary.org/library/max-stirner-the-free-ones-der-freien",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Max Stirner",
+      "url": "https://theanarchistlibrary.org/library/max-stirner-max-stirner-preliminary-remarks-on-the-liebesstaat-loving-state",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Review of Eugène Sue’sThe Mysteries of Paris",
+      "url": "https://theanarchistlibrary.org/library/max-stirner-review-of-eugene-sue-s-the-mysteries-of-paris",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "On School Rules",
+      "url": "https://theanarchistlibrary.org/library/max-stirner-on-school-rules",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Philosophical Reactionaries",
+      "url": "https://theanarchistlibrary.org/library/max-stirner-the-philosophical-reactionaries",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Review of Bruno Bauer’sTrumpet of the Last Judgment",
+      "url": "https://theanarchistlibrary.org/library/max-stirner-review-of-bruno-bauers-trumpet-of-the-last-judgment",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Stirner’s Critics",
+      "url": "https://theanarchistlibrary.org/library/max-stirner-stirner-s-critics",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The “Stirner Wasn’t A Capitalist You Fucking Idiot” Cheat Sheet",
+      "url": "https://theanarchistlibrary.org/library/dr-bones-the-stirner-wasn-t-a-capitalist-you-fucking-idiot-cheat-sheet",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Unique and Its Property",
+      "url": "https://theanarchistlibrary.org/library/max-stirner-the-unique-and-its-property",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Worker and the Government",
+      "url": "https://theanarchistlibrary.org/library/max-stirner-the-worker-and-the-govenrment",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "You Only Have the Courage to be Destructive",
+      "url": "https://theanarchistlibrary.org/library/max-stirner-you-only-have-the-courage-to-be-destructive",
+      "source_id": "anarchist_library"
+    }
+  ],
+  "visited_urls": [
+    "https://theanarchistlibrary.org/category/author/max-stirner"
+  ]
+}

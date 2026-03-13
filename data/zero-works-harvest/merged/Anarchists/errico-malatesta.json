@@ -2,12 +2,19 @@
   "collection": "Anarchists",
   "thinker": "Errico Malatesta",
   "slug": "errico-malatesta",
-  "source_url": "http://dwardmac.pitzer.edu/malatesta/Malatestaarchive.html",
-  "source_id": "redtexts",
+  "source_url": "https://theanarchistlibrary.org/category/author/errico-malatesta",
+  "source_id": "mia",
   "status": "success",
-  "message": "Collected 46 works from 2 source(s).",
-  "warnings": [],
+  "message": "Collected 96 works from 4 source(s).",
+  "warnings": [
+    "No entry located on index page"
+  ],
   "works": [
+    {
+      "title": "A Bit Of Theory",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-a-bit-of-theory",
+      "source_id": "anarchist_library"
+    },
     {
       "title": "A Project of Anarchist Organization",
       "url": "http://dwardmac.pitzer.edu/malatesta/project.html",
@@ -24,9 +31,29 @@
       "source_id": "goldman_archive"
     },
     {
+      "title": "About a Strike",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-about-a-strike",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "About my trial: Class Struggle or Class Hatred?",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-about-my-trial-class-struggle-or-class-hatred",
+      "source_id": "anarchist_library"
+    },
+    {
       "title": "About my trial: Class Struggle or Class Hatred?",
       "url": "http://dwardmac.pitzer.edu/malatesta/trial.html",
       "source_id": "goldman_archive"
+    },
+    {
+      "title": "About the Platform",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-and-nestor-makhno-about-the-platform",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Against Militarism",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-against-militarism",
+      "source_id": "anarchist_library"
     },
     {
       "title": "Against Monarchy",
@@ -35,13 +62,53 @@
     },
     {
       "title": "Against the Constituent Assembly as Against the Dictatorship",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-against-the-constituent-assembly-as-against-the-dictatorship",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Against the Constituent Assembly as Against the Dictatorship",
       "url": "http://dwardmac.pitzer.edu/malatesta/against.html",
       "source_id": "goldman_archive"
+    },
+    {
+      "title": "Against the Monarchy",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-against-the-monarchy",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "An Anarchist Programme",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-an-anarchist-programme",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anarchism and Organization",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-anarchism-and-organization",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anarchism and Reforms",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-anarchism-and-reforms",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anarchism and Syndicalism",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-anarchism-and-syndicalism",
+      "source_id": "anarchist_library"
     },
     {
       "title": "Anarchism and Syndicalism",
       "url": "http://dwardmac.pitzer.edu/malatesta/syndicalism.html",
       "source_id": "goldman_archive"
+    },
+    {
+      "title": "Anarchism in the Workers’ Movement",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-anarchism-in-the-workers-movement",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anarchism’s Evolution",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-anarchism-s-evolution",
+      "source_id": "anarchist_library"
     },
     {
       "title": "Anarchist History",
@@ -54,9 +121,39 @@
       "source_id": "goldman_archive"
     },
     {
+      "title": "Anarchist Propaganda",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-anarchist-propaganda",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anarchists and the Situation",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-anarchists-and-the-situation",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anarchists Have Forgotten Their Principles",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-anarchists-have-forgotten-their-principles",
+      "source_id": "anarchist_library"
+    },
+    {
       "title": "Anarchists Have Forgotten Their Principles",
       "url": "http://dwardmac.pitzer.edu/malatesta/ForgottenPrinciples.html",
       "source_id": "goldman_archive"
+    },
+    {
+      "title": "Anarchists, the War and Their Principles",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-anarchists-the-war-and-their-principles",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anarchists’ Line Within The Trade Union Movement",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-anarchists-line-within-the-trade-union-movement",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anarchy",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-anarchy",
+      "source_id": "anarchist_library"
     },
     {
       "title": "Anarchy",
@@ -64,9 +161,64 @@
       "source_id": "goldman_archive"
     },
     {
+      "title": "Anarchy and Organization: The Debate at the 1907 International Anarchist Congress",
+      "url": "https://theanarchistlibrary.org/library/various-authors-anarchy-and-organization-the-debate-at-the-1907-international-anarchist-congres",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anarchy and Violence",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-anarchy-and-violence-1924",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anarchy and Violence",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-anarchy-and-violence",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Another Strike",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-another-strike",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anti",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-anti-militarism-was-it-properly-understood",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anti",
+      "url": "https://theanarchistlibrary.org/library/anti-militarist-resolution-from-the-amsterdam-anarchist-congress-of-1907",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anti",
+      "url": "https://theanarchistlibrary.org/library/various-authors-the-anarchist-international-and-war",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Apropos of “Revisionism”",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-apropos-of-revisionism",
+      "source_id": "anarchist_library"
+    },
+    {
       "title": "Art and Anarchy",
       "url": "http://dwardmac.pitzer.edu/art/index.html",
       "source_id": "goldman_archive"
+    },
+    {
+      "title": "At The Café",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-at-the-cafe",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Between Peasants",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-between-peasants",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Bourgeois Seepage Into Socialist Doctrine",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-bourgeois-seepage-into-socialist-doctrine",
+      "source_id": "anarchist_library"
     },
     {
       "title": "Bright but Lesser Lights",
@@ -74,9 +226,49 @@
       "source_id": "goldman_archive"
     },
     {
+      "title": "Capitalists and Thieves",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-capitalists-and-thieves",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Classic Writings in Anarchist Criminology",
+      "url": "https://theanarchistlibrary.org/library/anthony-j-nocella-ii-mark-seis-and-jeff-shantz-classic-writings-in-anarchist-criminology",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Comments on the Article ‘Science and Anarchy’",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-comments-on-the-article-science-and-anarchy",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Communism and Individualism",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-communism-and-individualism",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Communists and Fascists",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-communists-and-fascists",
+      "source_id": "anarchist_library"
+    },
+    {
       "title": "Contra La Monarchia, & Le Due Vie",
       "url": "http://dwardmac.pitzer.edu/malatesta/MalatestaEMolinari/index.html",
       "source_id": "goldman_archive"
+    },
+    {
+      "title": "Dear Comrades atIlota",
+      "url": "https://theanarchistlibrary.org/library/enrico-malatesta-dear-comrades-at-ilota",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Democracy and Anarchy",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-democracy-and-anarchy",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Doing Good By Force",
+      "url": "https://theanarchistlibrary.org/library/e-malatesta-doing-good-by-force",
+      "source_id": "anarchist_library"
     },
     {
       "title": "Editorial Mail",
@@ -87,6 +279,11 @@
       "title": "Education and Anarchy",
       "url": "http://dwardmac.pitzer.edu/education/index.html",
       "source_id": "goldman_archive"
+    },
+    {
+      "title": "Electoral Struggle and Direct Struggle",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-electoral-struggle-and-direct-struggle",
+      "source_id": "anarchist_library"
     },
     {
       "title": "Elisée Reclus",
@@ -107,6 +304,11 @@
       "title": "Errico Malatesta",
       "url": "http://dwardmac.pitzer.edu/malatesta/Malatestaarchive.html",
       "source_id": "goldman_archive"
+    },
+    {
+      "title": "Errors And Remedies",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-errors-and-remedies",
+      "source_id": "anarchist_library"
     },
     {
       "title": "First International",
@@ -200,13 +402,63 @@
     },
     {
       "title": "The Anarchist Revolution",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-the-anarchist-revolution",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Anarchist Revolution",
       "url": "http://dwardmac.pitzer.edu/malatesta/tar.html",
       "source_id": "goldman_archive"
+    },
+    {
+      "title": "The Anarchists in the Present Time",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-the-anarchists-in-the-present-time",
+      "source_id": "anarchist_library"
     },
     {
       "title": "The Anarchists In The Present Time",
       "url": "http://dwardmac.pitzer.edu/malatesta/pres.html",
       "source_id": "goldman_archive"
+    },
+    {
+      "title": "The Anarchists’ Task",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-the-anarchists-task",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Armed Nation",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-the-armed-nation",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Armed Strike",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-the-armed-strike",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Decline of the Revolutionary Spirit and the Need for Resistance",
+      "url": "https://theanarchistlibrary.org/library/giuseppe-rinaldi-the-decline-of-the-revolutionary-spirit-and-the-need-for-resistance",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Dictatorship of the Proletariat and Anarchy",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-the-dictatorship-of-the-proletariat-and-anarchy",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Duties of the Present Hour",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-the-duties-of-the-present-hour",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Duty of Resistance",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-the-duty-of-resistance",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Economic Question",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-the-economic-question",
+      "source_id": "anarchist_library"
     },
     {
       "title": "The Idea of Good Government",
@@ -240,6 +492,7 @@
     }
   ],
   "visited_urls": [
-    "http://dwardmac.pitzer.edu/malatesta/Malatestaarchive.html"
+    "http://dwardmac.pitzer.edu/malatesta/Malatestaarchive.html",
+    "https://theanarchistlibrary.org/category/author/errico-malatesta"
   ]
 }

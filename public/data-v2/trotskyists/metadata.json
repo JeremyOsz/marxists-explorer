@@ -674,7 +674,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/9/98/A_series_of_wonderful_sermons_%28IA_seriesofwonderfu00conw%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/A_series_of_wonderful_sermons_%28IA_seriesofwonderfu00conw%29.pdf/page1-200px-A_series_of_wonderful_sermons_%28IA_seriesofwonderfu00conw%29.pdf.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "Susan Green",

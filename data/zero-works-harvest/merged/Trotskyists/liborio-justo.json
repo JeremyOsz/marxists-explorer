@@ -2,11 +2,13 @@
   "collection": "Trotskyists",
   "thinker": "Liborio Justo",
   "slug": "liborio-justo",
-  "source_url": null,
-  "source_id": "redtexts",
+  "source_url": "https://www.marxists.org/archive/justo/index.html",
+  "source_id": "mia",
   "status": "no_works_found",
   "message": "No works after merge.",
   "warnings": [],
   "works": [],
-  "visited_urls": []
+  "visited_urls": [
+    "https://www.marxists.org/archive/justo/index.html"
+  ]
 }

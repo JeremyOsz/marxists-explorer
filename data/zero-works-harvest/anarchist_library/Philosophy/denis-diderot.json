@@ -1,0 +1,20 @@
+{
+  "collection": "Philosophy",
+  "thinker": "Denis Diderot",
+  "slug": "denis-diderot",
+  "source_url": "https://theanarchistlibrary.org/category/author/denis-diderot",
+  "source_id": "anarchist_library",
+  "status": "success",
+  "message": "Collected 1 works from The Anarchist Library.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Loaded words",
+      "url": "https://theanarchistlibrary.org/library/new-morning-loaded-words",
+      "source_id": "anarchist_library"
+    }
+  ],
+  "visited_urls": [
+    "https://theanarchistlibrary.org/category/author/denis-diderot"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "collection": "French Left",
+  "thinker": "Guy Debord",
+  "slug": "guy-debord",
+  "source_url": "https://theanarchistlibrary.org/category/author/guy-debord",
+  "source_id": "anarchist_library",
+  "status": "success",
+  "message": "Collected 11 works from The Anarchist Library.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "A Sick Planet",
+      "url": "https://theanarchistlibrary.org/library/a-sick-planet",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Comments on the Society of the Spectacle",
+      "url": "https://theanarchistlibrary.org/library/guy-debord-comments-on-the-society-of-the-spectacle",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "In girum imus nocte et consumimur igni",
+      "url": "https://theanarchistlibrary.org/library/guy-debord-in-girum-imus-nocte-et-consumimur-igni",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Introduction to a Critique of Urban Geography",
+      "url": "https://theanarchistlibrary.org/library/guy-debord-introduction-to-a-critique-of-urban-geography",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Report on the Construction of Situations",
+      "url": "https://theanarchistlibrary.org/library/guy-debord-report-on-the-construction-of-situations",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Situationist Theses on Traffic",
+      "url": "https://theanarchistlibrary.org/library/guy-debord-situationist-theses-on-traffic",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Society of the Spectacle",
+      "url": "https://theanarchistlibrary.org/library/guy-debord-the-society-of-the-spectacle",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Java of Bons Enfants",
+      "url": "https://theanarchistlibrary.org/library/guy-debord-the-java-of-bons-enfants",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Theory of the Dérive",
+      "url": "https://theanarchistlibrary.org/library/guy-debord-theory-of-the-derive",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "To Libertarians",
+      "url": "https://theanarchistlibrary.org/library/guy-debord-to-libertarians",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "A User’s Guide to Détournement",
+      "url": "https://theanarchistlibrary.org/library/guy-debord-gil-j-wolman-a-user-s-guide-to-detournement",
+      "source_id": "anarchist_library"
+    }
+  ],
+  "visited_urls": [
+    "https://theanarchistlibrary.org/category/author/guy-debord"
+  ]
+}

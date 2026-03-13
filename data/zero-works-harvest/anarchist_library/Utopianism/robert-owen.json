@@ -1,0 +1,25 @@
+{
+  "collection": "Utopianism",
+  "thinker": "Robert Owen",
+  "slug": "robert-owen",
+  "source_url": "https://theanarchistlibrary.org/category/author/robert-owen",
+  "source_id": "anarchist_library",
+  "status": "success",
+  "message": "Collected 2 works from The Anarchist Library.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "An Address to the Inhabitants of New Lanark",
+      "url": "https://theanarchistlibrary.org/library/robert-owen-an-address-to-the-inhabitants-of-new-lanark",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "A New View of Society",
+      "url": "https://theanarchistlibrary.org/library/robert-owen-a-new-view-of-society",
+      "source_id": "anarchist_library"
+    }
+  ],
+  "visited_urls": [
+    "https://theanarchistlibrary.org/category/author/robert-owen"
+  ]
+}

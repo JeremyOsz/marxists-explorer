@@ -3,10 +3,12 @@
   "thinker": "Cyril Smith",
   "slug": "cyril-smith",
   "source_url": "https://www.redtexts.org/",
-  "source_id": "redtexts",
+  "source_id": "mia",
   "status": "success",
-  "message": "Collected 2 works from 2 source(s).",
-  "warnings": [],
+  "message": "Collected 2 works from 4 source(s).",
+  "warnings": [
+    "No entry located on index page"
+  ],
   "works": [
     {
       "title": "Hegel, Marx and the Enlightenment",

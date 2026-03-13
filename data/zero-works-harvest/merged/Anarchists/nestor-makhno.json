@@ -2,11 +2,131 @@
   "collection": "Anarchists",
   "thinker": "Nestor Makhno",
   "slug": "nestor-makhno",
-  "source_url": null,
-  "source_id": "redtexts",
-  "status": "no_works_found",
-  "message": "No works after merge.",
-  "warnings": [],
-  "works": [],
-  "visited_urls": []
+  "source_url": "https://theanarchistlibrary.org/category/author/nestor-makhno",
+  "source_id": "mia",
+  "status": "success",
+  "message": "Collected 23 works from 4 source(s).",
+  "warnings": [
+    "No entry located on index page"
+  ],
+  "works": [
+    {
+      "title": "A Few Words on the National Question in the Ukraine",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-a-few-words-on-the-national-question-in-the-ukraine",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "About the Platform",
+      "url": "https://theanarchistlibrary.org/library/errico-malatesta-and-nestor-makhno-about-the-platform",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "An Historic Injustice",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-an-historic-injustice",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Anarchism and Our Times",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-anarchism-and-our-times",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Bloodstained",
+      "url": "https://theanarchistlibrary.org/library/friends-of-aron-baron-bloodstained",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Letter to the Spanish Anarchists",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-letter-to-the-spanish-anarchists",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Makhno’s speech at the rally in Issajewka, July 1921",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-makhno-s-speech-at-the-rally-in-issajewka-july-1921",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "My Visit to the Kremlin",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-my-visit-to-the-kremlin",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "On revolutionary discipline",
+      "url": "https://theanarchistlibrary.org/library/nestor-on-revolutionary-discipline",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Organisational Platform of the Libertarian Communists",
+      "url": "https://theanarchistlibrary.org/library/dielo-truda-workers-cause-organisational-platform-of-the-libertarian-communists",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Over the fresh grave of comrade N. Rogdaev",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-over-the-fresh-grave-of-comrade-n-rogdaev",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Summons",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-summons",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The ABC of the Revolutionary Anarchist",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-the-abc-of-the-revolutionary-anarchist",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Anarchist Revolution",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-the-anarchist-revolution",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Manifesto of The Makhnovists",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-the-manifesto-of-the-makhnovists",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Russian Revolution in the Ukraine",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-the-russian-revolution-in-the-ukraine",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Russian Revolution in Ukraine (March 1917",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-the-russian-revolution-in-ukraine-march-1917-april-1918",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Spanish Revolution, Its Mistakes and Potential Corrections",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-the-spanish-revolution-its-mistakes-and-potential-corrections",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Struggle Against the State and Other Essays",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-the-struggle-against-the-state-and-other-essays",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "To All Peasants and Workers of the Ukraine",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-to-all-peasants-and-workers-of-the-ukraine",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "To the Jews of all Countries",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-to-the-jews-of-all-countries",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "To the Young People",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-to-the-young-people",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Under the Blows of the Counterrevolution: April",
+      "url": "https://theanarchistlibrary.org/library/nestor-makhno-under-the-blows-of-the-counterrevolution",
+      "source_id": "anarchist_library"
+    }
+  ],
+  "visited_urls": [
+    "https://theanarchistlibrary.org/category/author/nestor-makhno"
+  ]
 }

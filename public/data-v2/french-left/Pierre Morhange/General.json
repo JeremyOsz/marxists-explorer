@@ -1,18 +1,22 @@
 [
   {
     "title": "Café",
-    "url": "https://www.marxists.org/archive/morhange/cafe.htm"
+    "url": "https://www.marxists.org/archive/morhange/cafe.htm",
+    "source_id": "mia"
   },
   {
     "title": "Paris",
-    "url": "https://www.marxists.org/archive/morhange/paris.htm"
+    "url": "https://www.marxists.org/archive/morhange/paris.htm",
+    "source_id": "mia"
   },
   {
     "title": "Rain",
-    "url": "https://www.marxists.org/archive/morhange/rain.htm"
+    "url": "https://www.marxists.org/archive/morhange/rain.htm",
+    "source_id": "mia"
   },
   {
     "title": "Sunday",
-    "url": "https://www.marxists.org/archive/morhange/sunday.htm"
+    "url": "https://www.marxists.org/archive/morhange/sunday.htm",
+    "source_id": "mia"
   }
 ]

@@ -1,0 +1,20 @@
+{
+  "collection": "Utopianism",
+  "thinker": "Thomas More",
+  "slug": "thomas-more",
+  "source_url": "https://theanarchistlibrary.org/category/author/thomas-more",
+  "source_id": "anarchist_library",
+  "status": "success",
+  "message": "Collected 1 works from The Anarchist Library.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Utopia",
+      "url": "https://theanarchistlibrary.org/library/thomas-more-utopia",
+      "source_id": "anarchist_library"
+    }
+  ],
+  "visited_urls": [
+    "https://theanarchistlibrary.org/category/author/thomas-more"
+  ]
+}

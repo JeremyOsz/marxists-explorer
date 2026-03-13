@@ -42,7 +42,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/9/92/Cyril_Smith_%281892%E2%80%931963%29_in_The_Adoption_of_Archibald_2.png",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Cyril_Smith_%281892%E2%80%931963%29_in_The_Adoption_of_Archibald_2.png/250px-Cyril_Smith_%281892%E2%80%931963%29_in_The_Adoption_of_Archibald_2.png",
-    "w": 0
+    "w": 2,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 2
+      }
+    ]
   },
   {
     "n": "Denis Diderot",
@@ -51,7 +57,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Jean-Simon_Berth%C3%A9lemy_-_Bildnis_eines_Herrn_mit_der_B%C3%BCste_des_Denis_Diderot.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Jean-Simon_Berth%C3%A9lemy_-_Bildnis_eines_Herrn_mit_der_B%C3%BCste_des_Denis_Diderot.jpg/250px-Jean-Simon_Berth%C3%A9lemy_-_Bildnis_eines_Herrn_mit_der_B%C3%BCste_des_Denis_Diderot.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "Francis Bacon",
@@ -183,7 +195,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/d/da/Portrait_Max_Stirner.svg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Portrait_Max_Stirner.svg/250px-Portrait_Max_Stirner.svg.png",
-    "w": 0
+    "w": 41,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 41
+      }
+    ]
   },
   {
     "n": "Max Weber",
@@ -201,7 +219,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/4/45/Moses-Hess.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Moses-Hess.jpg/250px-Moses-Hess.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "Percy Bysshe Shelley",
@@ -210,7 +234,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/0/07/Portrait_of_Percy_Bysshe_Shelley_by_Curran%2C_1819.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Portrait_of_Percy_Bysshe_Shelley_by_Curran%2C_1819.jpg/250px-Portrait_of_Percy_Bysshe_Shelley_by_Curran%2C_1819.jpg",
-    "w": 0
+    "w": 50,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 50
+      }
+    ]
   },
   {
     "n": "Rebecca Cooper",

@@ -121,7 +121,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/9/95/Arthur_Rosenberg.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Arthur_Rosenberg.jpg/250px-Arthur_Rosenberg.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "Athur Ransome",
@@ -148,7 +154,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Zeitschrift_f%C3%BCr_Ethnologie._Jg._032%2C_1900_%28IA_zeitschriftfre32berl%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Zeitschrift_f%C3%BCr_Ethnologie._Jg._032%2C_1900_%28IA_zeitschriftfre32berl%29.pdf/page1-200px-Zeitschrift_f%C3%BCr_Ethnologie._Jg._032%2C_1900_%28IA_zeitschriftfre32berl%29.pdf.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "Begum Roquia",
@@ -199,7 +211,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/0/03/Elizabeth_Gurley_Flynn_We_Follow_The_Path_Less_Traveled_The_City_at_The_Crossroads_of_History.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Elizabeth_Gurley_Flynn_We_Follow_The_Path_Less_Traveled_The_City_at_The_Crossroads_of_History.jpg/250px-Elizabeth_Gurley_Flynn_We_Follow_The_Path_Less_Traveled_The_City_at_The_Crossroads_of_History.jpg",
-    "w": 0
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ]
   },
   {
     "n": "Evelyn Reed",
@@ -523,7 +541,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/3/36/Mary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Mary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg/250px-Mary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg",
-    "w": 0
+    "w": 6,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 6
+      }
+    ]
   },
   {
     "n": "Morgan Philips Price",

@@ -3,10 +3,12 @@
   "thinker": "Peng Zhen",
   "slug": "peng-zhen",
   "source_url": null,
-  "source_id": "redtexts",
+  "source_id": "mia",
   "status": "no_works_found",
   "message": "No works after merge.",
-  "warnings": [],
+  "warnings": [
+    "No entry located on index page"
+  ],
   "works": [],
   "visited_urls": []
 }

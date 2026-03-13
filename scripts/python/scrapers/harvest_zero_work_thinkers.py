@@ -125,18 +125,18 @@ class WorkHarvester:
 
     def harvest(self, thinker: ThinkerMatch, max_depth: int = MAX_CRAWL_DEPTH) -> HarvestResult:
         if not thinker.matches:
-        return HarvestResult(
-            collection=thinker.collection,
-            thinker=thinker.thinker,
-            slug=thinker.slug,
-            source_url=None,
-            works=[],
-            visited_urls=[],
-            status="no_source_match",
-            message="No Marxists.org author page was identified.",
-            warnings=thinker.notes,
-            source_id="mia",
-        )
+            return HarvestResult(
+                collection=thinker.collection,
+                thinker=thinker.thinker,
+                slug=thinker.slug,
+                source_url=None,
+                works=[],
+                visited_urls=[],
+                status="no_source_match",
+                message="No Marxists.org author page was identified.",
+                warnings=thinker.notes,
+                source_id="mia",
+            )
 
         # Prefer the first match (closest to exact name)
         primary_match = thinker.matches[0]

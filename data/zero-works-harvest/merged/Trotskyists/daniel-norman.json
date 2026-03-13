@@ -2,11 +2,13 @@
   "collection": "Trotskyists",
   "thinker": "Daniel Norman",
   "slug": "daniel-norman",
-  "source_url": null,
-  "source_id": "redtexts",
+  "source_url": "https://www.marxists.org/archive/norman/index.htm",
+  "source_id": "mia",
   "status": "no_works_found",
   "message": "No works after merge.",
   "warnings": [],
   "works": [],
-  "visited_urls": []
+  "visited_urls": [
+    "https://www.marxists.org/archive/norman/index.htm"
+  ]
 }

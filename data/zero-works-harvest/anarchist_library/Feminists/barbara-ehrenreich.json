@@ -1,0 +1,20 @@
+{
+  "collection": "Feminists",
+  "thinker": "Barbara Ehrenreich",
+  "slug": "barbara-ehrenreich",
+  "source_url": "https://theanarchistlibrary.org/category/author/barbara-ehrenreich",
+  "source_id": "anarchist_library",
+  "status": "success",
+  "message": "Collected 1 works from The Anarchist Library.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Occult Features of Anarchism",
+      "url": "https://theanarchistlibrary.org/library/erica-lagalisse-occult-features-of-anarchism-book",
+      "source_id": "anarchist_library"
+    }
+  ],
+  "visited_urls": [
+    "https://theanarchistlibrary.org/category/author/barbara-ehrenreich"
+  ]
+}

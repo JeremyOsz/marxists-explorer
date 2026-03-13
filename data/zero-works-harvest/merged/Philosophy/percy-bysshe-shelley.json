@@ -2,11 +2,266 @@
   "collection": "Philosophy",
   "thinker": "Percy Bysshe Shelley",
   "slug": "percy-bysshe-shelley",
-  "source_url": null,
-  "source_id": "redtexts",
-  "status": "no_works_found",
-  "message": "No works after merge.",
-  "warnings": [],
-  "works": [],
-  "visited_urls": []
+  "source_url": "https://theanarchistlibrary.org/category/author/percy-bysshe-shelley",
+  "source_id": "mia",
+  "status": "success",
+  "message": "Collected 50 works from 4 source(s).",
+  "warnings": [
+    "No entry located on index page"
+  ],
+  "works": [
+    {
+      "title": "A Bridal Song",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-a-bridal-song",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "A Defence of Poetry and Other Essays",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-a-defence-of-poetry-and-other-essays",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "A Dirge",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-a-dirge",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "A Lament",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-a-lament",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "A Letter to Lord Ellenborough",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-a-letter-to-lord-ellenborough",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "A Philosophical View of Reform",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-a-philosophical-view-of-reform",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "A Refutation of Deism",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-a-refutation-of-deism",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "A Roman's Chamber",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-a-roman-s-chamber",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "A Vindication of Natural Diet",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-a-vindication-of-natural-diet",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "A Vision of the Sea",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-a-vision-of-the-sea",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "A Widow Bird Sate Mourning for Her Love",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-a-widow-bird-sate-mourning-for-her-love",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Adonais",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-adonais",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Alastor",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-alastor",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "An Address to the Irish People",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-an-address-to-the-irish-people",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "An Address to the People on the Death of the Princess Charlotte",
+      "url": "https://theanarchistlibrary.org/library/the-hermit-of-marlow-an-address-to-the-people-on-the-death-of-the-princess-charlotte",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "An Ariette for Music",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-an-ariette-for-music",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "An Exhortation",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-an-exhortation",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "An Ode",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-an-ode",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Arethusa",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-arethusa",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Autumn",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-autumn",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Death",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-death",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Death",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-death-2",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Declaration of Rights",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-declaration-of-rights",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Dirge for the Year",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-dirge-for-the-year",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "England in 1819",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-england-in-1819",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Epigrams",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-epigrams",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Epipsychidion",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-epipsychidion",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Epitaph",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-epitaph",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Evening: Ponte Al Mare, Pisa",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-evening-ponte-al-mare-pisa",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Fragment on Keats",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-fragment-on-keats",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "From the Arabic",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-from-the-arabic",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Good",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-good-night",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Hellas",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-hellas",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "History of a Six Weeks' Tour through a part of France, Switzerland, Germany, and Holland",
+      "url": "https://theanarchistlibrary.org/library/mary-shelley-and-percy-bysshe-shelley-history-of-a-six-weeks-tour-through-a-part-of-france-swit",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Hymn of Apollo",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-hymn-of-apollo",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Hymn of Pan",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-hymn-of-pan",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Hymn to Intellectual Beauty",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-hymn-to-intellectual-beauty",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Julian and Maddalo",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-julian-and-maddalo",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Liberty",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-liberty",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Lines",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-lines",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Lines",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-lines-2",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Notes to the Complete Poetical Works of Percy Bysshe Shelley",
+      "url": "https://theanarchistlibrary.org/library/mary-shelley-notes-to-the-complete-poetical-works-of-percy-bysshe-shelley",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Ode to the West Wind",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-ode-to-the-west-wind",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "On \"Frankenstein\"",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-on-frankenstein",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "On The Devil, and Devils",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-on-the-devil-and-devils",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Original Poetry by Victor and Cazire",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-original-poetry-by-victor-and-cazire",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Ozymandias",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-ozymandias",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Poetical Essay on the Existing State of Things",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-poetical-essay-on-the-existing-state-of-things",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Posthumous Fragments of Margaret Nicholson",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-posthumous-fragments-of-margaret-nicholson",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Prometheus Unbound",
+      "url": "https://theanarchistlibrary.org/library/percy-bysshe-shelley-prometheus-unbound",
+      "source_id": "anarchist_library"
+    }
+  ],
+  "visited_urls": [
+    "https://theanarchistlibrary.org/category/author/percy-bysshe-shelley"
+  ]
 }

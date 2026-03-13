@@ -6,7 +6,13 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/4/46/Alexander_Berkman_001.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Alexander_Berkman_001.jpg/250px-Alexander_Berkman_001.jpg",
-    "w": 0
+    "w": 53,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 53
+      }
+    ]
   },
   {
     "n": "Benjamin R Tucker",
@@ -115,7 +121,13 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/2/23/Portrait_Emma_Goldman.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Portrait_Emma_Goldman.jpg/250px-Portrait_Emma_Goldman.jpg",
-    "w": 0
+    "w": 119,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 119
+      }
+    ]
   },
   {
     "n": "Errico Malatesta",
@@ -124,7 +136,13 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/8/86/Brigata_della_morte_Malatesta.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Brigata_della_morte_Malatesta.jpg/250px-Brigata_della_morte_Malatesta.jpg",
-    "w": 0
+    "w": 96,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 96
+      }
+    ]
   },
   {
     "n": "Fernando Tarrida del Marmol",
@@ -156,7 +174,13 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Makhno_group.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Makhno_group.jpg/250px-Makhno_group.jpg",
-    "w": 0
+    "w": 24,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 24
+      }
+    ]
   },
   {
     "n": "Guy Aldred",
@@ -246,7 +270,13 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/4/46/L%C3%A9o_Taxil_1881.png",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/L%C3%A9o_Taxil_1881.png/250px-L%C3%A9o_Taxil_1881.png",
-    "w": 0
+    "w": 2,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 2
+      }
+    ]
   },
   {
     "n": "Mikhail Bakunin",
@@ -312,7 +342,13 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Makhno-1919.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Makhno-1919.jpg/250px-Makhno-1919.jpg",
-    "w": 0
+    "w": 23,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 23
+      }
+    ]
   },
   {
     "n": "Petr Kropotkin",
@@ -321,7 +357,13 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/0/00/Memoirs_of_a_revolutionist_volume_2.djvu",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Memoirs_of_a_revolutionist_volume_2.djvu/page1-200px-Memoirs_of_a_revolutionist_volume_2.djvu.jpg",
-    "w": 0
+    "w": 50,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 50
+      }
+    ]
   },
   {
     "n": "Pierre-Joseph Proudhon",
@@ -330,7 +372,13 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Portrait_pr%C3%A9sum%C3%A9_de_Pierre-Joseph_Proudhon_%281809-1865%29%2C_%C3%A9conomiste%2C_philosophe_et_publiciste.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Portrait_pr%C3%A9sum%C3%A9_de_Pierre-Joseph_Proudhon_%281809-1865%29%2C_%C3%A9conomiste%2C_philosophe_et_publiciste.jpg/250px-Portrait_pr%C3%A9sum%C3%A9_de_Pierre-Joseph_Proudhon_%281809-1865%29%2C_%C3%A9conomiste%2C_philosophe_et_publiciste.jpg",
-    "w": 0
+    "w": 77,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 77
+      }
+    ]
   },
   {
     "n": "Ravachol",
@@ -339,7 +387,13 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/9/98/RAVACHOL_face.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/RAVACHOL_face.jpg/250px-RAVACHOL_face.jpg",
-    "w": 0
+    "w": 5,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 5
+      }
+    ]
   },
   {
     "n": "Rudolf Rocker",
@@ -348,7 +402,13 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/2/2f/RudolfMilly_%28cropped%29.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/2/2f/RudolfMilly_%28cropped%29.jpg",
-    "w": 0
+    "w": 30,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 30
+      }
+    ]
   },
   {
     "n": "Tom Brown",

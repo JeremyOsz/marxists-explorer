@@ -53,7 +53,13 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/4/43/Guy_Debord%2C_painted_portrait.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Guy_Debord%2C_painted_portrait.jpg/250px-Guy_Debord%2C_painted_portrait.jpg",
-    "w": 0
+    "w": 12,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 12
+      }
+    ]
   },
   {
     "n": "Harry Baldwin",

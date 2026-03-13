@@ -1,0 +1,25 @@
+{
+  "collection": "Anarchists",
+  "thinker": "Léo Taxil",
+  "slug": "leo-taxil",
+  "source_url": "https://theanarchistlibrary.org/category/author/leo-taxil",
+  "source_id": "anarchist_library",
+  "status": "success",
+  "message": "Collected 2 works from The Anarchist Library.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "No More Cockroaches!",
+      "url": "https://theanarchistlibrary.org/library/leo-taxil-no-more-cockroaches",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "War on Clericalism",
+      "url": "https://theanarchistlibrary.org/library/leo-taxil-war-on-clericalism",
+      "source_id": "anarchist_library"
+    }
+  ],
+  "visited_urls": [
+    "https://theanarchistlibrary.org/category/author/leo-taxil"
+  ]
+}

@@ -2,11 +2,51 @@
   "collection": "Fabians",
   "thinker": "Oscar Wilde",
   "slug": "oscar-wilde",
-  "source_url": null,
-  "source_id": "redtexts",
-  "status": "no_works_found",
-  "message": "No works after merge.",
-  "warnings": [],
-  "works": [],
-  "visited_urls": []
+  "source_url": "https://theanarchistlibrary.org/category/author/oscar-wilde",
+  "source_id": "mia",
+  "status": "success",
+  "message": "Collected 7 works from 4 source(s).",
+  "warnings": [
+    "No entry located on index page"
+  ],
+  "works": [
+    {
+      "title": "A House of Pomegranates",
+      "url": "https://theanarchistlibrary.org/library/oscar-wilde-a-house-of-pomegranates",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "De Profundis",
+      "url": "https://theanarchistlibrary.org/library/oscar-wilde-de-profundis",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Lord Arthur Savile’s Crime and Other Stories",
+      "url": "https://theanarchistlibrary.org/library/oscar-wilde-lord-arthur-savile-s-crime-and-other-stories",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Ballad of Reading Gaol",
+      "url": "https://theanarchistlibrary.org/library/oscar-wilde-the-ballad-of-reading-gaol",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Happy Prince And Other Tales",
+      "url": "https://theanarchistlibrary.org/library/oscar-wilde-the-happy-prince-and-other-tales",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Picture of Dorian Gray",
+      "url": "https://theanarchistlibrary.org/library/oscar-wilde-the-picture-of-dorian-gray",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "The Soul of Man under Socialism",
+      "url": "https://theanarchistlibrary.org/library/oscar-wilde-the-soul-of-man-under-socialism",
+      "source_id": "anarchist_library"
+    }
+  ],
+  "visited_urls": [
+    "https://theanarchistlibrary.org/category/author/oscar-wilde"
+  ]
 }

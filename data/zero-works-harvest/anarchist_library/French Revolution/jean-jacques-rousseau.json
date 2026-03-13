@@ -1,0 +1,20 @@
+{
+  "collection": "French Revolution",
+  "thinker": "Jean-Jacques Rousseau",
+  "slug": "jean-jacques-rousseau",
+  "source_url": "https://theanarchistlibrary.org/category/author/jean-jacques-rousseau",
+  "source_id": "anarchist_library",
+  "status": "success",
+  "message": "Collected 1 works from The Anarchist Library.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Against Civilization",
+      "url": "https://theanarchistlibrary.org/library/john-zerzan-against-civilization",
+      "source_id": "anarchist_library"
+    }
+  ],
+  "visited_urls": [
+    "https://theanarchistlibrary.org/category/author/jean-jacques-rousseau"
+  ]
+}

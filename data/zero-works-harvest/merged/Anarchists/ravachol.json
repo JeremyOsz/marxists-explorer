@@ -2,11 +2,41 @@
   "collection": "Anarchists",
   "thinker": "Ravachol",
   "slug": "ravachol",
-  "source_url": null,
-  "source_id": "redtexts",
-  "status": "no_works_found",
-  "message": "No works after merge.",
-  "warnings": [],
-  "works": [],
-  "visited_urls": []
+  "source_url": "https://theanarchistlibrary.org/category/author/ravachol",
+  "source_id": "mia",
+  "status": "success",
+  "message": "Collected 5 works from 4 source(s).",
+  "warnings": [
+    "No entry located on index page"
+  ],
+  "works": [
+    {
+      "title": "A Narrative",
+      "url": "https://theanarchistlibrary.org/library/ravachol-a-narrative",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "La Ravachole",
+      "url": "https://theanarchistlibrary.org/library/ravachol-la-ravachole",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Liberté",
+      "url": "https://theanarchistlibrary.org/library/ravachol-liberte-egalite-fraternite",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "My Principles",
+      "url": "https://theanarchistlibrary.org/library/ravachol-my-principles",
+      "source_id": "anarchist_library"
+    },
+    {
+      "title": "Ravachol’s Forbidden Defense Speech",
+      "url": "https://theanarchistlibrary.org/library/ravachol-ravachol-s-forbidden-defense-speech",
+      "source_id": "anarchist_library"
+    }
+  ],
+  "visited_urls": [
+    "https://theanarchistlibrary.org/category/author/ravachol"
+  ]
 }

@@ -2,11 +2,34 @@
   "collection": "French Left",
   "thinker": "Pierre Morhange",
   "slug": "pierre-morhange",
-  "source_url": null,
-  "source_id": "redtexts",
-  "status": "no_works_found",
-  "message": "No works after merge.",
+  "source_url": "https://www.marxists.org/archive/morhange/index.htm",
+  "source_id": "mia",
+  "status": "success",
+  "message": "Collected 4 works from 4 source(s).",
   "warnings": [],
-  "works": [],
-  "visited_urls": []
+  "works": [
+    {
+      "title": "Café",
+      "url": "https://www.marxists.org/archive/morhange/cafe.htm",
+      "source_id": "mia"
+    },
+    {
+      "title": "Paris",
+      "url": "https://www.marxists.org/archive/morhange/paris.htm",
+      "source_id": "mia"
+    },
+    {
+      "title": "Rain",
+      "url": "https://www.marxists.org/archive/morhange/rain.htm",
+      "source_id": "mia"
+    },
+    {
+      "title": "Sunday",
+      "url": "https://www.marxists.org/archive/morhange/sunday.htm",
+      "source_id": "mia"
+    }
+  ],
+  "visited_urls": [
+    "https://www.marxists.org/archive/morhange/index.htm"
+  ]
 }
