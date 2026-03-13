@@ -5,6 +5,12 @@
   "b": "https://www.marxists.org/reference/archive/",
   "i": "https://upload.wikimedia.org/wikipedia/commons/0/03/Elizabeth_Gurley_Flynn_We_Follow_The_Path_Less_Traveled_The_City_at_The_Crossroads_of_History.jpg",
   "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Elizabeth_Gurley_Flynn_We_Follow_The_Path_Less_Traveled_The_City_at_The_Crossroads_of_History.jpg/250px-Elizabeth_Gurley_Flynn_We_Follow_The_Path_Less_Traveled_The_City_at_The_Crossroads_of_History.jpg",
-  "w": 0,
-  "s": "elizabeth gurley flynn feminists marxist thinker and theorist in the tradition of feminists."
+  "w": 1,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 1
+    }
+  ],
+  "s": "elizabeth gurley flynn feminists marxist thinker and theorist in the tradition of feminists. general"
 }

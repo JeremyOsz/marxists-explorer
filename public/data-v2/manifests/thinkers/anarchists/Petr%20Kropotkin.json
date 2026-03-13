@@ -5,6 +5,12 @@
   "b": "/reference/archive/",
   "i": "https://upload.wikimedia.org/wikipedia/commons/0/00/Memoirs_of_a_revolutionist_volume_2.djvu",
   "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Memoirs_of_a_revolutionist_volume_2.djvu/page1-200px-Memoirs_of_a_revolutionist_volume_2.djvu.jpg",
-  "w": 0,
-  "s": "petr kropotkin anarchists marxist thinker and theorist in the tradition of anarchists."
+  "w": 50,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 50
+    }
+  ],
+  "s": "petr kropotkin anarchists marxist thinker and theorist in the tradition of anarchists. general"
 }

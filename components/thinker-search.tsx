@@ -21,6 +21,34 @@ function sortThinkers(list: Thinker[], sortBy: SortOption): Thinker[] {
   return sorted;
 }
 
+/** Canonical featured thinker name per category (key = category normalized to lowercase). "all" = when All Categories selected. Names must match manifest "n" exactly. */
+const FEATURED_THINKER_BY_CATEGORY: Record<string, string> = {
+  all: "Karl Marx",
+  "first-international": "Karl Marx",
+  "first international": "Karl Marx",
+  bolsheviks: "Vladimir Lenin",
+  "soviet-marxism": "Vladimir Lenin",
+  "soviet marxism": "Vladimir Lenin",
+  "soviet-science": "Vladimir Lenin",
+  anarchists: "Petr Kropotkin",
+  "paris commune": "Louise Michel",
+  "paris-commune": "Louise Michel",
+  comintern: "Josef Stalin",
+  maoists: "Mao Zedong",
+  "national-liberation": "Ho Chi Minh",
+  "national liberation": "Ho Chi Minh",
+  "social-democracy": "Rosa Luxemburg",
+  "social democracy": "Rosa Luxemburg",
+  "marxist-humanism": "Raya Dunayevskaya",
+  "marxist humanism": "Raya Dunayevskaya",
+  trotskyists: "Leon Trotsky",
+  feminists: "Alexandra Kollontai",
+};
+
+function normalizeCategoryForFeatured(category: string): string {
+  return category.toLowerCase().trim();
+}
+
 export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
   const [selectedThinker, setSelectedThinker] = useState<Thinker | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
@@ -167,8 +195,19 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
     return Object.fromEntries(sortedEntries);
   }, [deferredSearchQuery, otherResults, sortBy]);
 
-  const featuredThinker =
-    !deferredSearchQuery.trim() && filteredThinkers.length > 0 ? filteredThinkers[0] : null;
+  const featuredThinker = useMemo(() => {
+    if (deferredSearchQuery.trim() || filteredThinkers.length === 0) return null;
+    const key = selectedCategory === "all" ? "all" : normalizeCategoryForFeatured(selectedCategory);
+    const preferredName = FEATURED_THINKER_BY_CATEGORY[key];
+    if (preferredName) {
+      const inFiltered = filteredThinkers.find((t) => t.name === preferredName);
+      if (inFiltered) return inFiltered;
+      // e.g. Trotsky is in Bolsheviks but we want him when Trotskyists is selected
+      const inAll = thinkers.find((t) => t.name === preferredName);
+      if (inAll) return inAll;
+    }
+    return filteredThinkers[0];
+  }, [deferredSearchQuery, selectedCategory, filteredThinkers, thinkers]);
 
   const handleClearFilters = () => {
     setSearchQuery("");

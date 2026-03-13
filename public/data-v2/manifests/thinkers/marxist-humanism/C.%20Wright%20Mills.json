@@ -5,6 +5,12 @@
   "b": "https://www.marxists.org/reference/archive/",
   "i": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Beaumont%2C_the_dramatist%3B_a_portrait_%28IA_beaumontdramatis00gayl%29.pdf",
   "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Beaumont%2C_the_dramatist%3B_a_portrait_%28IA_beaumontdramatis00gayl%29.pdf/page1-200px-Beaumont%2C_the_dramatist%3B_a_portrait_%28IA_beaumontdramatis00gayl%29.pdf.jpg",
-  "w": 0,
-  "s": "c. wright mills marxist humanism marxist thinker and theorist in the tradition of marxist humanism."
+  "w": 1,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 1
+    }
+  ],
+  "s": "c. wright mills marxist humanism marxist thinker and theorist in the tradition of marxist humanism. general"
 }

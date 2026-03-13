@@ -5,6 +5,12 @@
   "b": "/reference/archive/",
   "i": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Makhno-1919.jpg",
   "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Makhno-1919.jpg/250px-Makhno-1919.jpg",
-  "w": 0,
-  "s": "nestor makhno anarchists marxist thinker and theorist in the tradition of anarchists."
+  "w": 23,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 23
+    }
+  ],
+  "s": "nestor makhno anarchists marxist thinker and theorist in the tradition of anarchists. general"
 }

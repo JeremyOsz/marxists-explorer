@@ -178,8 +178,14 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/4/46/Alexander_Berkman_001.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Alexander_Berkman_001.jpg/250px-Alexander_Berkman_001.jpg",
-    "w": 0,
-    "s": "alexander berkman anarchists marxist thinker and theorist in the tradition of anarchists."
+    "w": 53,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 53
+      }
+    ],
+    "s": "alexander berkman anarchists marxist thinker and theorist in the tradition of anarchists. general"
   },
   {
     "n": "Alexander Bogdanov",
@@ -876,8 +882,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/9/95/Arthur_Rosenberg.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Arthur_Rosenberg.jpg/250px-Arthur_Rosenberg.jpg",
-    "w": 0,
-    "s": "arthur rosenberg feminists marxist thinker and theorist in the tradition of feminists."
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "s": "arthur rosenberg feminists marxist thinker and theorist in the tradition of feminists. general"
   },
   {
     "n": "Athur Ransome",
@@ -1040,8 +1052,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Zeitschrift_f%C3%BCr_Ethnologie._Jg._032%2C_1900_%28IA_zeitschriftfre32berl%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Zeitschrift_f%C3%BCr_Ethnologie._Jg._032%2C_1900_%28IA_zeitschriftfre32berl%29.pdf/page1-200px-Zeitschrift_f%C3%BCr_Ethnologie._Jg._032%2C_1900_%28IA_zeitschriftfre32berl%29.pdf.jpg",
-    "w": 0,
-    "s": "barbara ehrenreich feminists marxist thinker and theorist in the tradition of feminists."
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "s": "barbara ehrenreich feminists marxist thinker and theorist in the tradition of feminists. general"
   },
   {
     "n": "Baruch Hirson",
@@ -1428,8 +1446,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Beaumont%2C_the_dramatist%3B_a_portrait_%28IA_beaumontdramatis00gayl%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Beaumont%2C_the_dramatist%3B_a_portrait_%28IA_beaumontdramatis00gayl%29.pdf/page1-200px-Beaumont%2C_the_dramatist%3B_a_portrait_%28IA_beaumontdramatis00gayl%29.pdf.jpg",
-    "w": 0,
-    "s": "c. wright mills marxist humanism marxist thinker and theorist in the tradition of marxist humanism."
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "s": "c. wright mills marxist humanism marxist thinker and theorist in the tradition of marxist humanism. general"
   },
   {
     "n": "Cajo Brendel",
@@ -1576,8 +1600,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Portrait_painting_of_Charles_Fourier_by_Jean_Gigoux_%E2%80%94_1835.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Portrait_painting_of_Charles_Fourier_by_Jean_Gigoux_%E2%80%94_1835.jpg/250px-Portrait_painting_of_Charles_Fourier_by_Jean_Gigoux_%E2%80%94_1835.jpg",
-    "w": 0,
-    "s": "charles fourier utopianism marxist thinker and theorist in the tradition of utopianism."
+    "w": 6,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 6
+      }
+    ],
+    "s": "charles fourier utopianism marxist thinker and theorist in the tradition of utopianism. general"
   },
   {
     "n": "Charles Rappoport",
@@ -1970,8 +2000,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/9/92/Cyril_Smith_%281892%E2%80%931963%29_in_The_Adoption_of_Archibald_2.png",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Cyril_Smith_%281892%E2%80%931963%29_in_The_Adoption_of_Archibald_2.png/250px-Cyril_Smith_%281892%E2%80%931963%29_in_The_Adoption_of_Archibald_2.png",
-    "w": 0,
-    "s": "cyril smith philosophy marxist thinker and theorist in the tradition of philosophy."
+    "w": 2,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 2
+      }
+    ],
+    "s": "cyril smith philosophy marxist thinker and theorist in the tradition of philosophy. general"
   },
   {
     "n": "Dale Spender",
@@ -2140,8 +2176,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Jean-Simon_Berth%C3%A9lemy_-_Bildnis_eines_Herrn_mit_der_B%C3%BCste_des_Denis_Diderot.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Jean-Simon_Berth%C3%A9lemy_-_Bildnis_eines_Herrn_mit_der_B%C3%BCste_des_Denis_Diderot.jpg/250px-Jean-Simon_Berth%C3%A9lemy_-_Bildnis_eines_Herrn_mit_der_B%C3%BCste_des_Denis_Diderot.jpg",
-    "w": 0,
-    "s": "denis diderot philosophy marxist thinker and theorist in the tradition of philosophy."
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "s": "denis diderot philosophy marxist thinker and theorist in the tradition of philosophy. general"
   },
   {
     "n": "Denzil Dean Harber",
@@ -2532,8 +2574,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/0/03/Elizabeth_Gurley_Flynn_We_Follow_The_Path_Less_Traveled_The_City_at_The_Crossroads_of_History.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Elizabeth_Gurley_Flynn_We_Follow_The_Path_Less_Traveled_The_City_at_The_Crossroads_of_History.jpg/250px-Elizabeth_Gurley_Flynn_We_Follow_The_Path_Less_Traveled_The_City_at_The_Crossroads_of_History.jpg",
-    "w": 0,
-    "s": "elizabeth gurley flynn feminists marxist thinker and theorist in the tradition of feminists."
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "s": "elizabeth gurley flynn feminists marxist thinker and theorist in the tradition of feminists. general"
   },
   {
     "n": "Emma Goldman",
@@ -2542,8 +2590,14 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/2/23/Portrait_Emma_Goldman.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Portrait_Emma_Goldman.jpg/250px-Portrait_Emma_Goldman.jpg",
-    "w": 0,
-    "s": "emma goldman anarchists marxist thinker and theorist in the tradition of anarchists."
+    "w": 119,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 119
+      }
+    ],
+    "s": "emma goldman anarchists marxist thinker and theorist in the tradition of anarchists. general"
   },
   {
     "n": "Enver Hoxha",
@@ -2682,8 +2736,14 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/8/86/Brigata_della_morte_Malatesta.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Brigata_della_morte_Malatesta.jpg/250px-Brigata_della_morte_Malatesta.jpg",
-    "w": 0,
-    "s": "errico malatesta anarchists marxist thinker and theorist in the tradition of anarchists."
+    "w": 96,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 96
+      }
+    ],
+    "s": "errico malatesta anarchists marxist thinker and theorist in the tradition of anarchists. general"
   },
   {
     "n": "Étienne Cabet",
@@ -3416,8 +3476,14 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Makhno_group.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Makhno_group.jpg/250px-Makhno_group.jpg",
-    "w": 0,
-    "s": "fredy perlman anarchists marxist thinker and theorist in the tradition of anarchists."
+    "w": 24,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 24
+      }
+    ],
+    "s": "fredy perlman anarchists marxist thinker and theorist in the tradition of anarchists. general"
   },
   {
     "n": "Friedrich Adler",
@@ -3972,8 +4038,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Land_and_real_tariff_reform%3B_being_The_land_reformers%27_handbook_for_1909%3B_%28IA_landrealtariffre00edwaiala%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Land_and_real_tariff_reform%3B_being_The_land_reformers%27_handbook_for_1909%3B_%28IA_landrealtariffre00edwaiala%29.pdf/page1-200px-Land_and_real_tariff_reform%3B_being_The_land_reformers%27_handbook_for_1909%3B_%28IA_landrealtariffre00edwaiala%29.pdf.jpg",
-    "w": 0,
-    "s": "gerrard winstanley political science marxist thinker and theorist in the tradition of political science."
+    "w": 4,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 4
+      }
+    ],
+    "s": "gerrard winstanley political science marxist thinker and theorist in the tradition of political science. general"
   },
   {
     "n": "Gerry Healy",
@@ -4204,8 +4276,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/4/43/Guy_Debord%2C_painted_portrait.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Guy_Debord%2C_painted_portrait.jpg/250px-Guy_Debord%2C_painted_portrait.jpg",
-    "w": 0,
-    "s": "guy debord french left marxist thinker and theorist in the tradition of french left."
+    "w": 12,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 12
+      }
+    ],
+    "s": "guy debord french left marxist thinker and theorist in the tradition of french left. general"
   },
   {
     "n": "GW Cunningham",
@@ -5462,8 +5540,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg/250px-Jean-Jacques_Rousseau_%28painted_portrait%29.jpg",
-    "w": 0,
-    "s": "jean-jacques rousseau french revolution marxist thinker and theorist in the tradition of french revolution."
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "s": "jean-jacques rousseau french revolution marxist thinker and theorist in the tradition of french revolution. general"
   },
   {
     "n": "Jean-Marie Guyau",
@@ -5482,8 +5566,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Jean_Garneray_Marat.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Jean_Garneray_Marat.jpg/250px-Jean_Garneray_Marat.jpg",
-    "w": 0,
-    "s": "jean-paul marat french revolution marxist thinker and theorist in the tradition of french revolution."
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "s": "jean-paul marat french revolution marxist thinker and theorist in the tradition of french revolution. general"
   },
   {
     "n": "Jean-Paul Sartre",
@@ -6606,8 +6696,14 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/4/46/L%C3%A9o_Taxil_1881.png",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/L%C3%A9o_Taxil_1881.png/250px-L%C3%A9o_Taxil_1881.png",
-    "w": 0,
-    "s": "léo taxil anarchists marxist thinker and theorist in the tradition of anarchists."
+    "w": 2,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 2
+      }
+    ],
+    "s": "léo taxil anarchists marxist thinker and theorist in the tradition of anarchists. general"
   },
   {
     "n": "Leon Blum",
@@ -6934,8 +7030,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/d/db/%28Narbonne%29_Louise_Th%C3%A9r%C3%A8se_d%27Orl%C3%A9ans%2C_Duchesse_de_Bourbon_-_Louis-Michel_van_Loo_-_Mus%C3%A9e_des_Beaux-Arts_de_Narbonne.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/%28Narbonne%29_Louise_Th%C3%A9r%C3%A8se_d%27Orl%C3%A9ans%2C_Duchesse_de_Bourbon_-_Louis-Michel_van_Loo_-_Mus%C3%A9e_des_Beaux-Arts_de_Narbonne.jpg/250px-%28Narbonne%29_Louise_Th%C3%A9r%C3%A8se_d%27Orl%C3%A9ans%2C_Duchesse_de_Bourbon_-_Louis-Michel_van_Loo_-_Mus%C3%A9e_des_Beaux-Arts_de_Narbonne.jpg",
-    "w": 0,
-    "s": "louise michel paris commune marxist thinker and theorist in the tradition of paris commune."
+    "w": 8,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 8
+      }
+    ],
+    "s": "louise michel paris commune marxist thinker and theorist in the tradition of paris commune. general"
   },
   {
     "n": "Lu Xun",
@@ -7524,8 +7626,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/3/36/Mary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Mary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg/250px-Mary_Wollstonecraft_by_John_Opie_%28c._1797%29.jpg",
-    "w": 0,
-    "s": "mary wollstonecraft feminists marxist thinker and theorist in the tradition of feminists."
+    "w": 6,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 6
+      }
+    ],
+    "s": "mary wollstonecraft feminists marxist thinker and theorist in the tradition of feminists. general"
   },
   {
     "n": "Mátyás Rákosi",
@@ -7684,8 +7792,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/5/50/FFM_Max-Horkheimer-Gedenktafel.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/FFM_Max-Horkheimer-Gedenktafel.jpg/250px-FFM_Max-Horkheimer-Gedenktafel.jpg",
-    "w": 0,
-    "s": "max horkheimer frankfurt school marxist thinker and theorist in the tradition of frankfurt school."
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "s": "max horkheimer frankfurt school marxist thinker and theorist in the tradition of frankfurt school. general"
   },
   {
     "n": "Max Shachtman",
@@ -7710,8 +7824,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/d/da/Portrait_Max_Stirner.svg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Portrait_Max_Stirner.svg/250px-Portrait_Max_Stirner.svg.png",
-    "w": 0,
-    "s": "max stirner philosophy marxist thinker and theorist in the tradition of philosophy."
+    "w": 41,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 41
+      }
+    ],
+    "s": "max stirner philosophy marxist thinker and theorist in the tradition of philosophy. general"
   },
   {
     "n": "Max Weber",
@@ -8032,8 +8152,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/4/45/Moses-Hess.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Moses-Hess.jpg/250px-Moses-Hess.jpg",
-    "w": 0,
-    "s": "moses hess philosophy marxist thinker and theorist in the tradition of philosophy."
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "s": "moses hess philosophy marxist thinker and theorist in the tradition of philosophy. general"
   },
   {
     "n": "Mother Jones",
@@ -8152,8 +8278,14 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Makhno-1919.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Makhno-1919.jpg/250px-Makhno-1919.jpg",
-    "w": 0,
-    "s": "nestor makhno anarchists marxist thinker and theorist in the tradition of anarchists."
+    "w": 23,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 23
+      }
+    ],
+    "s": "nestor makhno anarchists marxist thinker and theorist in the tradition of anarchists. general"
   },
   {
     "n": "Neville Alexander",
@@ -8350,8 +8482,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/4/44/Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph%2C_seated.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph%2C_seated.jpg/250px-Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph%2C_seated.jpg",
-    "w": 0,
-    "s": "oscar wilde fabians marxist thinker and theorist in the tradition of fabians."
+    "w": 7,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 7
+      }
+    ],
+    "s": "oscar wilde fabians marxist thinker and theorist in the tradition of fabians. general"
   },
   {
     "n": "Osip Piatnitsky",
@@ -8662,8 +8800,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/0/07/Portrait_of_Percy_Bysshe_Shelley_by_Curran%2C_1819.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Portrait_of_Percy_Bysshe_Shelley_by_Curran%2C_1819.jpg/250px-Portrait_of_Percy_Bysshe_Shelley_by_Curran%2C_1819.jpg",
-    "w": 0,
-    "s": "percy bysshe shelley philosophy marxist thinker and theorist in the tradition of philosophy."
+    "w": 50,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 50
+      }
+    ],
+    "s": "percy bysshe shelley philosophy marxist thinker and theorist in the tradition of philosophy. general"
   },
   {
     "n": "Peter Camejo",
@@ -8754,8 +8898,14 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/0/00/Memoirs_of_a_revolutionist_volume_2.djvu",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Memoirs_of_a_revolutionist_volume_2.djvu/page1-200px-Memoirs_of_a_revolutionist_volume_2.djvu.jpg",
-    "w": 0,
-    "s": "petr kropotkin anarchists marxist thinker and theorist in the tradition of anarchists."
+    "w": 50,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 50
+      }
+    ],
+    "s": "petr kropotkin anarchists marxist thinker and theorist in the tradition of anarchists. general"
   },
   {
     "n": "Pham Van Dong",
@@ -8826,8 +8976,14 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Portrait_pr%C3%A9sum%C3%A9_de_Pierre-Joseph_Proudhon_%281809-1865%29%2C_%C3%A9conomiste%2C_philosophe_et_publiciste.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Portrait_pr%C3%A9sum%C3%A9_de_Pierre-Joseph_Proudhon_%281809-1865%29%2C_%C3%A9conomiste%2C_philosophe_et_publiciste.jpg/250px-Portrait_pr%C3%A9sum%C3%A9_de_Pierre-Joseph_Proudhon_%281809-1865%29%2C_%C3%A9conomiste%2C_philosophe_et_publiciste.jpg",
-    "w": 0,
-    "s": "pierre-joseph proudhon anarchists marxist thinker and theorist in the tradition of anarchists."
+    "w": 77,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 77
+      }
+    ],
+    "s": "pierre-joseph proudhon anarchists marxist thinker and theorist in the tradition of anarchists. general"
   },
   {
     "n": "Pietro Secchia",
@@ -8902,8 +9058,14 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/9/98/RAVACHOL_face.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/RAVACHOL_face.jpg/250px-RAVACHOL_face.jpg",
-    "w": 0,
-    "s": "ravachol anarchists marxist thinker and theorist in the tradition of anarchists."
+    "w": 5,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 5
+      }
+    ],
+    "s": "ravachol anarchists marxist thinker and theorist in the tradition of anarchists. general"
   },
   {
     "n": "Raya Dunayevskaya",
@@ -8980,8 +9142,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/8/81/Portrait_of_Robert_Owen_%281294983%29.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Portrait_of_Robert_Owen_%281294983%29.jpg/250px-Portrait_of_Robert_Owen_%281294983%29.jpg",
-    "w": 0,
-    "s": "robert owen utopianism marxist thinker and theorist in the tradition of utopianism."
+    "w": 2,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 2
+      }
+    ],
+    "s": "robert owen utopianism marxist thinker and theorist in the tradition of utopianism. general"
   },
   {
     "n": "Robespierre",
@@ -9094,8 +9262,14 @@
     "b": "/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/2/2f/RudolfMilly_%28cropped%29.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/2/2f/RudolfMilly_%28cropped%29.jpg",
-    "w": 0,
-    "s": "rudolf rocker anarchists marxist thinker and theorist in the tradition of anarchists."
+    "w": 30,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 30
+      }
+    ],
+    "s": "rudolf rocker anarchists marxist thinker and theorist in the tradition of anarchists. general"
   },
   {
     "n": "Russell Blackwell",
@@ -9104,8 +9278,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/9/98/A_series_of_wonderful_sermons_%28IA_seriesofwonderfu00conw%29.pdf",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/A_series_of_wonderful_sermons_%28IA_seriesofwonderfu00conw%29.pdf/page1-200px-A_series_of_wonderful_sermons_%28IA_seriesofwonderfu00conw%29.pdf.jpg",
-    "w": 0,
-    "s": "russell blackwell trotskyists marxist thinker and theorist in the tradition of trotskyists."
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "s": "russell blackwell trotskyists marxist thinker and theorist in the tradition of trotskyists. general"
   },
   {
     "n": "Saint-Simon",
@@ -9736,8 +9916,14 @@
     "b": "https://www.marxists.org/reference/archive/",
     "i": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Hans_Holbein%2C_the_Younger_-_Sir_Thomas_More_-_Google_Art_Project.jpg",
     "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Hans_Holbein%2C_the_Younger_-_Sir_Thomas_More_-_Google_Art_Project.jpg/250px-Hans_Holbein%2C_the_Younger_-_Sir_Thomas_More_-_Google_Art_Project.jpg",
-    "w": 0,
-    "s": "thomas more utopianism marxist thinker and theorist in the tradition of utopianism."
+    "w": 1,
+    "subjects": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "s": "thomas more utopianism marxist thinker and theorist in the tradition of utopianism. general"
   },
   {
     "n": "Thomas Paine",

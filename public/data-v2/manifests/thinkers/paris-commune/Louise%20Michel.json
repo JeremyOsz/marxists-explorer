@@ -5,6 +5,12 @@
   "b": "https://www.marxists.org/reference/archive/",
   "i": "https://upload.wikimedia.org/wikipedia/commons/d/db/%28Narbonne%29_Louise_Th%C3%A9r%C3%A8se_d%27Orl%C3%A9ans%2C_Duchesse_de_Bourbon_-_Louis-Michel_van_Loo_-_Mus%C3%A9e_des_Beaux-Arts_de_Narbonne.jpg",
   "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/%28Narbonne%29_Louise_Th%C3%A9r%C3%A8se_d%27Orl%C3%A9ans%2C_Duchesse_de_Bourbon_-_Louis-Michel_van_Loo_-_Mus%C3%A9e_des_Beaux-Arts_de_Narbonne.jpg/250px-%28Narbonne%29_Louise_Th%C3%A9r%C3%A8se_d%27Orl%C3%A9ans%2C_Duchesse_de_Bourbon_-_Louis-Michel_van_Loo_-_Mus%C3%A9e_des_Beaux-Arts_de_Narbonne.jpg",
-  "w": 0,
-  "s": "louise michel paris commune marxist thinker and theorist in the tradition of paris commune."
+  "w": 8,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 8
+    }
+  ],
+  "s": "louise michel paris commune marxist thinker and theorist in the tradition of paris commune. general"
 }

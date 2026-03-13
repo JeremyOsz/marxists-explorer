@@ -5,6 +5,12 @@
   "b": "https://www.marxists.org/reference/archive/",
   "i": "https://upload.wikimedia.org/wikipedia/commons/d/da/Portrait_Max_Stirner.svg",
   "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Portrait_Max_Stirner.svg/250px-Portrait_Max_Stirner.svg.png",
-  "w": 0,
-  "s": "max stirner philosophy marxist thinker and theorist in the tradition of philosophy."
+  "w": 41,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 41
+    }
+  ],
+  "s": "max stirner philosophy marxist thinker and theorist in the tradition of philosophy. general"
 }

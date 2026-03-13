@@ -5,6 +5,12 @@
   "b": "/reference/archive/",
   "i": "https://upload.wikimedia.org/wikipedia/commons/4/46/Alexander_Berkman_001.jpg",
   "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Alexander_Berkman_001.jpg/250px-Alexander_Berkman_001.jpg",
-  "w": 0,
-  "s": "alexander berkman anarchists marxist thinker and theorist in the tradition of anarchists."
+  "w": 53,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 53
+    }
+  ],
+  "s": "alexander berkman anarchists marxist thinker and theorist in the tradition of anarchists. general"
 }

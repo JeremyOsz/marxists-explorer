@@ -5,6 +5,12 @@
   "b": "https://www.marxists.org/reference/archive/",
   "i": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg",
   "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Jean-Jacques_Rousseau_%28painted_portrait%29.jpg/250px-Jean-Jacques_Rousseau_%28painted_portrait%29.jpg",
-  "w": 0,
-  "s": "jean-jacques rousseau french revolution marxist thinker and theorist in the tradition of french revolution."
+  "w": 1,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 1
+    }
+  ],
+  "s": "jean-jacques rousseau french revolution marxist thinker and theorist in the tradition of french revolution. general"
 }

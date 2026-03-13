@@ -5,6 +5,12 @@
   "b": "https://www.marxists.org/reference/archive/",
   "i": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Jean_Garneray_Marat.jpg",
   "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Jean_Garneray_Marat.jpg/250px-Jean_Garneray_Marat.jpg",
-  "w": 0,
-  "s": "jean-paul marat french revolution marxist thinker and theorist in the tradition of french revolution."
+  "w": 1,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 1
+    }
+  ],
+  "s": "jean-paul marat french revolution marxist thinker and theorist in the tradition of french revolution. general"
 }

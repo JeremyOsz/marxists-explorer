@@ -5,6 +5,12 @@
   "b": "https://www.marxists.org/reference/archive/",
   "i": "https://upload.wikimedia.org/wikipedia/commons/4/45/Moses-Hess.jpg",
   "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Moses-Hess.jpg/250px-Moses-Hess.jpg",
-  "w": 0,
-  "s": "moses hess philosophy marxist thinker and theorist in the tradition of philosophy."
+  "w": 1,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 1
+    }
+  ],
+  "s": "moses hess philosophy marxist thinker and theorist in the tradition of philosophy. general"
 }

@@ -5,6 +5,12 @@
   "b": "/reference/archive/",
   "i": "https://upload.wikimedia.org/wikipedia/commons/2/23/Portrait_Emma_Goldman.jpg",
   "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Portrait_Emma_Goldman.jpg/250px-Portrait_Emma_Goldman.jpg",
-  "w": 0,
-  "s": "emma goldman anarchists marxist thinker and theorist in the tradition of anarchists."
+  "w": 119,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 119
+    }
+  ],
+  "s": "emma goldman anarchists marxist thinker and theorist in the tradition of anarchists. general"
 }

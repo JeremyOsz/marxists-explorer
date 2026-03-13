@@ -5,6 +5,12 @@
   "b": "https://www.marxists.org/reference/archive/",
   "i": "https://upload.wikimedia.org/wikipedia/commons/9/92/Cyril_Smith_%281892%E2%80%931963%29_in_The_Adoption_of_Archibald_2.png",
   "t": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Cyril_Smith_%281892%E2%80%931963%29_in_The_Adoption_of_Archibald_2.png/250px-Cyril_Smith_%281892%E2%80%931963%29_in_The_Adoption_of_Archibald_2.png",
-  "w": 0,
-  "s": "cyril smith philosophy marxist thinker and theorist in the tradition of philosophy."
+  "w": 2,
+  "subjects": [
+    {
+      "name": "General",
+      "count": 2
+    }
+  ],
+  "s": "cyril smith philosophy marxist thinker and theorist in the tradition of philosophy. general"
 }
