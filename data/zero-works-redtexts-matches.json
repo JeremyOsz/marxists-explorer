@@ -1,0 +1,1963 @@
+[
+  {
+    "collection": "African Liberation",
+    "thinker": "Govan Mbeki",
+    "slug": "govan-mbeki",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "African Liberation",
+    "thinker": "Kwame Nkrumah",
+    "slug": "kwame-nkrumah",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "African Liberation",
+    "thinker": "Patrice Lumumba",
+    "slug": "patrice-lumumba",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "African Liberation",
+    "thinker": "Samora Machel",
+    "slug": "samora-machel",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "African Liberation",
+    "thinker": "Thomas Sankara",
+    "slug": "thomas-sankara",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Anarchists",
+    "thinker": "Alexander Berkman",
+    "slug": "alexander-berkman",
+    "status": "matched",
+    "source_id": "redtexts",
+    "matches": [
+      {
+        "text": "Berkman, Alexander",
+        "url": "https://www.redtexts.org/",
+        "works": [
+          {
+            "title": "In Reply to Kropotkin",
+            "url": "https://www.redtexts.org/html/berkman_1914_reply_to_kropotkin.html"
+          },
+          {
+            "title": "War Dictionary",
+            "url": "https://www.redtexts.org/html/berkman_1917_war_dictionary.html"
+          },
+          {
+            "title": "Now and After: The ABC of Communist Anarchism",
+            "url": "https://www.redtexts.org/html/berkman_1929_now_and_after.html"
+          }
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "collection": "Anarchists",
+    "thinker": "Emma Goldman",
+    "slug": "emma-goldman",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Anarchists",
+    "thinker": "Errico Malatesta",
+    "slug": "errico-malatesta",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Anarchists",
+    "thinker": "Fredy Perlman",
+    "slug": "fredy-perlman",
+    "status": "matched",
+    "source_id": "redtexts",
+    "matches": [
+      {
+        "text": "Perlman, Fredy",
+        "url": "https://www.redtexts.org/",
+        "works": [
+          {
+            "title": "Commodity Fetishism",
+            "url": "https://www.redtexts.org/html/perlman_1968_commodity_fetishism.html"
+          },
+          {
+            "title": "The Reproduction of Daily Life",
+            "url": "https://www.redtexts.org/html/perlman_1969_reproduction_daily_life.html"
+          }
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "collection": "Anarchists",
+    "thinker": "Léo Taxil",
+    "slug": "leo-taxil",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Anarchists",
+    "thinker": "Nestor Makhno",
+    "slug": "nestor-makhno",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Anarchists",
+    "thinker": "Petr Kropotkin",
+    "slug": "petr-kropotkin",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Anarchists",
+    "thinker": "Pierre-Joseph Proudhon",
+    "slug": "pierre-joseph-proudhon",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Anarchists",
+    "thinker": "Ravachol",
+    "slug": "ravachol",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Anarchists",
+    "thinker": "Rudolf Rocker",
+    "slug": "rudolf-rocker",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Black Liberation",
+    "thinker": "Toussaint Louverture",
+    "slug": "toussaint-louverture",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Bill Bland",
+    "slug": "bill-bland",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Claudia Jones",
+    "slug": "claudia-jones",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Dmitry Manuilsky",
+    "slug": "dmitry-manuilsky",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Enver Hoxha",
+    "slug": "enver-hoxha",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Fred Rose",
+    "slug": "fred-rose",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Georgi Dimitrov",
+    "slug": "georgi-dimitrov",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Georgy Malenkov",
+    "slug": "georgy-malenkov",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Huberto Alvarado",
+    "slug": "huberto-alvarado",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "J. T. Murphy",
+    "slug": "j-t-murphy",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Josef Stalin",
+    "slug": "josef-stalin",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Lance Sharkey",
+    "slug": "lance-sharkey",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Lavrenti Beria",
+    "slug": "lavrenti-beria",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Mikhail Suslov",
+    "slug": "mikhail-suslov",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Nicolae Ceasescu",
+    "slug": "nicolae-ceasescu",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Nikita Khrushchev",
+    "slug": "nikita-khrushchev",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Nikolai Bulganin",
+    "slug": "nikolai-bulganin",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Pietro Secchia",
+    "slug": "pietro-secchia",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "R. Palme Dutt",
+    "slug": "r-palme-dutt",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Tim Buck",
+    "slug": "tim-buck",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Victor Perlo",
+    "slug": "victor-perlo",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Vyacheslav Molotov",
+    "slug": "vyacheslav-molotov",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Comintern",
+    "thinker": "Wilfred Burchett",
+    "slug": "wilfred-burchett",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Early Comintern",
+    "thinker": "José Carlos Mariátegui",
+    "slug": "jose-carlos-mariategui",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Early Comintern",
+    "thinker": "Julián Gorkin",
+    "slug": "julian-gorkin",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Ethics",
+    "thinker": "Immanuel Kant",
+    "slug": "immanuel-kant",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Ethics",
+    "thinker": "Jean-Marie Guyau",
+    "slug": "jean-marie-guyau",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Fabians",
+    "thinker": "H.G. Wells",
+    "slug": "h-g-wells",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Fabians",
+    "thinker": "Oscar Wilde",
+    "slug": "oscar-wilde",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Alice Field",
+    "slug": "alice-field",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Anna Louise Strong",
+    "slug": "anna-louise-strong",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Arthur Rosenberg",
+    "slug": "arthur-rosenberg",
+    "status": "matched",
+    "source_id": "redtexts",
+    "matches": [
+      {
+        "text": "Rosenberg, Arthur",
+        "url": "https://www.redtexts.org/",
+        "works": [
+          {
+            "title": "A History of Bolshevism: From Marx to the First Five-Year Plan",
+            "url": "https://www.redtexts.org/html/rosenberg_1932_history_of_bolshevism.html"
+          }
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Athur Ransome",
+    "slug": "athur-ransome",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Attila Jzsef",
+    "slug": "attila-jzsef",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Barbara Ehrenreich",
+    "slug": "barbara-ehrenreich",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Charles Darwin",
+    "slug": "charles-darwin",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Dale Spender",
+    "slug": "dale-spender",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Drucilla Cornell",
+    "slug": "drucilla-cornell",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Elizabeth Gurley Flynn",
+    "slug": "elizabeth-gurley-flynn",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Franois Voltaire",
+    "slug": "franois-voltaire",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Germaine Greer",
+    "slug": "germaine-greer",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Harold Isaacs",
+    "slug": "harold-isaacs",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Harriet Taylor",
+    "slug": "harriet-taylor",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Helen Keller",
+    "slug": "helen-keller",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Henry Noel Brailsford",
+    "slug": "henry-noel-brailsford",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "James T. Farrell",
+    "slug": "james-t-farrell",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "John Pilger",
+    "slug": "john-pilger",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Juliet Mitchell",
+    "slug": "juliet-mitchell",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Kate Millett",
+    "slug": "kate-millett",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Lena MorrowLewis",
+    "slug": "lena-morrowlewis",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Lewis Henry Morgan",
+    "slug": "lewis-henry-morgan",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Linda Nicholson",
+    "slug": "linda-nicholson",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Louis-Ren Villerm",
+    "slug": "louis-ren-villerm",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Lynn Beaton",
+    "slug": "lynn-beaton",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Marlene Dixon",
+    "slug": "marlene-dixon",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Mary Heaton Vorse",
+    "slug": "mary-heaton-vorse",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Mary Wollstonecraft",
+    "slug": "mary-wollstonecraft",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Nicholas Chernyshevsky",
+    "slug": "nicholas-chernyshevsky",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Olive Schreiner",
+    "slug": "olive-schreiner",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Sheila Rowbotham",
+    "slug": "sheila-rowbotham",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Shulamith Firestone",
+    "slug": "shulamith-firestone",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Teresa Ebert",
+    "slug": "teresa-ebert",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Upton Sinclair",
+    "slug": "upton-sinclair",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Feminists",
+    "thinker": "Vida Goldstein",
+    "slug": "vida-goldstein",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Frankfurt School",
+    "thinker": "Jürgen Habermas",
+    "slug": "jurgen-habermas",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Frankfurt School",
+    "thinker": "Leo Lowenthal",
+    "slug": "leo-lowenthal",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Frankfurt School",
+    "thinker": "Max Horkheimer",
+    "slug": "max-horkheimer",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "French Left",
+    "thinker": "Benny Lévy",
+    "slug": "benny-levy",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "French Left",
+    "thinker": "Guy Debord",
+    "slug": "guy-debord",
+    "status": "matched",
+    "source_id": "redtexts",
+    "matches": [
+      {
+        "text": "Debord, Guy",
+        "url": "https://www.redtexts.org/",
+        "works": [
+          {
+            "title": "A User's Guide to DÃ©tournement",
+            "url": "https://www.redtexts.org/html/debord_wolman_1956_users_guide_detournement.html"
+          }
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "collection": "French Left",
+    "thinker": "Pierre Morhange",
+    "slug": "pierre-morhange",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "French Revolution",
+    "thinker": "Auguste Blanqui",
+    "slug": "auguste-blanqui",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "French Revolution",
+    "thinker": "General Boulanger",
+    "slug": "general-boulanger",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "French Revolution",
+    "thinker": "Gracchus Babeuf",
+    "slug": "gracchus-babeuf",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "French Revolution",
+    "thinker": "Holbach",
+    "slug": "holbach",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "French Revolution",
+    "thinker": "Jacques Roux",
+    "slug": "jacques-roux",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "French Revolution",
+    "thinker": "Jean-Jacques Rousseau",
+    "slug": "jean-jacques-rousseau",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "French Revolution",
+    "thinker": "Jean-Paul Marat",
+    "slug": "jean-paul-marat",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "French Revolution",
+    "thinker": "Julien La Mettrie",
+    "slug": "julien-la-mettrie",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "French Revolution",
+    "thinker": "Robespierre",
+    "slug": "robespierre",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Maoists",
+    "thinker": "Charu Mazumdar",
+    "slug": "charu-mazumdar",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Maoists",
+    "thinker": "Hua Guofeng",
+    "slug": "hua-guofeng",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Maoists",
+    "thinker": "Lin Biao",
+    "slug": "lin-biao",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Maoists",
+    "thinker": "Liu Shaoqi",
+    "slug": "liu-shaoqi",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Maoists",
+    "thinker": "Peng Zhen",
+    "slug": "peng-zhen",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Maoists",
+    "thinker": "Pol Pot",
+    "slug": "pol-pot",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Maoists",
+    "thinker": "Sam Marcy",
+    "slug": "sam-marcy",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Maoists",
+    "thinker": "Song Renqiong",
+    "slug": "song-renqiong",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Maoists",
+    "thinker": "Vinod Mishra",
+    "slug": "vinod-mishra",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Maoists",
+    "thinker": "Zhang Chunqiao",
+    "slug": "zhang-chunqiao",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Maoists",
+    "thinker": "Zhou Enlai",
+    "slug": "zhou-enlai",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Maoists",
+    "thinker": "Zhu De",
+    "slug": "zhu-de",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Market Socialists",
+    "thinker": "Deng Xiaoping",
+    "slug": "deng-xiaoping",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Marxist Humanism",
+    "thinker": "C. Wright Mills",
+    "slug": "c-wright-mills",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Marxist Humanism",
+    "thinker": "Grace Lee Boggs",
+    "slug": "grace-lee-boggs",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Marxist Humanism",
+    "thinker": "Marshall Berman",
+    "slug": "marshall-berman",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Marxist Humanism",
+    "thinker": "William Gorman",
+    "slug": "william-gorman",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "National Liberation",
+    "thinker": "Ghassan Kanafani",
+    "slug": "ghassan-kanafani",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "National Liberation",
+    "thinker": "Le Duan",
+    "slug": "le-duan",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "National Liberation",
+    "thinker": "Lu Xun",
+    "slug": "lu-xun",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "National Liberation",
+    "thinker": "Messali Hadj",
+    "slug": "messali-hadj",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "National Liberation",
+    "thinker": "Paulo Freire",
+    "slug": "paulo-freire",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "National Liberation",
+    "thinker": "Pham Van Dong",
+    "slug": "pham-van-dong",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Paris Commune",
+    "thinker": "Henri Rochefort",
+    "slug": "henri-rochefort",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Paris Commune",
+    "thinker": "Jules Valès",
+    "slug": "jules-vales",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Paris Commune",
+    "thinker": "Louise Michel",
+    "slug": "louise-michel",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Alasdair MacIntyre",
+    "slug": "alasdair-macintyre",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Auguste Comte",
+    "slug": "auguste-comte",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Benedetto Croce",
+    "slug": "benedetto-croce",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Blaise Pascal",
+    "slug": "blaise-pascal",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Cyril Smith",
+    "slug": "cyril-smith",
+    "status": "matched",
+    "source_id": "redtexts",
+    "matches": [
+      {
+        "text": "Smith, Cyril",
+        "url": "https://www.redtexts.org/",
+        "works": [
+          {
+            "title": "Marx versus Historical Materialism",
+            "url": "https://www.redtexts.org/html/smith_1999_marx_vs_historical_materialism.html"
+          },
+          {
+            "title": "Hegel, Marx and the Enlightenment",
+            "url": "https://www.redtexts.org/html/smith_2001_hegel_marx_enlightenment.html"
+          }
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Denis Diderot",
+    "slug": "denis-diderot",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Francis Bacon",
+    "slug": "francis-bacon",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "François Voltaire",
+    "slug": "francois-voltaire",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Friedrich Jacobi",
+    "slug": "friedrich-jacobi",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Friedrich Schelling",
+    "slug": "friedrich-schelling",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "G W F Hegel",
+    "slug": "g-w-f-hegel",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "GW Cunningham",
+    "slug": "gw-cunningham",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Heinrich Heine",
+    "slug": "heinrich-heine",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "JB Baillie",
+    "slug": "jb-baillie",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Johann Gottfried Herder",
+    "slug": "johann-gottfried-herder",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Johann Gottlieb Fichte",
+    "slug": "johann-gottlieb-fichte",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "John McTaggart",
+    "slug": "john-mctaggart",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Ludwig Feuerbach",
+    "slug": "ludwig-feuerbach",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Max Stirner",
+    "slug": "max-stirner",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Max Weber",
+    "slug": "max-weber",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Moses Hess",
+    "slug": "moses-hess",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Percy Bysshe Shelley",
+    "slug": "percy-bysshe-shelley",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Rebecca Cooper",
+    "slug": "rebecca-cooper",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Rene Descartes",
+    "slug": "rene-descartes",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Philosophy",
+    "thinker": "Spinoza",
+    "slug": "spinoza",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Political Economy",
+    "thinker": "Adam Smith",
+    "slug": "adam-smith",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Political Economy",
+    "thinker": "David Yaffe",
+    "slug": "david-yaffe",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Political Economy",
+    "thinker": "Frederick Taylor",
+    "slug": "frederick-taylor",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Political Economy",
+    "thinker": "J. M. Keynes",
+    "slug": "j-m-keynes",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Political Economy",
+    "thinker": "John Stuart Mill",
+    "slug": "john-stuart-mill",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Political Economy",
+    "thinker": "Thomas Malthus",
+    "slug": "thomas-malthus",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Political Science",
+    "thinker": "Alexis de Tocqueville",
+    "slug": "alexis-de-tocqueville",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Political Science",
+    "thinker": "General Carl von Clausewitz",
+    "slug": "general-carl-von-clausewitz",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Political Science",
+    "thinker": "George Washington Plunkett",
+    "slug": "george-washington-plunkett",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Political Science",
+    "thinker": "Gerrard Winstanley",
+    "slug": "gerrard-winstanley",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Political Science",
+    "thinker": "John Locke",
+    "slug": "john-locke",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Political Science",
+    "thinker": "Louis-René Villermé",
+    "slug": "louis-rene-villerme",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Political Science",
+    "thinker": "Nicolo Machiavelli",
+    "slug": "nicolo-machiavelli",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Political Science",
+    "thinker": "Sun-Tzu",
+    "slug": "sun-tzu",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Political Science",
+    "thinker": "Thomas Hobbes",
+    "slug": "thomas-hobbes",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Political Science",
+    "thinker": "Thomas Paine",
+    "slug": "thomas-paine",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Populists",
+    "thinker": "Attila József",
+    "slug": "attila-jozsef",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Reformists",
+    "thinker": "Alexander Kerensky",
+    "slug": "alexander-kerensky",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Reformists",
+    "thinker": "Bruno Rizzi",
+    "slug": "bruno-rizzi",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Reformists",
+    "thinker": "Eduard Bernstein",
+    "slug": "eduard-bernstein",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Reformists",
+    "thinker": "Georgy Gapon",
+    "slug": "georgy-gapon",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Reformists",
+    "thinker": "Hjalmar Branting",
+    "slug": "hjalmar-branting",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Reformists",
+    "thinker": "Jean Jaurès",
+    "slug": "jean-jaures",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Social Democracy",
+    "thinker": "Louis B. Boudin",
+    "slug": "louis-b-boudin",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Soviet Science",
+    "thinker": "Alexander Spirkin",
+    "slug": "alexander-spirkin",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Soviet Science",
+    "thinker": "Anton Makarenko",
+    "slug": "anton-makarenko",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Soviet Science",
+    "thinker": "I. V. Michurin",
+    "slug": "i-v-michurin",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Soviet Science",
+    "thinker": "N. A. Semashko",
+    "slug": "n-a-semashko",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Soviet Science",
+    "thinker": "T. D. Lysenko",
+    "slug": "t-d-lysenko",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Soviet Science",
+    "thinker": "Vitaly Vygodsky",
+    "slug": "vitaly-vygodsky",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Abram Leon",
+    "slug": "abram-leon",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Adolfo Gilly",
+    "slug": "adolfo-gilly",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Carl Cowl",
+    "slug": "carl-cowl",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Carlos Hudson",
+    "slug": "carlos-hudson",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Charlie Van Gelderen",
+    "slug": "charlie-van-gelderen",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Daniel Norman",
+    "slug": "daniel-norman",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Denzil Dean Harber",
+    "slug": "denzil-dean-harber",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Gerry Healy",
+    "slug": "gerry-healy",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Hugo Oehler",
+    "slug": "hugo-oehler",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "J. Posadas",
+    "slug": "j-posadas",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "James Burnham",
+    "slug": "james-burnham",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "James Cannon",
+    "slug": "james-cannon",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Jock Haston",
+    "slug": "jock-haston",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Ken Tarbuck",
+    "slug": "ken-tarbuck",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Kurt Landau",
+    "slug": "kurt-landau",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Liborio Justo",
+    "slug": "liborio-justo",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Ludvik Hass",
+    "slug": "ludvik-hass",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Maurice Quarter",
+    "slug": "maurice-quarter",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Nimrod Sejake",
+    "slug": "nimrod-sejake",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Peter Hadden",
+    "slug": "peter-hadden",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Pierre Broué",
+    "slug": "pierre-broue",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Pierre Frank",
+    "slug": "pierre-frank",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Ronnie Sookhdeo",
+    "slug": "ronnie-sookhdeo",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Ross Dowson",
+    "slug": "ross-dowson",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Russell Blackwell",
+    "slug": "russell-blackwell",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Susan Green",
+    "slug": "susan-green",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Trotskyists",
+    "thinker": "Tom Stamm",
+    "slug": "tom-stamm",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Utopianism",
+    "thinker": "Charles Fourier",
+    "slug": "charles-fourier",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Utopianism",
+    "thinker": "Edward Bellamy",
+    "slug": "edward-bellamy",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Utopianism",
+    "thinker": "James Harrington",
+    "slug": "james-harrington",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Utopianism",
+    "thinker": "Morelly",
+    "slug": "morelly",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Utopianism",
+    "thinker": "Robert Owen",
+    "slug": "robert-owen",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Utopianism",
+    "thinker": "Saint-Simon",
+    "slug": "saint-simon",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Utopianism",
+    "thinker": "Thomas More",
+    "slug": "thomas-more",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  },
+  {
+    "collection": "Utopianism",
+    "thinker": "Étienne Cabet",
+    "slug": "etienne-cabet",
+    "status": "unmatched",
+    "source_id": "redtexts",
+    "matches": [],
+    "notes": []
+  }
+]

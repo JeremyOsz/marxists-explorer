@@ -15,6 +15,8 @@ export interface Work {
   year?: string;
   description?: string;
   subject?: string;
+  /** Source identifier for attribution (e.g. "mia", "redtexts") */
+  source_id?: string;
 }
 
 export interface ThinkerCategory {

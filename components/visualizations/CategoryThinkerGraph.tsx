@@ -31,6 +31,14 @@ function topSubjects(thinker: Thinker): string {
     .join(", ");
 }
 
+const MAX_THINKER_NAME_CHARS = 28;
+const MAX_SUBJECT_NAME_CHARS = 24;
+
+function truncateForSvg(str: string, max: number): string {
+  if (str.length <= max) return str;
+  return str.slice(0, max - 1).trim() + "…";
+}
+
 export function CategoryThinkerGraph({
   category,
   thinkers,
@@ -163,6 +171,7 @@ export function CategoryThinkerGraph({
             onMouseEnter={() => setHoveredCategory(true)}
             onMouseLeave={() => setHoveredCategory(false)}
           >
+            <title>Current category: {category}. Click to clear and return to overview.</title>
             <rect
               x={0}
               y={-cardHeight / 2}
@@ -216,6 +225,7 @@ export function CategoryThinkerGraph({
               className="cursor-pointer"
               onClick={() => onSelectCategory(alternative)}
             >
+              <title>Switch to category: {alternative}</title>
               <rect
                 x={0}
                 y={-cardHeight / 2}
@@ -252,6 +262,10 @@ export function CategoryThinkerGraph({
               onMouseLeave={() => setHoveredThinkerId(null)}
               onClick={() => onSelectThinker(thinkerId)}
             >
+              <title>
+                {thinker.name} · {(thinker.workCount ?? 0).toLocaleString()} works
+                {subjectSummary ? ` · ${subjectSummary}` : ""}. Click to select.
+              </title>
               <rect
                 x={0}
                 y={-cardHeight / 2}
@@ -268,7 +282,7 @@ export function CategoryThinkerGraph({
                 y={-3}
                 className={active ? "fill-white text-[16px] font-semibold" : "fill-slate-900 text-[16px] font-semibold"}
               >
-                {thinker.name}
+                {truncateForSvg(thinker.name, MAX_THINKER_NAME_CHARS)}
               </text>
               <text
                 x={40}
@@ -299,6 +313,7 @@ export function CategoryThinkerGraph({
                     strokeWidth={strokeWidth}
                   />
                   <g transform={`translate(${subjectX},${y})`}>
+                    <title>{subject.name} · {subject.count.toLocaleString()} indexed texts</title>
                     <rect
                       x={0}
                       y={-cardHeight / 2}
@@ -311,7 +326,7 @@ export function CategoryThinkerGraph({
                     />
                     <circle cx={subjectCardWidth - 18} cy={0} r={7} fill="#0f766e" />
                     <text x={24} y={-3} className="fill-slate-900 text-[16px] font-semibold">
-                      {subject.name}
+                      {truncateForSvg(subject.name, MAX_SUBJECT_NAME_CHARS)}
                     </text>
                     <text x={24} y={17} className="fill-slate-500 text-[12px]">
                       {subject.count.toLocaleString()} indexed texts

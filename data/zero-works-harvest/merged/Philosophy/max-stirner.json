@@ -1,0 +1,150 @@
+{
+  "collection": "Philosophy",
+  "thinker": "Max Stirner",
+  "slug": "max-stirner",
+  "source_url": "http://dwardmac.pitzer.edu/stirner/Stirnerarchive.html",
+  "source_id": "redtexts",
+  "status": "success",
+  "message": "Collected 27 works from 2 source(s).",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Anarchist History",
+      "url": "http://dwardmac.pitzer.edu/anarchisthistory.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Anarchist Poets",
+      "url": "http://dwardmac.pitzer.edu/poetry/index.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Art and Anarchy",
+      "url": "http://dwardmac.pitzer.edu/art/index.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Bright but Lesser Lights",
+      "url": "http://dwardmac.pitzer.edu/bright/bright.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Education and Anarchy",
+      "url": "http://dwardmac.pitzer.edu/education/index.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Elisée Reclus",
+      "url": "http://dwardmac.pitzer.edu/bright/reclus/reclus.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Emma Goldman",
+      "url": "http://dwardmac.pitzer.edu/goldman/Goldmanarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Errico Malatesta",
+      "url": "http://dwardmac.pitzer.edu/malatesta/Malatestaarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "First International",
+      "url": "http://dwardmac.pitzer.edu/firstinternat.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Haymarket Massacre",
+      "url": "http://dwardmac.pitzer.edu/haymarket/Haymarket.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Max Stirner",
+      "url": "http://dwardmac.pitzer.edu/stirner/Stirnerarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Murray Bookchin",
+      "url": "http://dwardmac.pitzer.edu/bookchin/Bookchinarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Music and Anarchy",
+      "url": "http://dwardmac.pitzer.edu/music/music.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Noam Chomsky",
+      "url": "http://dwardmac.pitzer.edu/chomsky/Chomskyarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Of a member of the Berlin Community against the Publication to the 57 Clergymen",
+      "url": "http://dwardmac.pitzer.edu/stirner/gegenwart.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Pamphlets",
+      "url": "http://dwardmac.pitzer.edu/coldoffthepresses.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Paris Commune",
+      "url": "http://dwardmac.pitzer.edu/pariscommune/Pariscommunearchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Periodicals",
+      "url": "http://dwardmac.pitzer.edu/periodicals.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Peter Kropotkin",
+      "url": "http://dwardmac.pitzer.edu/kropotkin/Kropotkinarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Pierre-Joseph Proudhon",
+      "url": "http://dwardmac.pitzer.edu/proudhon/Proudhonarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Search",
+      "url": "http://dwardmac.pitzer.edu/search.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Spanish Civil War",
+      "url": "http://dwardmac.pitzer.edu/spancivwar/Spanishcivilwar.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Stirner's Critics",
+      "url": "http://dwardmac.pitzer.edu/stirner/stirnerscritics.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "The False Principle of Our Education: Or - Humanism And Realism",
+      "url": "http://dwardmac.pitzer.edu/stirner/stirnerfalse.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Timeline",
+      "url": "http://dwardmac.pitzer.edu/timeline.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Worldwide Movements",
+      "url": "http://dwardmac.pitzer.edu/worldmovements.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "You only have the courage to be destructive",
+      "url": "http://dwardmac.pitzer.edu/stirner/courage.html",
+      "source_id": "goldman_archive"
+    }
+  ],
+  "visited_urls": [
+    "http://dwardmac.pitzer.edu/stirner/Stirnerarchive.html"
+  ]
+}

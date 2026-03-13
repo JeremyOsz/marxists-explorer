@@ -6,6 +6,8 @@ export interface Work {
   title: string;
   url: string;
   description?: string;
+  /** Source identifier (e.g. "mia", "redtexts") for attribution */
+  source_id?: string;
 }
 
 export interface Thinker {

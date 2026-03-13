@@ -85,13 +85,13 @@ def apply_harvest_record(
     base_dir: Path,
     collection: str,
     thinker: str,
-    works: List[Dict[str, str]],
+    works: List[Dict[str, object]],
     subject: str = DEFAULT_SUBJECT,
 ) -> None:
     thinker_dir = ensure_thinker_directory(base_dir, collection, thinker)
     subject_file = thinker_dir / f"{subject}.json"
 
-    unique_by_url: Dict[str, Dict[str, str]] = {}
+    unique_by_url: Dict[str, Dict[str, object]] = {}
     for item in works:
         if not isinstance(item, dict):
             continue
@@ -103,10 +103,13 @@ def apply_harvest_record(
         cleaned_title = str(title).strip()
         if not canonical_url or not cleaned_title:
             continue
-        unique_by_url.setdefault(canonical_url, {"title": cleaned_title, "url": canonical_url})
+        work_entry: Dict[str, object] = {"title": cleaned_title, "url": canonical_url}
+        if item.get("source_id"):
+            work_entry["source_id"] = item["source_id"]
+        unique_by_url.setdefault(canonical_url, work_entry)
 
     # Sort works by title for determinism
-    sorted_works = sorted(unique_by_url.values(), key=lambda item: item["title"].lower())
+    sorted_works = sorted(unique_by_url.values(), key=lambda item: str(item["title"]).lower())
     subject_file.write_text(json.dumps(sorted_works, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     collection_dir = resolve_collection_dir(base_dir, collection)

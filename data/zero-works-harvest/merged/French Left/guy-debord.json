@@ -1,0 +1,20 @@
+{
+  "collection": "French Left",
+  "thinker": "Guy Debord",
+  "slug": "guy-debord",
+  "source_url": "https://www.redtexts.org/",
+  "source_id": "redtexts",
+  "status": "success",
+  "message": "Collected 1 works from 2 source(s).",
+  "warnings": [],
+  "works": [
+    {
+      "title": "A User's Guide to DÃ©tournement",
+      "url": "https://www.redtexts.org/html/debord_wolman_1956_users_guide_detournement.html",
+      "source_id": "redtexts"
+    }
+  ],
+  "visited_urls": [
+    "https://www.redtexts.org/"
+  ]
+}

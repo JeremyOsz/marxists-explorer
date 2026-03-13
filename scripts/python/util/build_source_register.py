@@ -128,25 +128,47 @@ def ensure_entry(register: Dict[Tuple[str, str], Dict[str, object]], collection:
     )
 
 
-def add_source(entry: Dict[str, object], url: str, works_root: str, label: str, source_type: str) -> None:
+def add_source(
+    entry: Dict[str, object],
+    url: str,
+    works_root: str,
+    label: str,
+    source_type: str,
+    source_id: Optional[str] = None,
+) -> None:
     sources: List[Dict[str, object]] = entry.setdefault("sources", [])
     for source in sources:
         existing_root = source.get("works_root")
         existing_url = source.get("url")
         if existing_root == works_root or existing_url == url:
             return
-    sources.append(
-        {
-            "label": label,
-            "type": source_type,
-            "url": url,
-            "works_root": works_root,
-            "notes": [],
+    rec: Dict[str, object] = {
+        "label": label,
+        "type": source_type,
+        "url": url,
+        "works_root": works_root,
+        "notes": [],
+    }
+    if source_id:
+        rec["source_id"] = source_id
+    sources.append(rec)
+
+
+def classify_label(url: str, source_id: Optional[str] = None) -> Tuple[str, str]:
+    if source_id:
+        labels = {
+            "mia": "Marxists.org Author Index",
+            "redtexts": "redtexts.org",
+            "anarchist_library": "The Anarchist Library",
+            "goldman_archive": "Goldman Archive (Pitzer)",
         }
-    )
-
-
-def classify_label(url: str) -> Tuple[str, str]:
+        types = {
+            "mia": "mia_author_index",
+            "redtexts": "redtexts_index",
+            "anarchist_library": "anarchist_library_author",
+            "goldman_archive": "goldman_archive_author",
+        }
+        return labels.get(source_id, source_id), types.get(source_id, f"{source_id}_source")
     parsed = urlparse(url)
     host = parsed.netloc.lower()
     if "marxists.org" in host:
@@ -163,17 +185,18 @@ def build_register(harvest_dir: Path) -> Dict[Tuple[str, str], Dict[str, object]
         collection = payload.get("collection")
         thinker = payload.get("thinker")
         slug = payload.get("slug")
+        source_id = payload.get("source_id", "mia")
 
         if status != "success" or not source_url or not collection or not thinker or not slug:
             continue
 
-        works_root = normalize_works_root(source_url)
+        works_root = normalize_works_root(source_url) if "marxists.org" in (source_url or "") else (source_url or "")
         if not works_root:
-            continue
+            works_root = source_url or ""
 
         entry = ensure_entry(records, collection, thinker, slug)
-
-        add_source(entry, source_url, works_root, "Marxists.org Author Index", "mia_author_index")
+        label, source_type = classify_label(source_url or "", source_id)
+        add_source(entry, source_url, works_root, label, source_type, source_id=source_id)
 
     return records
 

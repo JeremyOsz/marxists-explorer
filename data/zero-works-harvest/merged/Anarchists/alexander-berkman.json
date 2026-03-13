@@ -1,0 +1,30 @@
+{
+  "collection": "Anarchists",
+  "thinker": "Alexander Berkman",
+  "slug": "alexander-berkman",
+  "source_url": "https://www.redtexts.org/",
+  "source_id": "redtexts",
+  "status": "success",
+  "message": "Collected 3 works from 2 source(s).",
+  "warnings": [],
+  "works": [
+    {
+      "title": "In Reply to Kropotkin",
+      "url": "https://www.redtexts.org/html/berkman_1914_reply_to_kropotkin.html",
+      "source_id": "redtexts"
+    },
+    {
+      "title": "Now and After: The ABC of Communist Anarchism",
+      "url": "https://www.redtexts.org/html/berkman_1929_now_and_after.html",
+      "source_id": "redtexts"
+    },
+    {
+      "title": "War Dictionary",
+      "url": "https://www.redtexts.org/html/berkman_1917_war_dictionary.html",
+      "source_id": "redtexts"
+    }
+  ],
+  "visited_urls": [
+    "https://www.redtexts.org/"
+  ]
+}

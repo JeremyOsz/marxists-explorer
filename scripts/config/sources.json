@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "id": "mia",
+      "name": "Marxists Internet Archive",
+      "base_url": "https://www.marxists.org",
+      "index_url": "https://www.marxists.org/archive/index.htm",
+      "enabled": true
+    },
+    {
+      "id": "anarchist_library",
+      "name": "The Anarchist Library",
+      "base_url": "https://theanarchistlibrary.org",
+      "index_url": "https://theanarchistlibrary.org/special/index",
+      "enabled": true
+    },
+    {
+      "id": "redtexts",
+      "name": "redtexts.org",
+      "base_url": "https://www.redtexts.org",
+      "index_url": "https://www.redtexts.org/",
+      "enabled": true
+    },
+    {
+      "id": "goldman_archive",
+      "name": "Goldman Archive (Pitzer)",
+      "base_url": "http://dwardmac.pitzer.edu/goldman",
+      "index_url": "http://dwardmac.pitzer.edu/goldman/goldmanarchive.html",
+      "enabled": true
+    },
+    {
+      "id": "sinistra",
+      "name": "International Library of the Communist Left",
+      "base_url": "https://sinistra.net/lib",
+      "index_url": "https://sinistra.net/lib/index.html",
+      "enabled": false
+    },
+    {
+      "id": "libcom",
+      "name": "libcom.org",
+      "base_url": "https://libcom.org",
+      "index_url": null,
+      "enabled": false
+    }
+  ]
+}

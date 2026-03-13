@@ -1,0 +1,255 @@
+{
+  "collection": "Anarchists",
+  "thinker": "Errico Malatesta",
+  "slug": "errico-malatesta",
+  "source_url": "http://dwardmac.pitzer.edu/malatesta/Malatestaarchive.html",
+  "source_id": "goldman_archive",
+  "status": "success",
+  "message": "Collected 48 works from Goldman Archive.",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Emma Goldman",
+      "url": "http://dwardmac.pitzer.edu/goldman/Goldmanarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Peter Kropotkin",
+      "url": "http://dwardmac.pitzer.edu/kropotkin/Kropotkinarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Errico Malatesta",
+      "url": "http://dwardmac.pitzer.edu/malatesta/Malatestaarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Pierre-Joseph Proudhon",
+      "url": "http://dwardmac.pitzer.edu/proudhon/Proudhonarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Elisée Reclus",
+      "url": "http://dwardmac.pitzer.edu/bright/reclus/reclus.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Max Stirner",
+      "url": "http://dwardmac.pitzer.edu/stirner/Stirnerarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Murray Bookchin",
+      "url": "http://dwardmac.pitzer.edu/bookchin/Bookchinarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Noam Chomsky",
+      "url": "http://dwardmac.pitzer.edu/chomsky/Chomskyarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Bright but Lesser Lights",
+      "url": "http://dwardmac.pitzer.edu/bright/bright.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Pamphlets",
+      "url": "http://dwardmac.pitzer.edu/coldoffthepresses.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Periodicals",
+      "url": "http://dwardmac.pitzer.edu/periodicals.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Anarchist History",
+      "url": "http://dwardmac.pitzer.edu/anarchisthistory.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Worldwide Movements",
+      "url": "http://dwardmac.pitzer.edu/worldmovements.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "First International",
+      "url": "http://dwardmac.pitzer.edu/firstinternat.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Paris Commune",
+      "url": "http://dwardmac.pitzer.edu/pariscommune/Pariscommunearchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Haymarket Massacre",
+      "url": "http://dwardmac.pitzer.edu/haymarket/Haymarket.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Spanish Civil War",
+      "url": "http://dwardmac.pitzer.edu/spancivwar/Spanishcivilwar.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Art and Anarchy",
+      "url": "http://dwardmac.pitzer.edu/art/index.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Education and Anarchy",
+      "url": "http://dwardmac.pitzer.edu/education/index.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Anarchist Poets",
+      "url": "http://dwardmac.pitzer.edu/poetry/index.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Timeline",
+      "url": "http://dwardmac.pitzer.edu/timeline.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "About my trial: Class Struggle or Class Hatred?",
+      "url": "http://dwardmac.pitzer.edu/malatesta/trial.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Against the Constituent Assembly as Against the Dictatorship",
+      "url": "http://dwardmac.pitzer.edu/malatesta/against.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Against Monarchy",
+      "url": "http://dwardmac.pitzer.edu/malatesta/againstmonarchy.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Anarchists Have Forgotten Their Principles",
+      "url": "http://dwardmac.pitzer.edu/malatesta/ForgottenPrinciples.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Pro-Government Anarchists,",
+      "url": "http://dwardmac.pitzer.edu/malatesta/ForgottenPrinciples.html#pro",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Peter Kropotkin: Recollections and Criticisms of an Old Friend",
+      "url": "http://dwardmac.pitzer.edu/malatesta/ForgottenPrinciples.html#ricordi",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "The Anarchist Revolution",
+      "url": "http://dwardmac.pitzer.edu/malatesta/tar.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "The Anarchists In The Present Time",
+      "url": "http://dwardmac.pitzer.edu/malatesta/pres.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Anarchy",
+      "url": "http://dwardmac.pitzer.edu/malatesta/anarchy.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Anarchism and Syndicalism",
+      "url": "http://dwardmac.pitzer.edu/malatesta/syndicalism.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "A Project of Anarchist Organization",
+      "url": "http://dwardmac.pitzer.edu/malatesta/project.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "A Talk Between Two Workers, 1933",
+      "url": "http://dwardmac.pitzer.edu/malatesta/talk/index.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "A Talk About Anarchist Communism Between Two Workers",
+      "url": "http://dwardmac.pitzer.edu/malatesta/MalatestaATAC.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Contra La Monarchia, & Le Due Vie",
+      "url": "http://dwardmac.pitzer.edu/malatesta/MalatestaEMolinari/index.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Editorial Mail",
+      "url": "http://dwardmac.pitzer.edu/malatesta/edmail.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "En Tiempo de Elecciones",
+      "url": "http://dwardmac.pitzer.edu/malatesta/elecciones.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Further Thoughts on the Question of Crime",
+      "url": "http://dwardmac.pitzer.edu/malatesta/crime.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Further Thoughts on Revoltion in Practice",
+      "url": "http://dwardmac.pitzer.edu/malatesta/fur.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "La Terreur Révolutionnaire",
+      "url": "http://dwardmac.pitzer.edu/malatesta/MalatestaTerror/index.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Note on Individualism and Anarchism",
+      "url": "http://dwardmac.pitzer.edu/malatesta/note.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Preface to Virgila D'Andrea'sTormento",
+      "url": "http://dwardmac.pitzer.edu/worldwidemovements/ItalyCollection/tormento/tormento2.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Programa Anartico",
+      "url": "http://dwardmac.pitzer.edu/malatesta/ProgramaAnartico.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "The Revolutionary Haste,",
+      "url": "http://dwardmac.pitzer.edu/malatesta/haste.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Revolution in Practice",
+      "url": "http://dwardmac.pitzer.edu/malatesta/revpra.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "The Idea of Good Government",
+      "url": "http://dwardmac.pitzer.edu/malatesta/gov't.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Towards Anarchism",
+      "url": "http://dwardmac.pitzer.edu/malatesta/towardsanarchy.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "What is to be done",
+      "url": "http://dwardmac.pitzer.edu/malatesta/what.html",
+      "source_id": "goldman_archive"
+    }
+  ],
+  "visited_urls": [
+    "http://dwardmac.pitzer.edu/malatesta/Malatestaarchive.html"
+  ]
+}

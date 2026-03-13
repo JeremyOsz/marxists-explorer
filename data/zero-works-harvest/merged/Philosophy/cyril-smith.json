@@ -1,0 +1,25 @@
+{
+  "collection": "Philosophy",
+  "thinker": "Cyril Smith",
+  "slug": "cyril-smith",
+  "source_url": "https://www.redtexts.org/",
+  "source_id": "redtexts",
+  "status": "success",
+  "message": "Collected 2 works from 2 source(s).",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Hegel, Marx and the Enlightenment",
+      "url": "https://www.redtexts.org/html/smith_2001_hegel_marx_enlightenment.html",
+      "source_id": "redtexts"
+    },
+    {
+      "title": "Marx versus Historical Materialism",
+      "url": "https://www.redtexts.org/html/smith_1999_marx_vs_historical_materialism.html",
+      "source_id": "redtexts"
+    }
+  ],
+  "visited_urls": [
+    "https://www.redtexts.org/"
+  ]
+}

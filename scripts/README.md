@@ -24,6 +24,20 @@ Scripts that crawl the web for content:
 - **`populate-thinker-works-final-parallel.py`** - Main script to populate thinker works data from MIA
 - **`fetch-wikimedia-portraits-bundle-improved.py`** - Fetch portrait images from Wikimedia
 
+#### Multi-source harvest (zero-work thinkers)
+Pipeline to find and harvest works from multiple open archives (MIA, redtexts.org, The Anarchist Library, Goldman Archive):
+
+1. **Extract zero-work thinkers**: `python util/extract_zero_works.py` → `data/zero-works-thinkers.json`
+2. **Map + harvest per source**:
+   - MIA: `map_zero_work_sources.py` → `harvest_zero_work_thinkers.py --source-id mia` → `data/zero-works-harvest/mia/`
+   - redtexts: `map_redtexts_sources.py` → `harvest_redtexts.py` → `data/zero-works-harvest/redtexts/`
+   - Anarchist Library: `map_anarchist_library.py` → `harvest_anarchist_library.py` → `data/zero-works-harvest/anarchist_library/`
+   - Goldman Archive: `map_goldman_archive.py` → `harvest_goldman_archive.py` → `data/zero-works-harvest/goldman_archive/`
+3. **Merge**: `merge_harvest_sources.py --harvest-dirs data/zero-works-harvest/mia data/zero-works-harvest/redtexts ... --output-dir data/zero-works-harvest/merged`
+4. **Apply**: `apply_zero_works_harvest.py --harvest-dir data/zero-works-harvest/merged --data-dir public/data-v2`
+
+Source config: `scripts/config/sources.json`. Works can carry optional `source_id` for attribution in the UI.
+
 ### Data Processing (`python/`)
 Local data processing and conversion:
 

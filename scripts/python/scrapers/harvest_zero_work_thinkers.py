@@ -91,6 +91,7 @@ class HarvestResult:
     status: str
     message: str = ""
     warnings: List[str] = field(default_factory=list)
+    source_id: str = "mia"
 
 
 class WorkHarvester:
@@ -124,17 +125,18 @@ class WorkHarvester:
 
     def harvest(self, thinker: ThinkerMatch, max_depth: int = MAX_CRAWL_DEPTH) -> HarvestResult:
         if not thinker.matches:
-            return HarvestResult(
-                collection=thinker.collection,
-                thinker=thinker.thinker,
-                slug=thinker.slug,
-                source_url=None,
-                works=[],
-                visited_urls=[],
-                status="no_source_match",
-                message="No Marxists.org author page was identified.",
-                warnings=thinker.notes,
-            )
+        return HarvestResult(
+            collection=thinker.collection,
+            thinker=thinker.thinker,
+            slug=thinker.slug,
+            source_url=None,
+            works=[],
+            visited_urls=[],
+            status="no_source_match",
+            message="No Marxists.org author page was identified.",
+            warnings=thinker.notes,
+            source_id="mia",
+        )
 
         # Prefer the first match (closest to exact name)
         primary_match = thinker.matches[0]
@@ -202,6 +204,7 @@ class WorkHarvester:
             status=status,
             message=message,
             warnings=warnings,
+            source_id="mia",
         )
 
     @staticmethod
@@ -334,19 +337,23 @@ def load_matches(path: Path, limit: Optional[int] = None) -> List[ThinkerMatch]:
     return matches
 
 
-def write_result(output_dir: Path, result: HarvestResult) -> None:
+def write_result(output_dir: Path, result: HarvestResult, source_id: str = "mia") -> None:
     thinker_dir = output_dir / result.collection
     thinker_dir.mkdir(parents=True, exist_ok=True)
     output_file = thinker_dir / f"{result.slug}.json"
+    works_with_source = [
+        {**w, "source_id": source_id} for w in result.works
+    ]
     payload = {
         "collection": result.collection,
         "thinker": result.thinker,
         "slug": result.slug,
         "source_url": result.source_url,
+        "source_id": source_id,
         "status": result.status,
         "message": result.message,
         "warnings": result.warnings,
-        "works": result.works,
+        "works": works_with_source,
         "visited_urls": result.visited_urls,
     }
     output_file.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -396,6 +403,7 @@ def update_register_entry(
             {
                 "label": "Marxists.org Author Index",
                 "type": "mia_author_index",
+                "source_id": result.source_id,
                 "url": result.source_url,
                 "works_root": WorkHarvester._get_author_root(result.source_url),
                 "notes": [],
@@ -430,6 +438,12 @@ def main() -> None:
         help="Optional thinker source register to update after harvest.",
     )
     parser.add_argument(
+        "--source-id",
+        type=str,
+        default="mia",
+        help="Source identifier for this harvest run (default: mia).",
+    )
+    parser.add_argument(
         "--max-depth",
         type=int,
         default=MAX_CRAWL_DEPTH,
@@ -449,7 +463,7 @@ def main() -> None:
 
     for record in matches:
         result = harvester.harvest(record, max_depth=args.max_depth)
-        write_result(args.output_dir, result)
+        write_result(args.output_dir, result, source_id=args.source_id)
         if result.status == "success":
             successes += 1
             if args.register_file:

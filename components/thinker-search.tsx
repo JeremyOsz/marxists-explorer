@@ -3,7 +3,7 @@
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Thinker } from "@/lib/types/thinker";
-import { ThinkerSearchBar } from "./thinker-search-ui/ThinkerSearchBar";
+import { ThinkerSearchBar, type SortOption } from "./thinker-search-ui/ThinkerSearchBar";
 import { ThinkerList } from "./thinker-search-ui/ThinkerList";
 import { ThinkerDetailDialog } from "./thinker-search-ui/ThinkerDetailDialog";
 
@@ -11,10 +11,21 @@ interface ThinkerSearchProps {
   thinkers: Thinker[];
 }
 
+function sortThinkers(list: Thinker[], sortBy: SortOption): Thinker[] {
+  const sorted = [...list];
+  if (sortBy === "works") {
+    sorted.sort((a, b) => (b.workCount ?? b.works?.length ?? 0) - (a.workCount ?? a.works?.length ?? 0));
+  } else {
+    sorted.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: "base" }));
+  }
+  return sorted;
+}
+
 export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
   const [selectedThinker, setSelectedThinker] = useState<Thinker | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
+  const [sortBy, setSortBy] = useState<SortOption>("name");
   const [mounted, setMounted] = useState(false);
   const [selectedThinkerNameForRouter, setSelectedThinkerNameForRouter] = useState<string | null>(null);
   const deferredSearchQuery = useDeferredValue(searchQuery);
@@ -112,8 +123,8 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
         .map((item) => item.thinker);
     }
 
-    return filtered;
-  }, [deferredSearchQuery, selectedCategory, thinkers]);
+    return sortThinkers(filtered, sortBy);
+  }, [deferredSearchQuery, selectedCategory, thinkers, sortBy]);
 
   const getLastName = (name: string): string => {
     const cleanName = name.replace(/\([^)]*\)/g, '').trim();
@@ -147,22 +158,22 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
       acc[thinker.category].push(thinker);
       return acc;
     }, {} as Record<string, Thinker[]>);
-    
+
     Object.keys(grouped).forEach((category) => {
-      if (deferredSearchQuery.trim()) {
-      } else {
-        grouped[category].sort((a, b) => 
-          getLastName(a.name).localeCompare(getLastName(b.name))
-        );
-      }
+      grouped[category] = sortThinkers(grouped[category], sortBy);
     });
-    
-    const sortedEntries = Object.entries(grouped).sort(([a], [b]) => 
-      a.localeCompare(b)
-    );
-    
+
+    const sortedEntries = Object.entries(grouped).sort(([a], [b]) => a.localeCompare(b));
     return Object.fromEntries(sortedEntries);
-  }, [deferredSearchQuery, otherResults]);
+  }, [deferredSearchQuery, otherResults, sortBy]);
+
+  const featuredThinker =
+    !deferredSearchQuery.trim() && filteredThinkers.length > 0 ? filteredThinkers[0] : null;
+
+  const handleClearFilters = () => {
+    setSearchQuery("");
+    setSelectedCategory("all");
+  };
 
   return (
     <div className="w-full space-y-4">
@@ -174,6 +185,9 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
         setSelectedCategory={setSelectedCategory}
         filteredThinkerCount={filteredThinkers.length}
         totalThinkerCount={thinkers.length}
+        sortBy={sortBy}
+        onSortChange={setSortBy}
+        onClearFilters={handleClearFilters}
       />
 
       <ThinkerList
@@ -181,6 +195,7 @@ export function ThinkerSearch({ thinkers }: ThinkerSearchProps) {
         exactMatches={exactMatches}
         groupedThinkers={groupedThinkers}
         handleSelectThinker={handleSelectThinker}
+        featuredThinker={featuredThinker}
       />
 
       <ThinkerDetailDialog

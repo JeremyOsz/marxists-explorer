@@ -1,0 +1,20 @@
+{
+  "collection": "Feminists",
+  "thinker": "Arthur Rosenberg",
+  "slug": "arthur-rosenberg",
+  "source_url": "https://www.redtexts.org/",
+  "source_id": "redtexts",
+  "status": "success",
+  "message": "Collected 1 works from 2 source(s).",
+  "warnings": [],
+  "works": [
+    {
+      "title": "A History of Bolshevism: From Marx to the First Five-Year Plan",
+      "url": "https://www.redtexts.org/html/rosenberg_1932_history_of_bolshevism.html",
+      "source_id": "redtexts"
+    }
+  ],
+  "visited_urls": [
+    "https://www.redtexts.org/"
+  ]
+}

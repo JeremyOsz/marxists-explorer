@@ -1,0 +1,165 @@
+{
+  "collection": "Anarchists",
+  "thinker": "Pierre-Joseph Proudhon",
+  "slug": "pierre-joseph-proudhon",
+  "source_url": "http://dwardmac.pitzer.edu/proudhon/Proudhonarchive.html",
+  "source_id": "redtexts",
+  "status": "success",
+  "message": "Collected 30 works from 2 source(s).",
+  "warnings": [],
+  "works": [
+    {
+      "title": "\"Etre Gouverne\"",
+      "url": "http://dwardmac.pitzer.edu/proudhon/proudhongovt.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Anarchist History",
+      "url": "http://dwardmac.pitzer.edu/anarchisthistory.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Anarchist Poets",
+      "url": "http://dwardmac.pitzer.edu/poetry/index.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Art and Anarchy",
+      "url": "http://dwardmac.pitzer.edu/art/index.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Bright but Lesser Lights",
+      "url": "http://dwardmac.pitzer.edu/bright/bright.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Correspondance de P.J. Proudhon",
+      "url": "http://dwardmac.pitzer.edu/proudhon/letters/letters.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Education and Anarchy",
+      "url": "http://dwardmac.pitzer.edu/education/index.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Elisée Reclus",
+      "url": "http://dwardmac.pitzer.edu/bright/reclus/reclus.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Emma Goldman",
+      "url": "http://dwardmac.pitzer.edu/goldman/Goldmanarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Errico Malatesta",
+      "url": "http://dwardmac.pitzer.edu/malatesta/Malatestaarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Excerpts in html",
+      "url": "http://dwardmac.pitzer.edu/proudhon/excerptscauses.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "First International",
+      "url": "http://dwardmac.pitzer.edu/firstinternat.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Haymarket Massacre",
+      "url": "http://dwardmac.pitzer.edu/haymarket/Haymarket.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "html version",
+      "url": "http://dwardmac.pitzer.edu/proudhon/philprogtxt.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Interest and Principal: A Loan is a Service",
+      "url": "http://dwardmac.pitzer.edu/proudhon/interestletter1.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Interest and Principal: Arguments Drawn from the Operations of the Bank of France",
+      "url": "http://dwardmac.pitzer.edu/proudhon/interestletter4.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Interest and Principal: The Circulation of Capital, Not Capital Itself, Gives Birth to Progress",
+      "url": "http://dwardmac.pitzer.edu/proudhon/interestletter2.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Interest and Principal: The Origin of Ground Rent",
+      "url": "http://dwardmac.pitzer.edu/proudhon/interestletter3.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "La guerre et la paix: recherches sur le principe et la Constitution Du Droit Des Gens",
+      "url": "http://dwardmac.pitzer.edu/proudhon/guerreetpaix.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Max Stirner",
+      "url": "http://dwardmac.pitzer.edu/stirner/Stirnerarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Murray Bookchin",
+      "url": "http://dwardmac.pitzer.edu/bookchin/Bookchinarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Noam Chomsky",
+      "url": "http://dwardmac.pitzer.edu/chomsky/Chomskyarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Pamphlets",
+      "url": "http://dwardmac.pitzer.edu/coldoffthepresses.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Paris Commune",
+      "url": "http://dwardmac.pitzer.edu/pariscommune/Pariscommunearchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Periodicals",
+      "url": "http://dwardmac.pitzer.edu/periodicals.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Peter Kropotkin",
+      "url": "http://dwardmac.pitzer.edu/kropotkin/Kropotkinarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Pierre-Joseph Proudhon",
+      "url": "http://dwardmac.pitzer.edu/proudhon/Proudhonarchive.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Spanish Civil War",
+      "url": "http://dwardmac.pitzer.edu/spancivwar/Spanishcivilwar.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Timeline",
+      "url": "http://dwardmac.pitzer.edu/timeline.html",
+      "source_id": "goldman_archive"
+    },
+    {
+      "title": "Worldwide Movements",
+      "url": "http://dwardmac.pitzer.edu/worldmovements.html",
+      "source_id": "goldman_archive"
+    }
+  ],
+  "visited_urls": [
+    "http://dwardmac.pitzer.edu/proudhon/Proudhonarchive.html"
+  ]
+}

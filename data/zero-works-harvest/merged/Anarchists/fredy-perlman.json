@@ -1,0 +1,25 @@
+{
+  "collection": "Anarchists",
+  "thinker": "Fredy Perlman",
+  "slug": "fredy-perlman",
+  "source_url": "https://www.redtexts.org/",
+  "source_id": "redtexts",
+  "status": "success",
+  "message": "Collected 2 works from 2 source(s).",
+  "warnings": [],
+  "works": [
+    {
+      "title": "Commodity Fetishism",
+      "url": "https://www.redtexts.org/html/perlman_1968_commodity_fetishism.html",
+      "source_id": "redtexts"
+    },
+    {
+      "title": "The Reproduction of Daily Life",
+      "url": "https://www.redtexts.org/html/perlman_1969_reproduction_daily_life.html",
+      "source_id": "redtexts"
+    }
+  ],
+  "visited_urls": [
+    "https://www.redtexts.org/"
+  ]
+}
