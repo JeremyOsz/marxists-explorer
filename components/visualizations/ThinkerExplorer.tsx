@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import type { Thinker } from "@/lib/types/thinker";
 import { CategoryThinkerGraph } from "@/components/visualizations/CategoryThinkerGraph";
+import { ThinkerBubbleChart } from "@/components/visualizations/ThinkerBubbleChart";
 import { WorkCountDistributionChart } from "@/components/visualizations/WorkCountDistributionChart";
 import { OverviewNetworkGraph } from "@/components/visualizations/OverviewNetworkGraph";
 import { categories as categoryMetadata } from "@/lib/data/categories";
@@ -378,6 +379,7 @@ export function ThinkerExplorer({ thinkers }: ThinkerExplorerProps) {
   const [selection, setSelection] = useState<OverviewSelection | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedThinkerId, setSelectedThinkerId] = useState<string | null>(null);
+  const [mainView, setMainView] = useState<"network" | "bubbles">("network");
 
   const overview = useMemo(
     () =>
@@ -595,8 +597,38 @@ export function ThinkerExplorer({ thinkers }: ThinkerExplorerProps) {
           </div>
         </div>
 
+        <div className="flex flex-wrap items-center gap-2 border-b border-border/50 pb-3">
+          <span className="text-xs font-medium text-muted-foreground">Main view:</span>
+          <div className="flex rounded-lg border border-border/70 bg-muted/40 p-0.5">
+            <button
+              type="button"
+              onClick={() => setMainView("network")}
+              className={`rounded-md px-3 py-1.5 text-xs font-medium transition ${
+                mainView === "network" ? "bg-background text-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              {selection?.type === "category" ? "List" : "Network"}
+            </button>
+            <button
+              type="button"
+              onClick={() => setMainView("bubbles")}
+              className={`rounded-md px-3 py-1.5 text-xs font-medium transition ${
+                mainView === "bubbles" ? "bg-background text-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              Bubbles
+            </button>
+          </div>
+        </div>
         <div className="grid gap-5 xl:grid-cols-[minmax(0,1.72fr)_minmax(380px,0.82fr)]">
-          {selection?.type === "category" ? (
+          {mainView === "bubbles" ? (
+            <ThinkerBubbleChart
+              thinkers={selection ? selectionThinkers : thinkers}
+              selectedThinkerId={selectedThinkerId}
+              onSelectThinker={setSelectedThinkerId}
+              title={selection?.type === "category" ? selection.label : undefined}
+            />
+          ) : selection?.type === "category" ? (
             <CategoryThinkerGraph
               category={selection.label}
               thinkers={selectionThinkers}
